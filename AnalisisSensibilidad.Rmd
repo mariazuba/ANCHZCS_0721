@@ -36,7 +36,7 @@ header-includes:
 
 \pagebreak
 
-## Sensibilidad al MPDH
+## Sensibilidad a los coeficientes de variación de los índices de cruceros acústicos y crucero de huevos
 
 ```{r llama codigos, warning=F, include=T, message=F, echo=FALSE}
 library(knitr) # para generar reporte Rmarkdown
@@ -282,33 +282,37 @@ std2         <- read.table("MAE0321b.std",header=T,sep="",na="NA",fill=T)
 
 \small
 
-+------------+----------------------------------------------------------------------------------------+
-| Escenarios | Descripción                                                                            |
-+============+========================================================================================+
-| S1         | igual a caso base                                                                      |
-+------------+----------------------------------------------------------------------------------------+
-| S2         | cambia CV MPDH a 0.3                                                                   |
-+------------+----------------------------------------------------------------------------------------+
-| S3         | cambia CV crucero otoño a 0.25                                                         |
-+------------+----------------------------------------------------------------------------------------+
-| S4         | cambia CV crucero verano a 0.15                                                        |
-+------------+----------------------------------------------------------------------------------------+
-| S5         | cambia CV mpdh 0.3 y CV crucero otoño a 0.25                                           |
-+------------+----------------------------------------------------------------------------------------+
-| S6         | cambia CV mpdh 0.3, CV crucero otoño a 0.25 y CV crucero verano 0.15                   |
-+------------+----------------------------------------------------------------------------------------+
-| S7         | índice MPDH actualizado, CV mpdh 0.3, CV crucero otoño a 0.30 y CV crucero verano 0.30 |
-+------------+----------------------------------------------------------------------------------------+
-| S8         | índice MPDH actualizado, CV mpdh 0.3, CV crucero otoño a 0.25 y CV crucero verano 0.15 |
-+------------+----------------------------------------------------------------------------------------+
-| S9         |                                                                                        |
-+------------+----------------------------------------------------------------------------------------+
-| S10        |                                                                                        |
-+------------+----------------------------------------------------------------------------------------+
++------------+------------------------------------------------------------------------------------------+
+| Escenarios | Descripción                                                                              |
++============+==========================================================================================+
+| S1         | igual a caso base                                                                        |
++------------+------------------------------------------------------------------------------------------+
+| S2         | cambia CV MPDH a 0.3                                                                     |
++------------+------------------------------------------------------------------------------------------+
+| S3         | cambia CV crucero otoño a 0.25                                                           |
++------------+------------------------------------------------------------------------------------------+
+| S4         | cambia CV crucero verano a 0.15                                                          |
++------------+------------------------------------------------------------------------------------------+
+| S5         | cambia CV mpdh 0.3 y CV crucero otoño a 0.25                                             |
++------------+------------------------------------------------------------------------------------------+
+| S6         | cambia CV mpdh 0.3, CV crucero otoño a 0.25 y CV crucero verano 0.15                     |
++------------+------------------------------------------------------------------------------------------+
+| S7         | índice MPDH actualizado, CV mpdh 0.3, CV crucero otoño a 0.30 y CV crucero verano 0.30   |
++------------+------------------------------------------------------------------------------------------+
+| S8         | índice MPDH actualizado, CV mpdh 0.3, CV crucero otoño a 0.25 y CV crucero verano 0.15   |
++------------+------------------------------------------------------------------------------------------+
+| S9         | CV de crucero mpdh = 0.3, CV pelaces = 0.25, CV reclas = 0.15, cambia índice de mpdh Nº1 |
++------------+------------------------------------------------------------------------------------------+
+| S10        | CV de crucero mpdh = 0.3, CV pelaces = 0.25, CV reclas = 0.15, cambia índice de mpdh Nº2 |
++------------+------------------------------------------------------------------------------------------+
+| S11        | CV de crucero mpdh = 0.3, CV pelaces = 0.25, CV reclas = 0.15, cambia índice de mpdh Nº3 |
++------------+------------------------------------------------------------------------------------------+
+| S12        | CV de crucero mpdh = 0.3, CV pelaces = 0.25, CV reclas = 0.15, cambia índice de mpdh Nº4 |
++------------+------------------------------------------------------------------------------------------+
+|            |                                                                                          |
++------------+------------------------------------------------------------------------------------------+
 
 : Escenarios de sensibilidad respecto a coeficientes de variación (CV) de cruceros acústicos y mpdh
-
-
 
 ```{r dataindices,warning=F, include=T, message=F, echo=F }
 
@@ -349,7 +353,7 @@ for(i in 1:(nretros)){
 
 ind_obs             <- cbind(c(rep2$reclasobs),
                              c(rep2$pelacesobs),
-                             c(rep2$mphobs),
+                             c(c(rep(0,5),112000,148000,153000,721000,0,182000,411000,85000,105000,0,51000,18000,17000,60000,28000,0,208000,137000,643000,0)),
                              c(rep2$desembarqueobs))
 ind_obs[ind_obs==0] <- NA
 colnames(ind_obs)   <- c('Crucero_verano', 
@@ -433,7 +437,7 @@ data2 <- data.frame(rbind(ind,datR,datBT,datBD,datF))
 
 ```
 
-```{r Fig26,warning=F, include=T, message=F, echo=F,fig.height=6.7,fig.width=6.5,fig.align="center",fig.path=dir.Fig,dev=fig}
+```{r Fig26CCTPPjulioAnch,warning=F, include=T, message=F, echo=F,fig.height=8,fig.width=6.5,fig.align="center",fig.path=dir.Fig,dev=fig}
 f1<- ggplot(data2 %>% filter(Series=="Crucero_verano"),
             aes(years,value)) +   
      geom_line(aes(colour=variable), size=0.3)+
@@ -482,13 +486,11 @@ f3<- ggplot(data2 %>% filter(Series=="Crucero_huevos"),
 
 ```
 
-
-
-
 ```{r VariablesMarzo_std, echo=F,message=FALSE, warning=FALSE, include=T}
 
 years<-rep2$years
 nyears<-length(years)
+x  <-c(years,rev(years))
 
 Rt2      <- subset(std2,name=="Reclutas")$value 
 Rt2std   <- subset(std2,name=="Reclutas")$std
@@ -634,13 +636,13 @@ data1 <- data.frame(rbind(datR,datBT,datBD,datF))
 
 ```
 
-```{r Fig1,echo=F, message=FALSE, warning=FALSE, include=T, fig.align="center", fig.height=6, fig.width=8,fig.path=dir.Fig,dev=fig}
+```{r Fig1CCTPPjulioAnch,echo=F, message=FALSE, warning=FALSE, include=T, fig.align="center", fig.height=6, fig.width=8,fig.path=dir.Fig,dev=fig}
 #######################################################################################
 # GRAFICAS
 #######################################################################################
-f1<- ggplot(data1 %>% filter(Series=="Reclutamientos"),
-            aes(years,value)) +   
-     geom_line(aes(colour=variable), size=0.3)+
+f1<- ggplot(data1 %>% filter(Series=="Reclutamientos")) +   
+     geom_line(aes(years,value,colour=variable), size=0.3)+
+     geom_ribbon(data=VarPob,aes(ymin=lowerRt2, ymax=upperRt2, x=x, fill = "IC"), alpha = 0.2)+
      labs(x = '', y = '',colour='Asesorías')  +
      scale_x_continuous(breaks = seq(from = 1990, to = 2021, by = 5)) +
      scale_colour_manual(values=seq(1,12,1))+
@@ -648,9 +650,9 @@ f1<- ggplot(data1 %>% filter(Series=="Reclutamientos"),
      ggtitle('Reclutamientos')+
      theme(plot.title = element_text(hjust = 0.5),legend.position="none")
 
-f2<- ggplot(data1 %>% filter(Series=="Biomasa_total"),
-            aes(years,value)) +  
-     geom_line(aes(colour=variable), size=0.3)+
+f2<- ggplot(data1 %>% filter(Series=="Biomasa_total")) +  
+     geom_line(aes(years,value,colour=variable), size=0.3)+
+     geom_ribbon(data=VarPob,aes(ymin=lowerBT2, ymax=upperBT2, x=x, fill = "IC"), alpha = 0.2)+
      labs(x = '', y = 'toneladas',colour='Asesorías')  +
      scale_x_continuous(breaks = seq(from = 1990, to = 2021, by = 5)) +
      scale_colour_manual(values=seq(1,12,1))+
@@ -658,9 +660,9 @@ f2<- ggplot(data1 %>% filter(Series=="Biomasa_total"),
      ggtitle('Biomasa total')+
      theme(plot.title = element_text(hjust = 0.5),legend.position="none")
 
-f3<- ggplot(data1 %>% filter(Series=="Biomasa_desovante"),
-            aes(years,value)) +  
-     geom_line(aes(colour=variable), size=0.3)+
+f3<- ggplot(data1 %>% filter(Series=="Biomasa_desovante")) +  
+     geom_line(aes(years,value,colour=variable), size=0.3)+
+     geom_ribbon(data=VarPob,aes(ymin=lowerBD2, ymax=upperBD2, x=x, fill = "IC"), alpha = 0.2)+
      labs(x = '', y = 'toneladas',colour='Asesorías')  +
      scale_x_continuous(breaks = seq(from = 1990, to = 2021, by = 5)) +
      scale_colour_manual(values=seq(1,12,1))+
@@ -668,9 +670,9 @@ f3<- ggplot(data1 %>% filter(Series=="Biomasa_desovante"),
      ggtitle('Biomasa desovante')+
      theme(plot.title = element_text(hjust = 0.5),legend.position="left")
 
-f4<- ggplot(data1 %>% filter(Series=="Mortalidad_por_pesca"),
-            aes(years,value)) +
-     geom_line(aes(colour=variable), size=0.3)+
+f4<- ggplot(data1 %>% filter(Series=="Mortalidad_por_pesca")) +
+     geom_line(aes(years,value,colour=variable), size=0.3)+
+     geom_ribbon(data=VarPob,aes(ymin=lowerFt2, ymax=upperFt2, x=x, fill = "IC"), alpha = 0.2)+
      labs(x = '', y = '',colour='Asesorías')  +
      scale_x_continuous(breaks = seq(from = 1990, to = 2021, by = 5)) +
      scale_colour_manual(values=seq(1,12,1))+
@@ -749,7 +751,7 @@ data <- data.frame(rbind(datR,datBT,datBD,datF))
 
 ```
 
-```{r Fig2,echo=F, message=FALSE, warning=FALSE, include=T, fig.align="center", fig.height=6, fig.width=8,fig.path=dir.Fig,dev=fig}
+```{r Fig2,echo=F, message=FALSE, warning=FALSE, include=T, fig.align="center", fig.height=6, fig.width=8,fig.path=dir.Fig,dev=fig,eval=F}
 #######################################################################################
 # GRAFICAS
 #######################################################################################
@@ -797,78 +799,40 @@ f4<- ggplot(data %>% filter(Series=="Mortalidad_por_pesca"),
 (f1/f2) | (f3/f4)
 ```
 
-\pagebreak
+
 
 \pagebreak
 
 ## Corrección de las capturas
 
-+---------+------+---------------------+----------------+----------------+--------------+----------------------+----+
-| Período | Año  | Desembarque oficial | Prop. Encuesta | Prop. Encuesta | Captura Cor. | Captura Cot.         | CV |
-|         |      |                     |                |                |              |                      |    |
-|         |      |                     |                | más censura    | Encuenta     | Encuesta más censura |    |
-+:=======:+:====:+:===================:+:==============:+:==============:+:============:+:====================:+:==:+
-|         | 1990 | 285757              |                |                |              |                      |    |
-+---------+------+---------------------+----------------+----------------+--------------+----------------------+----+
-|         | 1991 | 564879              |                |                |              |                      |    |
-+---------+------+---------------------+----------------+----------------+--------------+----------------------+----+
-|         | 1992 |                     |                |                |              |                      |    |
-+---------+------+---------------------+----------------+----------------+--------------+----------------------+----+
-|         | 1993 |                     |                |                |              |                      |    |
-+---------+------+---------------------+----------------+----------------+--------------+----------------------+----+
-|         | 1994 |                     |                |                |              |                      |    |
-+---------+------+---------------------+----------------+----------------+--------------+----------------------+----+
-|         | 1995 |                     |                |                |              |                      |    |
-+---------+------+---------------------+----------------+----------------+--------------+----------------------+----+
-|         | 1996 |                     |                |                |              |                      |    |
-+---------+------+---------------------+----------------+----------------+--------------+----------------------+----+
-|         | 1997 |                     |                |                |              |                      |    |
-+---------+------+---------------------+----------------+----------------+--------------+----------------------+----+
-|         | 1998 |                     |                |                |              |                      |    |
-+---------+------+---------------------+----------------+----------------+--------------+----------------------+----+
-|         | 1999 |                     |                |                |              |                      |    |
-+---------+------+---------------------+----------------+----------------+--------------+----------------------+----+
-|         | 2000 |                     |                |                |              |                      |    |
-+---------+------+---------------------+----------------+----------------+--------------+----------------------+----+
-|         | 2001 |                     |                |                |              |                      |    |
-+---------+------+---------------------+----------------+----------------+--------------+----------------------+----+
-|         | 2002 |                     |                |                |              |                      |    |
-+---------+------+---------------------+----------------+----------------+--------------+----------------------+----+
-|         | 2003 |                     |                |                |              |                      |    |
-+---------+------+---------------------+----------------+----------------+--------------+----------------------+----+
-|         | 2004 |                     |                |                |              |                      |    |
-+---------+------+---------------------+----------------+----------------+--------------+----------------------+----+
-|         | 2005 |                     |                |                |              |                      |    |
-+---------+------+---------------------+----------------+----------------+--------------+----------------------+----+
-|         | 2006 |                     |                |                |              |                      |    |
-+---------+------+---------------------+----------------+----------------+--------------+----------------------+----+
-|         | 2007 |                     |                |                |              |                      |    |
-+---------+------+---------------------+----------------+----------------+--------------+----------------------+----+
-|         | 2008 |                     |                |                |              |                      |    |
-+---------+------+---------------------+----------------+----------------+--------------+----------------------+----+
-|         | 2009 |                     |                |                |              |                      |    |
-+---------+------+---------------------+----------------+----------------+--------------+----------------------+----+
-|         | 2010 |                     |                |                |              |                      |    |
-+---------+------+---------------------+----------------+----------------+--------------+----------------------+----+
-|         | 2011 |                     |                |                |              |                      |    |
-+---------+------+---------------------+----------------+----------------+--------------+----------------------+----+
-|         | 2012 |                     |                |                |              |                      |    |
-+---------+------+---------------------+----------------+----------------+--------------+----------------------+----+
-|         | 2013 |                     |                |                |              |                      |    |
-+---------+------+---------------------+----------------+----------------+--------------+----------------------+----+
-|         | 2014 |                     |                |                |              |                      |    |
-+---------+------+---------------------+----------------+----------------+--------------+----------------------+----+
-|         | 2015 |                     |                |                |              |                      |    |
-+---------+------+---------------------+----------------+----------------+--------------+----------------------+----+
-
-: Capturas corregidas por periodo y método en sardina común. Desembarque oficial indica aquella serie de captura construida con información de SERNAPESCA descrita en este proyecto. "Prop. Encuesta" indica la proporción de corrección considerando descarte y sub-reportes solo con información desde encuestas. "Prop. Encuesta más Censura" indica la proporción resultante de combinar la información desde encuestas con el método estadístico de datos censurador. "Captura Cor." Indica la captura corregida usando las proporciones descritas. "CV" indica el coeficiente de variación de la estimación de captura corregida.
+Capturas corregidas por periodo y método en sardina común y anchoveta centro-sur. Desembarque oficial indica aquella serie de captura construida con información de SERNAPESCA descrita en este proyecto. "Prop. Encuesta" indica la proporción de corrección considerando descarte y sub-reportes solo con información desde encuestas. "Prop. Encuesta más Censura" indica la proporción resultante de combinar la información desde encuestas con el método estadístico de datos censurador. "Captura Cor." Indica la captura corregida usando las proporciones descritas. "CV" indica el coeficiente de variación de la estimación de captura corregida.
 
 
-\pagebreak
 
 ## Análisis de sardina común
 
-```{r CorreccionCapturasSardina, echo=F, message=FALSE, warning=FALSE, include=T,}
+```{r desembarques y descarte sardina, echo=FALSE,eval=T}
+bioyear<-c("1990-91","1991-92","1992-93","1993-94","1994-95","1995-96","1996-97","1997-98","1998-99","1999-00","2000-01",
+           "2001-02","2002-03","2003-04","2004-05","2005-06","2006-07","2007-08","2008-09","2009-10","2010-11","2011-12",
+           "2012,13","2013-14","2014-15","2015-16","2016-17","2017-18","2018-19","2019-20","2020-21")
+desemYdesc<-c(494567,514787,250237,358949,361735,120608,552515,73892,212993,205616,52469,317467,293654,387597,252695,
+              516296,358380,742168,942051,627588,828172,859565,418607,520667,417249,300574,407403,355545,319650,289779,219260)
+desc<-c(rep(1,10),rep(1.04,16),rep(1.02,2),rep(1.06,2),1.04)
+desembarque<-desemYdesc/desc
+
+porcDesc<-c(rep("0%",10),rep("4%",16),rep("2%",2),rep("6%",2),"4%")
+
+data<-data.frame("Año biológico"=bioyear,
+                 "Desembarques t."=round(desembarque,0),
+                 "Porcentaje descarte" =porcDesc,
+                 "Captura descartada t."=round(desemYdesc-desembarque,0),
+                 "Captura total t."=round(desemYdesc,0))
+kable(data, align = 'c')
+```
+
+\pagebreak
+
+```{r Fig5CCTPPsard, echo=F, message=FALSE, warning=FALSE, include=T,echo=F, message=FALSE, warning=FALSE, include=T,fig.align="center", fig.height=6, fig.width=8,fig.path="Figuras/",dev="pdf",eval=T}
 
 # Tabla 24. Capturas corregidas por período y método en sardina común
 
@@ -886,31 +850,29 @@ tabla24Sard<-cbind(year,desemoficial,propEnc,propEncCens,CapCorrEnc,CapCorrEncCe
 kable(tabla24Sard)
 
 
-
-plot(year,desemoficial,type="o",col=1,pch=19,ylab="Desembarques/Capturas",xlab="Años",main="Sardina común",ylim=c(0,1250000))
-lines(year,CapCorrEnc,col=2)
-lines(year,CapCorrEncCens,col=4)
-
-
+par(mfrow=c(1,1),mar=c(2,4,1,1)+0.5)
+plot(seq(1990,2020,1),c(desemoficial,rep(NA,5)),type="o",col=1,pch=19,ylab="Desembarques/Capturas",xlab="Años",main="Sardina común",ylim=c(0,1250000))
+lines(seq(1990,2020,1),c(CapCorrEnc,rep(NA,5)),col=2)
+lines(seq(1990,2020,1),c(CapCorrEncCens,rep(NA,5)),col=4)
+lines(seq(1990,2020,1),c(NA,desembarque[1:30]),col=3,lwd=2)
+legend(1995,1230000,c("Desembarques oficiales","Capturas Corregidas Encuestas","Capturas Corregidas Encuestas + Censuras","Capturas Evaluación IFOP"),col=c(1,2,4,3),lwd=c(1,1,1,2),pch=c(19,NA,NA,NA),bty="n",cex=0.8)
 
 ```
-
 
 \pagebreak
 
 ## Análisis de anchoveta centro-sur
 
-
 ```{=tex}
 \small
 \begin{center} 
-\textbf{Tabla 16.}
+\textbf{Tabla x.}
 \end{center}
 \begin{center} 
 \vspace{-0.2cm} Desembarques en toneladas, porcentaje de descarte supuesto, captura descartada (toneladas) y captura total (toneladas) estimadas en año biológico para anchoveta de las Regiones de Valparaíso a Los Lagos.
 \end{center}
 ```
-```{r desembarques y descarte, echo=FALSE,eval=T}
+```{r Fig4, echo=FALSE,eval=T,, fig.align="center", fig.height=6, fig.width=8,fig.path=dir.Fig,dev=fig}
 bioyear<-c("1996-97","1997-98","1998-99","1999-00","2000-01",
            "2001-02","2002-03","2003-04","2004-05","2005-06","2006-07","2007-08","2008-09","2009-10","2010-11","2011-12",
            "2012-13","2013-14","2014-15","2015-16","2016-17","2017-18","2018-19","2019-20","2020-21")
@@ -930,7 +892,9 @@ kable(data, align = 'c')
 
 ```
 
-```{r CorreccionCapturasAnchoveta, echo=F, message=FALSE, warning=FALSE, include=T,}
+\pagebreak
+
+```{r Fig5, echo=F, message=FALSE, warning=FALSE, include=T,fig.align="center", fig.height=6, fig.width=8,fig.path=dir.Fig,dev=fig}
 
 # Tabla 24. Capturas corregidas por período y método en Anchoveta
 
@@ -957,5 +921,3 @@ lines(seq(1990,2020,1),c(rep(NA,7),desembarque[1:24]),col=3,lwd=2)
 legend(2002,1230000,c("Desembarques oficiales","Capturas Corregidas Encuestas","Capturas Corregidas Encuestas + Censuras","Capturas Evaluación IFOP"),col=c(1,2,4,3),lwd=c(1,1,1,2),pch=c(19,NA,NA,NA),bty="n",cex=0.8)
 
 ```
-
-
