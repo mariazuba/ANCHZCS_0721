@@ -1,0 +1,176 @@
+---
+title: \Huge \textbf{ANEXO I}
+subtitle:  \Large Proceso de actualización de datos de entrada al modelo de evaluación de stock de anchoveta de la Región de Valparaíso a la Región de Los Lagos
+lang: es
+toc: TRUE
+output: 
+    pdf_document:
+header-includes:
+- \usepackage{draftwatermark}
+- \SetWatermarkText{}
+- \usepackage{fancyhdr}
+- \usepackage{graphicx}
+- \usepackage{parskip}
+- \usepackage{caption}
+- \captionsetup[table]{name=\textbf{Tabla},labelsep=period}
+- \captionsetup[figure]{name=\textbf{Figura},labelsep=period}
+- \captionsetup{justification=justified,format=plain,font=small,labelfont=bf,margin=40pt}
+- \pagestyle{fancy}
+- \usepackage{geometry}
+- \geometry{top=1.5cm, bottom=1cm, left=2.5cm, right=2.5cm}
+- \usepackage{helvet}
+- \renewcommand{\familydefault}{\sfdefault}
+- \renewcommand{\baselinestretch}{1.2}
+- \newcommand{\sietepuntos}{\fontsize{7pt}{\baselineskip}\selectfont}
+- \newcommand{\cincopuntos}{\fontsize{6pt}{\baselineskip}\selectfont}
+
+- \addtolength{\headheight}{4.5\baselineskip}
+- \setlength{\headheight}{70pt}
+- \setlength{\footskip}{5pt}
+- \setlength{\textheight}{658pt}
+- \fancyhead[CO,CE]{\includegraphics[height=1.5cm]{logoifop.png}\\ \sietepuntos INSTITUTO DE FOMENTO PESQUERO / DIVISION INVESTIGACION PESQUERA}
+- \fancyhead[LO,LE]{ }
+- \fancyhead[RO,RE]{ }
+- \renewcommand{\headrulewidth}{0.5pt}
+- \fancyfoot[C]{\cincopuntos \thepage \\ \vspace{-0.2cm} ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ \\ \vspace{-0.2cm} \cincopuntos CONVENIO DE DESEMPEÑO 2020 IFOP/SUBSECRETARÍA DE ECONOMíA Y EMT \\ \vspace{-0.1cm} TERCER INFORME. ANCHOVETA DE LA  REGIÓN DE VALPARAÍSO A LA REGIÓN DE LOS LAGOS, 2021. \textbf{ANEXO I}.}
+---
+
+
+\pagebreak
+
+## 1. Contexto
+
+\quad
+
+Cada proceso de revisión de CBA involucra la actualización y/o supuestos de datos para evaluar el impacto en las variables de estado asociado a la incorporación incremental de piezas de información. Al respecto, la actualización de datos de la asesoría actual corresponde principalmente a la información de la flota del año biológico 2020/21 (desembarques, descarte, composición de edad, pesos medios). Para el año 2021 se incorpora la biomasa total y composición de edad estimadas por el crucero de evaluación directa de otoño 2021.
+
+## 2. Actualización de datos
+
+\quad
+
+En la \textbf{Tabla \ref{Tab1}} se comparan las fuentes de información utilizadas en asesoría científica realizada en marzo del 2021 para el cálculo de la primera revisión de CBA y la asesoría actual para actualizar la CBA (segunda revisión de CBA). Ambas asesorías tienen como objetivo la recomendación de captura biológicamente aceptable (CBA) para el año 2021. En términos de datos, las diferencias entre la última evaluación (marzo 2021) y esta nueva revisión (julio 2021) corresponde a la actualización de los desembarques, descarte, composición de edad y pesos medios provenientes de las capturas para el año biológico 2020/21. Además, se incorporan los resultados del crucero de evaluación hidroacústico realizado en mayo de 2021.
+
+\vspace{0.4cm}
+
+```{=tex}
+\begin{table}[h!]
+\caption{Información relevante para el cálculo de CBA 2021 en cada una de las etapas de estimación.}
+ \label{Tab1}
+ \small
+    \centering
+    \resizebox{16cm}{!} {
+    \begin{tabular}{|l|c|c|c|}
+    \hline
+  Datos de entrada  & CBA INICIAL                & 1ERA REVISIÓN                   & 2DA REVISIÓN  \\ 
+  al modelo         & Septiembre 2020          & Marzo 2021                      & Julio 2021 \\ \hline
+  Desembarques      &                            & Julio 1991- junio 2020 +        & Julio 1991 - \\
+                    & Julio 1991 - junio 2020  & Supuesto de captura 2020/2021   & preliminar a junio 2021 \\
+                    &                          &                                   &  \\ \hline
+  Biomasa acústica  & 2000 – 2020                & 2000 – 2021                     &    2000 – 2021 \\
+  Crucero de verano &                          &                                 & \\ \hline
+  Biomasa acústica  & 2003 – 2020              & 2003 – 2020                     & 2003 – 2021 \\
+  Crucero de otoño  &                          &                                 & \\ \hline
+  Composición de    & Julio 1991 - junio 2020  & Julio 1991 - junio 2020         & Julio 1991 - mayo 2021  \\
+  edad Flota        &                          &                                 & \\ \hline
+  Composición de    & 2001 – 2020              & 2001 – 2021                       & 2001 – 2021 \\
+  edad Cruceros de verano&                     &                                 & \\ \hline
+  Composición de    & 2007 – 2020              & 2007 – 2020                     & 2007 – 2021 \\
+  edad Cruceros de otoño&                      &                                 & \\ \hline
+                    &                          & Julio 1990 - junio 2020         & \\
+  Pesos medios      & Julio 1991 - junio 2020  & Promedio de los últimos 5 años  & Julio 1990 - mayo 2021 \\
+  a la edad         &                          & de la serie histórica para      & \\ 
+                    &                          & julio 2020-junio 2021           & \\ \hline
+  Madurez sexual    & Constante                & Constante                       & Constante \\
+  a la edad         &                          &                                 & \\ \hline
+  Mortalidad natural& Constante                & Constante                       & Constante \\ \hline
+  Proyección del    & 2 años biológicos        & 1 año biológico                 & 1 año biológico \\
+  reclutamiento     & (años 2020/21 y 2021/22) & (año 2021/22)                   & (año 2021/22) \\ \hline
+    \end{tabular}}
+        \end{table}
+```
+\vspace{0.4cm}
+
+\normalsize
+
+La información muestra que durante los años 2015 al 2019, las biomasas acústicas de verano se mantuvieron en niveles en torno a los dos millones de toneladas, lo cual se ve reflejado también en una estabilidad en las capturas en torno a las 330 mil toneladas. Por otro lado, las biomasas acústicas estimadas por el crucero de otoño reflejan el efecto de la remoción ejercidas por la pesca y causas naturales, con biomasas en general menores a las estimadas en el crucero de verano, en torno a 1,5 millones de toneladas No obstante, para el año 2020 la biomasa estimada por el crucero acústico de verano se redujo a un millón de toneladas (54 % menor al 2019), la biomasa del crucero de otoño disminuye un 40 % respecto al 2019 y las capturas 2019/20 se redujeron un 9 % respecto al año previo. El desembarque 2020 está en torno a las 258.092 toneladas, equivalente a un 80 % de la CBA 2020 recomentada por el CCT_PP (321.307 toneladas). La biomasa total estimada por el crucero de enero 2021 retorno a los niveles observados entre el 2013 al 2019 (2,36 millones de t.), incrementando un 125 % respecto a lo estimado para el año 2020 En relación a la captura 2020/21 se asume una reducción del 24 % respecto del año biológico 2019/20, no obstante la captura 2020/21 es un supuesto que debe ser actualizado en la asesoría de julio 2021 con datos de desembarque del primer semestre 2021.
+
+Los resultados del crucero de verano 2019 y 2020 presentan una disminución en los niveles de abundancia de la fracción recluta, el estimado de biomasa total del crucero de verano 2019 es sostenido por la fracción adulta (edad 1+). Mientras que el estimado 2020 es sostenido por individuos de edad 2+.
+Esta disminución se confirma al actualizar la composición de edad de la flota 2018/19 y 2019/20 y del crucero de otoño 2019 y 2020. Por lo tanto, la disminución de la biomasa total 2020 estaría fuertemente relacionada a la reducción del número de individuos de los grupos de edad 0 y 1 principalmente.
+Los resultados del crucero de verano 2021 muestran un incremento significativo en los niveles de abundancia de la fracción recluta (94 % individuos de edad 0), a diferencia de los dos años previos, la biomasa total del crucero de verano 2021 es sostenido principalmente por la fracción recluta (edad 0), observandose una baja presencia de individuos adultos (edad 1+).
+
+
+
+La información actualizada en la presente evaluación es presentada en la \textbf{Figura \ref{Fig1}}. El desembarque total del año 2020 fue un 6% menor que el supuesto en septiembre del 2020. La CPUE estandarizada muestra el mayor rendimiento registrado de la flota artesanal durante el año 2020, siendo 5 veces mayor al registrado el año anterior. La composición de tallas observadas por la flota comercial durante el 2020, es actualizada con la incorporación de los ejemplares capturados durante el segundo semestre. En este caso se observa un incremento de la proporción de individuos adultos, sobre los 15,5 cm LT, disminuyendo la proporción de individuos en torno a los 14 cm LT \textbf{Figura \ref{Fig2}}. Para el año 2021, se cuenta con los resultados del crucero de evaluación acústica desde el cual se obtiene un estimado de la abundancia y biomasa a la talla presentes durante el mes de abril-mayo. La composición de tallas muestra un rango de distribución de ejemplares entre 5,5 y 18 cm de LT, con estructura multimodal y dos modas principales en los 8,5 cm de LT y 16,5 cm LT. Modas secundarias se observan en los 11 y 13,5 cm de LT. En términos de biomasa, el crucero estimó 70 mil t de sardina austral de la Región de Los Lagos, cifra 56 % inferior respecto al año anterior, año con la segunda cifra más alta observada por los cruceros en la historia de la pesquería (\textbf{Figura \ref{Fig3}}).
+
+
+\pagebreak
+
+## 3. Descripción del modelo base y procesos involucrados en la revisión de julio 2021.
+
+\quad
+
+Para mantener la consistencia en el proceso de evaluación del stock y estimación de CBA, se utilizó un modelo edad estructurado igual al usado en la evaluación anterior (marzo 2021). Con objeto de evaluar el impacto en las variables de estado debido a la incorporación de nuevos datos, se realizó un proceso incremental de incorporación de piezas de información de acuerdo a la (\textbf{Tabla \ref{Tab2}}).
+
+\vspace{0.4cm}
+
+\small
+
++---------------+------------------------------------------------------------------------+
+| Casos         | Descripción                                                            |
++===============+========================================================================+
+| 1 **MAE0321** | Caso base asesoría marzo 2021                                          |
++---------------+------------------------------------------------------------------------+
+| 2             | Actualiza serie de descarte 2017/18, 2018/19 Y 2019/20                 |
++---------------+------------------------------------------------------------------------+
+| 3             | Actualiza desembarque 2020/21 + supuesto de descarte 2020/21           |
++---------------+------------------------------------------------------------------------+
+| 4             | Actualiza composición de edad de la flota del año biológico 2020/21    |
++---------------+------------------------------------------------------------------------+
+| 5             | Actualiza pesos medios e iniciales a la edad del año biológico 2020/21 |
++---------------+------------------------------------------------------------------------+
+| 6             | Actualiza biomasa crucero acústico de otoño, año 2021                  |
++---------------+------------------------------------------------------------------------+
+| 7 **MAE0721** | Actualiza composición de edad crucero acústico de otoño, año 2021      |
++---------------+------------------------------------------------------------------------+
+
+: \label{Tab2} Escenarios de que permiten evaluar el impacto de la incorporación de datos actualizados en el proceso de actualización
+
+\normalsize
+
+## 4. Actualización de las principales variables de estado
+
+\quad
+
+En la \textbf{Tabla \ref{Tab3}} y \textbf{Figura \ref{Fig4}} muestran el impacto de la incorporación y actualización de la información en las principales variables de estado para el modelo base. Los resultados muestran que los niveles poblaciones (Reclutamientos, BD y $BD/BD_{RMS}$) aumentan con la incorporación de los rendimientos estandarizados (13% app, caso 5) y el crucero (16%, caso 7) para el año 2020, comparado con el estimado en la asesoría de septiembre del mismo año. 
+
+Por otra parte, las piezas de información que menos impactan corresponden a la actualización del desembarque 2020, incorporación del descarte y actualización de la estructura de tallas de la flota año 2020 (casos 2 al 6). 
+
+La actualización del desembarque no tuvo efectos en el reclutamiento, un efecto poco significativo en el nivel de biomasa y un efecto esperable en la estimación de F, dado el cambio del supuesto de captura por la captura observada.
+
+La incorporación de información 2020 junto al crucero en su conjunto (caso 7) muestran un impacto significativo en el nivel de biomasa (18%) y $BD/BD_{RMS}$ (16 %), con una disminución del 18% en F para el año 2020, no obstante, con la incorporación del crucero, el reclutamiento 2020 no muestra diferencias significativas, siendo un 1% menor en la evaluación actual (junio 2021).
+
+```{=tex}
+\pagebreak
+\small
+```
++-------+-------+-------+---------------+------+--------+---------+--------------------+--------+
+| Casos | R     | BD    | $BD/BD_{RMS}$ | F    | R.diff | BD.diff | $BD/BD_{RMS}$.diff | F.diff |
++:=====:+:=====:+:=====:+:=============:+:====:+:======:+:=======:+:==================:+:======:+
+| 1     | 257,7 | 430,0 | 0,54          | 0,18 |        |         |                    |        |
++-------+-------+-------+---------------+------+--------+---------+--------------------+--------+
+| 2     | 262,7 | 448,0 | 0,55          | 0,18 | 0,02   | 0,04    | 0,03               | -0,03  |
++-------+-------+-------+---------------+------+--------+---------+--------------------+--------+
+| 3     | 280,0 | 447,4 | 0,54          | 0,31 | 0,09   | 0,04    | 0,01               | 0,71   |
++-------+-------+-------+---------------+------+--------+---------+--------------------+--------+
+| 4     | 265,9 | 464,6 | 0,56          | 0,32 | 0,03   | 0,08    | 0,04               | 0,77   |
++-------+-------+-------+---------------+------+--------+---------+--------------------+--------+
+| 5     | 232,6 | 510,3 | 0,62          | 0,31 | -0,10  | 0,19    | 0,16               | 0,72   |
++-------+-------+-------+---------------+------+--------+---------+--------------------+--------+
+| 6     | 225,8 | 525,0 | 0,63          | 0,31 | -0,12  | 0,22    | 0,17               | 0,72   |
++-------+-------+-------+---------------+------+--------+---------+--------------------+--------+
+| 7     | 220,8 | 511,1 | 0,62          | 0,32 | -0,14  | 0,19    | 0,16               | 0,78   |
++-------+-------+-------+---------------+------+--------+---------+--------------------+--------+
+
+: \label{Tab3} Estimaciones de las principales variables de estado para el caso base (evaluación marzo 2021) comparado con los resultados según la incorporación de cada pieza de información y en su conjunto (caso 7). Se presenta el valor de estimación central y la diferencia en términos porcentuales. R= Reclutamiento, BD= Biomasa desovante, $BD/BD_{RMS}$= Reducción de la población y F= Mortalidad por pesca.
+
+
