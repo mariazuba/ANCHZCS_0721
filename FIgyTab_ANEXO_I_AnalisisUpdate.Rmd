@@ -1,0 +1,768 @@
+---
+title: "Figuras y Tablas - ANEXO I Sensibilidad a la actualización de datos"
+lang: es
+toc: TRUE
+output: 
+    pdf_document:
+header-includes:
+- \usepackage{draftwatermark}
+- \SetWatermarkText{}
+- \usepackage{fancyhdr}
+- \usepackage{graphicx}
+- \usepackage{parskip}
+- \usepackage{caption}
+- \captionsetup[table]{name=\textbf{Tabla},labelsep=period}
+- \captionsetup[figure]{name=\textbf{Figura},labelsep=period}
+- \captionsetup{justification=justified,format=plain,font=small,labelfont=bf,margin=50pt}
+- \pagestyle{fancy}
+- \usepackage{geometry}
+- \geometry{top=1.5cm, bottom=1cm, left=2.5cm, right=2.5cm}
+- \usepackage{helvet}
+- \renewcommand{\familydefault}{\sfdefault}
+- \renewcommand{\baselinestretch}{1.25}
+- \newcommand{\sietepuntos}{\fontsize{7pt}{\baselineskip}\selectfont}
+- \newcommand{\cincopuntos}{\fontsize{6pt}{\baselineskip}\selectfont}
+
+- \addtolength{\headheight}{4.5\baselineskip}
+- \setlength{\headheight}{70pt}
+- \setlength{\footskip}{5pt}
+- \setlength{\textheight}{658pt}
+- \fancyhead[CO,CE]{\includegraphics[height=1.5cm]{logoifop.png}\\ \sietepuntos INSTITUTO DE FOMENTO PESQUERO / DIVISION INVESTIGACION PESQUERA}
+- \fancyhead[LO,LE]{ }
+- \fancyhead[RO,RE]{ }
+- \renewcommand{\headrulewidth}{0.5pt}
+- \fancyfoot[C]{\cincopuntos \thepage \\ \vspace{-0.2cm} ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ \\ \vspace{-0.2cm} \cincopuntos CONVENIO DE DESEMPEÑO 2020 IFOP/SUBSECRETARÍA DE ECONOMíA Y EMT \\ \vspace{-0.1cm} TERCER INFORME. ANCHOVETA DE LA  REGIÓN DE VALPARAÍSO A LA REGIÓN DE LOS LAGOS, 2021. \textbf{ANEXO I}.}
+---
+
+
+
+```{r llama codigos, warning=F, include=T, message=F, echo=FALSE}
+library(knitr) # para generar reporte Rmarkdown
+library(stringr)
+library(reshape) 
+library(dplyr) 
+library(ggplot2)
+library(ggthemes) # para ggplot
+library(patchwork) # para unir gráficos de ggplot
+library(strucchange) # libreria utilizada para análisis de quiebres
+
+dir.Fig     <-"Figuras/" # carpeta de las figuras utilizadas y generadas en este estudio
+fig         <-c("pdf") # formato de figuras generadas por este código
+dir.0       <-getwd() # directorio de trabajo 
+dir.1       <-paste(dir.0,"/codigos_admb",sep="") # carpeta de códigos ADMB 
+dir.fun     <-paste(dir.0,"/funciones/",sep="") # carpeta de funciones utilizadas en este informe
+source(paste(dir.fun,"functions.R",sep="")) # funciones para leer .dat y .rep
+source(paste(dir.fun,"Fn_PBRs.R",sep="")) # funciones para leer .dat y .rep
+ant <-reptoRlist(paste(dir.0,"/DatosEntrada.dat",sep=""))  # datos utilizados para antecedentes
+
+```
+
+```{r CORRE MODELO BASE SEPTIEMBRE, eval=FALSE, echo=FALSE, warning=FALSE, include=F}
+setwd(dir.1)
+#Asesoría de septiembre
+# para mac
+system("~/admb-12.2/admb MAE0920b")
+system("./MAE0920b")
+#para windows
+#system("admb MAE0920b")
+#system("MAE0920b")
+
+```
+
+```{r CORRE MODELO BASE MARZO, eval=FALSE, echo=FALSE, warning=FALSE,include=F}
+setwd(dir.1)
+#Asesoría de septiembre
+#para mac
+system("~/admb-12.2/admb MAE0321b")
+system("./MAE0321b")
+#para windows
+#system("admb MAE0321b")
+#system("MAE0321b")
+
+
+```
+
+```{r CORRE MODELO BASE JULIO, eval=FALSE, echo=FALSE, warning=FALSE,include=F}
+setwd(dir.1)
+#Asesoría de septiembre
+#para mac
+system("~/admb-12.2/admb MAE0721b")
+system("./MAE0721b")
+#para windows
+#system("admb MAE0321b")
+#system("MAE0321b")
+
+
+```
+
+```{r  leer datos, echo=FALSE, warning=FALSE,incluide=F}
+
+setwd(dir.1)
+
+# ASESORÍA DE SEPTIEMBRE
+data1        <- lisread("MAE0920b.dat") 
+names(data1) <- str_trim(names(data1), side="right")
+dat1         <- data1
+rep1         <- reptoRlist("MAE0920b.rep")
+std1         <- read.table("MAE0920b.std",header=T,sep="",na="NA",fill=T) 
+
+# ASESORÍA DE MARZO
+data2        <- lisread("MAE0321b.dat") 
+names(data2) <- str_trim(names(data2), side="right")
+dat2         <- data2
+rep2         <- reptoRlist("MAE0321b.rep")
+std2         <- read.table("MAE0321b.std",header=T,sep="",na="NA",fill=T) 
+
+# ASESORÍA DE JULIO
+data3        <- lisread("MAE0721b.dat") 
+names(data3) <- str_trim(names(data3), side="right")
+dat3         <- data3
+rep3         <- reptoRlist("MAE0721b.rep")
+std3         <- read.table("MAE0721b.std",header=T,sep="",na="NA",fill=T) 
+
+```
+
+
+
+```{r DatosActualizados, warning=F, include=F, message=F, echo=T,eval=T}
+
+years              <- rep3$years
+nyears             <- length(years)
+
+S2_DesembDesc_0321    <- c(494567, 514787, 250237, 358949, 120608, 
+                           361735, 552515, 73892, 212993, 205616,  
+                           52469, 317467, 293654, 387597, 252695,
+                           516296, 358380, 742168, 942051, 627588, 
+                           828172, 859565, 418607, 520667, 417249, 
+                           300574, 415391, 372974, 316634, 284311, 
+                           219260)
+S3_DesembDesc_0721    <- data3$Ind[,8]
+S4_CompEdadFlota0721  <- data3$captura_edad[nyears,]
+S5_PesosMed0721       <- data3$Wmed[nyears,]
+S5_PesosIni0721       <- data3$Wini[nyears,]
+S6_BioCruMayo21       <- data3$Ind[nyears,4]
+S7_CompEdadCruMayo21  <- data3$Pelaces_edad[nyears,]
+S7_tamañomuestra0721  <- data3$NMs
+ 
+```
+
+
+```{r Fig1_anexoI,warning=F, include=T, message=F, echo=T,fig.height=8,fig.width=5.5,fig.align="center",fig.path="Figuras/",dev=fig}
+
+#######################################################################################
+# AREGLOS DE DATOS
+#######################################################################################
+
+library(patchwork)
+
+yrs   <- rep3$years
+nyrs  <- length(yrs)
+lasty <- yrs[nyrs]
+
+cvBcV   <-data3$Ind[,3]
+cvBcO   <-data3$Ind[,5]
+cvdes   <-data3$Ind[,9]
+
+# data  marzo
+BcruV_obs_mar<-rep2$reclasobs     
+BcruV_obs_mar[BcruV_obs_mar==0] <- NA
+
+BcruO_obs_mar<-rep2$pelacesobs   
+BcruO_obs_mar[BcruO_obs_mar==0] <- NA
+
+Desemb_obs_mar<-rep2$desembarqueobs 
+Desemb_obs_mar[Desemb_obs_mar==0] <- NA
+
+# data julio
+BcruV_obs_julio<-rep3$reclasobs   
+BcruV_obs_julio[BcruV_obs_julio==0] <- NA
+
+BcruO_obs_julio<-rep3$pelacesobs       
+BcruO_obs_julio[BcruO_obs_julio==0] <- NA
+
+Desemb_obs_julio<-rep3$desembarqueobs
+Desemb_obs_julio[Desemb_obs_julio==0] <- NA
+
+
+
+ind_marzo   <- cbind(c(BcruV_obs_mar), 
+                   c(BcruO_obs_mar), 
+                   c(Desemb_obs_mar)) 
+
+colnames(ind_marzo) <- c('Biomasa_Crucero_verano', 
+                         'Biomasa_Crucero_otoño', 
+                         'Desembarques') 
+
+ind_julio    <- cbind(c(BcruV_obs_julio), 
+                      c(BcruO_obs_julio), 
+                      c(Desemb_obs_julio))
+
+colnames(ind_julio) <- c('Biomasa_Crucero_verano', 
+                         'Biomasa_Crucero_otoño', 
+                         'Desembarques') 
+
+
+julio   <- data.frame(ind_julio) %>% 
+                      mutate (Asesoría='julio_2021') %>% 
+                      mutate (yrs= yrs)  %>% 
+                      melt(id.var=c('yrs', 'Asesoría'))
+
+marzo    <- data.frame(ind_marzo) %>% 
+                      mutate (Asesoría='marzo_2021') %>%
+                      mutate (yrs= yrs)  %>% 
+                      melt(id.var=c('yrs', 'Asesoría'))
+
+base1 <- data.frame(rbind(julio, marzo))  
+
+#######################################################################################
+# GRAFICAS
+#######################################################################################
+
+f1 <- ggplot(base1 %>% filter(variable=='Biomasa_Crucero_verano')) + 
+        geom_line(aes(yrs,value/1000000, colour=Asesoría,linetype = Asesoría), size=1) +
+        scale_colour_manual(values=c('red','black')) +
+        geom_point(data = base1 %>% filter(variable=='Biomasa_Crucero_verano'),
+        aes(yrs,value/1000000), shape = 19, colour = 'gray30') +
+        scale_x_continuous(breaks = seq(from = 1985, to = 2021, by = 4)) +
+        labs(title='Biomasa de Crucero de Verano', x = 'Año', y = 'Toneladas (millones)') +
+        theme_bw(base_size=9)
+
+f2 <- ggplot(base1 %>% filter(variable=='Biomasa_Crucero_otoño')) + 
+        geom_line(aes(yrs,value/1000000,colour=Asesoría,linetype = Asesoría), size=1) +
+        scale_colour_manual(values=c('red','black')) +
+        geom_point(data = base1 %>% filter(variable=='Biomasa_Crucero_otoño'),
+        aes(yrs,value/1000000), shape = 19, colour = 'gray30') +
+        scale_x_continuous(breaks = seq(from = 1985, to = 2021, by = 4)) +
+        labs(title='Biomasa de Crucero de Otoño', x = 'Año', y = 'Toneladas (millones)') +
+        theme_bw(base_size=9)
+
+f3 <- ggplot(base1 %>% filter(variable=='Desembarques')) + 
+        geom_line(aes(yrs,value/1000,colour=Asesoría,linetype = Asesoría), size=1) +
+        scale_colour_manual(values=c('red','black')) +
+        geom_point(data = base1 %>% filter(variable=='Desembarques'),
+        aes(yrs,value/1000), shape = 19, colour = 'gray30') +
+        scale_x_continuous(breaks = seq(from = 1985, to = 2021, by = 4)) +
+        labs(title='Desembarques', x = 'Año', y = 'Toneladas (miles)') +
+        theme_bw(base_size=9)
+
+f1/f2/f3 + plot_layout(guides="collect")
+
+
+```
+
+
+
+```{r Fig2a_anexoI,warning=F, include=T, message=F, echo=T,fig.height=4,fig.width=5,fig.align="center",fig.path="Figuras/",dev=fig}
+
+Edades<-data3$Edades
+Edadesflota_julio<-rep3$pf_obs[nyears,]
+Edadesflota_marzo<-rep2$pf_obs[nyears,]
+
+Ejulio   <- data.frame(Edadesflota_julio) %>% 
+                       mutate (Asesoría='julio_2021') %>% 
+                       mutate (Edades= Edades)  %>% 
+                       melt(id.var=c('Edades', 'Asesoría'))
+
+Emarzo    <- data.frame(Edadesflota_marzo) %>% 
+                        mutate (Asesoría='marzo_2021') %>%
+                        mutate (Edades= Edades)  %>% 
+                        melt(id.var=c('Edades', 'Asesoría'))
+
+Ebase1 <- data.frame(rbind(Ejulio, Emarzo)) 
+
+f1<-ggplot(Ebase1) + 
+        geom_line(aes(Edades,value,colour=Asesoría,linetype = Asesoría), size=1) +
+        scale_colour_manual(values=c('red','black')) +
+        scale_x_continuous(breaks = seq(from = 0, to = 4, by = 1)) +
+        labs(title='Composición de Edad de la Flota 2020/21', x = 'Edades', y = 'Proporción') +
+        theme_bw(base_size=9)
+
+
+
+```
+
+
+
+```{r Fig2b_anexoI,warning=F, include=T, message=F, echo=T,fig.height=4,fig.width=5,fig.align="center",fig.path="Figuras/",dev=fig}
+
+Edades<-data3$Edades
+EdadesCV_julio<-rep3$pobs_RECLAS[nyears,]
+EdadesCV_marzo<-rep2$pobs_RECLAS[nyears,]
+
+EVjulio   <- data.frame(EdadesCV_julio) %>% 
+                       mutate (Asesoría='julio_2021') %>% 
+                       mutate (Edades= Edades)  %>% 
+                       melt(id.var=c('Edades', 'Asesoría'))
+
+EVmarzo    <- data.frame(EdadesCV_marzo) %>% 
+                        mutate (Asesoría='marzo_2021') %>%
+                        mutate (Edades= Edades)  %>% 
+                        melt(id.var=c('Edades', 'Asesoría'))
+
+EVbase1 <- data.frame(rbind(EVjulio, EVmarzo)) 
+
+f2 <-   ggplot(EVbase1) + 
+        geom_line(aes(Edades,value,colour=Asesoría,linetype = Asesoría), size=1) +
+        scale_colour_manual(values=c('red','black')) +
+        scale_x_continuous(breaks = seq(from = 0, to = 4, by = 1)) +
+        labs(title='Composición de Edad del Crucero de Verano 2021', x = 'Edades', y = 'Proporción') +
+        theme_bw(base_size=9)
+
+
+
+```
+
+
+
+```{r Fig2c_anexoI,warning=F, include=T, message=F, echo=T,fig.height=8,fig.width=5,fig.align="center",fig.path="Figuras/",dev=fig}
+
+Edades<-data3$Edades
+EdadesCO_julio<-rep3$pobs_PELACES[nyears,]
+EdadesCO_marzo<-rep2$pobs_PELACES[nyears,]
+
+EOjulio   <- data.frame(EdadesCO_julio) %>% 
+                       mutate (Asesoría='julio_2021') %>% 
+                       mutate (Edades= Edades)  %>% 
+                       melt(id.var=c('Edades', 'Asesoría'))
+
+EOmarzo    <- data.frame(EdadesCO_marzo) %>% 
+                        mutate (Asesoría='marzo_2021') %>%
+                        mutate (Edades= Edades)  %>% 
+                        melt(id.var=c('Edades', 'Asesoría'))
+
+EObase1 <- data.frame(rbind(EOjulio, EOmarzo)) 
+
+f3 <-   ggplot(EObase1) + 
+        geom_line(aes(Edades,value,colour=Asesoría,linetype = Asesoría), size=1) +
+        scale_colour_manual(values=c('red','black')) +
+        scale_x_continuous(breaks = seq(from = 0, to = 4, by = 1)) +
+        labs(title='Composición de Edad del Crucero de Otoño 2021', x = 'Edades', y = 'Proporción') +
+        theme_bw(base_size=9)
+
+f1/f2/f3
+
+```
+
+
+
+```{r Fig3_anexoI,warning=F, include=T, message=F, echo=T,fig.height=4,fig.width=5,fig.align="center",fig.path="Figuras/",dev=fig}
+
+Edades<-data3$Edades
+Pesosflota_julio<- data3$Wmed[nyears,]
+Pesosflota_marzo<- data2$Wmed[nyears,]
+
+Pjulio   <- data.frame(Pesosflota_julio) %>% 
+                       mutate (Asesoría='julio_2021') %>% 
+                       mutate (Edades= Edades)  %>% 
+                       melt(id.var=c('Edades', 'Asesoría'))
+
+Pmarzo    <- data.frame(Pesosflota_marzo) %>% 
+                        mutate (Asesoría='marzo_2021') %>%
+                        mutate (Edades= Edades)  %>% 
+                        melt(id.var=c('Edades', 'Asesoría'))
+
+Pbase1 <- data.frame(rbind(Pjulio, Pmarzo)) 
+
+f1<-ggplot(Pbase1) + 
+        geom_line(aes(Edades,value,colour=Asesoría,linetype = Asesoría), size=1) +
+        scale_colour_manual(values=c('red','black')) +
+        scale_x_continuous(breaks = seq(from = 0, to = 4, by = 1)) +
+        labs(title='Pesos medios a la Edad 2020/21', x = 'Edades', y = 'gramos') +
+        theme_bw(base_size=9)
+
+f1
+
+```
+
+
+
+
+
+```{r Actualizacion, warning=F, include=F, message=F, echo=T,eval=F}
+  
+  Carpeta<-"/Sensibilidad_update"
+  dir<-paste(dir.0,Carpeta,sep="")
+  system<-"mac"
+  admb<-"MAE0321b"
+  dat_admb<-paste(admb,".dat",sep="")
+  tpl_admb<-paste(admb,".tpl",sep="")
+
+  
+  setwd(dir.1)
+  unlink(dir,recursive=T) #borra la carpeta creada
+  dir.create(file.path(dir.0,Carpeta))#crea la carpeta nuevamente
+  setwd(dir.1);file.copy(c(dat_admb,tpl_admb),dir) #copia los archivos de la carpeta creada
+  
+  setwd(dir) 
+  data        <- lisread(paste(admb,".dat",sep="")) 
+  names(data) <- str_trim(names(data), side="right")
+  dat         <- data
+
+ 
+  #==========================================================================
+  #######################     CREA Y CORRE ESCENARIOS #####################
+  #==========================================================================
+  setwd(dir)
+  #--------------
+  # escenario 1: Caso 1 Igual al caso base asesoría de marzo 2021
+  #--------------
+  dat<- data
+  writeData(paste(admb,"s",1,".dat",sep=""), dat, append=FALSE)
+  ###########################################################################
+  # **Actualización 2021**
+  ###########################################################################
+  
+  #--------------
+  # escenario 2: Actualiza serie de descarte
+  #--------------
+  dat<- data
+  dat$Ind[,8] <- S2_DesembDesc_0321 
+  
+  writeData(paste(admb,"s",2,".dat",sep=""), dat, append=FALSE)
+  
+  #--------------
+  # escenario 3: Actualiza serie desembarque 2020/21
+  #--------------
+  dat<- data
+  dat$Ind[,8] <- S3_DesembDesc_0721
+  
+  writeData(paste(admb,"s",3,".dat",sep=""), dat, append=FALSE)
+  
+  #--------------
+  # escenario 4: Actualiza composición de edad de la flota 2020/21
+  #--------------
+  dat<- data
+  dat$Ind[,8]               <- S3_DesembDesc_0721
+  dat$captura_edad[nyears,] <- S4_CompEdadFlota0721
+  dat$NMs                   <- S7_tamañomuestra0721
+  
+  writeData(paste(admb,"s",4,".dat",sep=""), dat, append=FALSE)
+  
+  #--------------
+  # escenario 5: Actualiza pesos medios e iniciales a la edad 2020/21
+  #--------------
+  dat<- data
+  dat$Ind[,8]               <- S3_DesembDesc_0721
+  dat$captura_edad[nyears,] <- S4_CompEdadFlota0721
+  dat$NMs                   <- S7_tamañomuestra0721
+  dat$Wmed[nyears,]         <- S5_PesosMed0721
+  dat$Wini[nyears,]         <- S5_PesosIni0721
+  
+  writeData(paste(admb,"s",5,".dat",sep=""), dat, append=FALSE)
+  
+  #--------------
+  # escenario 6: Actualiza biomasa crucero acústico de otoño 2021 
+  #--------------
+  dat<- data
+  dat$Ind[,8]               <- S3_DesembDesc_0721
+  dat$captura_edad[nyears,] <- S4_CompEdadFlota0721
+  dat$NMs                   <- S7_tamañomuestra0721
+  dat$Wmed[nyears,]         <- S5_PesosMed0721
+  dat$Wini[nyears,]         <- S5_PesosIni0721
+  
+  dat$Ind[nyears,4]         <- S6_BioCruMayo21
+  
+  writeData(paste(admb,"s",6,".dat",sep=""), dat, append=FALSE)
+  
+  #--------------
+  # escenario 7: Actualiza composición de edad crucero acústico de otoño 2021
+  #--------------
+  dat<- data
+  dat$Ind[,8]               <- S3_DesembDesc_0721
+  dat$captura_edad[nyears,] <- S4_CompEdadFlota0721
+  dat$NMs                   <- S7_tamañomuestra0721
+  dat$Wmed[nyears,]         <- S5_PesosMed0721
+  dat$Wini[nyears,]         <- S5_PesosIni0721
+  
+  dat$Ind[nyears,4]         <- S6_BioCruMayo21
+  
+  dat$Pelaces_edad[nyears,] <- S7_CompEdadCruMayo21
+
+  
+  writeData(paste(admb,"s",7,".dat",sep=""), dat, append=FALSE)
+  
+  ###########################################################################
+  
+  
+  for(i in 1:7){
+  setwd(dir.1);  file.copy(c(paste(admb,".tpl",sep="")),dir)
+  setwd(dir);  file.rename(paste(admb,".tpl",sep=""),paste(admb,"s",i,".tpl",sep=""))
+  
+  if(system=="mac"){
+    system(paste("~/admb-12.2/admb ",admb,"s",i,sep=""))
+    system(paste("./",admb,"s",i,sep="")) }
+  
+  if(system=="windows"){
+    system(paste("admb ",admb,"s",i,sep=""))
+    system(paste(admb,"s",i,sep="")) }
+  
+  file.remove(paste(admb,"s",i,".htp", sep=""),
+              paste(admb,"s",i,".cpp", sep=""),
+              paste(admb,"s",i,".obj", sep=""),
+              paste(admb,"s",i,".p01", sep=""),
+              paste(admb,"s",i,".b01", sep=""),
+              paste(admb,"s",i,".r01", sep=""),
+              paste(admb,"s",i,".p02", sep=""),
+              paste(admb,"s",i,".b02", sep=""),
+              paste(admb,"s",i,".r02", sep=""),
+              paste(admb,"s",i,".p03", sep=""),
+              paste(admb,"s",i,".b03", sep=""),
+              paste(admb,"s",i,".r03", sep=""),
+              paste(admb,"s",i,".p04", sep=""),
+              paste(admb,"s",i,".b04", sep=""),
+              paste(admb,"s",i,".r04", sep=""),
+              paste(admb,"s",i,".p05", sep=""),
+              paste(admb,"s",i,".b05", sep=""),
+              paste(admb,"s",i,".r05", sep=""),
+              paste(admb,"s",i,".p06", sep=""),
+              paste(admb,"s",i,".b06", sep=""),
+              paste(admb,"s",i,".r06", sep=""),
+              paste(admb,"s",i,".p07", sep=""),
+              paste(admb,"s",i,".b07", sep=""),
+              paste(admb,"s",i,".r07", sep=""),
+              paste(admb,"s",i,".p08", sep=""),
+              paste(admb,"s",i,".b08", sep=""),
+              paste(admb,"s",i,".r08", sep=""),
+              paste(admb,"s",i,".p09", sep=""),
+              paste(admb,"s",i,".b09", sep=""),
+              paste(admb,"s",i,".r09", sep=""),
+              paste(admb,"s",i,".p10", sep=""),
+              paste(admb,"s",i,".b10", sep=""),
+              paste(admb,"s",i,".r10", sep=""),
+              paste(admb,"s",i,".p11", sep=""),
+              paste(admb,"s",i,".b11", sep=""),
+              paste(admb,"s",i,".r11", sep=""),
+              paste(admb,"s",i,".p12", sep=""),
+              paste(admb,"s",i,".b12", sep=""),
+              paste(admb,"s",i,".r12", sep=""),
+              paste(admb,"s",i,".par", sep=""),
+              paste(admb,"s",i,".bar", sep=""),
+              paste(admb,"s",i,".eva", sep=""),
+              paste(admb,"s",i,".cor", sep=""),
+              paste(admb,"s",i,".log", sep=""),
+              paste(admb,"s",i,".tpl", sep=""),
+              paste(admb,"s",i,".exe", sep=""))
+  
+  }
+  
+```
+
+
+
+```{r variables,echo=T}
+
+Carpeta<-"/Sensibilidad_update"
+  dir<-paste(dir.0,Carpeta,sep="")
+
+setwd(dir)
+admb<-"MAE0321b"
+#######################################################################################
+
+years       <- rep3$years
+nyears      <- length(years)
+retros      <- seq(1,7)
+nretros     <- length(retros)
+
+                      
+retroR        <- matrix(0,nrow=nyears,ncol=nretros)
+retroBD       <- matrix(0,nrow=nyears,ncol=nretros)
+retroBT       <- matrix(0,nrow=nyears,ncol=nretros)
+retroF        <- matrix(0,nrow=nyears,ncol=nretros)
+retroBD_BDrms <- matrix(0,nrow=nyears,ncol=nretros)
+
+for(i in 1:(nretros)){
+  rep <- reptoRlist(paste(admb,"s",i,".rep",sep=""))
+  retroR[,i]         <- c(rep$Reclutas)
+  retroBD[,i]        <- c(rep$SSB)
+  retroBT[,i]        <- c(rep$BT)
+  retroF[,i]         <- c(rep$Ftot) 
+  retroBD_BDrms[,i]  <- c(rep$BD_Brms) 
+ }
+
+# Diferencia relativa con caso base actual 
+    rel.diff.r        <- matrix(NA, nrow=nyears, ncol=(nretros))
+    rel.diff.ssb      <- matrix(NA, nrow=nyears, ncol=(nretros))
+    rel.diff.bt       <- matrix(NA, nrow=nyears, ncol=(nretros))
+    rel.diff.f        <- matrix(NA, nrow=nyears, ncol=(nretros))
+    rel.diff.bd_bdrms <- matrix(NA, nrow=nyears, ncol=(nretros))
+    
+    for(j in 1:nretros){
+      rel.diff.r[,j]          <- (retroR[,(j)]-retroR[,1])/retroR[,1]
+      rel.diff.ssb[,j]        <- (retroBD[,(j)]-retroBD[,1])/retroBD[,1]
+      rel.diff.bt[,j]         <- (retroBT[,(j)]-retroBT[,1])/retroBT[,1]
+      rel.diff.f[,j]          <- (retroF[,(j)]-retroF[,1])/retroF[,1]
+      rel.diff.bd_bdrms[,j]   <- (retroBD_BDrms[,(j)]-retroBD_BDrms[,1])/retroBD_BDrms[,1]
+    }
+    
+    
+```
+
+
+
+```{r}
+
+datR <- data.frame(years=years,
+                   S1=rel.diff.r[,1],
+                   S2=rel.diff.r[,2],
+                   S3=rel.diff.r[,3],
+                   S4=rel.diff.r[,4],
+                   S5=rel.diff.r[,5],
+                   S6=rel.diff.r[,6],
+                   S7=rel.diff.r[,7])%>% 
+         mutate(Series=rep("Reclutamientos",nyears))%>%
+         melt(id.var=c('years', 'Series'))
+
+datBT <- data.frame(years=years,
+                   S1=rel.diff.bt[,1],
+                   S2=rel.diff.bt[,2],
+                   S3=rel.diff.bt[,3],
+                   S4=rel.diff.bt[,4],
+                   S5=rel.diff.bt[,5],
+                   S6=rel.diff.bt[,6],
+                   S7=rel.diff.bt[,7])%>% 
+         mutate(Series=rep("Biomasa_total",nyears))%>%
+         melt(id.var=c('years', 'Series'))
+
+datBD <- data.frame(years=years,
+                   S1=rel.diff.ssb[,1],
+                   S2=rel.diff.ssb[,2],
+                   S3=rel.diff.ssb[,3],
+                   S4=rel.diff.ssb[,4],
+                   S5=rel.diff.ssb[,5],
+                   S6=rel.diff.ssb[,6],
+                   S7=rel.diff.ssb[,7])%>% 
+         mutate(Series=rep("Biomasa_desovante",nyears))%>%
+         melt(id.var=c('years', 'Series'))
+
+datF <- data.frame(years=years,
+                   S1=rel.diff.f[,1],
+                   S2=rel.diff.f[,2],
+                   S3=rel.diff.f[,3],
+                   S4=rel.diff.f[,4],
+                   S5=rel.diff.f[,5],
+                   S6=rel.diff.f[,6],
+                   S7=rel.diff.f[,7])%>% 
+         mutate(Series=rep("Mortalidad_por_pesca",nyears))%>%
+         melt(id.var=c('years', 'Series'))
+
+data <- data.frame(rbind(datR,datBT,datBD,datF)) 
+
+
+
+```
+
+
+```{r Fig4_anexoI,echo=T, message=FALSE, warning=FALSE, include=T, fig.align="center", fig.height=6, fig.width=8,fig.path=dir.Fig,dev=fig}
+#######################################################################################
+# GRAFICAS
+#######################################################################################
+f1<- ggplot(data %>% filter(Series=="Reclutamientos"),
+            aes(years,value)) +   ylim(-0.50, 0.50) + 
+     geom_line(aes(colour=variable), size=0.3)+
+     labs(x = '', y = 'Diferencia relativa',colour='Asesorías')  +
+     scale_x_continuous(breaks = seq(from = 1990, to = 2022, by = 5)) +
+     scale_colour_manual(values=seq(1,7,1))+
+     theme_bw(base_size=9) + 
+     ggtitle('Reclutamientos')+
+     theme(plot.title = element_text(hjust = 0.5),legend.position="none")
+
+f2<- ggplot(data %>% filter(Series=="Biomasa_total"),
+            aes(years,value)) +   ylim(-0.50, 0.50) + 
+     geom_line(aes(colour=variable), size=0.3)+
+     labs(x = '', y = 'Diferencia relativa',colour='Asesorías')  +
+     scale_x_continuous(breaks = seq(from = 1990, to = 2022, by = 5)) +
+     scale_colour_manual(values=seq(1,7,1))+
+     theme_bw(base_size=9) + 
+     ggtitle('Biomasa total')+
+     theme(plot.title = element_text(hjust = 0.5),legend.position="none")
+
+f3<- ggplot(data %>% filter(Series=="Biomasa_desovante"),
+            aes(years,value)) +   ylim(-0.50, 0.50) + 
+     geom_line(aes(colour=variable), size=0.3)+
+     labs(x = '', y = 'Diferencia relativa',colour='Asesorías')  +
+     scale_x_continuous(breaks = seq(from = 1990, to = 2022, by = 5)) +
+     scale_colour_manual(values=seq(1,7,1))+
+     theme_bw(base_size=9) + 
+     ggtitle('Biomasa desovante')+
+     theme(plot.title = element_text(hjust = 0.5),legend.position="left")
+
+f4<- ggplot(data %>% filter(Series=="Mortalidad_por_pesca"),
+            aes(years,value)) +
+      ylim(-0.50, 0.50) + 
+     geom_line(aes(colour=variable), size=0.3)+
+     labs(x = '', y = 'Diferencia relativa',colour='Asesorías')  +
+     scale_x_continuous(breaks = seq(from = 1990, to = 2022, by = 5)) +
+     scale_colour_manual(values=seq(1,7,1))+
+     theme_bw(base_size=9) + 
+     ggtitle('Mortalidad por pesca')+
+     theme(plot.title = element_text(hjust = 0.5),legend.position="none")
+
+(f1/f2) | (f3/f4)
+```
+
+```{r tabla1,echo=T}
+
+kable(data.frame(indicador=rep("Rt",nyears),years=years,retroR))
+
+```
+
+```{r tabla1.1,echo=T}
+
+kable(data.frame(indicador=rep("Rt.diff",nyears),years=years,round(rel.diff.r,2)))
+
+```
+
+
+```{r tabla2,echo=T}
+
+kable(data.frame(indicador=rep("BT",nyears),years=years,retroBT))
+
+```
+
+
+```{r tabla3,echo=T}
+
+kable(data.frame(indicador=rep("BD",nyears),years=years,retroBD))
+
+```
+
+```{r tabla3.1,echo=T}
+
+kable(data.frame(indicador=rep("BD.diff",nyears),years=years,round(rel.diff.ssb,2)))
+
+```
+
+
+```{r tabla4,echo=T}
+
+kable(data.frame(indicador=rep("F",nyears),years=years,retroF))
+
+```
+
+```{r tabla4.1,echo=T}
+
+kable(data.frame(indicador=rep("F.diff",nyears),years=years,round(rel.diff.f,2)))
+
+```
+
+
+```{r tabla5,echo=T}
+
+kable(data.frame(indicador=rep("BD_BDrms",nyears),years=years,retroBD_BDrms))
+
+```
+
+
+```{r tabla5.1,echo=T}
+kable(data.frame(indicador=rep("BD_BDrms.diff",nyears),years=years,round(rel.diff.bd_bdrms,2)))
+
+```
+
+
+```{r tabla6,echo=T}
+kable(base1)
+
+```
+
+
+
