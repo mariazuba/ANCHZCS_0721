@@ -2962,12 +2962,20 @@ text(1.7,1.9,pF[i],cex=0.8,col=1)
 
 ```
 
+
+
+## Proyección Estatus 2022 - Asesoría marzo 2021
+
 ```{r Tabla_25a,eval=T, warning=F, include=T, message=F, echo=FALSE}
 source(paste(dir.fun,"Fn_Estatus_proy.R",sep=""))
 setwd(paste(dir.0,"/CBA_marzo",sep=""))
 mfyr<-c(11,21,31)
 escR<-"1997-2009"
-Estatusproy_sept("MAE0321b",mfyr,escR,year1="2019/20",year2="2020/21",year3="2021/22")
+Estatusproy_marzo("MAE0321b",
+                 mfyr,
+                 escR,
+                 year2="2020/21",
+                 year3="2021/22")
 ```
 
 \vspace{-0.7cm}
@@ -2976,7 +2984,11 @@ Estatusproy_sept("MAE0321b",mfyr,escR,year1="2019/20",year2="2020/21",year3="202
 setwd(paste(dir.0,"/CBA_marzo",sep=""))
 mfyr<-c(12,22,32)
 escR<-"histórico"
-Estatusproy_sept("MAE0321b",mfyr,escR,year1="2019/20",year2="2020/21",year3="2021/22")
+Estatusproy_marzo("MAE0321b",
+                 mfyr,
+                 escR,
+                 year2="2020/21",
+                 year3="2021/22")
 ```
 
 \vspace{-0.7cm}
@@ -2985,7 +2997,11 @@ Estatusproy_sept("MAE0321b",mfyr,escR,year1="2019/20",year2="2020/21",year3="202
 setwd(paste(dir.0,"/CBA_marzo",sep=""))
 mfyr<-c(13,23,33)
 escR<-"2010 - 2021"
-Estatusproy_sept("MAE0321b",mfyr,escR,year1="2019/20",year2="2020/21",year3="2021/22")
+Estatusproy_marzo("MAE0321b",
+                 mfyr,
+                 escR,
+                 year2="2020/21",
+                 year3="2021/22")
 ```
 
 
@@ -3026,7 +3042,7 @@ escR<-c(rep("Reclprom 1997-2009",1), rep("Reclprom histórico",1),rep("Reclprom 
 pF<-rep(c("Frms*1","Frms*0.9","Frms*0.7"),3)
 n<-3
 nesc<-c(11,21,31)
-admb_sept<-"MAE0321b"
+admb_marzo<-"MAE0321b"
 mf<-c(1,0.9,0.7)
  
 
@@ -3035,17 +3051,29 @@ name<-escR[1]
 DiagramaFase_proy(name,years[24:25],SpB[24:25],SpBSE[24:25],ln_Fyr[24:25],ln_FSE[24:25],FRMS,BRMS,BLIM,FLIM,color=F,dir.0,etiqueta=F)
 
 setwd(paste(dir.0,"/CBA_marzo",sep=""))
-rep     <- reptoRlist(paste(admb_sept,nesc[i],".rep",sep=""))
-std     <- read.table(paste(admb_sept,nesc[i],".std",sep=""),header=T,sep="",na="NA",fill=T) 
+rep     <- reptoRlist(paste(admb_marzo,nesc[i],".rep",sep=""))
+std     <- read.table(paste(admb_marzo,nesc[i],".std",sep=""),header=T,sep="",na="NA",fill=T) 
 SpBp    <- subset(std,name=="BD_p0")$value[1]                              
 SpBSEp  <- subset(std,name=="BD_p0")$std[1]    
 Frmsp    <-FRMS*mf[i]
 
-lines(c(rprMARZO,SpBp[1]/BRMS),c(FrprMARZO,Frmsp/FRMS))
-points(c(SpB[24]/BRMS),c(exp(ln_Fyr[24])/FRMS),pch=19,col=c(2),cex=c(1))
-points(c(SpBp[1]/BRMS),c(Frmsp/FRMS),pch=19,col=c(3),cex=c(1))
-text((SpBp[1]/BRMS),c(Frmsp/FRMS-0.07),c("2021/22"),cex=c(0.8,0.8))
-text(c(SpB[1]/BRMS,SpB[nyears]/BRMS,SpB[nyears-1]/BRMS),c(Fyr[1]/FRMS-0.05,Fyr[nyears]/FRMS-0.05,Fyr[nyears-1]/FRMS+0.05),
+lines(c(rprMARZO,SpBp[1]/BRMS),
+      c(FrprMARZO,Frmsp/FRMS))
+points(c(SpB[24]/BRMS),
+       c(exp(ln_Fyr[24])/FRMS),
+       pch=19,col=c(2),cex=c(1))
+points(c(SpBp[1]/BRMS),
+       c(Frmsp/FRMS),
+       pch=19,col=c(3),cex=c(1))
+text((SpBp[1]/BRMS),
+     c(Frmsp/FRMS-0.07),
+     c("2021/22"),cex=c(0.8,0.8))
+text(c(SpB[1]/BRMS,
+       SpB[nyears]/BRMS,
+       SpB[nyears-1]/BRMS),
+     c(Fyr[1]/FRMS-0.05,
+       Fyr[nyears]/FRMS-0.05,
+       Fyr[nyears-1]/FRMS+0.05),
      c("1990/91","2020/21","2019/20"),cex=0.8)
 text(1.7,1.9,pF[i],cex=0.8,col=1)
 }
@@ -3063,29 +3091,61 @@ text(1.7,1.9,pF[i],cex=0.8,col=1)
 source(paste(dir.fun,"Fn_DiagramaFase_proy.R",sep=""))
 source(paste(dir.fun,"Fn_ProbEstatus_proy.R",sep=""))
 
-escR<-c(rep("Reclprom 1997-2009",1), rep("Reclprom histórico",1),rep("Reclprom 2010-2021",1))
-pF<-rep(c("Frms*1","Frms*0.9","Frms*0.7"),3)
+escR<-c(rep("Reclprom 1997-2009",1),
+        rep("Reclprom histórico",1),
+        rep("Reclprom 2010-2021",1))
+pF<-rep(c("Frms*1",
+          "Frms*0.9",
+          "Frms*0.7"),3)
 n<-3
 nesc<-c(12,22,32)
-admb_sept<-"MAE0321b"
+admb_marzo<-"MAE0321b"
 mf<-c(1,0.9,0.7)
  
 for(i in 1:n){
 name<-escR[2]
-DiagramaFase_proy(name,years[24:25],SpB[24:25],SpBSE[24:25],ln_Fyr[24:25],ln_FSE[24:25],FRMS,BRMS,BLIM,FLIM,color=F,dir.0,etiqueta=F)
+DiagramaFase_proy(name,
+                  years[24:25],
+                  SpB[24:25],
+                  SpBSE[24:25],
+                  ln_Fyr[24:25],
+                  ln_FSE[24:25],
+                  FRMS,
+                  BRMS,
+                  BLIM,
+                  FLIM,
+                  color=F,
+                  dir.0,
+                  etiqueta=F)
 
 setwd(paste(dir.0,"/CBA_marzo",sep=""))
-rep     <- reptoRlist(paste(admb_sept,nesc[i],".rep",sep=""))
-std     <- read.table(paste(admb_sept,nesc[i],".std",sep=""),header=T,sep="",na="NA",fill=T) 
+rep     <- reptoRlist(paste(admb_marzo,nesc[i],".rep",sep=""))
+std     <- read.table(paste(admb_marzo,nesc[i],".std",sep=""),header=T,sep="",na="NA",fill=T) 
 SpBp    <- subset(std,name=="BD_p0")$value[1]                              
 SpBSEp  <- subset(std,name=="BD_p0")$std[1]    
 Frmsp    <-FRMS*mf[i]
 
-lines(c(rprMARZO,SpBp[1]/BRMS),c(FrprMARZO,Frmsp/FRMS))
-points(c(SpB[24]/BRMS),c(exp(ln_Fyr[24])/FRMS),pch=19,col=c(2),cex=c(1))
-points(c(SpBp[1]/BRMS),c(Frmsp/FRMS),pch=19,col=c(3),cex=c(1))
-text((SpBp[1]/BRMS),c(Frmsp/FRMS-0.07),c("2021/22"),cex=c(0.8,0.8))
-text(c(SpB[1]/BRMS,SpB[nyears]/BRMS,SpB[nyears-1]/BRMS),c(Fyr[1]/FRMS-0.05,Fyr[nyears]/FRMS-0.05,Fyr[nyears-1]/FRMS+0.05),
+lines(c(rprMARZO,SpBp[1]/BRMS),
+      c(FrprMARZO,Frmsp/FRMS))
+
+points(c(SpB[24]/BRMS),
+       c(exp(ln_Fyr[24])/FRMS),
+       pch=19,col=c(2),cex=c(1))
+
+points(c(SpBp[1]/BRMS),
+       c(Frmsp/FRMS),
+       pch=19,col=c(3),cex=c(1))
+
+text((SpBp[1]/BRMS),
+     c(Frmsp/FRMS-0.07),
+     c("2021/22"),cex=c(0.8,0.8))
+
+text(c(SpB[1]/BRMS,
+       SpB[nyears]/BRMS,
+       SpB[nyears-1]/BRMS),
+     c(Fyr[1]/FRMS-0.05,
+       Fyr[nyears]/FRMS-0.05,
+       Fyr[nyears-1]/FRMS+0.05),
      c("1990/91","2020/21","2019/20"),cex=0.8)
 text(1.7,1.9,pF[i],cex=0.8,col=1)
 }
@@ -3103,29 +3163,355 @@ text(1.7,1.9,pF[i],cex=0.8,col=1)
 source(paste(dir.fun,"Fn_DiagramaFase_proy.R",sep=""))
 source(paste(dir.fun,"Fn_ProbEstatus_proy.R",sep=""))
 
-escR<-c(rep("Reclprom 1997-2009",1), rep("Reclprom histórico",1),rep("Reclprom 2010-2021",1))
-pF<-rep(c("Frms*1","Frms*0.9","Frms*0.7"),3)
+escR<-c(rep("Reclprom 1997-2009",1), 
+        rep("Reclprom histórico",1),
+        rep("Reclprom 2010-2021",1))
+pF<-rep(c("Frms*1",
+          "Frms*0.9",
+          "Frms*0.7"),3)
 n<-3
 nesc<-c(13,23,33)
-admb_sept<-"MAE0321b"
+admb_marzo<-"MAE0321b"
 mf<-c(1,0.9,0.7)
  
 for(i in 1:n){
 name<-escR[3]
-DiagramaFase_proy(name,years[24:25],SpB[24:25],SpBSE[24:25],ln_Fyr[24:25],ln_FSE[24:25],FRMS,BRMS,BLIM,FLIM,color=F,dir.0,etiqueta=F)
+DiagramaFase_proy(name,
+                  years[24:25],
+                  SpB[24:25],
+                  SpBSE[24:25],
+                  ln_Fyr[24:25],
+                  ln_FSE[24:25],
+                  FRMS,
+                  BRMS,
+                  BLIM,
+                  FLIM,
+                  color=F,
+                  dir.0,
+                  etiqueta=F)
 
 setwd(paste(dir.0,"/CBA_marzo",sep=""))
-rep     <- reptoRlist(paste(admb_sept,nesc[i],".rep",sep=""))
-std     <- read.table(paste(admb_sept,nesc[i],".std",sep=""),header=T,sep="",na="NA",fill=T) 
+rep     <- reptoRlist(paste(admb_marzo,nesc[i],".rep",sep=""))
+std     <- read.table(paste(admb_marzo,nesc[i],".std",sep=""),header=T,sep="",na="NA",fill=T) 
 SpBp    <- subset(std,name=="BD_p0")$value[1]                              
 SpBSEp  <- subset(std,name=="BD_p0")$std[1]    
 Frmsp    <-FRMS*mf[i]
 
-lines(c(rprMARZO,SpBp[1]/BRMS),c(FrprMARZO,Frmsp/FRMS))
-points(c(SpB[24]/BRMS),c(exp(ln_Fyr[24])/FRMS),pch=19,col=c(2),cex=c(1))
-points(c(SpBp[1]/BRMS),c(Frmsp/FRMS),pch=19,col=c(3),cex=c(1))
-text((SpBp[1]/BRMS),c(Frmsp/FRMS-0.07),c("2021/22"),cex=c(0.8,0.8))
-text(c(SpB[1]/BRMS,SpB[nyears]/BRMS,SpB[nyears-1]/BRMS),c(Fyr[1]/FRMS-0.05,Fyr[nyears]/FRMS-0.05,Fyr[nyears-1]/FRMS+0.05),
+lines(c(rprMARZO,SpBp[1]/BRMS),
+      c(FrprMARZO,Frmsp/FRMS))
+
+points(c(SpB[24]/BRMS),
+       c(exp(ln_Fyr[24])/FRMS),
+       pch=19,col=c(2),cex=c(1))
+
+points(c(SpBp[1]/BRMS),
+       c(Frmsp/FRMS),
+       pch=19,col=c(3),cex=c(1))
+
+text((SpBp[1]/BRMS),
+     c(Frmsp/FRMS-0.07),
+     c("2021/22"),
+     cex=c(0.8,0.8))
+text(c(SpB[1]/BRMS,
+       SpB[nyears]/BRMS,
+       SpB[nyears-1]/BRMS),
+     c(Fyr[1]/FRMS-0.05,
+       Fyr[nyears]/FRMS-0.05,
+       Fyr[nyears-1]/FRMS+0.05),
+     c("1990/91","2020/21","2019/20"),cex=0.8)
+text(1.7,1.9,pF[i],cex=0.8,col=1)
+}
+
+#setwd(paste(dir.0,"/CBA_sept",sep=""))
+#pF<-c("Frms*1","Frms*0.9","Frms*0.7")
+#nesc<-c(13,23,33)
+#ProbEstatusproy_sept("MAE0920b",nesc,name,pF,nyears=nyears1)
+#name<-"Reclprom 2010 -2020"
+
+```
+
+
+
+
+## Proyección Estatus 2022 - Asesoría julio 2021
+
+```{r Tabla_26a,eval=T, warning=F, include=T, message=F, echo=FALSE}
+source(paste(dir.fun,"Fn_Estatus_proy.R",sep=""))
+setwd(paste(dir.0,"/CBA_julio",sep=""))
+mfyr<-c(11,21,31)
+escR<-"1997-2009"
+Estatusproy_marzo("MAE0721b",
+                 mfyr,
+                 escR,
+                 year2="2020/21",
+                 year3="2021/22")
+```
+
+\vspace{-0.7cm}
+
+```{r Tabla_26b, warning=F, include=T, message=F, echo=FALSE,eval=T}
+setwd(paste(dir.0,"/CBA_julio",sep=""))
+mfyr<-c(12,22,32)
+escR<-"histórico"
+Estatusproy_marzo("MAE0721b",
+                  mfyr,
+                  escR,
+                  year2="2020/21",
+                  year3="2021/22")
+```
+
+\vspace{-0.7cm}
+
+```{r Tabla_26c, warning=F, include=T, message=F, echo=FALSE,eval=T}
+setwd(paste(dir.0,"/CBA_julio",sep=""))
+mfyr<-c(13,23,33)
+escR<-"2010 - 2021"
+Estatusproy_marzo("MAE0721b",
+                 mfyr,
+                 escR,
+                 year2="2020/21",
+                 year3="2021/22")
+```
+
+
+\pagebreak
+
+```{r DFproy_julio2021,warning=F, include=T, message=F, echo=FALSE,eval=T}
+setwd(paste(dir.0,"/CBA_julio",sep=""))
+
+#source("C:\\MJZ\\CTP2020\\ANCHOVETA\\Salidas\\funciones\\Fn_DiagramaFaseproy.R")
+
+admb_julio<-"MAE0721b"
+data1        <- lisread(paste(admb_julio,".dat",sep=""))#lee los datos de la ultima evaluacion
+names(data1) <- str_trim(names(data1), side="right")
+dat1         <- data1
+rep1         <- reptoRlist(paste(admb_julio,".rep",sep=""))
+std1         <- read.table(paste(admb_julio,".std",sep=""),header=T,sep="",na="NA",fill=T)  
+
+years      <- dat1$Ind[,1]                                                              
+nyears     <- dat1$nanos   
+Bo         <- rep1$SSBpbr[1]                         # Paso 4: Obtención de Bo
+BRMS       <- rep1$SSBpbr[3]                         # Paso 5: Obtención de Brms = 60%SPRo = 55%Bo
+FRMS       <- rep1$Fs[2]
+BLIM       <- Bo*0.275                              # Paso 6: Obtención de Blim = 20%Bo 
+FLIM       <- rep1$Fs[3]                             # Paso 6: Obtención de Flim = 30%SPRo
+SpB        <- subset(std1,name=="SSB")$value                                # BD serie histórica de evaluación de stock 
+SpBSE      <- subset(std1,name=="SSB")$std                           # desviación estandar BD
+ln_Fyr     <- subset(std1,name=="log_Ft")$value                                # logaritmo de Ft
+ln_FSE     <- subset(std1,name=="log_Ft")$std                                 # logaritmo de la desviación standar de Ft
+Fyr        <- exp(subset(std1,name=="log_Ft")$value)
+
+```
+
+
+
+```{r Fig52, eval=T, warning=F, include=T, message=F, echo=FALSE,fig.height=2.3,fig.width=2.2,fig.path=dir.Fig,dev=fig}
+
+source(paste(dir.fun,"Fn_DiagramaFase_proy.R",sep=""))
+source(paste(dir.fun,"Fn_ProbEstatus_proy.R",sep=""))
+
+escR<-c(rep("Reclprom 1997-2009",1), 
+        rep("Reclprom histórico",1),
+        rep("Reclprom 2010-2021",1))
+pF<-rep(c("Frms*1",
+          "Frms*0.9",
+          "Frms*0.7"),3)
+n<-3
+nesc<-c(11,21,31)
+admb_julio<-"MAE0721b"
+mf<-c(1,0.9,0.7)
+ 
+
+for(i in 1:n){
+name<-escR[1]
+DiagramaFase_proy(name,years[24:25],
+                  SpB[24:25],
+                  SpBSE[24:25],
+                  ln_Fyr[24:25],
+                  ln_FSE[24:25],
+                  FRMS,
+                  BRMS,
+                  BLIM,
+                  FLIM,
+                  color=F,
+                  dir.0,
+                  etiqueta=F)
+
+setwd(paste(dir.0,"/CBA_julio",sep=""))
+rep     <- reptoRlist(paste(admb_julio,nesc[i],".rep",sep=""))
+std     <- read.table(paste(admb_julio,nesc[i],".std",sep=""),header=T,sep="",na="NA",fill=T) 
+SpBp    <- subset(std,name=="BD_p0")$value[1]                              
+SpBSEp  <- subset(std,name=="BD_p0")$std[1]    
+Frmsp    <-FRMS*mf[i]
+
+lines(c(rprJULIO,SpBp[1]/BRMS),
+      c(FrprJULIO,Frmsp/FRMS))
+
+points(c(SpB[24]/BRMS),
+       c(exp(ln_Fyr[24])/FRMS),
+       pch=19,col=c(2),cex=c(1))
+
+points(c(SpBp[1]/BRMS),
+       c(Frmsp/FRMS),
+       pch=19,col=c(3),cex=c(1))
+
+text((SpBp[1]/BRMS),
+     c(Frmsp/FRMS-0.07),
+     c("2021/22"),
+     cex=c(0.8,0.8))
+
+text(c(SpB[1]/BRMS,
+       SpB[nyears]/BRMS,
+       SpB[nyears-1]/BRMS),
+     c(Fyr[1]/FRMS-0.05,
+       Fyr[nyears]/FRMS-0.05,
+       Fyr[nyears-1]/FRMS+0.05),
+     c("1990/91","2020/21","2019/20"),cex=0.8)
+text(1.7,1.9,pF[i],cex=0.8,col=1)
+}
+
+#setwd(paste(dir.0,"/CBA_sept",sep=""))
+#pF<-c("Frms*1","Frms*0.9","Frms*0.7")
+#nesc<-c(11,21,31)
+#name<-"Reclprom 1997-2009"
+#ProbEstatusproy_sept("MAE0920b",nesc,name,pF,nyears=nyears1)
+
+```
+
+```{r Fig53, eval=T, warning=F, include=T, message=F, echo=FALSE,fig.height=2.3,fig.width=2.2,fig.path=dir.Fig,dev=fig}
+
+source(paste(dir.fun,"Fn_DiagramaFase_proy.R",sep=""))
+source(paste(dir.fun,"Fn_ProbEstatus_proy.R",sep=""))
+
+escR<-c(rep("Reclprom 1997-2009",1), 
+        rep("Reclprom histórico",1),
+        rep("Reclprom 2010-2021",1))
+pF<-rep(c("Frms*1",
+          "Frms*0.9",
+          "Frms*0.7"),3)
+n<-3
+nesc<-c(12,22,32)
+admb_julio<-"MAE0721b"
+mf<-c(1,0.9,0.7)
+ 
+for(i in 1:n){
+name<-escR[2]
+DiagramaFase_proy(name,
+                  years[24:25],
+                  SpB[24:25],
+                  SpBSE[24:25],
+                  ln_Fyr[24:25],
+                  ln_FSE[24:25],
+                  FRMS,
+                  BRMS,
+                  BLIM,
+                  FLIM,
+                  color=F,
+                  dir.0,
+                  etiqueta=F)
+
+setwd(paste(dir.0,"/CBA_julio",sep=""))
+rep     <- reptoRlist(paste(admb_julio,nesc[i],".rep",sep=""))
+std     <- read.table(paste(admb_julio,nesc[i],".std",sep=""),header=T,sep="",na="NA",fill=T) 
+SpBp    <- subset(std,name=="BD_p0")$value[1]                              
+SpBSEp  <- subset(std,name=="BD_p0")$std[1]    
+Frmsp    <-FRMS*mf[i]
+
+lines(c(rprJULIO,SpBp[1]/BRMS),
+      c(FrprJULIO,Frmsp/FRMS))
+
+points(c(SpB[24]/BRMS),
+       c(exp(ln_Fyr[24])/FRMS),
+       pch=19,col=c(2),cex=c(1))
+
+points(c(SpBp[1]/BRMS),
+       c(Frmsp/FRMS),
+       pch=19,col=c(3),cex=c(1))
+
+text((SpBp[1]/BRMS),
+     c(Frmsp/FRMS-0.07),
+     c("2021/22"),
+     cex=c(0.8,0.8))
+
+text(c(SpB[1]/BRMS,
+       SpB[nyears]/BRMS,
+       SpB[nyears-1]/BRMS),
+     c(Fyr[1]/FRMS-0.05,
+       Fyr[nyears]/FRMS-0.05,
+       Fyr[nyears-1]/FRMS+0.05),
+     c("1990/91","2020/21","2019/20"),cex=0.8)
+text(1.7,1.9,pF[i],cex=0.8,col=1)
+}
+
+#setwd(paste(dir.0,"/CBA_sept",sep=""))
+#pF<-c("Frms*1","Frms*0.9","Frms*0.7")
+#name<-"histórico"
+#nesc<-c(12,22,32)
+#ProbEstatusproy_sept("MAE0920b",nesc,name,pF,nyears=nyears1)
+
+```
+
+```{r Fig54, eval=T, warning=F, include=T, message=F, echo=FALSE,fig.height=2.3,fig.width=2.2,fig.path=dir.Fig,dev=fig}
+
+source(paste(dir.fun,"Fn_DiagramaFase_proy.R",sep=""))
+source(paste(dir.fun,"Fn_ProbEstatus_proy.R",sep=""))
+
+escR<-c(rep("Reclprom 1997-2009",1), 
+        rep("Reclprom histórico",1),
+        rep("Reclprom 2010-2021",1))
+
+pF<-rep(c("Frms*1",
+          "Frms*0.9",
+          "Frms*0.7"),3)
+n<-3
+nesc<-c(13,23,33)
+admb_julio<-"MAE0721b"
+mf<-c(1,0.9,0.7)
+ 
+for(i in 1:n){
+name<-escR[3]
+DiagramaFase_proy(name,
+                  years[24:25],
+                  SpB[24:25],
+                  SpBSE[24:25],
+                  ln_Fyr[24:25],
+                  ln_FSE[24:25],
+                  FRMS,
+                  BRMS,
+                  BLIM,
+                  FLIM,
+                  color=F,
+                  dir.0,
+                  etiqueta=F)
+
+setwd(paste(dir.0,"/CBA_julio",sep=""))
+rep     <- reptoRlist(paste(admb_julio,nesc[i],".rep",sep=""))
+std     <- read.table(paste(admb_julio,nesc[i],".std",sep=""),header=T,sep="",na="NA",fill=T) 
+SpBp    <- subset(std,name=="BD_p0")$value[1]                              
+SpBSEp  <- subset(std,name=="BD_p0")$std[1]    
+Frmsp    <-FRMS*mf[i]
+
+lines(c(rprJULIO,SpBp[1]/BRMS),
+      c(FrprJULIO,Frmsp/FRMS))
+
+points(c(SpB[24]/BRMS),
+       c(exp(ln_Fyr[24])/FRMS),
+       pch=19,col=c(2),cex=c(1))
+
+points(c(SpBp[1]/BRMS),
+       c(Frmsp/FRMS),
+       pch=19,col=c(3),cex=c(1))
+
+text((SpBp[1]/BRMS),
+     c(Frmsp/FRMS-0.07),
+     c("2021/22"),cex=c(0.8,0.8))
+
+text(c(SpB[1]/BRMS,
+       SpB[nyears]/BRMS,
+       SpB[nyears-1]/BRMS),
+     c(Fyr[1]/FRMS-0.05,
+       Fyr[nyears]/FRMS-0.05,
+       Fyr[nyears-1]/FRMS+0.05),
      c("1990/91","2020/21","2019/20"),cex=0.8)
 text(1.7,1.9,pF[i],cex=0.8,col=1)
 }
