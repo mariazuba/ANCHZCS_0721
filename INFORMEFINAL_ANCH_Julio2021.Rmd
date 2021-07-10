@@ -2279,6 +2279,7 @@ En la primera sesión del CCT-PP 2021 (febrero 2021) se acordó utilizar un 2% d
 
 
 \pagebreak
+\normalsize
 
 ### 4.3.2. Proyección del stock (Asesoría de septiembre 2020)
 
@@ -2287,7 +2288,7 @@ En relación al estatus 2020/21, se proyectó el stock bajo tres escenarios recl
 ```{=tex}
 
 \begin{table}[h!]
-\caption{Incertidumbre del estatus previo 2018/19, actual 2019/20 y proyectado 2020/21 bajo tres escenarios de reclutamiento y ponderadores de $F_{RMS}$}
+\caption{Incertidumbre del estatus previo 2018/19, actual 2019/20 y proyectado 2020/21 bajo tres escenarios de reclutamiento y ponderadores de $F_{RMS}$. \textbf{Asesoría de septiembre 2020}.}
  \label{Tab33}
  \small
     \centering
@@ -2296,23 +2297,23 @@ En relación al estatus 2020/21, se proyectó el stock bajo tres escenarios recl
     \hline \rowcolor{Gray3}
 Escenario       & Año         & Probabilidad de  & $F_{RMS}*1,0$ & $F_{RMS}*0,9$ & $F_{RMS}*0,7$ \\  \rowcolor{Gray3}
 Reclutamiento   & biológico   &  Estatus         &               &               &                \\ \hline
-\multirow{6}{1cm}{$R_{1997-2009}$} & \multirow{2}{1cm}{2019/20} &$p(sobre-explotación)$   & 0,94    & 0,94    & 0,94 \\
+\multirow{6}{1cm}{$R_{1997-2009}$} & \multirow{2}{1cm}{2018/19} &$p(sobre-explotación)$   & 0,94    & 0,94    & 0,94 \\
                 &             & $p(colapso)$     & 0,02          & 0,02  & 0,02 \\ 
-                & \multirow{2}{1cm}{2020/21} & $p(sobre-explotación)$    & 0,24   & 0,24  & 0,24 \\
+                & \multirow{2}{1cm}{2019/20} & $p(sobre-explotación)$    & 0,24   & 0,24  & 0,24 \\
                 &             & $p(colapso)$     & 0,00          & 0,00  & 0,00 \\ 
-                & \multirow{2}{1cm}{2021/22} & $p(sobre-explotación)$    & 0,04   & 0,04  & 0,03 \\
+                & \multirow{2}{1cm}{2020/21} & $p(sobre-explotación)$    & 0,04   & 0,04  & 0,03 \\
                 &             & $p(colapso)$     & 0,00          & 0,00  & 0,00 \\ \hline
-\multirow{6}{1cm}{$R_{histórico}$} & \multirow{2}{1cm}{2019/20} &$p(sobre-explotación)$   & 0,94    & 0,94    & 0,94 \\
+\multirow{6}{1cm}{$R_{histórico}$} & \multirow{2}{1cm}{2018/19} &$p(sobre-explotación)$   & 0,94    & 0,94    & 0,94 \\
                 &             & $p(colapso)$     & 0,02          & 0,02  & 0,02 \\ 
-                & \multirow{2}{1cm}{2020/21} & $p(sobre-explotación)$    & 0,24   & 0,24  & 0,24 \\
+                & \multirow{2}{1cm}{2019/20} & $p(sobre-explotación)$    & 0,24   & 0,24  & 0,24 \\
                 &             & $p(colapso)$     & 0,00          & 0,00  & 0,00 \\ 
-                & \multirow{2}{1cm}{2021/22} & $p(sobre-explotación)$    & 0,04   & 0,04  & 0,04 \\
+                & \multirow{2}{1cm}{2020/21} & $p(sobre-explotación)$    & 0,04   & 0,04  & 0,04 \\
                 &             & $p(colapso)$     & 0,00          & 0,00  & 0,00 \\ \hline
-\multirow{6}{1cm}{$R_{2010-2020}$} & \multirow{2}{1cm}{2019/20} &$p(sobre-explotación)$   & 0,94    & 0,94    & 0,94 \\
+\multirow{6}{1cm}{$R_{2010-2020}$} & \multirow{2}{1cm}{2018/19} &$p(sobre-explotación)$   & 0,94    & 0,94    & 0,94 \\
                 &             & $p(colapso)$     & 0,02          & 0,02  & 0,02 \\ 
-                & \multirow{2}{1cm}{2020/21} & $p(sobre-explotación)$    & 0,24   & 0,24  & 0,24 \\
+                & \multirow{2}{1cm}{2019/20} & $p(sobre-explotación)$    & 0,24   & 0,24  & 0,24 \\
                 &             & $p(colapso)$     & 0,00          & 0,00  & 0,00 \\ 
-                & \multirow{2}{1cm}{2021/22} & $p(sobre-explotación)$    & 0,05   & 0,05  & 0,05 \\
+                & \multirow{2}{1cm}{2020/21} & $p(sobre-explotación)$    & 0,05   & 0,05  & 0,05 \\
                 &             & $p(colapso)$     & 0,00          & 0,00  & 0,00 \\ \hline
   \end{tabular}}
         \end{table}
@@ -2334,16 +2335,24 @@ Reclutamiento   & biológico   &  Estatus         &               &             
 ```{=tex}
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.45\textwidth]{Figuras/Fig46-1.pdf}
-\includegraphics[width=0.45\textwidth]{Figuras/Fig47-1.pdf}
-\includegraphics[width=0.45\textwidth]{Figuras/Fig48-1.pdf}
-\caption{Diagramas de fases de explotación de la biomasa desovante respecto de la mortalidad por pesca mostrando el estatus de anchoveta centro-sur para el año previo 2018/19 (punto rojo), año actual 2019/20 (punto y cruz naranjo) y año proyectado 2020/21 (punto verde) bajo un escenario de reclutamiento promedio bajo [1997-2009] (panel superior), reclutamiento promedio histórico [1997-2020] (panel intermedio), reclutamiento promedio reciente [2010-2020] (panel inferior) y ponderadores de F~RMS~ (1,0.9 y 0.7).}
+\includegraphics[width=0.3\textwidth]{Figuras/Fig46-1.pdf}
+\includegraphics[width=0.3\textwidth]{Figuras/Fig46-2.pdf}
+\includegraphics[width=0.3\textwidth]{Figuras/Fig46-3.pdf}
+\includegraphics[width=0.3\textwidth]{Figuras/Fig47-1.pdf}
+\includegraphics[width=0.3\textwidth]{Figuras/Fig47-2.pdf}
+\includegraphics[width=0.3\textwidth]{Figuras/Fig47-3.pdf}
+\includegraphics[width=0.3\textwidth]{Figuras/Fig48-1.pdf}
+\includegraphics[width=0.3\textwidth]{Figuras/Fig48-2.pdf}
+\includegraphics[width=0.3\textwidth]{Figuras/Fig48-3.pdf}
+\caption{Diagramas de fases de explotación de la biomasa desovante respecto de la mortalidad por pesca mostrando el estatus de anchoveta centro-sur para el año previo 2018/19 (punto rojo), año actual 2019/20 (punto y cruz naranjo) y año proyectado 2020/21 (punto verde) bajo un escenario de reclutamiento promedio bajo [1997-2009] (panel superior), reclutamiento promedio histórico [1997-2020] (panel intermedio), reclutamiento promedio reciente [2010-2020] (panel inferior) y ponderadores de $F_{RMS}$ (1; 0,9 y 0,7). \textbf{Asesoría de septiembre 2020}}
 \label{Fig39}
 \end{figure}
 ```
 
 
 \pagebreak
+\normalsize
+
 ### 4.3.3. Proyección del stock (Asesoría de marzo 2021)
 
 En relación al estatus 2020/21, en la asesoría anterior (septiembre 2020) la proyección mostraba una alta probabilidad (95%) de mantenerse en una condición de plena-explotación para el año 2020/21 (4% probabilidad de sobre-explotación y 0% probabilidad de colapso) (**Tabla 29**) independiente de los escenario de reclutamiento futuros y ponderadores de F~RMS~ (**Figuras 39**). El incremento de los reclutamientos 2018/19 y 2019/20 junto al aumento de la biomasa adulta (1+ años) de anchoveta centro-sur durante los dos años previos y la baja probabilidad de sobre-explotación y colapso generan un escenario favorable para el stock de anchoveta el próximo año. La primera actualización del estatus 2020/21 realizada en la actual asesoría (marzo 2021) con información del crucero de verano 2021, confirman una condición de plena-explotación (98% de probabilidad). Se espera que anchoveta se mantenga en una condición de plena-explotación para el año 2021/22, no obstante, dado la disminución del reclutamiento estimado para el 2021 en torno al reclutamiento promedio más reciente (bajos), la probabilidad de mantenerse en la condición de plena-explotación disminuye a un 86%.
@@ -2353,7 +2362,7 @@ En relación al estatus 2020/21, en la asesoría anterior (septiembre 2020) la p
 ```{=tex}
 
 \begin{table}[h!]
-\caption{Incertidumbre del estatus previo 2019/20, actual 2020/21 y proyectado 2021/22 bajo tres escenarios de reclutamiento y ponderadores de $F_{RMS}$}
+\caption{Incertidumbre del estatus actual 2020/21 y proyectado 2021/22 bajo tres escenarios de reclutamiento y ponderadores de $F_{RMS}$. \textbf{Asesoría de marzo 2021}.}
  \label{Tab34}
  \small
     \centering
@@ -2362,27 +2371,86 @@ En relación al estatus 2020/21, en la asesoría anterior (septiembre 2020) la p
     \hline \rowcolor{Gray3}
 Escenario       & Año         & Probabilidad de  & $F_{RMS}*1,0$ & $F_{RMS}*0,9$ & $F_{RMS}*0,7$ \\  \rowcolor{Gray3}
 Reclutamiento   & biológico   &  Estatus         &               &               &                \\ \hline
-\multirow{6}{1cm}{$R_{1997-2009}$} & \multirow{2}{1cm}{2018/19} &$p(sobre-explotación)$   & 0,32    & 0,32    & 0,32 \\
+\multirow{4}{1cm}{$R_{1997-2009}$} & \multirow{2}{1cm}{2020/21} &$p(sobre-explotación)$   & 0,02    & 0,02    & 0,02 \\
                 &             & $p(colapso)$     & 0,00          & 0,00  & 0,00 \\ 
-                & \multirow{2}{1cm}{2019/20} & $p(sobre-explotación)$    & 0,02   & 0,02  & 0,02 \\
-                &             & $p(colapso)$     & 0,00          & 0,00  & 0,00 \\ 
-                & \multirow{2}{1cm}{2020/21} & $p(sobre-explotación)$    & 0,11   & 0,11  & 0,10 \\
+                & \multirow{2}{1cm}{2021/22} & $p(sobre-explotación)$    & 0,11   & 0,11  & 0,10 \\
                 &             & $p(colapso)$     & 0,00          & 0,00  & 0,00 \\ \hline
-\multirow{6}{1cm}{$R_{histórico}$} & \multirow{2}{1cm}{2018/19} &$p(sobre-explotación)$   & 0,32    & 0,32    & 0,32 \\
+\multirow{4}{1cm}{$R_{histórico}$} & \multirow{2}{1cm}{2020/21} &$p(sobre-explotación)$   & 0,02    & 0,02    & 0,02 \\
                 &             & $p(colapso)$     & 0,00          & 0,00  & 0,00 \\ 
-                & \multirow{2}{1cm}{2019/20} & $p(sobre-explotación)$    & 0,02   & 0,02  & 0,02 \\
-                &             & $p(colapso)$     & 0,00          & 0,00  & 0,00 \\ 
-                & \multirow{2}{1cm}{2020/21} & $p(sobre-explotación)$    & 0,12   & 0,12  & 0,11 \\
+                & \multirow{2}{1cm}{2021/22} & $p(sobre-explotación)$    & 0,12   & 0,12  & 0,11 \\
                 &             & $p(colapso)$     & 0,00          & 0,00  & 0,00 \\ \hline
-\multirow{6}{1cm}{$R_{2010-2020}$} & \multirow{2}{1cm}{2018/19} &$p(sobre-explotación)$   & 0,32    & 0,32    & 0,32 \\
+\multirow{4}{1cm}{$R_{2010-2020}$} & \multirow{2}{1cm}{2020/21} &$p(sobre-explotación)$   & 0,02    & 0,02    & 0,02 \\
                 &             & $p(colapso)$     & 0,00          & 0,00  & 0,00 \\ 
-                & \multirow{2}{1cm}{2019/20} & $p(sobre-explotación)$    & 0,02   & 0,02  & 0,02 \\
-                &             & $p(colapso)$     & 0,00          & 0,00  & 0,00 \\ 
-                & \multirow{2}{1cm}{2020/21} & $p(sobre-explotación)$    & 0,14   & 0,14  & 0,13 \\
+                & \multirow{2}{1cm}{2021/22} & $p(sobre-explotación)$    & 0,14   & 0,14  & 0,13 \\
                 &             & $p(colapso)$     & 0,00          & 0,00  & 0,00 \\ \hline
   \end{tabular}}
         \end{table}
 ```
+
+```{=tex}
+\vspace{-0.3cm}
+\scriptsize
+```
+-   p[BD\<0,9BD~RMS~] = probabilidad de sobre-explotación
+-   p[BD\<0,5BD~RMS~] = probabilidad de colapso
+
+
+\pagebreak
+
+
+```{=tex}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.3\textwidth]{Figuras/Fig49-1.pdf}
+\includegraphics[width=0.3\textwidth]{Figuras/Fig49-2.pdf}
+\includegraphics[width=0.3\textwidth]{Figuras/Fig49-3.pdf}
+\includegraphics[width=0.3\textwidth]{Figuras/Fig50-1.pdf}
+\includegraphics[width=0.3\textwidth]{Figuras/Fig50-2.pdf}
+\includegraphics[width=0.3\textwidth]{Figuras/Fig50-3.pdf}
+\includegraphics[width=0.3\textwidth]{Figuras/Fig51-1.pdf}
+\includegraphics[width=0.3\textwidth]{Figuras/Fig51-2.pdf}
+\includegraphics[width=0.3\textwidth]{Figuras/Fig51-3.pdf}
+\caption{Diagramas de fases de explotación de la biomasa desovante respecto de la mortalidad por pesca mostrando el estatus de anchoveta centro-sur para el año previo 2019/20 (punto rojo), año actual 2020/21 (punto y cruz naranjo) y año proyectado 2021/22 (punto verde) bajo un escenario de reclutamiento promedio bajo [1997-2009] (panel superior), reclutamiento promedio histórico [1997-2020] (panel intermedio), reclutamiento promedio reciente [2010-2021] (panel inferior) y ponderadores de F~RMS~ (1; 0,9 y 0,7). \textbf{Asesoría de marzo 2021}.}
+\label{Fig39}
+\end{figure}
+```
+\normalsize
+\pagebreak
+
+### 4.3.4. Proyección del stock (Asesoría de julio 2021)
+
+En relación al estatus 2020/21, en la asesoría anterior (septiembre 2020) la proyección mostraba una alta probabilidad (95%) de mantenerse en una condición de plena-explotación para el año 2020/21 (4% probabilidad de sobre-explotación y 0% probabilidad de colapso) (**Tabla 29**) independiente de los escenario de reclutamiento futuros y ponderadores de F~RMS~ (**Figuras 39**). El incremento de los reclutamientos 2018/19 y 2019/20 junto al aumento de la biomasa adulta (1+ años) de anchoveta centro-sur durante los dos años previos y la baja probabilidad de sobre-explotación y colapso generan un escenario favorable para el stock de anchoveta el próximo año. La primera actualización del estatus 2020/21 realizada en la actual asesoría (marzo 2021) con información del crucero de verano 2021, confirman una condición de plena-explotación (98% de probabilidad). Se espera que anchoveta se mantenga en una condición de plena-explotación para el año 2021/22, no obstante, dado la disminución del reclutamiento estimado para el 2021 en torno al reclutamiento promedio más reciente (bajos), la probabilidad de mantenerse en la condición de plena-explotación disminuye a un 86%.
+
+\vspace{0.5cm}
+
+```{=tex}
+
+\begin{table}[h!]
+\caption{Incertidumbre del estatus actual 2020/21 y proyectado 2021/22 bajo tres escenarios de reclutamiento y ponderadores de $F_{RMS}$. \textbf{Asesoría de julio 2021}.}
+ \label{Tab35}
+ \small
+    \centering
+    \resizebox{15cm}{!} {
+    \begin{tabular}{|l|l|l|c|c|c|}
+    \hline \rowcolor{Gray3}
+Escenario       & Año         & Probabilidad de  & $F_{RMS}*1,0$ & $F_{RMS}*0,9$ & $F_{RMS}*0,7$ \\  \rowcolor{Gray3}
+Reclutamiento   & biológico   &  Estatus         &               &               &                \\ \hline
+\multirow{4}{1cm}{$R_{1997-2009}$} & \multirow{2}{1cm}{2020/21} &$p(sobre-explotación)$   & 0,03    & 0,03    & 0,03 \\
+                &             & $p(colapso)$     & 0,00          & 0,00  & 0,00 \\ 
+                & \multirow{2}{1cm}{2021/22} & $p(sobre-explotación)$    & 0,11   & 0,10  & 0,09 \\
+                &             & $p(colapso)$     & 0,00          & 0,00  & 0,00 \\ \hline
+\multirow{4}{1cm}{$R_{histórico}$} & \multirow{2}{1cm}{2020/21} &$p(sobre-explotación)$   & 0,03    & 0,03    & 0,03 \\
+                &             & $p(colapso)$     & 0,00          & 0,00  & 0,00 \\ 
+                & \multirow{2}{1cm}{2021/22} & $p(sobre-explotación)$    & 0,12   & 0,12  & 0,11 \\
+                &             & $p(colapso)$     & 0,00          & 0,00  & 0,00 \\ \hline
+\multirow{4}{1cm}{$R_{2010-2020}$} & \multirow{2}{1cm}{2020/21} &$p(sobre-explotación)$   & 0,03    & 0,03    & 0,03 \\
+                &             & $p(colapso)$     & 0,00          & 0,00  & 0,00 \\ 
+                & \multirow{2}{1cm}{2021/22} & $p(sobre-explotación)$    & 0,15   & 0,14  & 0,13 \\
+                &             & $p(colapso)$     & 0,00          & 0,00  & 0,00 \\ \hline
+  \end{tabular}}
+        \end{table}
+```
+
 
 ```{=tex}
 \vspace{-0.3cm}
@@ -2397,67 +2465,22 @@ Reclutamiento   & biológico   &  Estatus         &               &             
 ```{=tex}
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.45\textwidth]{Figuras/Fig49-1.pdf}
-\includegraphics[width=0.45\textwidth]{Figuras/Fig50-1.pdf}
-\includegraphics[width=0.45\textwidth]{Figuras/Fig51-1.pdf}
-\caption{Diagramas de fases de explotación de la biomasa desovante respecto de la mortalidad por pesca mostrando el estatus de anchoveta centro-sur para el año previo 2019/20 (punto rojo), año actual 2020/21 (punto y cruz naranjo) y año proyectado 2021/22 (punto verde) bajo un escenario de reclutamiento promedio bajo [1997-2009] (panel superior), reclutamiento promedio histórico [1997-2020] (panel intermedio), reclutamiento promedio reciente [2010-2021] (panel inferior) y ponderadores de F~RMS~ (1,0.9 y 0.7). **Asesoría de marzo 2021**.}
-\label{Fig39}
+\includegraphics[width=0.3\textwidth]{Figuras/Fig52-1.pdf}
+\includegraphics[width=0.3\textwidth]{Figuras/Fig52-2.pdf}
+\includegraphics[width=0.3\textwidth]{Figuras/Fig52-3.pdf}
+\includegraphics[width=0.3\textwidth]{Figuras/Fig53-1.pdf}
+\includegraphics[width=0.3\textwidth]{Figuras/Fig53-2.pdf}
+\includegraphics[width=0.3\textwidth]{Figuras/Fig53-3.pdf}
+\includegraphics[width=0.3\textwidth]{Figuras/Fig54-1.pdf}
+\includegraphics[width=0.3\textwidth]{Figuras/Fig54-2.pdf}
+\includegraphics[width=0.3\textwidth]{Figuras/Fig54-3.pdf}
+\caption{Diagramas de fases de explotación de la biomasa desovante respecto de la mortalidad por pesca mostrando el estatus de anchoveta centro-sur para el año previo 2019/20 (punto rojo), año actual 2020/21 (punto y cruz naranjo) y año proyectado 2021/22 (punto verde) bajo un escenario de reclutamiento promedio bajo [1997-2009] (panel superior), reclutamiento promedio histórico [1997-2020] (panel intermedio), reclutamiento promedio reciente [2010-2021] (panel inferior) y ponderadores de $F_{RMS}$ (1,0.9 y 0.7). \textbf{Asesoría de julio 2021}.}
+\label{Fig40}
 \end{figure}
 ```
 \normalsize
 \pagebreak
 
-### 4.3.3. Proyección del stock (Asesoría de julio 2021)
-
-En relación al estatus 2020/21, en la asesoría anterior (septiembre 2020) la proyección mostraba una alta probabilidad (95%) de mantenerse en una condición de plena-explotación para el año 2020/21 (4% probabilidad de sobre-explotación y 0% probabilidad de colapso) (**Tabla 29**) independiente de los escenario de reclutamiento futuros y ponderadores de F~RMS~ (**Figuras 39**). El incremento de los reclutamientos 2018/19 y 2019/20 junto al aumento de la biomasa adulta (1+ años) de anchoveta centro-sur durante los dos años previos y la baja probabilidad de sobre-explotación y colapso generan un escenario favorable para el stock de anchoveta el próximo año. La primera actualización del estatus 2020/21 realizada en la actual asesoría (marzo 2021) con información del crucero de verano 2021, confirman una condición de plena-explotación (98% de probabilidad). Se espera que anchoveta se mantenga en una condición de plena-explotación para el año 2021/22, no obstante, dado la disminución del reclutamiento estimado para el 2021 en torno al reclutamiento promedio más reciente (bajos), la probabilidad de mantenerse en la condición de plena-explotación disminuye a un 86%.
-
-\vspace{0.5cm}
-
-```{=tex}
-
-\begin{table}[h!]
-\caption{Incertidumbre del estatus previo 2019/20, actual 2020/21 y proyectado 2021/22 bajo tres escenarios de reclutamiento y ponderadores de $F_{RMS}$}
- \label{Tab35}
- \small
-    \centering
-    \resizebox{15cm}{!} {
-    \begin{tabular}{|l|l|l|c|c|c|}
-    \hline \rowcolor{Gray3}
-Escenario       & Año         & Probabilidad de  & $F_{RMS}*1,0$ & $F_{RMS}*0,9$ & $F_{RMS}*0,7$ \\  \rowcolor{Gray3}
-Reclutamiento   & biológico   &  Estatus         &               &               &                \\ \hline
-\multirow{6}{1cm}{$R_{1997-2009}$} & \multirow{2}{1cm}{2018/19} &$p(sobre-explotación)$   & 0,32    & 0,32    & 0,32 \\
-                &             & $p(colapso)$     & 0,00          & 0,00  & 0,00 \\ 
-                & \multirow{2}{1cm}{2019/20} & $p(sobre-explotación)$    & 0,02   & 0,02  & 0,02 \\
-                &             & $p(colapso)$     & 0,00          & 0,00  & 0,00 \\ 
-                & \multirow{2}{1cm}{2020/21} & $p(sobre-explotación)$    & 0,11   & 0,11  & 0,10 \\
-                &             & $p(colapso)$     & 0,00          & 0,00  & 0,00 \\ \hline
-\multirow{6}{1cm}{$R_{histórico}$} & \multirow{2}{1cm}{2018/19} &$p(sobre-explotación)$   & 0,32    & 0,32    & 0,32 \\
-                &             & $p(colapso)$     & 0,00          & 0,00  & 0,00 \\ 
-                & \multirow{2}{1cm}{2019/20} & $p(sobre-explotación)$    & 0,02   & 0,02  & 0,02 \\
-                &             & $p(colapso)$     & 0,00          & 0,00  & 0,00 \\ 
-                & \multirow{2}{1cm}{2020/21} & $p(sobre-explotación)$    & 0,12   & 0,12  & 0,11 \\
-                &             & $p(colapso)$     & 0,00          & 0,00  & 0,00 \\ \hline
-\multirow{6}{1cm}{$R_{2010-2020}$} & \multirow{2}{1cm}{2018/19} &$p(sobre-explotación)$   & 0,32    & 0,32    & 0,32 \\
-                &             & $p(colapso)$     & 0,00          & 0,00  & 0,00 \\ 
-                & \multirow{2}{1cm}{2019/20} & $p(sobre-explotación)$    & 0,02   & 0,02  & 0,02 \\
-                &             & $p(colapso)$     & 0,00          & 0,00  & 0,00 \\ 
-                & \multirow{2}{1cm}{2020/21} & $p(sobre-explotación)$    & 0,14   & 0,14  & 0,13 \\
-                &             & $p(colapso)$     & 0,00          & 0,00  & 0,00 \\ \hline
-  \end{tabular}}
-        \end{table}
-```
-
-
-```{=tex}
-\vspace{-0.3cm}
-\scriptsize
-```
--   p[BD\<0,9BD~RMS~] = probabilidad de sobre-explotación
--   p[BD\<0,5BD~RMS~] = probabilidad de colapso
-
-\pagebreak
-
-\small \textbf{Figura 39}. Diagramas de fases de explotación de la biomasa desovante respecto de la mortalidad por pesca mostrando el estatus de anchoveta centro-sur para el año previo 2019/20 (punto rojo), año actual 2020/21 (punto y cruz naranjo) y año proyectado 2021/22 (punto verde) bajo un escenario de reclutamiento promedio bajo [1997-2009] (panel superior), reclutamiento promedio histórico [1997-2020] (panel intermedio), reclutamiento promedio reciente [2010-2021] (panel inferior) y ponderadores de F~RMS~ (1,0.9 y 0.7). **Asesoría de marzo 2021**. \vspace{0.5cm} \normalsize 
 
 
 
