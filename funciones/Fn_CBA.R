@@ -59,9 +59,9 @@ CBA<-function(dir.0,dir.1,Carpeta,admb,l_opt_proy,l_opRec,l_mf,opt_proy,system){
       cat(Std,file=(can<-file(paste(admb,j,i,".std",sep=""),"wb",encoding="UTF-8")),sep="\n");close(can)
       Rep <- readLines(rep_admb,encoding="UTF-8") 
       cat(Rep,file=(can<-file(paste(admb,j,i,".rep",sep=""),"wb",encoding="UTF-8")),sep="\n");close(can)
-      
+      cat(S,file=(can<-file(paste(admb,".dat",sep=""),"wb",encoding="UTF-8")),sep="\n")
     }}
-  cat(S,file=(can<-file(paste(admb,".dat",sep=""),"wb",encoding="UTF-8")),sep="\n")
+
   close(can)
   
 }
