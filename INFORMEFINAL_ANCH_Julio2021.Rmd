@@ -2725,10 +2725,6 @@ Durante el año 2020 se realizaron talleres de trabajo interno (Grupo de pesquer
 ```
 \normalsize
 
-
-
-
-
 \pagebreak  
 
 ```{=tex}
