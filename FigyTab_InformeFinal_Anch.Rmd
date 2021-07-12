@@ -1776,7 +1776,7 @@ write.csv(VarPobl1, file="Tabla_17_indicadoresPoblacionales.csv")
 #setwd(dir.1)
 ```
 
-```{r Tabla_20_promedios, echo=FALSE,warning=FALSE,include=T,eval=F}
+```{r Tabla_20_promedios, echo=FALSE,warning=FALSE,include=T,eval=T}
 
 # Reclutimientos asesoría julio 2021
 Rprom_2002_2008<-mean(Rt3[7:13])
