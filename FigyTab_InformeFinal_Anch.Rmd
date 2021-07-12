@@ -1772,7 +1772,7 @@ VarPobl1<- cbind('Año'=yearsb,
 kable(VarPobl1)
 
 #setwd(dir.basedatos)
-write.csv(VarPobl1, file="Tabla_17_indicadoresPoblacionales.csv")
+write.csv(VarPobl1, file="Tablas/indicadoresPoblacionales.csv")
 #setwd(dir.1)
 ```
 
@@ -1839,7 +1839,7 @@ diferencias<-cbind(difR,difBT,difBD,Rprom,BTprom,BDprom)
 colnames(diferencias)<-c("difRt","difBT","difBD","Rprom","BTprom","BDprom")
 diferencias
 
-write.csv(diferencias, file="Tabla_20_diferencias.csv")
+write.csv(diferencias, file="Tablas/diferenciasVarPobl.csv")
 
 
 ```
@@ -2029,6 +2029,8 @@ Tabla3.1<-rbind( "BDpromedio"=c(round(Bmed1/10^3,0),
 
 colnames(Tabla3.1)<-c("Septiembre","Marzo","Julio")
 kable(Tabla3.1)
+
+write.csv(Tabla3.1, file="Tablas/PBRs.csv")
 
 ```
 
@@ -2377,7 +2379,7 @@ VarPobl2<- cbind('Años'=yearsb,
 kable(VarPobl2, align = 'c')
 
 #setwd(dir.basedatos)
-write.csv(VarPobl2, file="Tablas/Tabla_19_indicesReduccion.csv")
+write.csv(VarPobl2, file="Tablas/indicesReduccion.csv")
 #setwd(dir.1)
 ```
 
@@ -2395,7 +2397,7 @@ VarPobl2<- cbind('Años'=yearsb,
 kable(VarPobl2, align = 'c')
 
 #setwd(dir.basedatos)
-write.csv(VarPobl2, file="Tablas/Tabla_20_tasaEsplotacion.csv")
+write.csv(VarPobl2, file="Tablas/tasaExplotacion.csv")
 #setwd(dir.1)
 
 ```
@@ -2538,6 +2540,9 @@ Tabla4.1<-rbind("Año biológico"=c("2019/20","2020/21","2020/21"),
                 "$p(sobrepesca)$"=round(c(pe_sept,pe_mar,pe_jul),2))
 colnames(Tabla4.1)<-c("Septiembre 2020","Marzo 2021","Julio 2021")
 kable(Tabla4.1,align='c')
+
+write.csv(Tabla4.1, file="Tablas/ProbabilidadesEstatus.csv")
+
 ```
 
 \pagebreak
@@ -2607,6 +2612,9 @@ descarte[i,j]<-round(CBA_sept[i,j]*0.98,0)}} # descarte 1% (1-0.02 = 0.98)
 colnames(descarte)<-c('10%','20%','30%','40%','50%')
 row.names(descarte)<-c("1997-2009","Histórico","2010-2020")
 kable(t(descarte))
+
+
+write.csv(rbind(t(round(tCBA,0)),t(buffer),t(descarte)), file="Tablas/CBAinicial.csv")
 ```
 
 \pagebreak
@@ -2682,6 +2690,9 @@ descarte[i,j]<-round(CBA[i,j]*0.98,0)}} # descarte 1% (1-0.02 = 0.98)
 colnames(descarte)<-c('10%','20%','30%','40%','50%')
 row.names(descarte)<-c("1997-2009","Histórico","2010-2021")
 kable(t(descarte))
+
+write.csv(rbind(t(round(tCBA,0)),t(buffer),t(descarte)), file="Tablas/1eraRevisionCBA.csv")
+
 ```
 
 ```{r Tabla38_diferenciasdescarte_marzo, eval=T, echo=FALSE, warning=F, include=T, message=F}
@@ -2763,6 +2774,9 @@ descarte[i,j]<-round(CBA[i,j]*0.98,0)}} # descarte 1% (1-0.02 = 0.98)
 colnames(descarte)<-c('10%','20%','30%','40%','50%')
 row.names(descarte)<-c("1997-2009","Histórico","2010-2021")
 kable(t(descarte))
+
+write.csv(rbind(t(round(tCBA,0)),t(buffer),t(descarte)), file="Tablas/2daRevisionCBA.csv")
+
 ```
 
 ```{r Tabla41_diferenciasdescarteJulio, eval=T, echo=FALSE, warning=F, include=T, message=F}
