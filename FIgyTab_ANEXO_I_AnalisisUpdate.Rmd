@@ -251,7 +251,7 @@ f1/f2/f3 + plot_layout(guides="collect")
 
 ```{r Fig2a_anexoI,warning=F, include=T, message=F, echo=T,fig.height=4,fig.width=5,fig.align="center",fig.path="Figuras/",dev=fig}
 
-Edades<-data3$Edades
+Edades<-seq(0,4,1)
 Edadesflota_julio<-rep3$pf_obs[nyears,]
 Edadesflota_marzo<-rep2$pf_obs[nyears,]
 
@@ -282,7 +282,7 @@ f1<-ggplot(Ebase1) +
 
 ```{r Fig2b_anexoI,warning=F, include=T, message=F, echo=T,fig.height=4,fig.width=5,fig.align="center",fig.path="Figuras/",dev=fig}
 
-Edades<-data3$Edades
+Edades<-seq(0,4,1)
 EdadesCV_julio<-rep3$pobs_RECLAS[nyears,]
 EdadesCV_marzo<-rep2$pobs_RECLAS[nyears,]
 
@@ -313,7 +313,7 @@ f2 <-   ggplot(EVbase1) +
 
 ```{r Fig2c_anexoI,warning=F, include=T, message=F, echo=T,fig.height=8,fig.width=5,fig.align="center",fig.path="Figuras/",dev=fig}
 
-Edades<-data3$Edades
+Edades<-seq(0,4,1)
 EdadesCO_julio<-rep3$pobs_PELACES[nyears,]
 EdadesCO_marzo<-rep2$pobs_PELACES[nyears,]
 
@@ -344,7 +344,7 @@ f1/f2/f3
 
 ```{r Fig3_anexoI,warning=F, include=T, message=F, echo=T,fig.height=4,fig.width=5,fig.align="center",fig.path="Figuras/",dev=fig}
 
-Edades<-data3$Edades
+Edades<-seq(0,4,1)
 Pesosflota_julio<- data3$Wmed[nyears,]
 Pesosflota_marzo<- data2$Wmed[nyears,]
 
@@ -464,18 +464,15 @@ f1
   #--------------
   # escenario 7: Actualiza composición de edad crucero acústico de otoño 2021
   #--------------
-  dat<- data
-  dat$Ind[,8]               <- S3_DesembDesc_0721
-  dat$captura_edad[nyears,] <- S4_CompEdadFlota0721
-  dat$NMs                   <- S7_tamañomuestra0721
-  dat$Wmed[nyears,]         <- S5_PesosMed0721
-  dat$Wini[nyears,]         <- S5_PesosIni0721
-  
-  dat$Ind[nyears,4]         <- S6_BioCruMayo21
-  
-  dat$Pelaces_edad[nyears,] <- S7_CompEdadCruMayo21
+  dat<- data3
+  #dat$Ind[,8]               <- S3_DesembDesc_0721
+  #dat$captura_edad[nyears,] <- S4_CompEdadFlota0721
+  #dat$NMs                   <- S7_tamañomuestra0721
+  #dat$Wmed[nyears,]         <- S5_PesosMed0721
+  #dat$Wini[nyears,]         <- S5_PesosIni0721
+  #dat$Ind[nyears,4]         <- S6_BioCruMayo21
+  #dat$Pelaces_edad[nyears,] <- S7_CompEdadCruMayo21
 
-  
   writeData(paste(admb,"s",7,".dat",sep=""), dat, append=FALSE)
   
   ###########################################################################
@@ -569,11 +566,11 @@ retroBD_BDrms <- matrix(0,nrow=nyears,ncol=nretros)
 
 for(i in 1:(nretros)){
   rep <- reptoRlist(paste(admb,"s",i,".rep",sep=""))
-  retroR[,i]         <- c(rep$Reclutas)
-  retroBD[,i]        <- c(rep$SSB)
-  retroBT[,i]        <- c(rep$BT)
-  retroF[,i]         <- c(rep$Ftot) 
-  retroBD_BDrms[,i]  <- c(rep$BD_Brms) 
+  retroR[,i]         <- round(c(rep$Reclutas),0)
+  retroBD[,i]        <- round(c(rep$SSB),0)
+  retroBT[,i]        <- round(c(rep$BT),0)
+  retroF[,i]         <- round(c(rep$Ftot),3) 
+  retroBD_BDrms[,i]  <- round(c(rep$BD_Brms),3) 
  }
 
 # Diferencia relativa con caso base actual 
