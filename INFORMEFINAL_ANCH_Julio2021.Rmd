@@ -1317,7 +1317,7 @@ El período de análisis de la evaluación de stock comienza en 1996/97 hasta el
 
 Entre los años 2009 y 2017 se registraron los niveles más bajos de biomasa acústica de verano con un valor promedio de 101 mil t. Sin embargo, el año 2018 se observó un primer incremento importante hasta 347 mil t y los últimos tres años 2019 al 2021 se consolida éste incremento con valores cercanos a las 588 mil toneladas en promedio. Algo similar se observa en las tendencias de los cruceros de otoño. Sin embargo, en este estudio, la recuperación en la biomasa del stock se apreció a partir del año 2016, observandose una recuperación en la biomasa del stock desde el 2016, registrándose el año 2021 el nivel más alto de los últimos 11 años, en 1,3 millones de t. En relación a las capturas de anchoveta de las Regiones de Valparaíso a Los Lagos, su variación es consistente con los cambios en los niveles de biomasa estimados por los cruceros acústicos de verano y otoño. Entre el 2011/12 y 2017/18 se registran desembarques en torno a 62 mil toneladas en promedio. Para el 2018/19 se incrementan a 135 mil toneladas, para el año 2019/20 a 160 mil toneladas, un 16% mayor al año previo, y para el año 2020/21 se incrementa 205 mil toneladas, un 30% mayor al año previo y 159% mayor al promedio de los últimos 9 años (período 2011/12 - 2019/20) (\textbf{Tabla \ref{Tab16}} y \textbf{Figura \ref{Fig17}}). La pesquería está sustentada principalmente por la abundancia de los grupos de edad (GE) 1 y 2. A partir del 2017 el GE 0 muestra una tendencia al incremento, sin embargo, para el 2020/21 su aporte a la abundancia total es inferior al 10%. Respecto a los pesos medios, para el GE 0 se encuentra en torno a los 10-15 grs, para el GE 1 en los 20-25 grs en promedio. Desde el año 2014 se observa un incremento en esta variable en todos los GE, excepto en los ejemplares de edad 0 (\textbf{Figura \ref{Fig18}} y \textbf{ \ref{Fig19}}).
 
-En relación a la información proveniente de los cruceros acústicos, la composición de edad registrada por el estudio de verano muestra que el GE 0 representa en torno al 67% de la captura en número, mientras que el crucero de otoño muestra mayor variabilidad y un aporte cercano al 60% del grupo de edad 0, no obstante, para el año 2021 registró una disminución, aportando sólo un 25% a la abundancia total (\textbf{Figura \ref{Fig20}} y \textbf{\ref{Fig21}}). Por lo tanto, la biomasa estimada por el crucero acústico de otoño 2021 está sustentada principalmente por peces de edad 1+.
+En relación a la información proveniente de los cruceros acústicos, la composición de edad registrada por el estudio de verano muestra que el GE 0 representa en torno al 67% de la captura en número, mientras que el crucero de otoño muestra mayor variabilidad y un aporte cercano al 60% del grupo de edad 0 (\textbf{Figura \ref{Fig20}} y \textbf{\ref{Fig21}}). La biomasa estimada por el crucero acústico de otoño 2021 está sustentada principalmente por peces de edad 0 y 1 (47% y 45% respectivamente).
 
 \pagebreak
 
@@ -1653,31 +1653,31 @@ La selectividad de la flota indica que anchoveta es próximo a su completo reclu
     \hline \rowcolor{Gray3}
 Año     & $BD_{sept}$ & $BD_{mar}$ & $BD_{jul}$  & $BT_{sept}$ & $BT_{mar}$ & $BT_{jul}$ & $R_{sept}$ & $R_{mar}$ & $R_{jul}$ & $F_{sept}$ & $F_{mar}$  & $F_{jul}$ \\ 
 \hline  \rowcolor{Gray4}
-1996/97 & 453.760 & 449.330 & 443.790 & 1.557.700 & 1.544.300 & 1.532.600 & 36.643 & 36.327 & 36.114 & 0,945 & 0,963 & 0,989  \\
-1997/98 & 250.220 & 246.830 & 243.420 & 380.750   & 376.310   & 372.230   & 44.651 & 44.137 & 43.856 & 0,862 & 0,882 & 0,906  \\ \rowcolor{Gray4}
-1998/99 & 279.850 & 274.410 & 269.950 & 669.670   & 659.290   & 648.360   & 23.370 & 22.999 & 22.500 & 1,472 & 1,520 & 1,567 \\
-1999/00 & 276.440 & 268.420 & 261.090 & 502.520   & 489.730   & 478.820   & 35.358 & 34.607 & 34.070 & 0,31  & 0,322 & 0,335 \\ \rowcolor{Gray4}
-2000/01 & 321.480 & 313.470 & 306.490 & 647.350   & 637.170   & 626.270   & 61.911 & 61.647 & 60.974 & 0,054 & 0,056 & 0,058 \\
-2001/02 & 540.380 & 532.230 & 523.560 & 759.600   & 746.790   & 737.870   & 43.864 & 42.404 & 42.663 & 0,515 & 0,527 & 0,54 \\ \rowcolor{Gray4}
-2002/03 & 767.190 & 751.530 & 744.120 & 1.805.300 & 1.794.500 & 1.785.300 & 77.144 & 77.704 & 77.627 & 0,327 & 0,336 & 0,342 \\
-2003/04 & 936.650 & 925.060 & 920.600 & 1.667.000 & 1.640.700 & 1.637.000 & 77.383 & 75.394 & 75.553 & 0,652 & 0,666 & 0,676 \\ \rowcolor{Gray4}
-2004/05 & 810.880 & 792.710 & 792.300 & 1.735.700 & 1.704.800 & 1.709.400 & 99.828 & 98.343 & 98.997 & 0,733 & 0,756 & 0,764\\
-2005/06 & 866.660 & 847.350 & 850.170 & 1.675.600 & 1.657.200 & 1.656.100 & 117.200 & 117.750 & 116.940 & 0,542 & 0,559 & 0,563  \\ \rowcolor{Gray4}
-2006/07 & 905.580 & 894.650 & 892.640 & 1.551.300 & 1.539.100 & 1.533.900 & 67.306 & 67.258 & 66.687 & 1,008 & 1,030 & 1,041 \\
-2007/08 & 641.420 & 633.110 & 629.190 & 1.089.100 & 1.074.100 & 1.071.200 & 46.859 & 45.869 & 46.064 & 0,881 & 0,899 & 0,912\\ \rowcolor{Gray4}
-2008/09 & 407.330 & 397.670 & 395.990 & 795.160   & 786.660   & 787.690   & 45.117 & 45.408 & 45.877 & 1,388 & 1,436 & 1,457 \\
-2009/10 & 210.310 & 204.780 & 205.890 & 433.410   & 429.780   & 430.630   & 24.575 & 24.924 & 24.814 & 2,744 & 2,865 & 2,878\\ \rowcolor{Gray4}
-2010/11 & 89.235  & 87.492  & 87.969  & 228.700   & 227.210   & 227.530   & 14.467 & 14.507 & 14.434 & 3,185 & 3,295 & 3,317\\
+1996/97 & 453.760 & 449.330 & 443.792 & 1.557.700 & 1.544.300 & 1.532.630 & 36.643 & 36.327 & 36.114 & 0,945 & 0,963 & 0,989  \\
+1997/98 & 250.220 & 246.830 & 243.421 & 380.750   & 376.310   & 372.225   & 44.651 & 44.137 & 43.856 & 0,862 & 0,882 & 0,906  \\ \rowcolor{Gray4}
+1998/99 & 279.850 & 274.410 & 269.947 & 669.670   & 659.290   & 648.361   & 23.370 & 22.999 & 22.500 & 1,472 & 1,520 & 1,567 \\
+1999/00 & 276.440 & 268.420 & 261.093 & 502.520   & 489.730   & 478.819   & 35.358 & 34.607 & 34.070 & 0,31  & 0,322 & 0,335 \\ \rowcolor{Gray4}
+2000/01 & 321.480 & 313.470 & 306.495 & 647.350   & 637.170   & 626.269   & 61.911 & 61.647 & 60.974 & 0,054 & 0,056 & 0,058 \\
+2001/02 & 540.380 & 532.230 & 523.559 & 759.600   & 746.790   & 737.871   & 43.864 & 42.404 & 42.663 & 0,515 & 0,527 & 0,54 \\ \rowcolor{Gray4}
+2002/03 & 767.190 & 751.530 & 744.117 & 1.805.300 & 1.794.500 & 1.785.330 & 77.144 & 77.704 & 77.627 & 0,327 & 0,336 & 0,342 \\
+2003/04 & 936.650 & 925.060 & 920.598 & 1.667.000 & 1.640.700 & 1.637.000 & 77.383 & 75.394 & 75.553 & 0,652 & 0,666 & 0,676 \\ \rowcolor{Gray4}
+2004/05 & 810.880 & 792.710 & 792.302 & 1.735.700 & 1.704.800 & 1.709.420 & 99.828 & 98.343 & 98.997 & 0,733 & 0,756 & 0,764\\
+2005/06 & 866.660 & 847.350 & 850.165 & 1.675.600 & 1.657.200 & 1.656.100 & 117.200 & 117.750 & 116.943 & 0,542 & 0,559 & 0,563  \\ \rowcolor{Gray4}
+2006/07 & 905.580 & 894.650 & 892.636 & 1.551.300 & 1.539.100 & 1.533.900 & 67.306 & 67.258 & 66.687 & 1,008 & 1,030 & 1,041 \\
+2007/08 & 641.420 & 633.110 & 629.190 & 1.089.100 & 1.074.100 & 1.071.210 & 46.859 & 45.869 & 46.064 & 0,881 & 0,899 & 0,912\\ \rowcolor{Gray4}
+2008/09 & 407.330 & 397.670 & 395.986 & 795.160   & 786.660   & 787.690   & 45.117 & 45.408 & 45.877 & 1,388 & 1,436 & 1,457 \\
+2009/10 & 210.310 & 204.780 & 205.889 & 433.410   & 429.780   & 430.634   & 24.575 & 24.924 & 24.814 & 2,744 & 2,865 & 2,878\\ \rowcolor{Gray4}
+2010/11 & 89.235  & 87.492  & 87.969  & 228.700   & 227.210   & 227.531   & 14.467 & 14.507 & 14.434 & 3,185 & 3,295 & 3,317\\
 2011/12 & 70.979  & 70.070  & 70.406  & 145.380   & 144.100   & 144.770   & 13.330 & 13.250 & 13.317 & 1,364 & 1,398 & 1,408\\ \rowcolor{Gray4}
-2012/13 & 79.514  & 78.341  & 78.959  & 163.950   & 161.480   & 162.230   & 10.277 & 10.083 & 10.087 & 1,005 & 1,030 & 1,033 \\
-2013/14 & 105.350 & 103.220 & 103.900 & 206.620   & 204.780   & 205.740   & 11.484 & 11.559 & 11.583 & 0,686 & 0,706 & 0,708\\ \rowcolor{Gray4}
-2014/15 & 130.490 & 129.170 & 129.990 & 214.120   & 211.870   & 213.270   & 12.539 & 12.369 & 12.468 & 0,560 & 0,569 & 0,57 \\ 
-2015/16 & 148.550 & 146.480 & 147.470 & 290.990   & 286.960   & 288.420   & 20.268 & 19.948 & 19.956 & 0,574 & 0,587 & 0,601 \\ \rowcolor{Gray4}
-2016/17 & 225.790 & 221.930 & 222.040 & 450.090   & 444.140   & 442.740   & 26.548 & 26.318 & 26.122 & 0,274 & 0,281 & 0,278 \\
-2017/18 & 278.450 & 274.050 & 273.530 & 415.500   & 407.650   & 406.730   & 34.824 & 33.685 & 33.514 & 0,326 & 0,334 & 0,338 \\ \rowcolor{Gray4}
-2018/19 & 351.370 & 340.830 & 339.850 & 581.470   & 558.780   & 561.990   & 55.430 & 51.784 & 53.182 & 0,387 & 0,402 & 0,407 \\ 
-2019/20 & 495.110 & 473.920 & 479.010 & 824.040   & 835.630   & 838.740   & 58.165 & 66.653 & 63.379 & 0,385 & 0,405 & 0,404 \\ \rowcolor{Gray4}
-2020/21 & NA      & 686.790 & 626.490 & NA        & 918.000   & 923.890   & NA     & 25.359 & 25.914 & NA    & 0,345 & 0,395 \\ \hline
+2012/13 & 79.514  & 78.341  & 78.959  & 163.950   & 161.480   & 162.233   & 10.277 & 10.083 & 10.087 & 1,005 & 1,030 & 1,033 \\
+2013/14 & 105.350 & 103.220 & 103.902 & 206.620   & 204.780   & 205.737   & 11.484 & 11.559 & 11.583 & 0,686 & 0,706 & 0,708\\ \rowcolor{Gray4}
+2014/15 & 130.490 & 129.170 & 129.992 & 214.120   & 211.870   & 213.265   & 12.539 & 12.369 & 12.468 & 0,560 & 0,569 & 0,57 \\ 
+2015/16 & 148.550 & 146.480 & 147.467 & 290.990   & 286.960   & 288.424   & 20.268 & 19.948 & 19.956 & 0,574 & 0,587 & 0,601 \\ \rowcolor{Gray4}
+2016/17 & 225.790 & 221.930 & 222.044 & 450.090   & 444.140   & 442.739   & 26.548 & 26.318 & 26.122 & 0,274 & 0,281 & 0,278 \\
+2017/18 & 278.450 & 274.050 & 273.533 & 415.500   & 407.650   & 406.733   & 34.824 & 33.685 & 33.514 & 0,326 & 0,334 & 0,338 \\ \rowcolor{Gray4}
+2018/19 & 351.370 & 340.830 & 339.853 & 581.470   & 558.780   & 561.985   & 55.430 & 51.784 & 53.182 & 0,387 & 0,402 & 0,407 \\ 
+2019/20 & 495.110 & 473.920 & 479.011 & 824.040   & 835.630   & 838.744   & 58.165 & 66.653 & 63.379 & 0,385 & 0,405 & 0,404 \\ \rowcolor{Gray4}
+2020/21 & NA      & 686.790 & 626.493 & NA        & 918.000   & 923.891   & NA     & 25.359 & 25.914 & NA    & 0,345 & 0,395 \\ \hline
   \end{tabular}}
         \end{table}
 ```
