@@ -164,6 +164,7 @@ Para estimar la captura total, retenida y descartada, se utiliza estimadores dis
 
 \normalsize
 
+\pagebreak
 
 ```{=tex}
 \vspace{-0.2cm} 
@@ -203,7 +204,7 @@ Para estimar la captura total, retenida y descartada, se utiliza estimadores dis
 ```
 
 
-
+\pagebreak
 \normalsize
 
 Finalmente, para este estudio se utilizó la estimación del porcentaje de descarte obtenido desde la captura total ($\hat{Y}_{Teht}$) y descartada ($\hat{Y}_{Deht}$) estimada para cada especie objetivo ($e$), estrato $h$ (macrozona/flota) y año/semestre ($t$) proporcionada por el programa de descarte de pesquerías de peces pelágicos.
@@ -244,38 +245,26 @@ CBA_{max}=CAB_{total}-pd*CBA_{total}
 
 ### 4.1. Descarte de la pesquería de anchoveta de la zona norte.
 
-En esta pesquería una de las principales causas del descarte se debe al enmalle de individuos bajo talla comercial (menores a 12 cm), exceder el límite permitido de fauna acompañante (langostino colorado enano), y en menor grado la captura de especies prohibidas. Respecto a la estimación de capturas totales, se observa un comportamiento estacional en las estimaciones de capturas totales tanto en la flota artesanal como industrial.
-
-Con mayores niveles de capturas registrados durante el primer semestre de cada año. Los mayores niveles de captura total y descartadas son realizados por la flota industrial, durante el primer semestre (**Tabla 4, Figuras 1a y 1b**). Respecto al número de viajes totales en ambas flotas disminuyen durante el segundo semestre.
-
-El número de viajes totales realizados por la flota industrial es de 1965 durante el primer semestre y 1061 en el segundo semestre en promedio. La flota artesanal realiza 2255 viajes durante el primer semestre y 1965 viajes durante el segundo semestre. No obstante el número de viajes muestreados de la flota industrial y artesanal está entre 30 a 40 viajes muestreado por flota (**Tabla 4, Figura 1c y 1d**).
-
-Por lo tanto, el porcentaje de cobertura de los viajes muestreados es bajo, es decir, menos del 5% de los viajes realizados por la flota artesanal e industrial son muestreados por observadores científicos (**Tabla 4**, **Figura 1e y 1f**). Durante el primer semestre 2020 se registró el nivel más bajo de captura total y descartada (**Figura 1b**) producto de la reducción significativa de los viajes totales (**Figura 1d**). Esta disminución ocurre debido a la prohibición de perforación de la flota industrial, que obligó a redirigió su esfuerzo a la captura de jurel. De este modo, la captura de anchoveta fue realizada solamente por la flota artesanal.
-
-Adicionalmente, en la flota artesanal disminuyeron significativamente los viajes muestreados de observadores científicos durante el primer semestre del 2020 por la complejidad de implementar protocolos de seguridad frente a la pandemia, generando una baja cobertura de la flota , siendo el valor más bajo de cobertura del período de estudio (**Figura 1e**). Por lo tanto, la estimación de descarte para el 2020 se considera atípica y poco confiable para ser utilizada en la evaluación de stock de este recurso.
+En esta pesquería una de las principales causas del descarte se debe al enmalle de individuos bajo talla comercial (menores a 12 cm), exceder el límite permitido de fauna acompañante (langostino colorado enano), y en menor grado la captura de especies prohibidas. Respecto a la estimación de capturas totales, se observa un comportamiento estacional en las estimaciones de capturas totales tanto en la flota artesanal como industrial. Con mayores niveles de capturas registrados durante el primer semestre de cada año. Los mayores niveles de captura total y descartadas son realizados por la flota industrial, durante el primer semestre (**Tabla 4, Figuras 1a y 1b**). Respecto al número de viajes totales en ambas flotas disminuyen durante el segundo semestre. El número de viajes totales realizados por la flota industrial es de 1965 durante el primer semestre y 1061 en el segundo semestre en promedio. La flota artesanal realiza 2255 viajes durante el primer semestre y 1965 viajes durante el segundo semestre. No obstante el número de viajes muestreados de la flota industrial y artesanal está entre 30 a 40 viajes muestreado por flota (**Tabla 4, Figura 1c y 1d**). Por lo tanto, el porcentaje de cobertura de los viajes muestreados es bajo, es decir, menos del 5% de los viajes realizados por la flota artesanal e industrial son muestreados por observadores científicos (**Tabla 4**, **Figura 1e y 1f**). Durante el primer semestre 2020 se registró el nivel más bajo de captura total y descartada (**Figura 1b**) producto de la reducción significativa de los viajes totales (**Figura 1d**). Esta disminución ocurre debido a la prohibición de perforación de la flota industrial, que obligó a redirigió su esfuerzo a la captura de jurel. De este modo, la captura de anchoveta fue realizada solamente por la flota artesanal. Adicionalmente, en la flota artesanal disminuyeron significativamente los viajes muestreados de observadores científicos durante el primer semestre del 2020 por la complejidad de implementar protocolos de seguridad frente a la pandemia, generando una baja cobertura de la flota , siendo el valor más bajo de cobertura del período de estudio (**Figura 1e**). Por lo tanto, la estimación de descarte para el 2020 se considera atípica y poco confiable para ser utilizada en la evaluación de stock de este recurso.
 
 La evaluación de stock de anchoveta norte reportado por Espíndola, (2021) incorpora los porcentajes de descarte estimados entre el 2017 al 2019 (**Tabla 5**) para corregir la serie de desembarques semestrales de la flota chilena artesanal e industrial de anchoveta norte. Los supuestos de descarte utilizados en la evaluación de stock entregada en la asesoría de marzo 2021 (2do Hito CBA 2021) fueron los siguientes:
 
-i.  El supuesto 1 de descarte propuesto para la corrección de la serie de desembarques semestrales (2020.0, 2020.5) para flota artesanal e industrial se obtiene del promedio de serie 2017-2019.
+i.  El \textbf{supuesto 1} de descarte propuesto para la corrección de la serie de desembarques semestrales (2020.0, 2020.5) para flota artesanal e industrial se obtiene del promedio de serie 2017-2019.
 
-ii. El supuesto 2 de descarte propuesto para la proyección de la CBA semestral 2021 para la flota total se obtiene del promedio de la serie de datos 2017-2019.
+ii. El \textbf{supuesto 2} de descarte propuesto para la proyección de la CBA semestral 2021 para la flota total se obtiene del promedio de la serie de datos 2017-2019.
 
 El supuesto 1 se justifica debido a la alta incertidumbre de la estimación de captura descartada del primer semestre 2020 por las siguientes razones:
 
-• Se prohiben perforaciones de la flota industrial 
-
-• Sólo captura anchoveta flota artesanal 
-
-• Flota industrial redirige su esfuerzo a captura de jurel (baja captura de anchoveta) 
-
-• Disminuyen el número de viajes muestreados por protocoles de seguridad (pandemia) 
-
-• Baja cobertura de muestreo
+  + Se prohiben perforaciones de la flota industrial 
+  + Sólo captura anchoveta flota artesanal 
+  + Flota industrial redirige su esfuerzo a captura de jurel (baja captura de anchoveta) 
+  + Disminuyen el número de viajes muestreados por protocoles de seguridad (pandemia) 
+  + Baja cobertura de muestreo
 
 Los supuestos sugeridos para la asesoría de septiembre 2021 (1er Hito CBA 2022) son los siguientes:
 
-i.  El supuesto 1 de descarte propuesto para la corrección de la serie de desembarques semestrales (2020.0) para flota artesanal e industrial se obtiene del promedio de serie 2017- 2019. Se sugiere revisar el supuesto de descarte del Segundo semestre del 2020 (2020.5) con información actualizada del descarte.
-ii. El supuesto 2 de descarte propuesto para la proyección de la CBA semestral 2021 y 2022 para la flota total se obtiene del promedio de la serie de datos 2017-2019.
+i.  El \textbf{supuesto 1} de descarte propuesto para la corrección de la serie de desembarques semestrales (2020.0) para flota artesanal e industrial se obtiene del promedio de serie 2017- 2019. Se sugiere revisar el supuesto de descarte del Segundo semestre del 2020 (2020.5) con información actualizada del descarte.
+ii. El \textbf{supuesto 2} de descarte propuesto para la proyección de la CBA semestral 2021 y 2022 para la flota total se obtiene del promedio de la serie de datos 2017-2019.
 
 \vspace{0.5cm}
 
@@ -312,18 +301,6 @@ ii. El supuesto 2 de descarte propuesto para la proyección de la CBA semestral 
 ```
 
 
-\pagebreak
-
-```{=tex}
-\begin{figure}[h!]
-\centering
-\includegraphics[width=1\textwidth]{Figuras/AnchNorte_descarte_ANEXO_III.pdf}
-\caption{Captura total y descartada semestral (panel superior) estimada para la flota artesanal e industrial. (panel intermedio) Número de viajes totales y muestreados en la flota artesanal e industrial. (panel inferior) Porcentaje de descarte y de cobertura de la flota artesanal e industrial. \textbf{Anchoveta Norte}.}
-\label{Fig1}
-\end{figure}
-```
-
-\pagebreak
 
 ```{=tex}
 \vspace{-0.2cm} 
@@ -350,6 +327,17 @@ ii. El supuesto 2 de descarte propuesto para la proyección de la CBA semestral 
 
 \pagebreak
 
+```{=tex}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\textwidth]{Figuras/AnchNorte_descarte_ANEXO_III.pdf}
+\caption{Captura total y descartada semestral (panel superior) estimada para la flota artesanal e industrial. (panel intermedio) Número de viajes totales y muestreados en la flota artesanal e industrial. (panel inferior) Porcentaje de descarte y de cobertura de la flota artesanal e industrial. \textbf{Anchoveta Norte}.}
+\label{Fig1}
+\end{figure}
+```
+
+\pagebreak
+
 ### 4.2. Descarte de la pesquería de anchoveta centro-norte.
 
 El programa de descarte de la pesquería de anchoveta centro-norte comenzó el año 2018, pero con tamaños de muestra muy reducidos, por lo cual no fue posible estimar capturas retenidas y descartadas para la flota. La información que se encuentra disponible a la fecha es semestral desde el 2019 al 2020 para la flota artesanal. No obstante, ha existido dificultad en la cobertura de muestreo por un bajo apoyo al estudio del descarte principalmente en la Región de Atacama, donde tampoco se aplica el RAE, por lo tanto, los datos de descarte provienen principalmente de la Región de Coquimbo. No obstante, es necesario un análisis por separado por Región para ratificar esta información. Otra de las limitaciones de muestreo tiene relación con la baja habitabilidad de las embarcaciones menores a 15 metros de eslora. IFOP tiene una política de seguridad permitiendo que los observadores científicos solo se embarquen en embarcaciones sobre los 15 metros de eslora. Una posibilidad de incrementar el porcentaje de cobertura de estas embarcaciones menores podría ser la entrega de bitácoras de autoreporte por parte de los pescadores.  Respecto de las estimaciones de capturas totales y descartadas, en general, durante el segundo semestre de cada año no hay registros de captura producto del cierre de las plantas de proceso, por lo tanto, en esta zona la operación de las plantas de proceso determina la operación de la flota (**Tabla 6, Figura 1a**).
@@ -358,10 +346,10 @@ Respecto al número de viajes totales realizados por la flota artesanal, estos d
 
 El programa de estudio del descarte para esta zona terminó el 2020, por lo tanto, para la asesoría de septiembre 2021 se espera comenzar a incorporar esta información a la evaluación de stock (**Tabla 7**). El modelo de evaluación de stock de anchoveta centro-norte utiliza información anual (Bucarey *et al*., 2021) , por lo tanto, se requieren datos de descarte anuales para la flota artesanal los cuales deben ser incorporados a la serie de desembarques. Para los años en que no se cuente con información se debe utilizar un supuesto. Adicionalmente, el CCT-PP debe descontar un % de descarte a la CBA, por lo tanto también se debe contar con un supuesto de descarte proyectado. Para el descarte proyectado para el año 2022 se considerará el promedio de descarte que considera los años 2019 al 2020 (dos años). Estos supuestos deben ser consensuados previamente con el CCT-PP en el taller de datos y modelo.
 
-\pagebreak
+
 
 ```{=tex}
-\vspace{-0.2cm} 
+\vspace{0.5cm} 
 \begin{table}[h!]
 \caption{Estimaciones de captura total (CT), retenida (CR) y descartada (CD) con sus respectivos coeficientes de variación ($CV_{CT}$, $CV_{CR}$, $CV_{CD}$), porcentaje de descarte , tamaños de muestra de los viajes muestreados y totales y porcentaje de cobertura para los años 2018 al 2020 por semestre y flota para la pesquería de \textbf{Anchoveta de la zona centro-norte}.}
  \label{Tab5}
@@ -388,21 +376,11 @@ El programa de estudio del descarte para esta zona terminó el 2020, por lo tant
         \end{table}
 ```
 
-\pagebreak
+
+
 
 ```{=tex}
-\begin{figure}[h!]
-\centering
-\includegraphics[width=1\textwidth]{Figuras/AnchCentroNorte_descarte_ANEXO_III.pdf}
-\caption{Captura total y descartada semestral (panel superior) estimada para la flota artesanal. (panel intermedio) Número de viajes totales y muestreados en la flota artesanal. (panel inferior) Porcentaje de descarte y de cobertura de la flota artesanal. \textbf{Anchoveta centro-norte}}
-\label{Fig2}
-\end{figure}
-```
-
-\pagebreak
-
-```{=tex}
-\vspace{-0.2cm} 
+\vspace{0.5cm} 
 \begin{table}[h!]
 \caption{Captura total (CT) y descartada (CD) para corrección de desembarques años 2019 y 2020. Para obtener el \% de descarte a utilizar en el supuesto 1 (desembarque 2021). Para el supuesto 2 (proyección de CBA año 2022) se utiliza la captura total y descartada promedio del año 2019 y 2020. \textbf{Supuestos para asesoría de septiembre 2021 de anchoveta centro-norte}.}
  \label{Tab6}
@@ -423,6 +401,16 @@ El programa de estudio del descarte para esta zona terminó el 2020, por lo tant
 ```
 
 
+\pagebreak
+
+```{=tex}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\textwidth]{Figuras/AnchCentroNorte_descarte_ANEXO_III.pdf}
+\caption{Captura total y descartada semestral (panel superior) estimada para la flota artesanal. (panel intermedio) Número de viajes totales y muestreados en la flota artesanal. (panel inferior) Porcentaje de descarte y de cobertura de la flota artesanal. \textbf{Anchoveta centro-norte}}
+\label{Fig2}
+\end{figure}
+```
 
 \pagebreak
 
