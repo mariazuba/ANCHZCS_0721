@@ -277,7 +277,7 @@ Los supuestos sugeridos para la asesoría de septiembre 2021 (1er Hito CBA 2022)
 i.  El supuesto 1 de descarte propuesto para la corrección de la serie de desembarques semestrales (2020.0) para flota artesanal e industrial se obtiene del promedio de serie 2017- 2019. Se sugiere revisar el supuesto de descarte del Segundo semestre del 2020 (2020.5) con información actualizada del descarte.
 ii. El supuesto 2 de descarte propuesto para la proyección de la CBA semestral 2021 y 2022 para la flota total se obtiene del promedio de la serie de datos 2017-2019.
 
-\pagebreak
+\vspace{0.5cm}
 
 ```{=tex}
 \vspace{-0.2cm} 
@@ -312,6 +312,18 @@ ii. El supuesto 2 de descarte propuesto para la proyección de la CBA semestral 
 ```
 
 
+\pagebreak
+
+```{=tex}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\textwidth]{Figuras/AnchNorte_descarte_ANEXO_III.pdf}
+\caption{Captura total y descartada semestral (panel superior) estimada para la flota artesanal e industrial. (panel intermedio) Número de viajes totales y muestreados en la flota artesanal e industrial. (panel inferior) Porcentaje de descarte y de cobertura de la flota artesanal e industrial. \textbf{Anchoveta Norte}.}
+\label{Fig1}
+\end{figure}
+```
+
+\pagebreak
 
 ```{=tex}
 \vspace{-0.2cm} 
@@ -340,9 +352,7 @@ ii. El supuesto 2 de descarte propuesto para la proyección de la CBA semestral 
 
 ### 4.2. Descarte de la pesquería de anchoveta centro-norte.
 
-El programa de descarte de la pesquería de anchoveta centro-norte comenzó el año 2018, pero con tamaños de muestra muy reducidos, por lo cual no fue posible estimar capturas retenidas y descartadas para la flota. La información que se encuentra disponible a la fecha es semestral desde el 2019 al 2020 para la flota artesanal. No obstante, ha existido dificultad en la cobertura de muestreo por un bajo apoyo al estudio del descarte principalmente en la Región de Atacama, donde tampoco se aplica el RAE, por lo tanto, los datos de descarte provienen principalmente de la Región de Coquimbo. No obstante, es necesario un análisis por separado por Región para ratificar esta información. Otra de las limitaciones de muestreo tiene relación con la baja habitabilidad de las embarcaciones menores a 15 metros de eslora. IFOP tiene una política de seguridad permitiendo que los observadores científicos solo se embarquen en embarcaciones sobre los 15 metros de eslora. Una posibilidad de incrementar el porcentaje de cobertura de estas embarcaciones menores podría ser la entrega de bitácoras de autoreporte por parte de los pescadores.
-
-Respecto de las estimaciones de capturas totales y descartadas, en general, durante el segundo semestre de cada año no hay registros de captura producto del cierre de las plantas de proceso, por lo tanto, en esta zona la operación de las plantas de proceso determina la operación de la flota (**Tabla 6, Figura 1a**).
+El programa de descarte de la pesquería de anchoveta centro-norte comenzó el año 2018, pero con tamaños de muestra muy reducidos, por lo cual no fue posible estimar capturas retenidas y descartadas para la flota. La información que se encuentra disponible a la fecha es semestral desde el 2019 al 2020 para la flota artesanal. No obstante, ha existido dificultad en la cobertura de muestreo por un bajo apoyo al estudio del descarte principalmente en la Región de Atacama, donde tampoco se aplica el RAE, por lo tanto, los datos de descarte provienen principalmente de la Región de Coquimbo. No obstante, es necesario un análisis por separado por Región para ratificar esta información. Otra de las limitaciones de muestreo tiene relación con la baja habitabilidad de las embarcaciones menores a 15 metros de eslora. IFOP tiene una política de seguridad permitiendo que los observadores científicos solo se embarquen en embarcaciones sobre los 15 metros de eslora. Una posibilidad de incrementar el porcentaje de cobertura de estas embarcaciones menores podría ser la entrega de bitácoras de autoreporte por parte de los pescadores.  Respecto de las estimaciones de capturas totales y descartadas, en general, durante el segundo semestre de cada año no hay registros de captura producto del cierre de las plantas de proceso, por lo tanto, en esta zona la operación de las plantas de proceso determina la operación de la flota (**Tabla 6, Figura 1a**).
 
 Respecto al número de viajes totales realizados por la flota artesanal, estos disminuyen durante el segundo semestre. El número de viajes totales realizados por la flota artesanal de 1017 durante el primer semestre y 165 en el segundo semestre en promedio. No obstante el número de viajes muestreados de la flota artesanal está entre 39 primer semestre y 7 segundo semestre (**Tabla 6, Figura 1b**). Por lo tanto, el porcentaje de cobertura de los viajes muestreados es bajo, es decir, menos del 5% de los viajes realizados por la flota artesanal son muestreados por observadores científicos (Tabla 6, Figura 1c), excepto el segundo semestre del 2020 donde el porcentaje de cobertura fue de un 45% producto de la significativa disminución de los viajes totales (31 viajes totales).
 
@@ -356,7 +366,7 @@ El programa de estudio del descarte para esta zona terminó el 2020, por lo tant
 \caption{Estimaciones de captura total (CT), retenida (CR) y descartada (CD) con sus respectivos coeficientes de variación ($CV_{CT}$, $CV_{CR}$, $CV_{CD}$), porcentaje de descarte , tamaños de muestra de los viajes muestreados y totales y porcentaje de cobertura para los años 2018 al 2020 por semestre y flota para la pesquería de \textbf{Anchoveta de la zona centro-norte}.}
  \label{Tab5}
     \centering
-    \resizebox{15cm}{!} {
+    \resizebox{17cm}{!} {
     \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}
     \hline \rowcolor{Gray3}
      &          &        & Captura  &             & Captura  &             & Captura     &             & \%        & $n_h$        & $N_h$   & \%        \\ \rowcolor{Gray3}
@@ -378,8 +388,18 @@ El programa de estudio del descarte para esta zona terminó el 2020, por lo tant
         \end{table}
 ```
 
+\pagebreak
 
+```{=tex}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\textwidth]{Figuras/AnchCentroNorte_descarte_ANEXO_III.pdf}
+\caption{Captura total y descartada semestral (panel superior) estimada para la flota artesanal. (panel intermedio) Número de viajes totales y muestreados en la flota artesanal. (panel inferior) Porcentaje de descarte y de cobertura de la flota artesanal. \textbf{Anchoveta centro-norte}}
+\label{Fig2}
+\end{figure}
+```
 
+\pagebreak
 
 ```{=tex}
 \vspace{-0.2cm} 
@@ -471,14 +491,15 @@ Supuestos para asesoría de septiembre 2021 (1er Hito CBA 2022):
 
 -   El supuesto 2 de descarte propuesto para la proyección de la CBA 2021/2022 y 2022/2023 para la flota total y zona total se considera criterio experto del 4% (**Tabla 13**).
 
+\pagebreak
 
 ```{=tex}
-\vspace{-0.2cm} 
+\vspace{0.2cm} 
 \begin{table}[h!]
 \caption{ Estimaciones de captura total (CT), retenida (CR) y descartada (CD) con sus respectivos coeficientes de variación ($CV_{CT}$, $CV_{CR}$, $CV_{CD}$), porcentaje de descarte , tamaños de muestra de los viajes muestreados y totales y porcentaje de cobertura para los años 2017 al 2019 por semestre y flota para la pesquería de \textbf{Anchoveta de la zona centro-sur}.}
  \label{Tab7}
     \centering
-    \resizebox{15cm}{!} {
+    \resizebox{17cm}{!} {
     \begin{tabular}{|l|l|l|l|c|c|c|c|c|c|c|c|c|c|}
     \hline \rowcolor{Gray3}
      &          &        &          & Captura  &             & Captura  &             & Captura     &             & \%        & $n_h$        & $N_h$   & \%        \\ \rowcolor{Gray3}
@@ -521,6 +542,18 @@ Supuestos para asesoría de septiembre 2021 (1er Hito CBA 2022):
 ```
 
 
+\pagebreak
+
+```{=tex}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\textwidth]{Figuras/AnchCentroSur_descarte_ANEXO_III.pdf}
+\caption{Captura total y descartada semestral (panel superior) estimada para la flota artesanal de la Región de Valparaíso, Biobío y Los Ríos. (panel intermedio) Número de viajes totales y muestreados en la flota artesanal de la Región de Valparaíso, Biobío y Los Ríos. (panel inferior) Porcentaje de descarte y de cobertura de la flota artesanal de la Región de Valparaíso, Biobío y Los Ríos. \textbf{Anchoveta centro-sur.}}
+\label{Fig3}
+\end{figure}
+```
+
+\pagebreak
 
 
 ```{=tex}
@@ -529,7 +562,7 @@ Supuestos para asesoría de septiembre 2021 (1er Hito CBA 2022):
 \caption{Estimaciones de captura total (CT), retenida (CR) y descartada (CD) con sus respectivos coeficientes de variación ($CV_{CT}$, $CV_{CR}$, $CV_{CD}$), porcentaje de descarte , tamaños de muestra de los viajes muestreados y totales y porcentaje de cobertura para los años 2017 al 2019 por semestre y flota para la pesquería de \textbf{sardina común de la zona centro-sur}.}
  \label{Tab10}
     \centering
-    \resizebox{15cm}{!} {
+    \resizebox{17cm}{!} {
     \begin{tabular}{|l|l|l|l|c|c|c|c|c|c|c|c|c|c|}
     \hline \rowcolor{Gray3}
      &          &        &          & Captura  &             & Captura  &             & Captura     &             & \%        & $n_h$        & $N_h$   & \%        \\ \rowcolor{Gray3}
@@ -575,6 +608,18 @@ Supuestos para asesoría de septiembre 2021 (1er Hito CBA 2022):
 
 \pagebreak
 
+```{=tex}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\textwidth]{Figuras/SardComun_descarte_ANEXO_III.pdf}
+\caption{Captura total y descartada semestral (panel superior) estimada para la flota artesanal de la Región de Valparaíso, Biobío y Los Ríos. (panel intermedio) Número de viajes totales y muestreados en la flota artesanal de la Región de Valparaíso, Biobío y Los Ríos. (panel inferior) Porcentaje de descarte y de cobertura de la flota artesanal de la Región de Valparaíso, Biobío y Los Ríos. \textbf{Sardina común Centro-sur.}}
+\label{Fig4}
+\end{figure}
+```
+
+\pagebreak
+
+
 
 ### 4.4. Descarte de la pesquería de sardina austral de la Región de Los Lagos.
 
@@ -592,6 +637,59 @@ Respecto al número de viajes totales realizados por la flota artesanal están e
 El modelo de evaluación de stock utiliza información en año calendario, por lo tanto, se requieren datos de descarte anuales para la flota artesanal para corregir la serie de desembarques (Leal & Zúñiga, 2020). Dada la alta variabilidad en las estimaciones de captura descartada, se requiere utilizar un supuesto de descarte para corregir la serie de desembarques utilizado por la evaluación de stock y un supuesto para el descarte proyectado que será utilizado en la proyección de CBA.
 
 Por lo tanto, dado que no se puede utilizar un criterio basado en promedios porque no hay información completa para esta zona. Se debe asumir un criterio experto, el cual debe ser discutido en el seno del CCT-PP. En una primera instancia, se recomienda utilizar un 4%, al igual que el caso de sardina común).
+
+
+\pagebreak
+
+```{=tex}
+\vspace{-0.2cm} 
+\begin{table}[h!]
+\caption{Estimaciones de captura total ($CT$), retenida ($CR$) y descartada ($CD$) con sus respectivos coeficientes de variación ($CV_{CT}$, $CV_{CR}$, $CV_{CD}$),  porcentaje de descarte , tamaños de muestra de los viajes muestreados y totales y porcentaje de cobertura para los años 2017 al 2020 por semestre y flota para la pesquería de \textbf{sardina austral Región de Los Lagos}.}
+ \label{Tab11}
+    \centering
+    \resizebox{17cm}{!} {
+    \begin{tabular}{|l|l|l|l|c|c|c|c|c|c|c|c|c|c|}
+    \hline \rowcolor{Gray3}
+     &          &        &          & Captura  &             & Captura  &             & Captura     &             & \%        & $n_h$        & $N_h$   & \%        \\ \rowcolor{Gray3}
+ Año & Semestre & Flota  & Zona     & total    & $CV_{CT}\%$ & retenida & $CV_{CR}\%$ & descartada  & $CV_{CD}\%$ & descarte  & viajes       & viajes  & cobertura \\ \rowcolor{Gray3}
+     &          &        &          &  (t)     &             & (t)      &             & (t)         &             &           & muestreados  & totales & \\ \hline
+\multirow{8}{1cm}{2017} & \multirow{4}{1cm}{1} & \multirow{3}{2cm}{Artesanal}  & Valparaíso & 2.809  & 37,7 & 2.771  & 38,0 & 38 & 94,0 & 1,3 & 13 & 203   & 6,4 \\ 
+                        &                      &            & Biobío     & 213.019 & 7,6 & 211.034 & 7,6 & 1.985 & 77,2 & 0,9 & 47 & 3.970 & 1,2 \\
+                        &                      &            & Los Ríos   &        &      &        &      &     &      &     & 7  & 746   & 0,9  \\
+                        &                      & Industrial & Valparaíso - Los Ríos & &  &        &      &     &      &     & 5  & 35    & 14,3  \\ 
+                        &\multirow{4}{1cm}{2}  & \multirow{3}{2cm}{Artesanal}  & Valparaíso & &             &        &      &     &      &     & 3  & 20    & 15,0 \\
+                        &                      &            & Biobío     & 49.207 & 22,2 & 44.759 & 25,5 & 4.449 & 92,7 & 9   & 11 & 1.305 & 0,8\\
+                        &                      &            & Los Ríos   & 23.968 & 13,6 & 23.219 & 13,1 & 749   & 39,8 & 3,1 & 16 & 437 & 3,7 \\
+                        &                      & Industrial & Valparaíso - Los Ríos & &  &        &      &     &      &     & 6  & 30    & 20,0 \\   \hline   
+\multirow{8}{1cm}{2018} & \multirow{4}{1cm}{1} & \multirow{3}{2cm}{Artesanal}  & Valparaíso & &             &        &      &     &      &     & 4  & 129   & 3,1   \\
+                        &                      &            & Biobío     & 230.138 & 11,1 & 212.585 & 11,3 & 17.554 & 56,0 & 7,6 & 40 & 3.396 & 1,2 \\
+                        &                      &            & Los Ríos   & 15.992 & 19,8 & 15.443 & 19,7 & 550 & 38,7 & 3,4 & 11 & 468   & 2,4  \\
+                        &                      & Industrial & Valparaíso - Los Ríos & &  &        &      &     &      &     & 2  & 20    & 10,0   \\  
+                        &\multirow{4}{1cm}{2}  & \multirow{3}{2cm}{Artesanal}  & Valparaíso & &             &        &      &     &      &     & 0  & 87    & 0,0   \\  
+                        &                      &            & Biobío     & 35.719 & 17,3 & 33.151 & 15,8 & 2.569 & 88,7 & 7,2 & 26 & 639   & 4,1 \\
+                        &                      &            & Los Ríos   & 10.607 & 11,9 & 10.340 & 11,9 & 267   & 96,2 & 2,5 & 14 & 187   & 7,5  \\
+                        &                      & Industrial & Valparaíso - Los Ríos & &  &        &      &     &      &     & 0  & 4     & 0   \\    \hline   
+\multirow{8}{1cm}{2019} & \multirow{4}{1cm}{1} & \multirow{3}{2cm}{Artesanal}  & Valparaíso & &             &        &      &     &      &     & 0  & 277   & 0,0   \\  
+                        &                      &            & Biobío     & 101.285    & 18,0   & 96.739 & 19,0 & 4.546 & 79,1 & 4,5 & 34 & 3.864 & 0,9  \\
+                        &                      &            & Los Ríos   & 42.344 & 9,1 & 35.422 & 6,6 & 6.922 & 34,1 & 16,3 & 24 & 558 & 4,3 \\
+                        &                      & Industrial & Valparaíso - Los Ríos & &  &        &      &     &      &     &    &       &   \\       
+                        & \multirow{4}{1cm}{2} & \multirow{3}{2cm}{Artesanal}  & Valparaíso & &             &        &      &     &      &     & 0  & 47    & 0,0   \\  
+                        &                      &            & Biobío     & 25.721 & 23,6 & 25.539 & 23,9 & 183 & 67,9 & 0,7 & 24 & 1.542 & 1,6 \\
+                        &                      &            & Los Ríos   & 10.156 & 13,7 & 9.619 & 12,7 & 537 & 68,0 & 5,3 & 16 & 183 & 8,7 \\
+                        &                      & Industrial & Valparaíso - Los Ríos &  &  &        &      &     &      &     &    & 10  &   \\   \hline    
+\multirow{8}{1cm}{2020} & \multirow{4}{1cm}{1} & \multirow{3}{2cm}{Artesanal}  & Valparaíso &  &             &        &      &     &      &     & 4  & 30  & 13,3  \\        
+                        &                      &            & Biobío     &  &             &        &      &     &      &     & 0  & 3.968  &   \\       
+                        &                      &            & Los Ríos   &  &             &        &      &     &      &     & 8  & 562 & 1,4   \\      
+                        &                      & Industrial & Valparaíso - Los Ríos &  &  &        &      &     &      &     & 0  &  2  & 0    \\  
+                        & \multirow{4}{1cm}{2} & \multirow{3}{2cm}{Artesanal}  & Valparaíso &  &             &        &      &     &      &     &    &     &    \\    
+                        &                      &            & Biobío     &  &             &        &      &     &      &     &    &     &    \\    
+                        &                      &            & Los Ríos   &  &             &        &      &     &      &     &    &     &    \\    
+                        &                      & Industrial & Valparaíso - Los Ríos & &   &        &      &     &      &     &    &     &    \\     \hline     
+   \end{tabular}}
+        \end{table}
+```
+
+
 
 \pagebreak
 
