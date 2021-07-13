@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.7.1)  2 JUL 2021 07:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.7.2)  13 JUL 2021 10:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -785,11 +785,10 @@ LaTeX Font Info:    Trying to load font information for TS1+phv on input line 1
 phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
-<Figuras/Fig26CCTPPjulioAnch-1.pdf, id=32, 469.755pt x 578.16pt>
-File: Figuras/Fig26CCTPPjulioAnch-1.pdf Graphic file (type pdf)
-<use Figuras/Fig26CCTPPjulioAnch-1.pdf>
-Package pdftex.def Info: Figuras/Fig26CCTPPjulioAnch-1.pdf  used on input line 
-220.
+<Figuras/Fig1_ANEXO_II-1.pdf, id=32, 469.755pt x 578.16pt>
+File: Figuras/Fig1_ANEXO_II-1.pdf Graphic file (type pdf)
+<use Figuras/Fig1_ANEXO_II-1.pdf>
+Package pdftex.def Info: Figuras/Fig1_ANEXO_II-1.pdf  used on input line 220.
 (pdftex.def)             Requested size: 469.75386pt x 578.15858pt.
 <logoifop.png, id=33, 125.5089pt x 151.767pt>
 File: logoifop.png Graphic file (type png)
@@ -802,11 +801,10 @@ Package fancyhdr Warning: \footskip is too small (5.0pt):
 (fancyhdr)                \setlength{\footskip}{7.875pt}.
 
 [2 <./logoifop.png>]
-<Figuras/Fig1CCTPPjulioAnch-1.pdf, id=41, 578.16pt x 433.62pt>
-File: Figuras/Fig1CCTPPjulioAnch-1.pdf Graphic file (type pdf)
-<use Figuras/Fig1CCTPPjulioAnch-1.pdf>
-Package pdftex.def Info: Figuras/Fig1CCTPPjulioAnch-1.pdf  used on input line 2
-22.
+<Figuras/Fig2_ANEXO_II-1.pdf, id=41, 578.16pt x 433.62pt>
+File: Figuras/Fig2_ANEXO_II-1.pdf Graphic file (type pdf)
+<use Figuras/Fig2_ANEXO_II-1.pdf>
+Package pdftex.def Info: Figuras/Fig2_ANEXO_II-1.pdf  used on input line 222.
 (pdftex.def)             Requested size: 472.02992pt x 354.02245pt.
 File: logoifop.png Graphic file (type png)
 <use logoifop.png>
@@ -817,57 +815,67 @@ Package fancyhdr Warning: \footskip is too small (5.0pt):
 (fancyhdr)                Make it at least 7.875pt, for example:
 (fancyhdr)                \setlength{\footskip}{7.875pt}.
 
-[3 <./Figuras/Fig26CCTPPjulioAnch-1.pdf>]
+[3 <./Figuras/Fig1_ANEXO_II-1.pdf>]
 File: logoifop.png Graphic file (type png)
 <use logoifop.png>
-Package pdftex.def Info: logoifop.png  used on input line 225.
+Package pdftex.def Info: logoifop.png  used on input line 261.
 (pdftex.def)             Requested size: 35.29353pt x 42.6774pt.
 
 Package fancyhdr Warning: \footskip is too small (5.0pt): 
 (fancyhdr)                Make it at least 7.875pt, for example:
 (fancyhdr)                \setlength{\footskip}{7.875pt}.
 
-[4 <./Figuras/Fig1CCTPPjulioAnch-1.pdf>]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 265.
+[4 <./Figuras/Fig2_ANEXO_II-1.pdf>]
+<Figuras/Fig10_ANEXO_II-1.pdf, id=64, 433.62pt x 289.08pt>
+File: Figuras/Fig10_ANEXO_II-1.pdf Graphic file (type pdf)
+<use Figuras/Fig10_ANEXO_II-1.pdf>
+Package pdftex.def Info: Figuras/Fig10_ANEXO_II-1.pdf  used on input line 263.
+(pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
+<Figuras/Fig11_ANEXO_II-1.pdf, id=65, 722.7pt x 289.08pt>
+File: Figuras/Fig11_ANEXO_II-1.pdf Graphic file (type pdf)
+<use Figuras/Fig11_ANEXO_II-1.pdf>
+Package pdftex.def Info: Figuras/Fig11_ANEXO_II-1.pdf  used on input line 265.
+(pdftex.def)             Requested size: 472.03212pt x 188.81284pt.
 File: logoifop.png Graphic file (type png)
 <use logoifop.png>
-Package pdftex.def Info: logoifop.png  used on input line 605.
+Package pdftex.def Info: logoifop.png  used on input line 265.
 (pdftex.def)             Requested size: 35.29353pt x 42.6774pt.
 
 Package fancyhdr Warning: \footskip is too small (5.0pt): 
 (fancyhdr)                Make it at least 7.67097pt, for example:
 (fancyhdr)                \setlength{\footskip}{7.67097pt}.
 
-[5]
-<Figuras/Fig5CCTPPsard-1.pdf, id=70, 578.16pt x 433.62pt>
-File: Figuras/Fig5CCTPPsard-1.pdf Graphic file (type pdf)
-<use Figuras/Fig5CCTPPsard-1.pdf>
-Package pdftex.def Info: Figuras/Fig5CCTPPsard-1.pdf  used on input line 641.
+[5 <./Figuras/Fig10_ANEXO_II-1.pdf>]
+File: logoifop.png Graphic file (type png)
+<use logoifop.png>
+Package pdftex.def Info: logoifop.png  used on input line 268.
+(pdftex.def)             Requested size: 35.29353pt x 42.6774pt.
+
+Package fancyhdr Warning: \footskip is too small (5.0pt): 
+(fancyhdr)                Make it at least 7.875pt, for example:
+(fancyhdr)                \setlength{\footskip}{7.875pt}.
+
+[6 <./Figuras/Fig11_ANEXO_II-1.pdf>]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 308.
+File: logoifop.png Graphic file (type png)
+<use logoifop.png>
+Package pdftex.def Info: logoifop.png  used on input line 648.
+(pdftex.def)             Requested size: 35.29353pt x 42.6774pt.
+
+Package fancyhdr Warning: \footskip is too small (5.0pt): 
+(fancyhdr)                Make it at least 7.67097pt, for example:
+(fancyhdr)                \setlength{\footskip}{7.67097pt}.
+
+[7]
+<Figuras/Fig5_ANEXO_II-1.pdf, id=93, 578.16pt x 433.62pt>
+File: Figuras/Fig5_ANEXO_II-1.pdf Graphic file (type pdf)
+<use Figuras/Fig5_ANEXO_II-1.pdf>
+Package pdftex.def Info: Figuras/Fig5_ANEXO_II-1.pdf  used on input line 684.
 (pdftex.def)             Requested size: 472.02992pt x 354.02245pt.
 File: logoifop.png Graphic file (type png)
 <use logoifop.png>
-Package pdftex.def Info: logoifop.png  used on input line 641.
-(pdftex.def)             Requested size: 35.29353pt x 42.6774pt.
-
-Package fancyhdr Warning: \footskip is too small (5.0pt): 
-(fancyhdr)                Make it at least 7.875pt, for example:
-(fancyhdr)                \setlength{\footskip}{7.875pt}.
-
-[6]
-File: logoifop.png Graphic file (type png)
-<use logoifop.png>
-Package pdftex.def Info: logoifop.png  used on input line 644.
-(pdftex.def)             Requested size: 35.29353pt x 42.6774pt.
-
-Package fancyhdr Warning: \footskip is too small (5.0pt): 
-(fancyhdr)                Make it at least 7.67097pt, for example:
-(fancyhdr)                \setlength{\footskip}{7.67097pt}.
-
-[7 <./Figuras/Fig5CCTPPsard-1.pdf>]
-File: logoifop.png Graphic file (type png)
-<use logoifop.png>
-Package pdftex.def Info: logoifop.png  used on input line 951.
+Package pdftex.def Info: logoifop.png  used on input line 684.
 (pdftex.def)             Requested size: 35.29353pt x 42.6774pt.
 
 Package fancyhdr Warning: \footskip is too small (5.0pt): 
@@ -875,35 +883,55 @@ Package fancyhdr Warning: \footskip is too small (5.0pt):
 (fancyhdr)                \setlength{\footskip}{7.875pt}.
 
 [8]
-<Figuras/Fig5-1.pdf, id=93, 578.16pt x 433.62pt>
-File: Figuras/Fig5-1.pdf Graphic file (type pdf)
-<use Figuras/Fig5-1.pdf>
-Package pdftex.def Info: Figuras/Fig5-1.pdf  used on input line 988.
-(pdftex.def)             Requested size: 472.02992pt x 354.02245pt.
 File: logoifop.png Graphic file (type png)
 <use logoifop.png>
-Package pdftex.def Info: logoifop.png  used on input line 988.
+Package pdftex.def Info: logoifop.png  used on input line 687.
 (pdftex.def)             Requested size: 35.29353pt x 42.6774pt.
 
 Package fancyhdr Warning: \footskip is too small (5.0pt): 
 (fancyhdr)                Make it at least 7.875pt, for example:
 (fancyhdr)                \setlength{\footskip}{7.875pt}.
 
-[9]
+[9 <./Figuras/Fig5_ANEXO_II-1.pdf>]
+File: logoifop.png Graphic file (type png)
+<use logoifop.png>
+Package pdftex.def Info: logoifop.png  used on input line 994.
+(pdftex.def)             Requested size: 35.29353pt x 42.6774pt.
+
+Package fancyhdr Warning: \footskip is too small (5.0pt): 
+(fancyhdr)                Make it at least 7.875pt, for example:
+(fancyhdr)                \setlength{\footskip}{7.875pt}.
+
+[10]
+<Figuras/Fig7_ANEXO_II-1.pdf, id=115, 578.16pt x 433.62pt>
+File: Figuras/Fig7_ANEXO_II-1.pdf Graphic file (type pdf)
+<use Figuras/Fig7_ANEXO_II-1.pdf>
+Package pdftex.def Info: Figuras/Fig7_ANEXO_II-1.pdf  used on input line 1031.
+(pdftex.def)             Requested size: 472.02992pt x 354.02245pt.
+File: logoifop.png Graphic file (type png)
+<use logoifop.png>
+Package pdftex.def Info: logoifop.png  used on input line 1031.
+(pdftex.def)             Requested size: 35.29353pt x 42.6774pt.
+
+Package fancyhdr Warning: \footskip is too small (5.0pt): 
+(fancyhdr)                Make it at least 7.875pt, for example:
+(fancyhdr)                \setlength{\footskip}{7.875pt}.
+
+[11]
 
 Package caption Warning: Unused \captionsetup[figure] on input line 79.
 See the caption package documentation for explanation.
 
 File: logoifop.png Graphic file (type png)
 <use logoifop.png>
-Package pdftex.def Info: logoifop.png  used on input line 990.
+Package pdftex.def Info: logoifop.png  used on input line 1033.
 (pdftex.def)             Requested size: 35.29353pt x 42.6774pt.
 
 Package fancyhdr Warning: \footskip is too small (5.0pt): 
 (fancyhdr)                Make it at least 7.875pt, for example:
 (fancyhdr)                \setlength{\footskip}{7.875pt}.
 
-[10 <./Figuras/Fig5-1.pdf>] (./AnalisisSensibilidad.aux
+[12 <./Figuras/Fig7_ANEXO_II-1.pdf>] (./AnalisisSensibilidad.aux
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
 )
@@ -911,10 +939,10 @@ Package rerunfilecheck Info: File `AnalisisSensibilidad.out' has not changed.
 (rerunfilecheck)             Checksum: E8CD5A88BF5DC8897CF0B36EA216362F;1189.
  ) 
 Here is how much of TeX's memory you used:
- 15048 strings out of 480459
- 236161 string characters out of 5895901
- 611601 words of memory out of 5000000
- 32324 multiletter control sequences out of 15000+600000
+ 15070 strings out of 480459
+ 236775 string characters out of 5895901
+ 611684 words of memory out of 5000000
+ 32341 multiletter control sequences out of 15000+600000
  471674 words of font info for 160 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,14n,66p,659b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -922,10 +950,10 @@ Here is how much of TeX's memory you used:
 se/8r.enc}</Users/mariajosezunigabasualto/Library/TinyTeX/texmf-dist/fonts/type
 1/urw/helvetic/uhvb8a.pfb></Users/mariajosezunigabasualto/Library/TinyTeX/texmf
 -dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on AnalisisSensibilidad.pdf (10 pages, 86362 bytes).
+Output written on AnalisisSensibilidad.pdf (12 pages, 102331 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
- 25 named destinations out of 1000 (max. 500000)
- 61498 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 152 PDF objects out of 1000 (max. 8388607)
+ 118 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 500000)
+ 61508 words of extra memory for PDF output out of 61914 (max. 10000000)
 
