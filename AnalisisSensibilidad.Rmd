@@ -437,7 +437,7 @@ data2 <- data.frame(rbind(ind,datR,datBT,datBD,datF))
 
 ```
 
-```{r Fig26CCTPPjulioAnch,warning=F, include=T, message=F, echo=F,fig.height=8,fig.width=6.5,fig.align="center",fig.path=dir.Fig,dev=fig}
+```{r Fig1_ANEXO_II,warning=F, include=T, message=F, echo=F,fig.height=8,fig.width=6.5,fig.align="center",fig.path=dir.Fig,dev=fig}
 f1<- ggplot(data2 %>% filter(Series=="Crucero_verano"),
             aes(years,value)) +   
      geom_line(aes(colour=variable), size=0.3)+
@@ -636,7 +636,7 @@ data1 <- data.frame(rbind(datR,datBT,datBD,datF))
 
 ```
 
-```{r Fig1CCTPPjulioAnch,echo=F, message=FALSE, warning=FALSE, include=T, fig.align="center", fig.height=6, fig.width=8,fig.path=dir.Fig,dev=fig}
+```{r Fig2_ANEXO_II,echo=F, message=FALSE, warning=FALSE, include=T, fig.align="center", fig.height=6, fig.width=8,fig.path=dir.Fig,dev=fig}
 #######################################################################################
 # GRAFICAS
 #######################################################################################
@@ -751,7 +751,7 @@ data <- data.frame(rbind(datR,datBT,datBD,datF))
 
 ```
 
-```{r Fig2,echo=F, message=FALSE, warning=FALSE, include=T, fig.align="center", fig.height=6, fig.width=8,fig.path=dir.Fig,dev=fig,eval=F}
+```{r Fig3_ANEXO_II,echo=F, message=FALSE, warning=FALSE, include=T, fig.align="center", fig.height=6, fig.width=8,fig.path=dir.Fig,dev=fig,eval=F}
 #######################################################################################
 # GRAFICAS
 #######################################################################################
@@ -800,6 +800,58 @@ f4<- ggplot(data %>% filter(Series=="Mortalidad_por_pesca"),
 ```
 
 
+```{r Fig10_ANEXO_II,echo=F, message=FALSE, warning=FALSE, include=T, fig.align="center", fig.height=4, fig.width=6,fig.path=dir.Fig,dev=fig}
+
+ind1<-c(rep(NA,11),246.4,17.6,13.1,84.8,NA,1304.8,192.8,157.4,59.5,402.8,43.2,356.7,335.8,342.3,403.6,NA,NA,NA,NA,NA)
+ind2<-c(rep(NA,11),1168,78,65,283,NA,4175,652,601,182,1200,132,988,1028,NA,NA,NA,NA,NA,NA,NA)
+ind3<-c(rep(NA,11),1.62,NA,0.03,0.23,NA,12.7,0.33,0.79,0.41,2.23,0.16,1.94,1.86,NA,NA,NA,NA,NA,NA,NA)
+ind4<-c(rep(NA,11),7.67,NA,0.13,0.76,NA,40.65,1.12,3.01,1.25,6.66,0.48,5.37,5.68,NA,NA,NA,NA,NA,NA,NA)
+
+ind1A<-c(rep(NA,5),139.6,508,285.6,597.5,1994.3,429.4,149,492.4,188.9,43,81.3,247.2,469.2,244.7,NA,NA,NA,NA,NA,NA)
+ind2A<-c(rep(NA,5),694,2568,1285,2283,6214,1410,496,1934,841,199,363,983,NA,NA,NA,NA,NA,NA,NA,NA)
+ind3A<-c(rep(NA,5),1.31,NA,1.73,4.02,25.49,2.39,1.14,3.72,1.35,0.12,0.34,1.69,NA,NA,NA,NA,NA,NA,NA,NA)
+ind4A<-c(rep(NA,5),6.5,NA,7.77,15.35,79.43,7.84,3.79,14.63,6,0.54,1.52,6.72,NA,NA,NA,NA,NA,NA,NA,NA)
+
+tabla<-cbind(rep2$years,ind1,ind2,ind3,ind4)
+kable(tabla)
+par(mfcol=c(1,1),mar=c(4,4,1,4))
+
+
+
+plot(seq(1997,2021),ind1A,type="o",pch=19,col=1,ylim=c(0,6500),ylab="Densidad - índice 1 y 2",xlab="",main="Anchoveta centro-sur")
+lines(seq(1997,2021),ind2A,type="o",pch=19,col=2)
+par(new=TRUE)
+plot(seq(1997,2021),ind3A,type="o",pch=19,col=3,axes=F,ylim=c(0,90),ylab="",xlab="")
+axis(4,cex.axis=0.7,las=1)
+mtext("Densidad - índice 3 y 4",side=4,line=3)
+lines(seq(1997,2021),ind4A,type="o",pch=19,col=4)
+legend(2011,60,c("índice Nº1","índice Nª2","índice Nª3","índice Nº4"),col=c(1,2,3,4),pch=19,lwd=1,bty="n")
+
+
+
+
+
+```
+
+
+```{r Fig11_ANEXO_II,echo=F, message=FALSE, warning=FALSE, include=T, fig.align="center", fig.height=4, fig.width=10,fig.path=dir.Fig,dev=fig}
+
+areadesoveS<-c(6568,NA,2042,2686,NA,9737,1716,5004,6874,5545,3627,5432,5525)
+areadesoveA<-c(9373,NA,6051,6727,NA,12782,5557,7635,7563,7135,2708,4189,6837)
+duraciondesoveS<-c(4.74,4.43,4.99,3.34,NA,3.2,3.38,3.82,3.06,2.98,3.05,2.77,3.06)
+duraciondesoveA<-c(4.97,5.05,4.5,3.82,NA,3.12,3.28,3.33,3.93,4.45,4.62,4.46,3.98)
+
+par(mfcol=c(1,2),mar=c(4,4,1,4))
+plot(seq(2002,2014),areadesoveA,type="o",col=1,ylim=c(0,13000),ylab="Área de desove (km2)",pch=19,xlab="Años")
+lines(seq(2002,2014),areadesoveS,type="o",col=2,pch=19)
+
+plot(seq(2002,2014),duraciondesoveA,type="o", ylim=c(0,5.5),col=1,ylab="Duración del desove (meses)",pch=19,xlab="Años")
+lines(seq(2002,2014),duraciondesoveS,type="o",col=2,pch=19)
+
+legend(2006,2,c("Anchoveta","Sardina común"),col=c(2,1),lwd=1,pch=19,bty="n")
+```
+
+
 
 \pagebreak
 
@@ -811,7 +863,7 @@ Capturas corregidas por periodo y método en sardina común y anchoveta centro-s
 
 ## Análisis de sardina común
 
-```{r desembarques y descarte sardina, echo=FALSE,eval=T}
+```{r Fig4_ANEXO_II,desembarques y descarte sardina, echo=FALSE,eval=T}
 bioyear<-c("1990-91","1991-92","1992-93","1993-94","1994-95","1995-96","1996-97","1997-98","1998-99","1999-00","2000-01",
            "2001-02","2002-03","2003-04","2004-05","2005-06","2006-07","2007-08","2008-09","2009-10","2010-11","2011-12",
            "2012,13","2013-14","2014-15","2015-16","2016-17","2017-18","2018-19","2019-20","2020-21")
@@ -832,7 +884,7 @@ kable(data, align = 'c')
 
 \pagebreak
 
-```{r Fig5CCTPPsard, echo=F, message=FALSE, warning=FALSE, include=T,echo=F, message=FALSE, warning=FALSE, include=T,fig.align="center", fig.height=6, fig.width=8,fig.path="Figuras/",dev="pdf",eval=T}
+```{r Fig5_ANEXO_II, echo=F, message=FALSE, warning=FALSE, include=T,echo=F, message=FALSE, warning=FALSE, include=T,fig.align="center", fig.height=6, fig.width=8,fig.path="Figuras/",dev="pdf",eval=T}
 
 # Tabla 24. Capturas corregidas por período y método en sardina común
 
@@ -872,7 +924,7 @@ legend(1995,1230000,c("Desembarques oficiales","Capturas Corregidas Encuestas","
 \vspace{-0.2cm} Desembarques en toneladas, porcentaje de descarte supuesto, captura descartada (toneladas) y captura total (toneladas) estimadas en año biológico para anchoveta de las Regiones de Valparaíso a Los Lagos.
 \end{center}
 ```
-```{r Fig4, echo=FALSE,eval=T,, fig.align="center", fig.height=6, fig.width=8,fig.path=dir.Fig,dev=fig}
+```{r Fig6_ANEXO_II, echo=FALSE,eval=T,, fig.align="center", fig.height=6, fig.width=8,fig.path=dir.Fig,dev=fig}
 bioyear<-c("1996-97","1997-98","1998-99","1999-00","2000-01",
            "2001-02","2002-03","2003-04","2004-05","2005-06","2006-07","2007-08","2008-09","2009-10","2010-11","2011-12",
            "2012-13","2013-14","2014-15","2015-16","2016-17","2017-18","2018-19","2019-20","2020-21")
@@ -894,7 +946,7 @@ kable(data, align = 'c')
 
 \pagebreak
 
-```{r Fig5, echo=F, message=FALSE, warning=FALSE, include=T,fig.align="center", fig.height=6, fig.width=8,fig.path=dir.Fig,dev=fig}
+```{r Fig7_ANEXO_II, echo=F, message=FALSE, warning=FALSE, include=T,fig.align="center", fig.height=6, fig.width=8,fig.path=dir.Fig,dev=fig}
 
 # Tabla 24. Capturas corregidas por período y método en Anchoveta
 
