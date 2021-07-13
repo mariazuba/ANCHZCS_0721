@@ -1,0 +1,214 @@
+---
+title: \Huge \textbf{ANEXO I}
+subtitle:  \Large Proceso de actualización de datos de entrada al modelo de evaluación de stock de anchoveta de la Región de Valparaíso a la Región de Los Lagos
+lang: es
+toc: TRUE
+output: 
+    pdf_document:
+header-includes:
+- \usepackage{draftwatermark}
+- \SetWatermarkText{}
+- \usepackage{fancyhdr}
+- \usepackage{graphicx}
+- \usepackage{parskip}
+- \usepackage{caption}
+- \captionsetup[table]{name=\textbf{Tabla},labelsep=period}
+- \captionsetup[figure]{name=\textbf{Figura},labelsep=period}
+- \captionsetup{justification=justified,format=plain,font=small,labelfont=bf,margin=40pt}
+- \pagestyle{fancy}
+- \usepackage{geometry}
+- \geometry{top=1.5cm, bottom=1cm, left=2.5cm, right=2.5cm}
+- \usepackage{helvet}
+- \renewcommand{\familydefault}{\sfdefault}
+- \usepackage{multirow}
+- \usepackage{natbib}
+- \renewcommand{\baselinestretch}{1.2}
+- \newcommand{\sietepuntos}{\fontsize{7pt}{\baselineskip}\selectfont}
+- \newcommand{\cincopuntos}{\fontsize{6pt}{\baselineskip}\selectfont}
+- \usepackage{color,colortbl}
+- \definecolor{Gray}{rgb}{0.801,0.801,0.801}
+- \definecolor{Gray1}{rgb}{0.790,0.790,0.790}
+- \definecolor{Gray2}{rgb}{0.830,0.830,0.830}
+- \definecolor{Gray3}{rgb}{0.870,0.870,0.870}
+- \definecolor{Gray4}{rgb}{0.940,0.940,0.940}
+- \addtolength{\headheight}{4.5\baselineskip}
+- \setlength{\headheight}{70pt}
+- \setlength{\footskip}{5pt}
+- \setlength{\textheight}{658pt}
+- \fancyhead[CO,CE]{\includegraphics[height=1.5cm]{logoifop.png}\\ \sietepuntos INSTITUTO DE FOMENTO PESQUERO / DIVISION INVESTIGACION PESQUERA}
+- \fancyhead[LO,LE]{ }
+- \fancyhead[RO,RE]{ }
+- \renewcommand{\headrulewidth}{0.5pt}
+- \fancyfoot[C]{\cincopuntos \thepage \\ \vspace{-0.2cm} ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ \\ \vspace{-0.2cm} \cincopuntos CONVENIO DE DESEMPEÑO 2020 IFOP/SUBSECRETARÍA DE ECONOMíA Y EMT \\ \vspace{-0.1cm} TERCER INFORME. ANCHOVETA DE LA  REGIÓN DE VALPARAÍSO A LA REGIÓN DE LOS LAGOS, 2021. \textbf{ANEXO I}.}
+---
+
+
+\pagebreak
+
+## 1. Contexto
+
+
+Cada proceso de revisión de CBA involucra la actualización y/o supuestos de datos para evaluar el impacto en las variables de estado asociado a la incorporación incremental de piezas de información. Al respecto, la actualización de datos de la asesoría actual corresponde principalmente a la información de la flota del año biológico 2020/21 (desembarques, descarte, composición de edad, pesos medios) y la incorporación de datos del crucero acústico de otoño 2021 correspondiente a la biomasa total y composición de edad.
+
+## 2. Actualización de datos
+
+
+En la \textbf{Tabla \ref{Tab1}} se comparan las fuentes de información utilizadas en asesoría científica realizada en septiembre 2020, marzo  y julio del 2021 para el cálculo de la CBA inicial, primera revisión de CBA y la asesoría actual correspondiente a la segunda actualización de CBA. Estas asesorías tienen como objetivo la recomendación de captura biológicamente aceptable (CBA) para el año 2021. En términos de datos, las diferencias entre la última evaluación (marzo 2021) y esta nueva revisión (julio 2021) corresponde a la actualización de los desembarques, descarte, composición de edad y pesos medios provenientes de las capturas para el año biológico 2020/21. Además, se incorporan los resultados del crucero de evaluación hidroacústico realizado en mayo de 2021.
+
+\vspace{0.2cm}
+
+```{=tex}
+\begin{table}[h!]
+\caption{Información relevante para el cálculo de CBA 2021 en cada una de las etapas de estimación.}
+ \label{Tab1}
+ \small
+    \centering
+    \resizebox{13cm}{!} {
+    \begin{tabular}{|l|c|c|c|}
+    \hline \rowcolor{Gray3}
+  Datos de entrada  & CBA INICIAL                & 1ERA REVISIÓN                   & 2DA REVISIÓN  \\  \rowcolor{Gray3}
+  al modelo         & Septiembre 2020            & Marzo 2021                      & Julio 2021 \\ \hline
+  Desembarques      &                            & Julio 1991- junio 2020 +        & Julio 1991 - \\
+                    & Julio 1991 - junio 2020  & Supuesto de captura 2020/2021   & preliminar a junio 2021 \\
+                    &                          &                                 &  \\ \hline
+  Biomasa acústica  & 2000 – 2020                & 2000 – 2021                     &    2000 – 2021 \\
+  Crucero de verano &                          &                                 & \\ \hline
+  Biomasa acústica  & 2003 – 2020              & 2003 – 2020                     & 2003 – 2021 \\
+  Crucero de otoño  &                          &                                 & \\ \hline
+  Composición de    & Julio 1991 - junio 2020  & Julio 1991 - junio 2020         & Julio 1991 - mayo 2021  \\
+  edad Flota        &                          &                                 & \\ \hline
+  Composición de    & 2001 – 2020              & 2001 – 2021                       & 2001 – 2021 \\
+  edad Cruceros de verano&                     &                                 & \\ \hline
+  Composición de    & 2007 – 2020              & 2007 – 2020                     & 2007 – 2021 \\
+  edad Cruceros de otoño&                      &                                 & \\ \hline
+                    &                          & Julio 1990 - junio 2020         & \\
+  Pesos medios      & Julio 1991 - junio 2020  & Promedio de los últimos 5 años  & Julio 1990 - mayo 2021 \\
+  a la edad         &                          & de la serie histórica para      & \\ 
+                    &                          & julio 2020-junio 2021           & \\ \hline
+  Madurez sexual    & Constante                & Constante                       & Constante \\
+  a la edad         &                          &                                 & \\ \hline
+  Mortalidad natural& Constante                & Constante                       & Constante \\ \hline
+  Proyección del    & 2 años biológicos        & 1 año biológico                 & 1 año biológico \\
+  reclutamiento     & (años 2020/21 y 2021/22) & (año 2021/22)                   & (año 2021/22) \\ \hline
+    \end{tabular}}
+        \end{table}
+```
+\vspace{0.2cm} \normalsize
+
+
+La información actualizada en la presente evaluación es presentada en las \textbf{Figuras \ref{Fig1}}, \textbf{\ref{Fig2}} y \textbf{\ref{Fig3}}. El desembarque total del año biológico 2020/21 fue un 4,5% mayor que el supuesto en la asesoría de septiembre del 2020. La composición de edad registrada por la flota comercial durante el año biológico 2020/21, muestra que la captura estuvo sostenida principalmente por peces de edad 1, registrándose una baja proporción de peces capturados de edad 0 (menor al 10%) \textbf{Figura \ref{Fig2}}. Respecto a la actualización de los pesos medios a la edad registrados durante el año 2020/21 \textbf{Figura \ref{Fig3}}, se observa un incremento de un 38% en el peso de individuos de edad 0 y una disminución del 5% apróx. en peces de edad 1 a 3 años, registrándose una mayor diferencia en el grupo de edad 4, 16% menor respecto a los pesos medios supuestos en la asesoría de marzo 2021. No obstante, el aporte de los grupos de edad 3 y 4 a la abundancia total es menor al 10%. En relación a la biomasa total estimada por el crucero de otoño  para el año 2021, se registró el nivel más alto de los últimos 11 años (estimada en 1,3 millones de t), aumentando en un 33% respecto al estimado el año 2020 \textbf{Figura \ref{Fig1}}. La biomasa estimada por el crucero acústico de otoño 2021 está sustentada principalmente por peces de edad 0 y 1 (47% y 45% respectivamente) \textbf{Figura \ref{Fig2}}.
+
+
+```{=tex}
+\begin{figure}
+\centering
+\includegraphics[width=0.65\textwidth]{Figuras/Fig1_anexoI-1.pdf}
+\caption{ Comparación entre los datos utilizados en la asesoría de marzo y julio 2021 para el stock de anchoveta de las Regiones de Valparaíso a Los Lagos. Se actualiza información para el año 2021.}
+\label{Fig1}
+\end{figure}
+```
+
+
+
+```{=tex}
+\begin{figure}
+\centering
+\includegraphics[width=0.65\textwidth]{Figuras/Fig2c_anexoI-1.pdf}
+\caption{ Comparación entre la proporción de edad de la flota y cruceros acústicos de verano y otoño de anchoveta de las Regiones de Valparaíso a Los Lagos. Se compara la información utilizada en la asesoría de marzo y julio 2021.}
+\label{Fig2}
+\end{figure}
+```
+\pagebreak
+
+```{=tex}
+\begin{figure}
+\centering
+\includegraphics[width=0.6\textwidth]{Figuras/Fig3_anexoI-1.pdf}
+\caption{ Comparación entre los pesos medios a la edad de anchoveta de las Regiones de Valparaíso a Los Lagos. Se compara la información utilizada en la asesoría de marzo y julio 2021.}
+\label{Fig3}
+\end{figure}
+```
+
+\vspace{0.5cm}
+
+## 3. Descripción del modelo base y procesos involucrados en la revisión de julio 2021.
+
+El stock de anchoveta en la UPCS comenzó a ser evaluada oficialmente en 1996 por Barría *et al*. (1998) y (1999), con métodos estructurados por edad en escala calendaria. En la asesoría de septiembre 2020 se realizó el cambio de modelo base de año calendario (MAE) a año biológico (MAEb), el cual fue adoptado por el CCT-PP en la sesión de mayo 2020 (Acta Sesión Nº3). Este nuevo modelo base permite una mejor representación del reclutamiento y de la dinámica de anchoveta, disminuyendo la incertidumbre en los indicadores utilizados para medidas de manejo (Zúñiga *et al*., 2020).
+
+Para mantener la consistencia en el proceso de evaluación del stock y estimación de CBA, se utilizó un modelo edad estructurado igual al usado en las asesorías previas (septiembre 2020 y marzo 2021). Con objeto de evaluar el impacto en las variables de estado debido a la incorporación de nuevos datos, se realizó un proceso incremental de incorporación de piezas de información de acuerdo a la (\textbf{Tabla \ref{Tab2}}).
+
+\vspace{0.3cm}
+
+```{=tex}
+\begin{table}[h!]
+\caption{Escenarios de que permiten evaluar el impacto de la incorporación de datos actualizados en el proceso de actualización}
+ \label{Tab2}
+ \small
+    \centering
+    \resizebox{13cm}{!} {
+    \begin{tabular}{|c|l|}
+    \hline \rowcolor{Gray3}
+ Casos         & Descripción                                                            \\ \hline
+ \textbf{$1_{MAE0321}$} & Caso base asesoría marzo 2021                                      \\
+ 2             & Actualiza serie de descarte 2017/18, 2018/19 Y 2019/20                 \\ \rowcolor{Gray4}
+ 3             & Actualiza desembarque 2020/21 + supuesto de descarte 2020/21           \\
+ 4             & Actualiza composición de edad de la flota del año biológico 2020/21    \\ \rowcolor{Gray4}
+ 5             & Actualiza pesos medios e iniciales a la edad del año biológico 2020/21 \\
+ 6             & Actualiza biomasa crucero acústico de otoño, año 2021                  \\ \rowcolor{Gray4}
+ \textbf{$7_{MAE0721}$} & Actualiza composición de edad crucero acústico de otoño, año 2021  \\ \hline
+    \end{tabular}}
+        \end{table}
+```
+\normalsize
+
+\pagebreak
+
+## 4. Actualización de las principales variables de estado
+
+
+En la \textbf{Tabla \ref{Tab3}} y \textbf{Figura \ref{Fig4}} muestran el impacto de la incorporación y actualización de la información en las principales variables de estado para el caso 1 ( asesoría de marzo 2021, MAE0321b). 
+
+
+Los resultados muestran que los niveles poblaciones (Reclutamientos, BD y $BD/BD_{RMS}$) aumentan con la incorporación de los rendimientos estandarizados (13% app, caso 5) y el crucero (16%, caso 7) para el año 2020, comparado con el estimado en la asesoría de marzo 2021. 
+
+Por otra parte, las piezas de información que menos impactan corresponden a la actualización del desembarque 2020, incorporación del descarte y actualización de la estructura de tallas de la flota año 2020 (casos 2 al 6). 
+
+La actualización del desembarque no tuvo efectos en el reclutamiento, un efecto poco significativo en el nivel de biomasa y un efecto esperable en la estimación de F, dado el cambio del supuesto de captura por la captura observada.
+
+La incorporación de información 2020 junto al crucero en su conjunto (caso 7) muestran un impacto significativo en el nivel de biomasa (18%) y $BD/BD_{RMS}$ (16 %), con una disminución del 18% en F para el año 2020, no obstante, con la incorporación del crucero, el reclutamiento 2020 no muestra diferencias significativas, siendo un 1% menor en la evaluación actual (junio 2021).
+
+\vspace{0.5cm}
+
+```{=tex}
+\begin{table}[h!]
+\caption{Estimaciones de las principales variables de estado para el caso 1 (asesoría marzo 2021, MAE0321b) comparado con los resultados según la incorporación de cada pieza de información y en su conjunto (caso 7, asesoría julio 2021, MAE0721b). Se presenta el valor de estimación central y la diferencia en términos porcentuales. R= Reclutamiento, BD= Biomasa desovante, $BD/BD_{RMS}$= Reducción de la población respecto el RMS y F= Mortalidad por pesca.}
+ \label{Tab3}
+ \small
+    \centering
+    \resizebox{15cm}{!} {
+    \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+    \hline \rowcolor{Gray3}
+ Casos & R     & BD     & $BD/BD_{RMS}$ & F     & R.diff & BD.diff  & $BD/BD_{RMS}$.diff & F.diff \\ \hline
+ 1     & 25,4  & 686,8  & 1,41          & 0,34  &        &          &                    &        \\  \rowcolor{Gray4}
+ 2     & 25,4  & 686,8  & 1,41          & 0,34  & 0      & 0        & 0                  & 0  \\
+ 3     & 25,4  & 687,1  & 1,41          & 0,36  & 0      & 0        & 0                  & 0,05   \\ \rowcolor{Gray4}
+ 4     & 23,4  & 691,1  & 1,42          & 0,36  & -0,08  & 0,01     & 0                  & 0,05   \\
+ 5     & 23,4  & 644,7  & 1,33          & 0,38  & -0,08  & -0,06    & -0,06              & 0,11   \\ \rowcolor{Gray4}
+ 6     & 23,0  & 637,5  & 1,32          & 0,39  & -0,09  & -0,07    & -0,07              & 0,12   \\
+ 7     & 25,9  & 626,5  & 1,30          & 0,39  & 0,02   & -0,09    & -0,08              & 0,14   \\ \hline
+    \end{tabular}}
+        \end{table}
+```
+\vspace{0.2cm} \normalsize
+
+
+```{=tex}
+\begin{figure}
+\centering
+\includegraphics[width=0.98\textwidth]{Figuras/Fig4_anexoI-1.pdf}
+\caption{ diferencias relativas }
+\label{Fig4}
+\end{figure}
+```
+
+
