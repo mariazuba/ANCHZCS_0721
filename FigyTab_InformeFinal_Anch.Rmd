@@ -1747,28 +1747,32 @@ BD2std   <- subset(std2,name=="SSB")$std
 Ft2      <- subset(std2,name=="log_Ft")$value   
 Ft2std   <- subset(std2,name=="log_Ft")$std
 
-Rt3      <- subset(std3,name=="Reclutas")$value 
+Rt3std   <- subset(std3,name=="Reclutas")$value
+Rt3tabla      <- rep3$Reclutas
 Rt3std   <- subset(std3,name=="Reclutas")$std
 BT3      <- subset(std3,name=="BT")$value   
+BT3tabla      <- rep3$BT   
 BT3std   <- subset(std3,name=="BT")$std
 BD3      <- subset(std3,name=="SSB")$value   
+BD3tabla      <- rep3$SSB   
 BD3std   <- subset(std3,name=="SSB")$std
-Ft3      <- subset(std3,name=="log_Ft")$value   
+Ft3      <- subset(std3,name=="log_Ft")$value
+Ft3tabla     <- rep3$Ftot
 Ft3std   <- subset(std3,name=="log_Ft")$std
 
 VarPobl1<- cbind('Año'=yearsb,
                  "$BD_{sept}$"=c(BD1),
                  "$BD_{marzo}$"=c(BD2),
-                  "$BD_{julio}$"=c(BD3),
+                  "$BD_{julio}$"=c(BD3tabla),
                  "$BT_{sept}$"=c(BT1),
                  "$BT_{marzo}$"=c(BT2),
-                 "$BT_{julio}$"=c(BT3),
+                 "$BT_{julio}$"=c(BT3tabla),
                  "$R_{sept}$"=c(Rt1),
                  "$R_{marzo}$"=c(Rt2),
-                 "$R_{julio}$"=c(Rt3),
+                 "$R_{julio}$"=c(Rt3tabla),
                  "$F_{sept}$"=c(round(exp(Ft1),3)),
                  "$F_{marzo}$"=c(round(exp(Ft2),3)),
-                 "$F_{julio}$"=c(round(exp(Ft3),3)))
+                 "$F_{julio}$"=c(round((Ft3tabla),3)))
 kable(VarPobl1)
 
 #setwd(dir.basedatos)
@@ -2372,10 +2376,10 @@ yearsb<-c("1996/97","1997/98","1998/99","1999/00","2000/01","2001/02","2002/03",
 VarPobl2<- cbind('Años'=yearsb,
                  "$F/F_{RMS_{sept}}$"=c(round(exp(Ft1)/FRMS1,3)),
                  "$F/F_{RMS_{marzo}}$"=c(round(exp(Ft2)/FRMS2,3)),
-                 "$F/F_{RMS_{julio}}$"=c(round(exp(Ft3)/FRMS3,3)),
+                 "$F/F_{RMS_{julio}}$"=c(round((Ft3tabla)/FRMS3,3)),
                  "$BD/BD_{RMS_{sept}}$"=c(round(BD1/BRMS1,3)),
                  "$BD/BD_{RMS_{marzo}}$"=c(round(BD2/BRMS2,3)),
-                 "$BD/BD_{RMS_{julio}}$"=c(round(BD3/BRMS3,3)))
+                 "$BD/BD_{RMS_{julio}}$"=c(round(BD3tabla/BRMS3,3)))
 kable(VarPobl2, align = 'c')
 
 #setwd(dir.basedatos)
