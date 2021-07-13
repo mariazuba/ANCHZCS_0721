@@ -1,0 +1,191 @@
+---
+title: \Huge \textbf{ANEXO II}
+subtitle: \Large Resultados preliminares de Análisis de sensibilidad de anchoveta de la Región de Valparaíso a la Región de Los Lagos
+lang: es
+toc: TRUE
+output: 
+    pdf_document:
+header-includes:
+- \usepackage{draftwatermark}
+- \SetWatermarkText{}
+- \usepackage{fancyhdr}
+- \usepackage{graphicx}
+- \usepackage{parskip}
+- \usepackage{caption}
+- \captionsetup[table]{name=\textbf{Tabla},labelsep=period}
+- \captionsetup[figure]{name=\textbf{Figura},labelsep=period}
+- \captionsetup{justification=justified,format=plain,font=small,labelfont=bf,margin=40pt}
+- \pagestyle{fancy}
+- \usepackage{geometry}
+- \geometry{top=1.5cm, bottom=1cm, left=2.5cm, right=2.5cm}
+- \usepackage{helvet}
+- \renewcommand{\familydefault}{\sfdefault}
+- \usepackage{multirow}
+- \usepackage{natbib}
+- \renewcommand{\baselinestretch}{1.2}
+- \newcommand{\sietepuntos}{\fontsize{7pt}{\baselineskip}\selectfont}
+- \newcommand{\cincopuntos}{\fontsize{6pt}{\baselineskip}\selectfont}
+- \usepackage{color,colortbl}
+- \definecolor{Gray}{rgb}{0.801,0.801,0.801}
+- \definecolor{Gray1}{rgb}{0.790,0.790,0.790}
+- \definecolor{Gray2}{rgb}{0.830,0.830,0.830}
+- \definecolor{Gray3}{rgb}{0.870,0.870,0.870}
+- \definecolor{Gray4}{rgb}{0.940,0.940,0.940}
+- \addtolength{\headheight}{4.5\baselineskip}
+- \setlength{\headheight}{70pt}
+- \setlength{\footskip}{5pt}
+- \setlength{\textheight}{658pt}
+- \fancyhead[CO,CE]{\includegraphics[height=1.5cm]{logoifop.png}\\ \sietepuntos INSTITUTO DE FOMENTO PESQUERO / DIVISION INVESTIGACION PESQUERA}
+- \fancyhead[LO,LE]{ }
+- \fancyhead[RO,RE]{ }
+- \renewcommand{\headrulewidth}{0.5pt}
+- \fancyfoot[C]{\cincopuntos \thepage \\ \vspace{-0.2cm} ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ \\ \vspace{-0.2cm} \cincopuntos CONVENIO DE DESEMPEÑO 2020 IFOP/SUBSECRETARÍA DE ECONOMíA Y EMT \\ \vspace{-0.1cm} TERCER INFORME. ANCHOVETA DE LA  REGIÓN DE VALPARAÍSO A LA REGIÓN DE LOS LAGOS, 2021. \textbf{ANEXO II}.}
+---
+
+\pagebreak
+
+# 1. Contexto
+
+- Avances en escenarios de sensibilidad (resultados preliminares)
+     * Cambios en CV de los cruceros acústicos de verano y otoño
+     * Cambios en CV del crucero de huevos
+     * Actualización de la biomasa desovante estimada por el crucero de huevos
+     * Considerando nuevos índices de densidad de huevos para el crucero de huevos 
+     * Corrección de captura utilizando ponderadores estimados por Wiff *et al*. (2015)
+     
+
+## índices de densidad de huevos alternativos a la BD estimada por MPDH
+
+
++------------+------------------------------------------------------------------------------+
+| índice     | Descripción                                                                  |
++============+==============================================================================+
+| índice Nº1 | índice de densidad de huevos estandarizado obtenido con MLG familia Tweedie  |
++------------+------------------------------------------------------------------------------+
+| índice Nº2 | índice obtenido mediante la multiplicación de la densidad de huevos (h/m2) y |
+|            |                                                                              |
+|            | la duración del período de desove                                            |
++------------+------------------------------------------------------------------------------+
+| índice Nº3 | índice obtenido mediante la multiplicación de la densidad de huevos (h/m2) y |
+|            |                                                                              |
+|            | el área de desove                                                            |
++------------+------------------------------------------------------------------------------+
+| índice Nº4 | índice obtenido mediante la multiplicación de la densidad de huevos (h/m2),  |
+|            |                                                                              |
+|            | el área de desove y la duración del período de desove                        |
++------------+------------------------------------------------------------------------------+
+
+
+\pagebreak
+
+```{=tex}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.7\textwidth]{Figuras/Fig10_ANEXO_II-1.pdf}
+\caption{ }
+\label{Fig1a}
+\end{figure}
+```
+
+
+```{=tex}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\textwidth]{Figuras/Fig11_ANEXO_II-1.pdf}
+\caption{ }
+\label{Fig1b}
+\end{figure}
+```
+
+
+\pagebreak
+
+## Coeficientes de variación
+
+
+## Corrección de las capturas
+
+Capturas corregidas por periodo y método en sardina común y anchoveta centro-sur. Desembarque oficial indica aquella serie de captura construida con información de SERNAPESCA descrita en este proyecto. "Prop. Encuesta" indica la proporción de corrección considerando descarte y sub-reportes solo con información desde encuestas. "Prop. Encuesta más Censura" indica la proporción resultante de combinar la información desde encuestas con el método estadístico de datos censurador. "Captura Cor." Indica la captura corregida usando las proporciones descritas. "CV" indica el coeficiente de variación de la estimación de captura corregida.
+
+
+```{=tex}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.7\textwidth]{Figuras/Fig7_ANEXO_II-1.pdf}
+\caption{ }
+\label{Fig1b}
+\end{figure}
+```
+
+\pagebreak
+
+## Configuración de los escenarios de sensibilidad
+
+\small
+
++------------+------------------------------------------------------------------------------------------+
+| Escenarios | Descripción                                                                              |
++============+==========================================================================================+
+| S1         | igual a caso base                                                                        |
++------------+------------------------------------------------------------------------------------------+
+| S2         | cambia CV MPDH a 0,3                                                                     |
++------------+------------------------------------------------------------------------------------------+
+| S3         | cambia CV crucero otoño a 0,25                                                           |
++------------+------------------------------------------------------------------------------------------+
+| S4         | cambia CV crucero verano a 0,15                                                          |
++------------+------------------------------------------------------------------------------------------+
+| S5         | cambia CV mpdh 0,3 y CV crucero otoño a 0,25                                             |
++------------+------------------------------------------------------------------------------------------+
+| S6         | cambia CV mpdh 0,3, CV crucero otoño a 0,25 y CV crucero verano 0,15                     |
++------------+------------------------------------------------------------------------------------------+
+| S7         | índice MPDH actualizado, CV mpdh 0,3, CV crucero otoño a 0,30 y CV crucero verano 0.30   |
++------------+------------------------------------------------------------------------------------------+
+| S8         | índice MPDH actualizado, CV mpdh 0,3, CV crucero otoño a 0,25 y CV crucero verano 0.15   |
++------------+------------------------------------------------------------------------------------------+
+| S9         | CV de crucero mpdh = 0,3, CV pelaces = 0,25, CV reclas = 0,15, cambia índice de mpdh Nº1 |
++------------+------------------------------------------------------------------------------------------+
+| S10        | CV de crucero mpdh = 0,3, CV pelaces = 0,25, CV reclas = 0,15, cambia índice de mpdh Nº2 |
++------------+------------------------------------------------------------------------------------------+
+| S11        | CV de crucero mpdh = 0,3, CV pelaces = 0,25, CV reclas = 0,15, cambia índice de mpdh Nº3 |
++------------+------------------------------------------------------------------------------------------+
+| S12        | CV de crucero mpdh = 0,3, CV pelaces = 0,25, CV reclas = 0,15, cambia índice de mpdh Nº4 |
++------------+------------------------------------------------------------------------------------------+
+|            |                                                                                          |
++------------+------------------------------------------------------------------------------------------+
+
+: Escenarios de sensibilidad respecto a coeficientes de variación (CV) de cruceros acústicos y MPDH
+
+
++ **Escenarios Futuros**
+
+- Analizar bloques de capturabilidad
+- Analizar la sensibilidad  CVs de  prior de capturabilidad de los cruceros 
+- Analizar series de corrección de capturas propuestas por Wiff et al. (2015)
+
+Se utilizará como indicadores de desempeño los perfiles de verosimilitud, análisis retrospectivo y análisis de residuos para recomendar posibles cambios a caso base en taller de datos y modelos.
+
+\pagebreak
+
+## Resultados Preliminares
+
+
+```{=tex}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.8\textwidth]{Figuras/Fig1_ANEXO_II-1.pdf}
+\caption{ }
+\label{Fig2}
+\end{figure}
+```
+
+
+```{=tex}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\textwidth]{Figuras/Fig2_ANEXO_II-1.pdf}
+\caption{ }
+\label{Fig3}
+\end{figure}
+```
+
+
