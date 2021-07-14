@@ -206,7 +206,7 @@ La incorporación de información 2020 junto al crucero en su conjunto (caso 7) 
 \begin{figure}
 \centering
 \includegraphics[width=0.98\textwidth]{Figuras/Fig4_anexoI-1.pdf}
-\caption{ diferencias relativas }
+\caption{ Diferencias relativas de las estimaciones de las principales variables de estado para el caso base (Asesoría de marzo 2021) comparado con los resultados según la incorporación de cada pieza de información. }
 \label{Fig4}
 \end{figure}
 ```
