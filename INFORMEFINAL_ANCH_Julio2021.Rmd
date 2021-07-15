@@ -43,7 +43,11 @@ header-includes:
 
 **7. ANEXOS**
 
-**ANEXO I.** Datos y modelo de anchoveta centro-sur correspondiente a la Asesoría de septiembre 2020 (MAE0920b) y marzo 2021 (MAE0321b).
+**ANEXO I.** Proceso de actualización de datos de entrada al modelo de evaluación de stock de anchoveta de la Región de Valparaíso a la Región de Los Lagos.
+
+**ANEXO II.** Resultados preliminares de Análisis de sensibilidad de anchoveta de la Región de Valparaíso a la Región de Los Lagos.
+
+**ANEXO III.** Procedimiento transitorio de incorporación del descarte en la evaluación de stock y descuento en la proyección de la Captura Biológicamente Aceptable de peces pelágicos pequeños de Chile.
 
 \pagebreak
 
@@ -516,8 +520,18 @@ La evaluación hidroacústica contempla la realización de transectas diurnas y 
 
 La composición de edad/talla del crucero, denominada también como estructura de edad, corresponde a la expansión de la abundancia mediante la clave edad-talla determinada con asignación en año biológico. A partir de la abundancia en número estimada para cada talla en la evaluación hidroacústica, se expande la abundancia por grupos de edad, haciendo uso de la clave talla edad la cual obedece a la totalidad del área de estudio. La suma de la abundancia por subzona por intervalo de talla, permite construir la estimación total de abundancia para la zona de estudio. La estimación de esta clave talla-edad obedece a un diseño de muestreo estratificado por clase de tallas, dentro de cada una de las cuales es estimada una estructura de edad por talla. La abundancia en número por grupo de edad se construye a partir de la clave talla-edad anterior y la abundancia estimada por intervalo de talla. Se obtienen entonces matrices completas las que presentan explícitamente toda la estructura interna de la abundancia en número de individuos por clase de longitud y para cada grupo de edad.
 
-A partir de mayo de 2003, se han realizado evaluaciones acústicas de ambos recursos a través de cruceros de otoño (PELACES). La estimación de abundancia y biomasa por grupo de talla es similar al procedimiento del crucero de verano. Las biomasas estimadas a través de estos cruceros son empleadas en el proceso de evaluación de stock como índices de abundancia poblacional (proporcionales a la biomasa) de verano y otoño, respectivamente. La biomasa estimada por el modelo corresponde aquella fracción de la población sujeta a la selectividad de los cruceros que son asumidos distintos entre verano y otoño, pero constantes en el tiempo. Sin embargo, algunos años de las evaluaciones acústicas de otoño (PELACES), no son muy consistentes en términos del área cubierta y periodo del año en que se realizaban (mayo de 2003, marzo-abril y mayo-junio de 2005, y mayo-junio de 2015), por lo tanto, los cambios en abundancia de estos años podrían estar influenciadas por la disponibilidad del recurso más que por cambios reales en abundancia. En efecto, la época del año en que se realiza la prospección difiere entre años, con desfase de un mes. Asimismo, las áreas prospectadas son diferentes al crucero de verano, y el arte de pesca empleado en los lances también difiere, siendo en este periodo solo captura de cerco. Finalmente, no se dispone de lectura de edades para el periodo 2003 -- 2006. De este modo, se eliminan los datos de biomasa acústicas del crucero de otoño (PELACES) correspondientes a los años 2003, 2005 y 2015, además de la estructura de edad del año 2015 por las razones antes expuestas. \vspace{0.5cm}
+A partir de mayo de 2003, se han realizado evaluaciones acústicas de ambos recursos a través de cruceros de otoño (PELACES). La estimación de abundancia y biomasa por grupo de talla es similar al procedimiento del crucero de verano. Las biomasas estimadas a través de estos cruceros son empleadas en el proceso de evaluación de stock como índices de abundancia poblacional (proporcionales a la biomasa) de verano y otoño, respectivamente. La biomasa estimada por el modelo corresponde aquella fracción de la población sujeta a la selectividad de los cruceros que son asumidos distintos entre verano y otoño, pero constantes en el tiempo. Sin embargo, algunos años de las evaluaciones acústicas de otoño (PELACES), no son muy consistentes en términos del área cubierta y periodo del año en que se realizaban (mayo de 2003, marzo-abril y mayo-junio de 2005, y mayo-junio de 2015), por lo tanto, los cambios en abundancia de estos años podrían estar influenciadas por la disponibilidad del recurso más que por cambios reales en abundancia. En efecto, la época del año en que se realiza la prospección difiere entre años, con desfase de un mes. Asimismo, las áreas prospectadas son diferentes al crucero de verano, y el arte de pesca empleado en los lances también difiere, siendo en este periodo solo captura de cerco. Finalmente, no se dispone de lectura de edades para el periodo 2003 -- 2006. De este modo, se eliminan los datos de biomasa acústicas del crucero de otoño (PELACES) correspondientes a los años 2003, 2005 y 2015, además de la estructura de edad del año 2015 por las razones antes expuestas. 
 
+
+
+```{=tex}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\textwidth]{Figuras/Figura9.png}
+\caption{Distribución de las transectas acústicas diurnas y prospección costera efectuada por el B/C Abate Molina (negro) y la prospección de la L/M Don Luis Alberto y Punta Brava (rojo) (Saavedra \textit{et. al}., 2017).}
+\label{Fig9}
+\end{figure}
+```
 
 \pagebreak
 
