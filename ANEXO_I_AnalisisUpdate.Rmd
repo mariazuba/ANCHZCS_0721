@@ -166,16 +166,11 @@ Para mantener la consistencia en el proceso de evaluación del stock y estimaci�
 ## 4. Actualización de las principales variables de estado
 
 
-En la \textbf{Tabla \ref{Tab3}} y \textbf{Figura \ref{Fig4}} se muestra el impacto de la incorporación y actualización de la información en las principales variables de estado para el caso 1 ( asesoría de marzo 2021, MAE0321b). 
+En la \textbf{Tabla \ref{Tab3}} y \textbf{Figura \ref{Fig4}} se muestra el impacto de la incorporación y actualización de la información en las principales variables de estado para el caso 1 ( asesoría de marzo 2021, MAE0321b).  Los resultados muestran que la actualización del descarte de los años biológicos 2017/18, 2018/19 y 2019/20 (caso 2) y la actualización del desembarque 2020/21 más el supuesto de descarte 2020/21 (caso 3) no genera diferencias significativas en las variables poblacionales (Reclutamientos, BD y $BD/BD_{RMS}$), mostrando un incremento del 5% de la mortalidad por pesca en el caso 3. La incoporación de la composición de edad de la flota correspondiente al año 2020/21 (caso 4), tiene un efecto principal en el reclutamiento, mostrando una disminución del 8%. La actualización de los pesos medios del año 2020/21 (caso 5), generan una disminución del 6% de la BD y $BD/BD_{RMS}$ y un incremento del 11% de la mortalidad por pesca, producto de la disminución de los pesos medios del grupo de edad 3 y 4 principalmente (ver \textbf{Figura \ref{Fig3}}). El caso 6 no muestra diferencias significativas respecto del caso 5, no obstante, cuando se incorpora la biomasa del crucero de otoño 2021 en conjunto con su composición de edad (caso 7, MAE0721) el reclutamiento muestra un incremento del 2% respecto de la asesoría de marzo (caso 1, MAE0321), una disminución del 9% de la BD y de un 8% de $BD/BD_{RMS}$ y un incremento del 14% de la mortalidad por pesca. 
 
 
-Los resultados muestran que los niveles poblaciones (Reclutamientos, BD y $BD/BD_{RMS}$) aumentan con la incorporación de los rendimientos estandarizados (13% app, caso 5) y el crucero (16%, caso 7) para el año 2020, comparado con el estimado en la asesoría de marzo 2021. 
 
-Por otra parte, las piezas de información que menos impactan corresponden a la actualización del desembarque 2020, incorporación del descarte y actualización de la estructura de tallas de la flota año 2020 (casos 2 al 6). 
 
-La actualización del desembarque no tuvo efectos en el reclutamiento, un efecto poco significativo en el nivel de biomasa y un efecto esperable en la estimación de F, dado el cambio del supuesto de captura por la captura observada.
-
-La incorporación de información 2020 junto al crucero en su conjunto (caso 7) muestran un impacto significativo en el nivel de biomasa (18%) y $BD/BD_{RMS}$ (16 %), con una disminución del 18% en F para el año 2020, no obstante, con la incorporación del crucero, el reclutamiento 2020 no muestra diferencias significativas, siendo un 1% menor en la evaluación actual (junio 2021).
 
 \vspace{0.5cm}
 
