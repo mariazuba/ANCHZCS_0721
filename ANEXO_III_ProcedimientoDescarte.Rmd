@@ -1,6 +1,7 @@
 ---
 title: \Huge \textbf{ANEXO III}
 subtitle: \Large Procedimiento transitorio de incorporación del descarte en la evaluación de stock y descuento en la proyección de la Captura Biológicamente Aceptable de peces pelágicos pequeños de Chile.
+author: \small María José Zúñiga Basualto, Rodrigo Vega Muñoz, Benjamín Suárez Ahumada, Juan Carlos Quiroz Espinosa
 lang: es
 toc: TRUE
 output: 
@@ -380,6 +381,7 @@ Respecto al número de viajes totales realizados por la flota artesanal, estos d
 
 El programa de estudio del descarte para esta zona terminó el 2020, por lo tanto, para la asesoría de septiembre 2021 se espera comenzar a incorporar esta información a la evaluación de stock (\textbf{Tabla \ref{Tab6}}). El modelo de evaluación de stock de anchoveta centro-norte utiliza información anual (Bucarey *et al*., 2021) , por lo tanto, se requieren datos de descarte anuales para la flota artesanal los cuales deben ser incorporados a la serie de desembarques. Para los años en que no se cuente con información se debe utilizar un supuesto. Adicionalmente, el CCT-PP debe descontar un % de descarte a la CBA, por lo tanto también se debe contar con un supuesto de descarte proyectado. Para el descarte proyectado para el año 2022 se considerará el promedio de descarte que considera los años 2019 al 2020 (dos años). Estos supuestos deben ser consensuados previamente con el CCT-PP en el taller de datos y modelo.
 
+
 \pagebreak
 
 ```{=tex}
@@ -475,13 +477,13 @@ Los modelos de evaluación de stock de anchoveta y sardina común de la zona cen
 
 \underline{Supuestos para asesoría de marzo y julio 2021 (2do y 3er Hito CBA 2021):}
 
--   El \textbf{supuesto 1} de descarte propuesto para la corrección del desembarque 2020/21 para flota total y zona total se obtiene del promedio de los años biológicos 2017/18 - 2019/20 (\textbf{Tabla \ref{Tab10}}). 
--   El \textbf{supuesto 2} de descarte propuesto para la proyección de la CBA 2021/2022 para la flota total y zona total se obtiene del promedio de los años biológicos 2017/18 - 2019/20 (\textbf{Tabla \ref{Tab10}}).
+-   El \textbf{supuesto 1} de descarte propuesto para la corrección del desembarque 2020/21 para flota total y zona total se obtiene del promedio de los años biológicos 2017/18 - 2019/20 (\textbf{Tabla \ref{Tab9}}). 
+-   El \textbf{supuesto 2} de descarte propuesto para la proyección de la CBA 2021/2022 para la flota total y zona total se obtiene del promedio de los años biológicos 2017/18 - 2019/20 (\textbf{Tabla \ref{Tab9}}).
 
 \underline{Supuestos para asesoría de septiembre 2021 (1er Hito CBA 2022):}
 
--   El \textbf{supuesto 1} de descarte propuesto para la corrección del desembarque 2020/21 para flota total y zona total se obtiene del promedio de los años biológicos 2017/18 - 2019/20 (\textbf{Tabla \ref{Tab10}}). 
--   El \textbf{supuesto 2} de descarte propuesto para la proyección de la CBA 2021/2022 y 2022/2023 para la flota total y zona total se obtiene del promedio de los años biológicos 2017/18 - 2019/20 (\textbf{Tabla \ref{Tab10}}).
+-   El \textbf{supuesto 1} de descarte propuesto para la corrección del desembarque 2020/21 para flota total y zona total se obtiene del promedio de los años biológicos 2017/18 - 2019/20 (\textbf{Tabla \ref{Tab9}}). 
+-   El \textbf{supuesto 2} de descarte propuesto para la proyección de la CBA 2021/2022 y 2022/2023 para la flota total y zona total se obtiene del promedio de los años biológicos 2017/18 - 2019/20 (\textbf{Tabla \ref{Tab9}}).
 
 #### b) Sardina común Centro-sur
 
@@ -765,6 +767,11 @@ Respecto al número de viajes totales realizados por la flota artesanal están e
 
 El modelo de evaluación de stock utiliza información en año calendario, por lo tanto, se requieren datos de descarte anuales para la flota artesanal para corregir la serie de desembarques (Leal & Zúñiga, 2020). Dada la alta variabilidad en las estimaciones de captura descartada, se requiere utilizar un supuesto de descarte para corregir la serie de desembarques utilizado por la evaluación de stock y un supuesto para el descarte proyectado que será utilizado en la proyección de CBA.
 
+Para la propuesta de valores de descarte utilizados para la corrección de la serie histórica de captura, no se consideraron datos del primer semestre de 2017, ya que fue el año de implementación del proyecto con alta desconfianza de los pescadores, lo que finalmente resultó en una baja cobertura (\textbf{Tabla \ref{Tab15}}). Además, fue un año con condiciones diferentes en cuanto a las especies presentes en las zonas de pesca (alta presencia de anchoveta).  No se consideró información de 2020, ya que son datos preliminares y no están disponibles para el año completo, de acuerdo al mismo criterio que el punto anterior. El análisis con datos 2018-2019 entregó un valor de descarte de sardina austral de 2,32%. 
+
+Finalmente, en base a la información previa, en la tercera sesión del CCT-PP (Acta Sesión Nº3) se acordó que para la sardina austral de la Región de Los Lagos, se aplicará de forma transitoria un descarte de de 2,3% anual para corregir la serie histórica de capturas. Este porcentaje considera la información registrada en los años 2018 y 2019, eliminando los valores del 2017 por su baja representatividad. Además, se aplicará un descarte de 2,3% anual a la CBA máxima, de forma transitoria en el período 2021 y 2022.
+
+\pagebreak
 
 ```{=tex}
 \vspace{0.4cm} 
@@ -790,6 +797,28 @@ El modelo de evaluación de stock utiliza información en año calendario, por l
         \end{table}
 ```
 
+
+
+```{=tex}
+\vspace{0.3cm} 
+\begin{table}[h!]
+\caption{Porcentajes de descarte estimados para corregir la serie de desembarques 2018 y 2019. Supuestos transitorios del porcentaje de descarte utilizado en la corrección del desembarque 2020 y 2021 y proyección de la CBA de \textbf{Sardina austral Región de Los Lagos}.}
+ \label{Tab15}
+    \centering
+    \resizebox{12cm}{!} {
+    \begin{tabular}{|l|c|c|c|c|}
+    \hline \rowcolor{Gray3}
+               &               & Captura  & Captura     & \%         \\ \rowcolor{Gray3}
+ Criterio      & Año calendario & total    & descartada  & descarte   \\ \rowcolor{Gray3}
+               &               & (t)      & (t)         &            \\ \hline
+\multirow{2}{5cm}{Corrección de los desembarques}  &2018  & 12.877 & 626  & 4,86\%  \\  
+               & 2019     & 23.503  & 23.285       & 0,93\% \\ \hline \rowcolor{Gray4}
+ Supuestos     &               &          &             &   \\ \hline
+ 1. Corrección del desembarque & 2020 y 2021 & 36.380 & 844,6 & 2,32\% \\
+ 2. Proyección de la CBA       & 2022 & 36.380 & 844,6 & 2,32\% \\ \hline
+   \end{tabular}}
+        \end{table}
+```
 
 
 \pagebreak
