@@ -89,14 +89,14 @@ Proveer la asesoría científica necesaria para la determinación del estado de 
 
 ## 2.1. Distribución del recurso
 
-La anchoveta (*Engraulis ringens*) es reconocida junto con sardina común (*Strangomera bentincki*) como especies netamente costeras (distribución longitudinal no supera las 30 millas náuticas de la costa), neríticas (habitan profundidades menores a los 70 ó 50 m respectivamente), forman cardúmenes altamente densos y son especies fuertemente influenciadas por factores bióticos y abióticos (Aguayo & Soto 1978, Serra 1983, Cubillos & Arancibia 1993 a y b, Arancibia *et al*. 1994, Cubillos *et al*. 2001). Ambos recursos, sostienen una importante actividad pesquera industrial y cerquera artesanal en el litoral que abarca las regiones de Valparaíso (33°S) y Los Lagos (42°S), siendo los principales puertos de desembarque; San Antonio (Región de Valparaíso), Coronel, San Vicente y Talcahuano ( Región del Bio-Bio), Corral (Región de Los Ríos) y Calbuco y Puerto Montt (Región de Los Lagos) (\textbf{Figura \ref{Fig1}}). Los mayores desembarques se registran en un 90 y 95% entre las Regiones de Valparaíso y Bio-Bio (San Antonio, Talcahuano y Coronel). La actividad pesquera opera en profundidades que no sobrepasan los 50 m y en un margen costero en promedio próximo a las 30 millas náuticas desde la costa . \vspace{0.5cm}
+La anchoveta (*Engraulis ringens*) es reconocida junto con sardina común (*Strangomera bentincki*) como especies netamente costeras (distribución longitudinal no supera las 30 millas náuticas de la costa), neríticas (habitan profundidades menores a los 70 ó 50 m respectivamente), forman cardúmenes altamente densos y son especies fuertemente influenciadas por factores bióticos y abióticos (Aguayo & Soto 1978, Serra 1983, Cubillos & Arancibia 1993 a y b, Arancibia *et al*. 1994, Cubillos *et al*. 2001). Ambos recursos, sostienen una importante actividad pesquera industrial y cerquera artesanal en el litoral que abarca las regiones de Valparaíso (33°S) y Los Lagos (42°S), siendo los principales puertos de desembarque; San Antonio (Región de Valparaíso), Coronel, San Vicente y Talcahuano ( Región del Bio-Bio), Corral (Región de Los Ríos) y Calbuco y Puerto Montt (Región de Los Lagos) (\textbf{Figura \ref{Fig1}}). Los mayores desembarques se registran en un 90 y 95% entre las regiones de Valparaíso y Bio-Bio (San Antonio, Talcahuano y Coronel). La actividad pesquera opera en profundidades que no sobrepasan los 50 m y en un margen costero en promedio próximo a las 30 millas náuticas desde la costa . \vspace{0.5cm}
 
 
 ```{=tex}
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.7\textwidth]{Figuras/Fig1_Aranis.pdf}
-\caption{Área de estudio de la pesquería de cerco centro-sur realizado por IFOP para el monitoreo de la pesquería de anchoveta de las Regiones de Valparaíso a Los Lagos. (Fuente: Aranis \textit{et al.} 2019) .}
+\caption{Área de estudio de la pesquería de cerco centro-sur realizado por IFOP para el monitoreo de la pesquería de anchoveta. (Fuente: Aranis \textit{et al.} 2019) .}
 \label{Fig1}
 \end{figure}
 ```
@@ -105,26 +105,26 @@ La anchoveta (*Engraulis ringens*) es reconocida junto con sardina común (*Stra
 
 ## 2.2. Unidades de stock
 
-La unidad de stock se define como "un grupo de peces que se mantiene temporal o especialmente aislados unos de otros y que son genéticamente distintos, debido a su aislamiento reproductivo". Basados en esta definición Galleguillos *et al*. (1994) desarrollaron un estudio de identificación de stock de los recursos sardina común y anchoveta entre las Regiones de Valparaíso y Bio-Bio, entre abril de 1995 y abril 1996 aplicando i) marcadores genéticos; ii) marcadores biológicos; iii) morfología corporal; iv) fauna parasitaria. Estos autores establecieron que no hay evidencias para adoptar la existencia de subunidades en el área de análisis. Consecuentemente con lo anterior y extendiendo el análisis a la Región de Los Lagos, en este estudio se trabaja la hipótesis de una unidad de stock entre las Regiones de Valparaiso y Los Lagos, en la cual se desarrolla la pesquería.
+La unidad de stock se define como "un grupo de peces que se mantiene temporal o especialmente aislados unos de otros y que son genéticamente distintos, debido a su aislamiento reproductivo". Basados en esta definición Galleguillos *et al* (1994) desarrollaron un estudio de identificación de stock de los recursos sardina común y anchoveta entre las regiones de Valparaíso y Bio-Bio, entre abril de 1995 y abril 1996 aplicando i) marcadores genéticos; ii) marcadores biológicos; iii) morfología corporal; iv) fauna parasitaria. Estos autores establecieron que no hay evidencias para adoptar la existencia de subunidades en el área de análisis. Consecuentemente con lo anterior y extendiendo el análisis a la Región de Los Lagos, en este estudio se trabaja la hipótesis de una unidad de stock entre las Regiones de Valparaiso y Los Lagos, en la cual se desarrolla la pesquería.
 
 ## 2.3. Reclutamiento
 
 El reclutamiento se presenta en forma masiva entre noviembre y marzo, siendo máximo a la mitad del verano (ejemplares en torno a una talla promedio de entre 5 y 9 cm), registrándose pulsos menores durante el invierno, provocados por la amplia extensión temporal del desove de invierno de anchoveta (Castillo *et al*. 2013). Entre abril y junio, los juveniles originados durante el desove del año anterior comienzan a ser pre-adultos y los adultos comienzan una migración activa para congregarse en agregaciones pre-reproductivas (Cubillos *et al*. 2001).
 
-Las anchovetas pre-reclutas y reclutas menores a seis meses de edad crecen y se desarrollan en sistema de bahías de la zona centro-sur al norte de la Isla Mocha, constituidas como zonas de reclutamiento y crecimiento (VI y IX Regiones). Las condiciones ambientales que afectan a este proceso se vinculan con ciertas masas de agua, anomalías de las variables (Temperatura, Salinidad, Oxígeno disuelto, gradientes, etc.); intensidad de los vientos y el nivel de los procesos vinculados (índice de surgencia, índices de turbulencia, transporte de Ekman, etc) (Yáñez *et al*. 2005 y 2008; Castillo *et al*. 2013).
+Las anchovetas pre-reclutas y reclutas menores a seis meses de edad crecen y se desarrollan en sistema de bahías de la zona centro-sur al norte de la Isla Mocha, constituidas como zonas de reclutamiento y crecimiento (VI y IX Regiones). Las condiciones ambientales que afectan a este proceso se vinculan con ciertas masas de agua, anomalías de las variables (Temperatura, Salinidad, Oxígeno disuelto, gradientes, etc.), intensidad de los vientos y el nivel de los procesos vinculados (índice de surgencia, índices de turbulencia, transporte de Ekman, etc) (Yáñez *et al*. 2005 y 2008; Castillo *et al*. 2013).
 
-Para evaluar la magnitud del reclutamiento anual se realiza la evaluación hidroacústica desde el año 2000, en enero de cada año donde se maximiza la presencia de juveniles de biomasa de sardina común y anchoveta en la zona centro-sur. A partir del 2003 se replicó la prospección en otoño para incrementar la certeza de la estimación haciendo un seguimiento de la evolución del proceso o para capturar un eventual segundo pulso en el otoño (mayo), especialmente en anchoveta. De este modo, ha sido posible establecer una estacionalidad en la composición específica de las biomasas de estas dos especies, donde en verano la sardina domina respecto a la anchoveta, mientras que en el otoño se presenta un incremento relativo de la anchoveta; una reducción en la sardina junto a cambios en su distribución geográfica (Castillo *et al*. 2013).
+Para evaluar la magnitud del reclutamiento anual se realiza la evaluación hidroacústica desde el año 2000, en enero de cada año donde se maximiza la presencia de juveniles de biomasa de sardina común y anchoveta en la zona centro-sur. A partir del 2003 se replicó la prospección en otoño para incrementar la certeza de la estimación haciendo un seguimiento de la evolución del proceso o para capturar un eventual segundo pulso en el otoño (mayo), especialmente en anchoveta. De este modo, ha sido posible establecer una estacionalidad en la composición específica de las biomasas de estas dos especies, donde en verano la sardina domina respecto a la anchoveta, mientras que en el otoño se presenta un incremento relativo de la anchoveta, una reducción en la sardina junto a cambios en su distribución geográfica (Castillo *et al*. 2013).
 
 ## 2.4. Reproducción
 
-Los peces pelágicos pequeños adaptan su ciclo reproductivo, desovando en zonas protegidas y/o períodos del año favorables para la sobrevivencia y desarrollo de estadíos tempranos (Parrish *et al*. 1983; Hutchings *et al*. 1998; Cubillos *et al*. 2001). El área de desove de sardina común y anchoveta centro-sur se ubica fundamentalmente en la zona de Lebu-Corral la cual correspondería a una zona de pre-reclutamiento/desove con un alto nivel de retención producto de una alternancia entre convergencias costeras producidas por vientos norte que favorecerían la concentración y retención en la costa y vientos sur que promoverían el enriquecimiento de aguas costeras con eventos de surgencia de moderada intensidad (Parada *et al*. 2012, Soto-Mendoza *et al*. 2012). Anchoveta es un recurso iteróparo (parcial), con desarrollo asincrónico y fecundidad indeterminada. El proceso reproductivo se iniciaría entre julio y septiembre, cuando los adultos ingresan a la región más costera para reproducirse. La época de desove ocurriría durante la transición invierno-primavera, cuando los vientos del norte favorecen la concentración y retención de huevos en la costa y los vientos del sur promoverían el enriquecimiento de aguas costeras con eventos de surgencia de moderada intensidad. (Cubillos *et al*. 1999 y 2001; Sepúlveda *et al*. 2003; Castillo-Jordán *et al*. 2007; Cubillos *et al*. 2007). La principal zona de desove y alimentación de los adultos de anchoveta se observarían preferentemente en las Regiones del Bio-Bio y Los Lagos (\textbf{Figura \ref{Fig2}}), focalizada principalmente entre los 37°33'S y los 39°10'S (Cubillos *et al*. 1999, 2001), siendo la Región de la Araucanía una virtual área de refugio debido a la reducción de la actividad de pesca de la flota industrial, por prohibición de operar en sectores costeros (\< 5 mn) y por inaccesibilidad de la flota artesanal de las Regiones de Bio-Bio y La Araucanía (Castillo *et al*. 2013). \vspace{0.5cm}
+Los peces pelágicos pequeños adaptan su ciclo reproductivo, desovando en zonas protegidas y/o períodos del año favorables para la sobrevivencia y desarrollo de estadíos tempranos (Parrish *et al*. 1983; Hutchings *et al*. 1998; Cubillos *et al*. 2001). El área de desove de sardina común y anchoveta centro-sur se ubica fundamentalmente en la zona de Lebu-Corral la cual correspondería a una zona de pre-reclutamiento/desove con un alto nivel de retención producto de una alternancia entre convergencias costeras producidas por vientos norte que favorecerían la concentración y retención en la costa y vientos sur que promoverían el enriquecimiento de aguas costeras con eventos de surgencia de moderada intensidad (Parada *et al*. 2012, Soto-Mendoza *et al*. 2012). Anchoveta es un recurso iteróparo (parcial), con desarrollo asincrónico y fecundidad indeterminada. El proceso reproductivo se iniciaría entre julio y septiembre, cuando los adultos ingresan a la región más costera para reproducirse. La época de desove ocurriría durante la transición invierno-primavera, cuando los vientos del norte favorecen la concentración y retención de huevos en la costa y los vientos del sur promoverían el enriquecimiento de aguas costeras con eventos de surgencia de moderada intensidad. (Cubillos *et al*. 1999 y 2001; Sepúlveda *et al*. 2003; Castillo-Jordán *et al*. 2007; Cubillos *et al*. 2007). La principal zona de desove y alimentación de los adultos de anchoveta se observarían preferentemente en las regiones del Bio-Bio y Los Lagos (\textbf{Figura \ref{Fig2}}), focalizada principalmente entre los 37°33'S y los 39°10'S (Cubillos *et al*. 1999, 2001), siendo la Región de la Araucanía una virtual área de refugio debido a la reducción de la actividad de pesca de la flota industrial, por prohibición de operar en sectores costeros (\< 5 mn) y por inaccesibilidad de la flota artesanal de las regiones de Bio-Bio y La Araucanía (Castillo *et al*. 2013). \vspace{0.5cm}
 
 
 ```{=tex}
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.8\textwidth]{Figuras/Fig2.png}
-\caption{Distribución de huevos recolectados en Cruceros de huevos (MPDH, 2003 - 2014) de anchoveta de las Regiones de Valparaíso a Los Lagos. La línea café representa isobata de 200 m.}
+\caption{Distribución de huevos recolectados en Cruceros de huevos (MPDH, 2003 - 2014) de anchoveta de las regiones de Valparaíso a Los Lagos. La línea café representa isobata de 200 m.}
 \label{Fig2}
 \end{figure}
 ```
@@ -133,20 +133,20 @@ Los peces pelágicos pequeños adaptan su ciclo reproductivo, desovando en zonas
 
 ## 2.5. Pesquería
 
-Durante la década de los noventa, la flota cerquera de la Unidad de Pesquería Centro-Sur (UPCS) incrementó significativamente sus capturas alcanzando en promedio las 400 mil toneladas por año, destacándose el año 1999 cuando alcanzó casi el millón de toneladas extraídas. La extracción de pequeños pelágicos del período 1995-2000, estuvo marcada por condiciones ambientales "El Niño" 1997-1998 que se tradujo en alteraciones de las comunidades costeras pelágicas, especialmente sobre el jurel, observándose una alta e inusual presencia de ejemplares de tallas pequeñas en la pesquería centro-sur. Este hecho generó la distorsión de los desembarques de sardina común y anchoveta durante los años 1999-2001, impulsado por evadir multas y declarar menos jurel (Aranis 2011). Otros antecedentes señalan que los desembarques del primer semestre 1999 y 2000 resultan ser muy altos para lo que en ese entonces se supone era la población de anchoveta y sardina común. Por lo tanto, la serie de desembarques anuales oficiales fue corregida por investigadores de IFOP, considerando los niveles de sub-reportes de jurel durante los años 1998--2001. El año 2000 la pesquería es reconocida bajo régimen de plena explotación, por lo cual se aplica la medida de administración pesquera denominada Límite Máximo de Captura por Armador correspondiente a fijar Cuotas Globales Anuales de Captura. Los desembarques se han mantenido en torno a las 238 mil toneladas. El período 2002 - 2007 se caracterizó por un sostenido crecimiento de los desembarques, en el que las capturas totales se triplicaron en respuesta a un período de mejores niveles de abundancia de este recurso. A partir del año 2012 se observa una caída manteniéndose en torno a las 61 mil toneladas hasta el 2018, mientras que el 2019 y 2020 se registra un incremento significativo, alcanzando las 162 mil toneladas en promedio (\textbf{Figura \ref{Fig3}}). \vspace{0.5cm}
+Durante la década de los noventa, la flota cerquera de la Unidad de Pesquería Centro-Sur (UPCS) incrementó significativamente sus capturas alcanzando en promedio las 400 mil toneladas por año, destacándose el año 1999 cuando alcanzó casi el millón de toneladas extraídas. La extracción de pequeños pelágicos del período 1995-2000, estuvo marcada por condiciones ambientales "El Niño" 1997-1998 que se tradujo en alteraciones de las comunidades costeras pelágicas, especialmente sobre el jurel, observándose una alta e inusual presencia de ejemplares de tallas pequeñas en la pesquería centro-sur. Este hecho generó la distorsión de los desembarques de sardina común y anchoveta durante los años 1999-2001, impulsado por evadir multas y declarar menos jurel (Aranis 2011). Otros antecedentes señalan que los desembarques del primer semestre 1999 y 2000 resultan ser muy altos para lo que en ese entonces se supone era la población de anchoveta y sardina común. Por lo tanto, la serie de desembarques anuales oficiales fue corregida por investigadores de IFOP, considerando los niveles de sub-reportes de jurel durante los años 1998--2001. El año 2000 la pesquería es reconocida bajo régimen de plena explotación, por lo cual se aplica la medida de administración pesquera denominada Límite Máximo de Captura por Armador correspondiente a fijar Cuotas Globales Anuales de Captura. Los desembarques se han mantenido en torno a las 220 mil toneladas. El período 2002 - 2007 se caracterizó por un sostenido crecimiento de los desembarques, en el que las capturas totales se triplicaron en respuesta a un período de mejores niveles de abundancia de este recurso. A partir del año 2012 se observa una caída manteniéndose en torno a las 61 mil toneladas hasta el 2018, mientras que el 2019 y 2020 se registra un incremento significativo, alcanzando las 162 mil toneladas en promedio (\textbf{Figura \ref{Fig3}}). \vspace{0.5cm}
 
 ```{=tex}
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.8\textwidth]{Figuras/Fig3-1}
-\caption{Desembarques (t) oficiales y corregidos de anchoveta de las Regiones de Valparaíso a Los Lagos. Los años en el eje x corresponden a años calendarios. }
+\caption{Desembarques (t) oficiales y corregidos de anchoveta de las regiones de Valparaíso a Los Lagos. Los años en el eje x corresponden a años calendarios. }
 \label{Fig3}
 \end{figure}
 ```
 
  \normalsize
 
-La evolución histórica de las Cuotas Global de Captura (CGC) de anchoveta, a partir del año 2001 y asignadas a la unidad de pesquería (UP) Regiones de Valparaíso-Los Lagos, se muestran en la \textbf{Figura \ref{Fig4}}. Desde el 2006 que los desembarques artesanales superan la cuota asignada a excepción de los años 2010 y 2013. A partir del año 2011 hasta el año 2018 se han asignado las cuotas más bajas de la serie histórica debido a la disminución en los indicadores poblacionales de anchoveta en esta UP. Sin embargo, estos han sido superados principalmente debido a la implementación de "imputación conjunta", normativa asociada a la Ley de Descarte. La pesquería de anchoveta está estrechamente relacionada a la de sardina común, con la cual presenta una importante interacción tecnológica y biológica. Estas características originan operaciones de pesca mixta, con alternancia de dominio intra e inter anual (\textbf{Figura \ref{Fig5}}). Como consecuencia del incremento en los niveles de biomasa de anchoveta en la zona centro-sur, el año 2019 la cuota asignada fue la mas alta de los últimos 9 años. Un nivel similar de CGC fue asignada inicialmente para el año en curso.
+La evolución histórica de la Cuota Global de Captura (CGC) de anchoveta, a partir del año 2001 y asignadas a la unidad de pesquería (UP) regiones de Valparaíso-Los Lagos, se muestran en la \textbf{Figura \ref{Fig4}}. Desde el 2006 que los desembarques artesanales superan la cuota asignada a excepción de los años 2010 y 2013. A partir del año 2011 hasta el año 2018 se han asignado las cuotas más bajas de la serie histórica debido a la disminución en los indicadores poblacionales de anchoveta en esta UP. Sin embargo, estos han sido superados principalmente debido a la implementación de "imputación conjunta", normativa asociada a la Ley de Descarte. La pesquería de anchoveta está estrechamente relacionada a la de sardina común, con la cual presenta una importante interacción tecnológica y biológica. Estas características originan operaciones de pesca mixta, con alternancia de dominio intra e inter anual (\textbf{Figura \ref{Fig5}}). Como consecuencia del incremento en los niveles de biomasa de anchoveta en la zona centro-sur, el año 2020 y 2021 la cuota asignada fue la mas alta de los últimos 11 años.
 
 Considerando que anchoveta conforma una pesquería mixta junto con sardina común en la UPCS y con el objeto de dar viabilidad a la pesquería en su conjunto, el año 2013 se recomienda establecer una CGC de anchoveta de 120.000 toneladas. Para ello, una fracción de la cuota correspondiente al sector artesanal de la Región del Bio-Bio, se destinó para ser capturada en calidad de fauna acompañante en la pesca dirigida a la sardina común. Esto, con el objetivo de ser imputada una vez que la cuota de anchoveta asignada en calidad de especie objetivo haya sido consumida en su totalidad por efectos de la pesca. Para tales efectos, se consideró como fauna acompañante, no sobrepasar el 49% de la captura de anchoveta medido en peso respecto de la suma de las capturas de anchoveta y sardina común por cada viaje de pesca (RPESQ 2013). Asímismo, la CGC 2014 se estableció entre un 7 y 13% de la captura de sardina común. Esta asignación de CGC coincidió con el establecimiento del nuevo Reglamento (D:S: N° 77, Mayo 2013) dispuesto en la Ley General de Pesca y Acuicultura (LGPA) que establece que las pesquerías deberán alcanzar o mantenerse en torno del Rendimiento Máximo Sostenido (RMS) considerando las características biológicas de los recursos explotados. La nueva LGPA estableció que el Comité Científico Técnico será quien recomiende el marco biológico de referencia, estatus de conservación biológica y rango de Captura Biológicamente Aceptable (CBA). \vspace{0.5cm}
 
@@ -155,7 +155,7 @@ Considerando que anchoveta conforma una pesquería mixta junto con sardina comú
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.8\textwidth]{Figuras/Fig4-1}
-\caption{Relación de desembarques y cuotas anuales de anchoveta de las Regiones de Valparaíso a Los Lagos por tipo de flota.}
+\caption{Relación de desembarques y cuotas anuales de anchoveta de las regiones de Valparaíso a Los Lagos por tipo de flota.}
 \label{Fig4}
 \end{figure}
 ```
@@ -168,7 +168,7 @@ Considerando que anchoveta conforma una pesquería mixta junto con sardina comú
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.8\textwidth]{Figuras/Fig5-1}
-\caption{Desembarques oficiales de anchoveta y sardina común de las Regiones de Valparaíso a Los Lagos. Los años en el eje x corresponden a años biológicos de los desembarques utilizados en la evaluación de stock de cada recurso.}
+\caption{Desembarques oficiales de anchoveta y sardina común de las regiones de Valparaíso a Los Lagos. Los años en el eje x corresponden a años calendarios de los desembarques oficiales corregidos período 1998-2001.}
 \label{Fig5}
 \end{figure}
 ```
@@ -179,9 +179,9 @@ Considerando que anchoveta conforma una pesquería mixta junto con sardina comú
 
 ## 2.6. Evaluación de stock
 
-La evaluación de stock en Chile ha sido desarrollada y perfeccionada por IFOP durante los últimos 15 años y cuya metodología se encuentra acorde con los estándares internacionales vigentes. A su vez y recientemente, los modelos y métodos han sido clasificados en grupos de calidad o "Tiers" conforme el nivel de conocimiento, cantidad y calidad de la información disponible que aporta la evaluación de stock. Se ha tomado en consideración las recomendaciones emanadas tanto desde los Comités Científico Técnicos como de los lineamientos entregados por el equipo de expertos internacionales en el marco del proyecto "Revisión de los puntos biológicos de referencia (Rendimiento Máximo Sostenido) en las pesquerías nacionales" (Payá *et al*. 2014). En el desarrollo de (los) método(s) y modelo(s) empleados se consideran elementos de incertidumbre estructural basados en el nivel de conocimiento y de la información o datos disponible, así como la incertidumbre de estimación generada de su aplicación al conjunto de datos disponibles. Independientemente del nivel del estándar, en base al permanente proceso de mejora se recomendará la realización de estudios, cruceros, investigaciones, monitoreo y otras acciones conducentes a mejorar el estado de conocimiento del recurso en cuestión y la pesquería, con el fin de allanar las brechas de conocimiento e información conducentes a reducir los niveles de incertidumbre.
+La evaluación de stock en Chile ha sido desarrollada y perfeccionada por IFOP durante los últimos 15 años y cuya metodología se encuentra acorde con los estándares internacionales vigentes. A su vez y recientemente, los modelos y métodos han sido clasificados en grupos de calidad o "Tiers" conforme el nivel de conocimiento, cantidad y calidad de la información disponible que aporta la evaluación de stock. Se ha tomado en consideración las recomendaciones emanadas tanto desde los Comités Científico Técnicos como de los lineamientos entregados por el equipo de expertos internacionales en el marco del proyecto "Revisión de los puntos biológicos de referencia (Rendimiento Máximo Sostenido) en las pesquerías nacionales" (Payá *et al*. 2014). En el desarrollo de (los) método(s) y modelo(s) empleados se consideran elementos de incertidumbre estructural basados en el nivel de conocimiento y de la información o datos disponibles, así como la incertidumbre de estimación generada de su aplicación al conjunto de datos disponibles. Independientemente del nivel del estándar, en base al permanente proceso de mejora se recomendará la realización de estudios, cruceros, investigaciones, monitoreo y otras acciones conducentes a mejorar el estado de conocimiento del recurso en cuestión y la pesquería, con el fin de allanar las brechas de conocimiento e información conducentes a reducir los niveles de incertidumbre.
 
-El stock de anchoveta en la UPCS comenzó a ser evaluada oficialmente en 1996 por Barría *et al*. (1998) y (1999), con métodos estructurados por edad en escala calendaria. La \textbf{Tabla \ref{Tab1}} muestra las características que ha tenido la evolución en la modelación de dinámica poblacional en los últimos 20 años. Luego de Excel, MATLAB fue la plataforma de computación por más de 10 años y en esta se implementaron modelos de dinámica en edades en escala anual y semestral con observaciones en tallas y edades. Recién el año 2010 se inicia la migración de los modelos hacia el lenguaje ADMB (Fournier *et al*. 2012) con lo cual IFOP queda inserto en la línea de las evaluaciones de stock cuyo lenguaje de programación es internacionalmente aceptado. En el presente estudio se realiza el cambio de modelo base en escala año calendaria (MAE) a escala año biológica (MAEB), el cual fue adoptado recientemente por el CCT-PP en la sesión de mayo 2020 (Acta Sesión Nº3 y Zúñiga *et al*., 2020 en ANEXO I), reemplazando al modelo en año calendario históricamente utilizado. \vspace{0.5cm}
+El stock de anchoveta en la UPCS comenzó a ser evaluada oficialmente en 1996 por Barría *et al* (1998) y (1999), con métodos estructurados por edad en escala calendaria. La \textbf{Tabla \ref{Tab1}} muestra las características que ha tenido la evolución en la modelación de dinámica poblacional en los últimos 21 años. Luego de Excel, MATLAB fue la plataforma de computación por más de 10 años y en esta se implementaron modelos de dinámica en edades en escala anual y semestral con observaciones en tallas y edades. Recién el año 2010 se inicia la migración de los modelos hacia el lenguaje ADMB (Fournier *et al*. 2012) con lo cual IFOP queda inserto en la línea de las evaluaciones de stock cuyo lenguaje de programación es internacionalmente aceptado. En el presente estudio (asesoría de septiembre 2020) se realiza el cambio de modelo base en escala año calendaria (MAE) a escala año biológica (MAEB), el cual fue adoptado  por el CCT-PP en la sesión de mayo 2020 (Acta Sesión Nº3 y Zúñiga *et al*. 2020 en ANEXO I), reemplazando al modelo en año calendario históricamente utilizado. \vspace{0.5cm}
 
 
 ```{=tex}
@@ -225,14 +225,14 @@ En base al modelo conceptual de la dinámica del stock de anchoveta centro-sur s
 
 ## 2.7. Estatus
 
-Debido a los bajos reclutamientos registrados en los últimos años, los que se ubican bajo el nivel promedio de la serie histórica, el estatus de esta pesquería, se mantuvo en una condición de colapso desde el 2009 hasta el 2017. Dicha condición podría ser producto de diversos factores biológicos (fenómenos depensatorios de la dinámica poblacional, reducción del potencial reproductivo) y factores oceanográficos desfavorables para anchoveta y que han favorecido la producción de la sardina común dejando en evidencia la alternancia de ambas especies, las cuales son explotadas en la misma área y por la misma flota. Considerando que la anchoveta constituye una pesquería mixta con sardina común y que ambas se encuentran en niveles de productividad muy disímiles, resulta complejo alcanzar el máximo rendimiento sostenido simultáneamente para cada una de las especies (\textbf{Figura \ref{Fig6}}). El año 2018 y 2021 se observa una recuperación de anchoveta centro-sur desplazandose desde una condición de agotada/colapsada a una condición de plenaexplotación. Esta recuperación se debe al incremento en los niveles de biomasa en la UPCS, registrado tanto por los cruceros hidroacústicos como en la composición de edad y pesos medios de la flota. Mientras que los bajos niveles de reclutamiento registrados en sardina común durante dos años consecutivos han generado una disminución de los niveles de biomasa desovante, registrándose una condición de sobreexplotación para el año 2021. \vspace{0.5cm}
+Debido a los bajos reclutamientos registrados en los últimos años, los que se ubican bajo el nivel promedio de la serie histórica, el estatus de esta pesquería, se mantuvo en una condición de colapso desde el 2009 hasta el 2017. Dicha condición podría ser producto de diversos factores biológicos (fenómenos depensatorios de la dinámica poblacional, reducción del potencial reproductivo) y factores oceanográficos desfavorables para anchoveta y que han favorecido la producción de la sardina común dejando en evidencia la alternancia de ambas especies, las cuales son explotadas en la misma área y por la misma flota. Considerando que la anchoveta constituye una pesquería mixta con sardina común y que ambas se encuentran en niveles de productividad muy disímiles, resulta complejo alcanzar el máximo rendimiento sostenido simultáneamente para cada una de las especies (\textbf{Figura \ref{Fig6}}). A partir del año 2018 se observa una recuperación de anchoveta centro-sur desplazandose desde una condición de agotada/colapsada a una condición de plenaexplotación. Esta recuperación se debe al incremento en los niveles de biomasa en la UPCS, registrado tanto por los cruceros hidroacústicos como en la composición de edad y pesos medios de la flota. Mientras que los bajos niveles de reclutamiento registrados en sardina común durante dos años consecutivos han generado una disminución de los niveles de biomasa desovante, registrándose una condición de sobreexplotación para el año 2021. No obstante, el reclutamiento estimado para el año 2021 de sardina común podría generar una recuperación de los niveles de biomasa desovante durante el 2021/22. \vspace{0.5cm}
 
 
 ```{=tex}
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.8\textwidth]{Figuras/Fig6-1}
-\caption{ Razón $BD/BD_{RMS}$ de sardina común y anchoveta de las Regiones de Valparaíso a Los Lagos.}
+\caption{ Razón $BD/BD_{RMS}$ de sardina común y anchoveta de las regiones de Valparaíso a Los Lagos.}
 \label{Fig6}
 \end{figure}
 ```
@@ -244,12 +244,12 @@ Debido a los bajos reclutamientos registrados en los últimos años, los que se 
 
 De acuerdo al ciclo de manejo histórico de esta pesquería, la recomendación de CBA comienza con el cálculo de la CBA inicial que permite al CCT-PP, en septiembre de cada año, establecer el estatus y recomendar el rango de CBA para el año siguiente. En el mes de enero, el crucero de evaluación hidroacústico permite estimar la abundancia y biomasa de reclutas (crucero de verano), esta información junto a datos provenientes de la pesquería (del año anterior) es utilizada para la primera revisión de la CBA (marzo). En marzo se inicia el período de extracción y en mayo se realiza el segundo crucero de evaluación acústica (crucero de otoño) para actualizar el estatus y revisar una vez más la CBA (julio).
 
-En el caso de anchoveta en la UPCS, el cálculo de la CBA durante la 1era y 2da revisión se basa principalmente en los peces que sobrevivieron al año anterior, más que en los peces que están reclutando en el año actual (información entregada por cruceros de verano y otoño). Por lo tanto, debido a que estos últimos años la condición del stock no ha sido favorable, cuando se ha actualizado el modelo con información del año anterior (pesquería) ha provocado una disminución de la fracción explotable y como consecuencia una disminución de la CBA. El problema desde un punto de vista práctico y administrativo se traduce es la imposibilidad de disminuir la Cuota asignada, ya que por lo general a mitad de año (segunda revisión) gran parte de la cuota ha sido consumida. Ante esta situación el CCT-PP ha recomendado mantener una situación de "\textit{statu quo}" cada vez que se ha presentado una disminución de la CBA en la 1era o 2da revisión. Sin embargo, aun cuando la CBA no ha sido disminuida, los desembarques han sobrepasado los niveles de capturas recomendados por el CCT-PP, producto de la incorporación del programa de descarte el año 2013. Una de las consecuencias es que los desembarques superan entre 1,35 -- 1,84 veces la CBA establecida por el CCT-PP. Entre el 2017 y 2018 los desembarques estuvieron en torno de la CBA recomendada en 0.95 -- 1,03 veces la CBA respectivamente, sin embargo, el año 2019 el desembarque vuelve a sobrepasar la CBA recomendada. A diciembre del 2020 se han capturado 166 mil toneladas y la CBA recomendada para el 2021 está en torno a las 210 mil toneladas, un 23% mayor a lo recomendado el año previo. A junio 2021 se ha desembarcada un 74% de la CBA recomendada para el año 2021 (\textbf{Tabla \ref{Tab2}}). \vspace{0.5cm}
+En el caso de anchoveta en la UPCS, el cálculo de la CBA durante la 1era y 2da revisión se basa principalmente en los peces que sobrevivieron al año anterior, más que en los peces que están reclutando en el año actual (información entregada por cruceros de verano y otoño). Por lo tanto, debido a que estos últimos años la condición del stock no ha sido favorable, cuando se ha actualizado el modelo con información del año anterior (pesquería) ha provocado una disminución de la fracción explotable y como consecuencia una disminución de la CBA. El problema desde un punto de vista práctico y administrativo se traduce es la imposibilidad de disminuir la Cuota asignada, ya que por lo general a mitad de año (segunda revisión) gran parte de la cuota ha sido consumida. Ante esta situación el CCT-PP ha recomendado mantener una situación de "\textit{statu quo}" cada vez que se ha presentado una disminución de la CBA en la 1era o 2da revisión. Sin embargo, aun cuando la CBA no ha sido disminuida, los desembarques han sobrepasado los niveles de capturas recomendados por el CCT-PP, producto de la incorporación del programa de descarte el año 2013. Una de las consecuencias es que los desembarques superan entre 1,35 -- 1,84 veces la CBA establecida por el CCT-PP. Entre el 2017 y 2018 los desembarques estuvieron en torno de la CBA recomendada en 0,95 -- 1,03 veces la CBA respectivamente, sin embargo, el año 2019 el desembarque vuelve a sobrepasar la CBA recomendada. A diciembre del 2020 se han capturado 166 mil toneladas y la CBA recomendada para el 2021 está en torno a las 210 mil toneladas, un 23% mayor a lo recomendado el año previo. A junio 2021 se ha desembarcada un 74% de la CBA recomendada para el año 2021 (\textbf{Tabla \ref{Tab2}}). \vspace{0.5cm}
 
 
 ```{=tex}
 \begin{table}[h!]
-\caption{Capturas biológicamente aceptables recomendadas por el CCT-PP en las distintas etapas de establecimiento de CBA, desembarque registrado y sus diferencias.}
+\caption{Capturas Biológicamente Aceptables recomendadas por el CCT-PP en las distintas etapas de establecimiento de CBA, desembarque registrado y sus diferencias.}
  \label{Tab2}
  \small
     \centering
@@ -295,7 +295,9 @@ La conceptualización del modelo biológico considera los siguientes componentes
 -   Tasa de mortalidad natural: La tasa de mortalidad natural se asume invariante y se considera M=0,7 por año para anchoveta centro-sur.
 -   Dinámica del crecimiento: El crecimiento intra-anual es recogido en dos matrices de pesos medios a la edad, las que corresponden respectivamente a las estimaciones a mitad de año (enero) luego de la asignación de la edad, y las estimaciones de pesos iniciales del año (julio).
 
-El modelo de evaluación de stock de anchoveta se basa en un análisis estadístico de la dinámica de estructuras de edad anual que incorpora información biológica y pesquera agregada en año biológico. El modelo actual fue adoptado recientemente por el CCT-PP en la sesión de mayo 2020 (Acta Sesión Nº3 [^1] y Zúñiga *et al*., 2020 en ANEXO I), reemplazando al modelo en año calendario históricamente utilizado. De este modo, el modelo en escala biológica mejora la representación del reclutamiento y de la dinámica de anchoveta. La información que ingresa a este modelo consiste en los desembarques totales obtenidos de los registros oficiales de SERNAPESCA los cuales son convertidos a temporada de pesca considerando la estacionalidad de la pesquería, los datos de composición de edad anual y pesos medios a la edad de la flota son proporcionados por el programa de monitoreo de las pesquerías de peces pelágicos, mientras que las evaluaciones hidroacústicas de verano y otoño proporcionan información de biomasa de reclutas, junto con sus respectivas composiciones de edad. En base a esta información el modelo estima las variables de estado y flujo representadas por la biomasa desovante (BD) y los niveles de mortalidad por pesca (F), que junto a los puntos biológicos de referencia (PBRs), permiten determinar el estatus y calcular la Captura Biológicamente Aceptable (CBA) (\textbf{Figura \ref{Fig7}}).
+
+
+El modelo de evaluación de stock de anchoveta se basa en un análisis estadístico de la dinámica de estructuras de edad anual que incorpora información biológica y pesquera agregada en año biológico. El modelo actual fue adoptado recientemente por el CCT-PP en la sesión de mayo 2020 (Acta Sesión Nº3 [^1] y Zúñiga *et al*. 2020 en ANEXO I), reemplazando al modelo en año calendario históricamente utilizado. De este modo, el modelo en escala biológica mejora la representación del reclutamiento y de la dinámica de anchoveta. La información que ingresa a este modelo consiste en los desembarques totales obtenidos de los registros oficiales de SERNAPESCA los cuales son convertidos a temporada de pesca considerando la estacionalidad de la pesquería, los datos de composición de edad anual y pesos medios a la edad de la flota son proporcionados por el programa de monitoreo de las pesquerías de peces pelágicos, mientras que las evaluaciones hidroacústicas de verano y otoño proporcionan información de biomasa de reclutas, junto con sus respectivas composiciones de edad. En base a esta información el modelo estima las variables de estado y flujo representadas por la biomasa desovante (BD) y los niveles de mortalidad por pesca (F), que junto a los puntos biológicos de referencia (PBRs), permiten determinar el estatus y calcular la Captura Biológicamente Aceptable (CBA) (\textbf{Figura \ref{Fig7}}).
 
 [^1]: <http://www.subpesca.cl/portal/616/articles-107809_documento.pdf> \vspace{0.5cm}
 
@@ -303,27 +305,30 @@ El modelo de evaluación de stock de anchoveta se basa en un análisis estadíst
 ```{=tex}
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.8\textwidth]{Figuras/Fig7.png}
+\includegraphics[width=0.7\textwidth]{Figuras/Fig7.png}
 \caption{Procedimiento de evaluación de stock de anchoveta de las Regiones de Valparaíso a Los Lagos.}
 \label{Fig7}
 \end{figure}
 ```
 
+\vspace{-0.3cm}
  \normalsize
 
-En la implementación del procedimiento de evaluación de stock se utilizan protocolos científicos basados en la determinación de un sistema de niveles o "tiers" que permiten clasificar la información disponible de las especies y su pesquería, los cuales se han convertido en una herramienta de uso común en la asesoría orientada al manejo pesquero en la actualidad. Para estimar el Rendimiento Máximo Sostenible (RMS) se utiliza la estrategia de niveles y de acuerdo con la clasificación del estándar de información se definen los PBR o "proxy" que serán usados para determinar el estatus del recurso. La definición de los procedimientos de cálculo de los PBR y del marco de referencia especie específicos se basan en el estudio "Revisión de los puntos Biológicos de referencia (RMS) en las pesquerías nacionales" (Paya *et al*. 2014), en cuyo primer taller, se desarrolló en conjunto con expertos internacionales, un sistema de tres niveles para derivar al RMS específico para las pesquerías en Chile (\textbf{Figura \ref{Fig8}}). Además, para determinar el estatus de los recursos evaluados, se considera lo establecido por el Comité Científico Técnico de Pelágicos Pequeños (CCT-PP) sobre los requerimientos técnicos que define los estándares de análisis y evaluación para las pesquerías analizadas, conforme a los niveles de conocimiento, información y calidad de los datos disponibles para esos fines.
-
-Al respecto, las anchovetas y sardinas son especies con una mortalidad natural (M) alta (viven durante un período máximo de 4-5 años), crecen rápido y maduran tempranamente. El reclutamiento está altamente influenciado por el ambiente. El modelo de evaluación de stock tiene una frecuencia temporal anual. Tanto el modelo y los datos son estructurados a la edad. Se considera una flota comercial en el modelo de evaluación y el patrón de selectividad es asumido constante a través de los años. El modelo de evaluación de stock no incluye una relación S-R. Estos antecedentes permiten clasificar a la anchoveta y sardina común en la UPCS en el Tier o nivel 1b. \vspace{0.5cm}
+En la implementación del procedimiento de evaluación de stock se utilizan protocolos científicos basados en la determinación de un sistema de niveles o "tiers" que permiten clasificar la información disponible de las especies y su pesquería, los cuales se han convertido en una herramienta de uso común en la asesoría orientada al manejo pesquero en la actualidad. Para estimar el Rendimiento Máximo Sostenible (RMS) se utiliza la estrategia de niveles y de acuerdo con la clasificación del estándar de información se definen los PBR o "proxy" que serán usados para determinar el estatus del recurso. La definición de los procedimientos de cálculo de los PBR y del marco de referencia especie específicos se basan en el estudio "Revisión de los Puntos Biológicos de Referencia (RMS) en las pesquerías nacionales" (Paya *et al*. 2014), en cuyo primer taller, se desarrolló en conjunto con expertos internacionales, un sistema de tres niveles para derivar al RMS específico para las pesquerías en Chile (\textbf{Figura \ref{Fig8}}). Además, para determinar el estatus de los recursos evaluados, se considera lo establecido por el Comité Científico Técnico de Pelágicos Pequeños (CCT-PP) sobre los requerimientos técnicos que define los estándares de análisis y evaluación para las pesquerías analizadas, conforme a los niveles de conocimiento, información y calidad de los datos disponibles para esos fines.
 
 
 ```{=tex}
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.8\textwidth]{Figuras/Fig8.png}
+\includegraphics[width=0.65\textwidth]{Figuras/Fig8.png}
 \caption{Sistema de niveles para la determinación de los PBRs de acuerdo a la cantidad, tipo y la calidad de la información disponible y, métodos de evaluación de stock empleados en cada pesquería.}
 \label{Fig8}
 \end{figure}
 ```
+
+
+
+Al respecto, las anchovetas y sardinas son especies con una mortalidad natural (M) alta (viven durante un período máximo de 4-5 años), crecen rápido y maduran tempranamente. El reclutamiento está altamente influenciado por el ambiente. El modelo de evaluación de stock tiene una frecuencia temporal anual. Tanto el modelo y los datos son estructurados a la edad. Se considera una flota comercial en el modelo de evaluación y el patrón de selectividad es asumido constante a través de los años. El modelo de evaluación de stock no incluye una relación S-R. Estos antecedentes permiten clasificar a la anchoveta y sardina común en la UPCS en el Tier o nivel 1b. \vspace{0.5cm}
 
 
 ### 3.1.2. Datos de entrada al modelo de evaluación de stock
@@ -332,16 +337,16 @@ A continuación, se detalla y fundamenta el conjunto de datos a emplear para la 
 
 #### *Desembarques*
 \quad
-Corresponde a la extracción registrada en puerto, independiente de la zona de procedencia. Tiene valor en definir la importancia relativa de los distintos puertos de descarga, por lo tanto, es de mayor interés administrativo y/o comercial de la actividad. Su propósito es cuantificar los volúmenes, totales y por especie, que efectivamente se reciben en la descarga o desembarque. Las estadísticas oficiales de los desembarques son sistematizadas por el Servicio Nacional de Pesca, sobre una base mensual, por tipo de flota, puerto de desembarque y especie objetivo. Cabe señalar que en la pesquería pelágica el concepto de captura es igual al del desembarque más descarte. Para efecto de la evaluación se utiliza la totalidad del desembarque por especie que ocurre en la unidad de pesquería, comenzando la serie desde el año 1997 hasta 2020. La evaluación de stock es realizada en base al año biológico (de julio a junio de cada año), y la serie de desembarques anuales es convertida a temporada de pesca considerando la estacionalidad de la pesquería y la serie oficial corregida de desembarques anuales antes descrita.
+Corresponde a la extracción registrada en puerto, independiente de la zona de procedencia. Tiene valor en definir la importancia relativa de los distintos puertos de descarga, por lo tanto, es de mayor interés administrativo y/o comercial de la actividad. Su propósito es cuantificar los volúmenes, totales y por especie, que efectivamente se reciben en la descarga o desembarque. Las estadísticas oficiales de los desembarques son sistematizadas por el Servicio Nacional de Pesca, sobre una base mensual, por tipo de flota, puerto de desembarque y especie objetivo. Cabe señalar que en la pesquería pelágica el concepto de captura es igual al del desembarque más descarte. Para efecto de la evaluación se utiliza la totalidad del desembarque por especie que ocurre en la unidad de pesquería, comenzando la serie desde el año 1997 hasta 2021. La evaluación de stock es realizada en base al año biológico (de julio a junio de cada año), y la serie de desembarques anuales es convertida a temporada de pesca considerando la estacionalidad de la pesquería y la serie oficial corregida entre el 1998-2001 de desembarques anuales antes descrita.
 
 #### *Sobre-reporte*
 \quad
-Existen algunos antecedentes que señalan que los desembarques del primer semestre de los años 1999 y 2000 resultan ser muy altos para lo que en ese entonces se supone era la población de anchoveta y sardina común. Arcos *et al*. (2004) postularon que las condiciones ambientales pre y durante "El Niño", produjeron una alteración en la distribución espacial de jurel, "atrapando" a los juveniles de la especie en la zona centro-sur, generando la distorsión de los desembarques en los pequeños pelágicos, impulsado por evadir multas y declarar menos jurel (Aranís 2011). Basados en estos antecedentes, las series de desembarques anuales oficiales fueron corregidos por investigadores de IFOP. Se realizó un análisis preliminar utilizando la base de información de "Muestreo de Proporción de especies" de IFOP, para comparar los datos de composición de especies desembarcadas, la cual consiste en la selección de una muestra de la captura de un contenedor (caja o balde), llenado en distintos momentos del proceso de vaciado de la captura y luego se pesa y cuenta la fauna diferenciada por especie. Posteriormente, se determina la intencionalidad del viaje de pesca, basada en las proporciones de captura, tomando el criterio de especie objetivo a la que representaba más del 50% en peso de la muestra de proporción. En el caso de existir más de dos especies, se considera como objetivo la de mayor contribución, siendo clasificadas las restantes como fauna acompañante. Finalmente, se obtiene la composición original para jurel, sardina y anchoveta registrada de los desembarques, contrastado con las proporciones re-estimadas obtenidas de los muestreos pelágicos que se practicaron en ese período (1998-2001). No obstante, esta corrección debe ser revisada durante el transcurso de este proyecto para considerar el análisis de la serie completa.
+Existen algunos antecedentes que señalan que los desembarques del primer semestre de los años 1999 y 2000 resultan ser muy altos para lo que en ese entonces se supone era la población de anchoveta y sardina común. Arcos *et al* (2004) postularon que las condiciones ambientales pre y durante "El Niño", produjeron una alteración en la distribución espacial de jurel, "atrapando" a los juveniles de la especie en la zona centro-sur, generando la distorsión de los desembarques en los pequeños pelágicos, impulsado por evadir multas y declarar menos jurel (Aranís 2011). Basados en estos antecedentes, las series de desembarques anuales oficiales fueron corregidos por investigadores de IFOP. Se realizó un análisis preliminar utilizando la base de información de "Muestreo de Proporción de especies" de IFOP, para comparar los datos de composición de especies desembarcadas, la cual consiste en la selección de una muestra de la captura de un contenedor (caja o balde), llenado en distintos momentos del proceso de vaciado de la captura y luego se pesa y cuenta la fauna diferenciada por especie. Posteriormente, se determina la intencionalidad del viaje de pesca, basada en las proporciones de captura, tomando el criterio de especie objetivo a la que representaba más del 50% en peso de la muestra de proporción. En el caso de existir más de dos especies, se considera como objetivo la de mayor contribución, siendo clasificadas las restantes como fauna acompañante. Finalmente, se obtiene la composición original para jurel, sardina y anchoveta registrada de los desembarques, contrastado con las proporciones re-estimadas obtenidas de los muestreos pelágicos que se practicaron en ese período (1998-2001). 
 
 #### *Sub-reporte*
 \quad
 
-El año 2016 la Pontificia Universidad Católica de Chile desarrolló un proyecto orientado a la corrección de las capturas totales históricas de la pesquería de sardina común y anchoveta V-X Regiones (Proyecto CUI 2015-72-DAP-27) y recientemente IFOP realizó un estudio de remociones totales en la flota artesanal que opera con red de cerco entre la Región de Valparaíso y la Región de los Ríos orientando sus capturas a pequeños pelágicos (Vega *et al*. 2019). Para propósitos de la evaluación de stock, esta información será analizada en el transcurso de este proyecto, con el objeto definir la metodología a utilizar para la corrección de las capturas y de este modo disminuir la incertidumbre respecto al nivel real de captura de estos recursos.
+El año 2016 la Pontificia Universidad Católica de Chile desarrolló un proyecto orientado a la corrección de las capturas totales históricas de la pesquería de sardina común y anchoveta V-X Regiones (Proyecto CUI 2015-72-DAP-27) y recientemente IFOP realizó un estudio de remociones totales en la flota artesanal que opera con red de cerco entre la Región de Valparaíso y la Región de los Ríos orientando sus capturas a pequeños pelágicos (Vega *et al*. 2019). Para propósitos de la evaluación de stock, esta información será analizada en el transcurso de este proyecto, con el objeto definir la metodología a utilizar para la corrección de las capturas y de este modo disminuir la incertidumbre respecto al nivel real de captura de estos recursos. Al respecto, actualmente se están desarrollando reuniones de trabajo colaborativas entre los equipos técnicos de seguimiento y evaluación de stock de IFOP, INPESCA y SUBPESCA, para trabajar en una propuesta de desembarques corregidos para anchoveta y sardina común de la zona centro-sur. Adicionalmente, en **ANEXO II** de este informe se presenta una análisis de sensibilidad utilizando la serie de captura corregida del Proyecto CUI 2015-72-DAP-27, como análisis preliminar para evaluar el efecto en las tendencias poblacionales de anchoveta.
 
 #### *Descarte*
 \quad
@@ -354,29 +359,22 @@ El Artículo 7°B de la actual Ley General de Pesca y Acuicultura (LGPA, N° 18.
 
 [^2]: <https://www.bcn.cl/leychile/navegar?idNorma=13315>
 
-En este sentido, Zúñiga *et al*. (2018b) exponen algunos escenarios posibles para incorporar el descarte en el modelo de evaluación de stock, que potencialmente representan fuentes de mortalidad por pesca a la fecha no documentada. Estos escenarios fueron revisados por el CCT-PP en la sesión de octubre 2017 (Acta 06/2017 [^3]) donde fue seleccionado el escenario 5 que considera un 4% de descarte para el período 2001-2015, un 2% descarte para el año 2016, 6% descarte para el año 2017 y 1% descarte para el 2018. 
+En este sentido, Zúñiga *et al* (2018b) exponen algunos escenarios posibles para incorporar el descarte en el modelo de evaluación de stock, que potencialmente representan fuentes de mortalidad por pesca a la fecha no documentada. Estos escenarios fueron revisados por el CCT-PP en la sesión de octubre 2017 (Acta 06/2017 [^3]) donde fue seleccionado el escenario 5 que considera un 4% de descarte para el período 2001-2015, un 2% descarte para el año 2016, 6% descarte para el año 2017 y 1% descarte para el 2018. 
 
 
-En este informe se actualiza el descarte  correspondiente a los años biógicos 2017/18, 2018/19 y 2019/20. El modelo de evaluación de stock de anchoveta de la zona centro-sur utiliza información en año biológico (Zúñiga *et. al*., 2021 a y b), por lo tanto, se requieren datos de descarte semestrales para la flota total para ser utilizados en la corrección del desembarque en año biológico (**Tabla x**). Para los años en que no se cuente con información se utilizará un supuesto que fue acordado en el en la primera sesión
-del CCT-PP (Acta No1 2021, https://www.subpesca.cl/portal/616/articles-110238_documento.pdf) en 2% para anchoveta. Estos porcentajes serán utilizados para corregir el desembarque cuando no se tenga información del descarte y para asumir un porcentaje de descarte proyectado para incorporar en la proyección de la CBA (**Tabla x**). Los supuestos utilizados para anchoveta se describen a continuación:
+En este informe se actualiza el descarte  correspondiente a los años biógicos 2017/18, 2018/19 y 2019/20, considerando que el modelo de evaluación de stock de anchoveta de la zona centro-sur utiliza información en año biológico (Zúñiga *et al*. 2021 a y b), por lo tanto, se requieren datos de descarte semestrales para la flota total para ser utilizados en la corrección del desembarque en año biológico (\textbf{Tabla \ref{Tab4a}}). Para los años en que no se cuente con información se utilizará un supuesto que fue acordado en la primera sesión
+del CCT-PP (Acta No1 2021, https://www.subpesca.cl/portal/616/articles-110238_documento.pdf) en 2% para anchoveta. Estos porcentajes serán utilizados para corregir el desembarque cuando no se tenga información del descarte y para asumir un porcentaje de descarte proyectado para incorporar en la proyección de la CBA (\textbf{Tabla \ref{Tab4b}}). Los supuestos utilizados para anchoveta se describen a continuación:
 
 \underline{Supuestos para asesoría de marzo y julio 2021 (2do y 3er Hito CBA 2021):}
 
 - El supuesto 1 de descarte propuesto para la corrección del desembarque 2020/21 para flota total y
-zona total se obtiene del promedio de los años biológicos 2017/18 - 2019/20 (**Tabla x**).
+zona total se obtiene del promedio de los años biológicos 2017/18 - 2019/20 (\textbf{Tabla \ref{Tab4c}}).
 - El supuesto 2 de descarte propuesto para la proyección de la CBA 2021/2022 para la flota total y zona
-total se obtiene del promedio de los años biológicos 2017/18 - 2019/20 (**Tabla x**).
-
-
-\underline{Supuestos para asesoría de septiembre 2021 (1er Hito CBA 2022):}
-
-- El supuesto 1 de descarte propuesto para la corrección del desembarque 2020/21 para flota total y
-zona total se obtiene del promedio de los años biológicos 2017/18 - 2019/20 (**Tabla x**).
-- El supuesto 2 de descarte propuesto para la proyección de la CBA 2021/2022 y 2022/2023 para la
-flota total y zona total se obtiene del promedio de los años biológicos 2017/18 - 2019/20 (**Tabla x**).
+total se obtiene del promedio de los años biológicos 2017/18 - 2019/20 (\textbf{Tabla \ref{Tab4c}}).
 
 [^3]: <http://www.subpesca.cl/portal/616/articles-98715_documento.pdf>
 
+Mayores detalles del procedimiento transitorio de incorporación del descarte a los desembarques y Captura Biológicamente Aceptable de la pesquería de cerco de peces pelágicos pequeños se encuentra en **ANEXO III**.
 \pagebreak
 
 ```{=tex}
@@ -497,7 +495,7 @@ El monitoreo de la pesquería de anchoveta en la UPCS, realizado por el Proyecto
 ##### *Composición por edad/talla*
 \quad
 
-Denominada también como estructura de edad, corresponde a la expansión de la captura mediante la clave edad-talla determinada. Así esta composición corresponde a la matriz que representa la distribución de los ejemplares que están presentes en la captura, por grupo de edad y por estrato de tamaño, a través de un diseño de muestreo de otolitos estratificado por clase de tallas. A pesar de que se dispone de una composición por zona, trimestre y flota, para efecto de la evaluación se considera la estimación global para la unidad de pesquería y agregadas entre flotas, estando disponible una serie construida desde el año 1996/97. Esta información es empleada en el proceso de evaluación de stock a objeto de evaluar los supuestos de la mortalidad por pesca diferenciada por grupos de edad, además de entregar señales de la fuerza de las clases anuales que han atravesado por la pesquería. La clave edad-talla utilizada en la evaluación actual utiliza asignación en año biológico la cual permite asignar adecuadamente la edad en función de la fecha de nacimiento, que se corresponde con el período de desove. Este metodología fue adoptada por el CCT-PP en el Taller de Datos y Modelos (Acta Sesión Nº3 [^4] y en Zúñiga *et al*., 2020 en ANEXO I)
+Denominada también como estructura de edad, corresponde a la expansión de la captura mediante la clave edad-talla determinada. Así esta composición corresponde a la matriz que representa la distribución de los ejemplares que están presentes en la captura, por grupo de edad y por estrato de tamaño, a través de un diseño de muestreo de otolitos estratificado por clase de tallas. A pesar de que se dispone de una composición por zona, trimestre y flota, para efecto de la evaluación se considera la estimación global para la unidad de pesquería y agregadas entre flotas, estando disponible una serie construida desde el año 1996/97. Esta información es empleada en el proceso de evaluación de stock a objeto de evaluar los supuestos de la mortalidad por pesca diferenciada por grupos de edad, además de entregar señales de la fuerza de las clases anuales que han atravesado por la pesquería. La clave edad-talla utilizada en la evaluación actual utiliza asignación en año biológico la cual permite asignar adecuadamente la edad en función de la fecha de nacimiento, que se corresponde con el período de desove. Este metodología fue adoptada por el CCT-PP en el Taller de Datos y Modelos (Acta Sesión Nº3 [^4] y en Zúñiga *et al*. 2020 en ANEXO I)
 
 [^4]: <http://www.subpesca.cl/portal/616/articles-105403_documento.pdf>
 
@@ -506,14 +504,28 @@ La estructura de tallas del desembarque o captura corresponde al número de ejem
 ##### *Pesos a la edad*
 \quad
 El crecimiento intra-anual de la anchoveta es recogido en dos matrices de pesos medios a la edad, las que corresponden respectivamente a las estimaciones a mitad de año (enero) luego de la asignación de la edad, y las estimaciones de pesos iniciales del año (julio) calculadas en base a una media geométrica de la estimación actual y la del año anterior rezagado en un año de edad. El peso medio ($w_{(a,t)}^{med}$) es empleado para generar las estimaciones de desembarques y la biomasa del crucero de verano, mientras el peso inicial ($w_{(a,t)}^{ini}$) es utilizado en las estimaciones de biomasa total, desovante y biomasa del crucero de otoño. Dada la importancia de esta matriz de pesos medios para la definición del estatus de anchoveta se realiza una revisión y corrección del método de estimación el cual es presentado como una mejora al caso base de la evaluación que consiste en los siguientes pasos.
+\vspace{0.5cm}
+
 
 Paso 1: Cálculo de pesos iniciales para el grupo de edad 0.
 
-$w_{(0,t)}^{ini}=exp(ln(w_{(a,t)}^{med} )-0.5*(ln(w_{(a+1,t+1)}^{med} )-ln(w_{(a,t)}^{med} )))$
+
+```{=tex}
+\begin{equation}
+w_{(0,t)}^{ini}=exp(ln(w_{(a,t)}^{med} )-0.5*(ln(w_{(a+1,t+1)}^{med} )-ln(w_{(a,t)}^{med} )))
+\end{equation}
+```
+
 
 Paso 2: Cálculo de pesos iniciales para grupos de edad 1 a 4.
 
-$w_{(a,t)}^{ini}=vw_{(a-1,t-1)}^{med}*w_{(a,t)}^{med}$
+```{=tex}
+\begin{equation}
+w_{(a,t)}^{ini}=vw_{(a-1,t-1)}^{med}*w_{(a,t)}^{med}
+\end{equation}
+```
+
+\vspace{0.5cm}
 
 #### *Cruceros de evaluación hidroacústica*
 \quad
@@ -532,7 +544,7 @@ A partir de mayo de 2003, se han realizado evaluaciones acústicas de ambos recu
 \begin{figure}[h!]
 \centering
 \includegraphics[width=1\textwidth]{Figuras/Figura9.png}
-\caption{Distribución de las transectas acústicas diurnas y prospección costera efectuada por el B/C Abate Molina (negro) y la prospección de la L/M Don Luis Alberto y Punta Brava (rojo) (Saavedra \textit{et. al}., 2017).}
+\caption{Distribución de las transectas acústicas diurnas y prospección costera efectuada por el B/C Abate Molina (negro) y la prospección de la L/M Don Luis Alberto y Punta Brava (rojo) (Saavedra \textit{et. al}. 2017).}
 \label{Fig9}
 \end{figure}
 ```
@@ -549,7 +561,7 @@ Para la implementación del procedimiento de evaluación se recoge el conocimien
 #### *Descripción del modelo base*
 \quad
 
-El modelo de evaluación de stock actual de anchoveta en la UPCS se basa en el análisis estadístico de la dinámica de estructuras de edad anual y pesos medios a la edad estimados del muestreo de tallas de los desembarques (período 1996/97 -- 2019/21) y de los cruceros acústicos de verano (RECLAS, desde 2001 - 2021) y otoño (PELACES, desde 2007 - 2021) y acústicos (biomasa de reclutas en verano, desde 2000 -2021 y biomasa vulnerable en otoño, desde 2003 al 2021) y los desembarques totales (período 1996/97 -- 2019/21). Las fuentes de información utilizados en la evaluación de anchoveta se resumen en la \textbf{Tabla \ref{Tab4}}. Adicionalmente, en la **Sección 3.3.1.** de este informe se detallan los datos utilizados en las distintas etapas de estimación de la CBA 2021. \vspace{0.5cm}
+El modelo de evaluación de stock actual de anchoveta en la UPCS se basa en el análisis estadístico de la dinámica de estructuras de edad anual y pesos medios a la edad estimados del muestreo de tallas de los desembarques (período 1996/97 -- 2020/21) y de los cruceros acústicos de verano (RECLAS, desde 2001 - 2021) y otoño (PELACES, desde 2007 - 2021) y acústicos (biomasa de reclutas en verano, desde 2000 -2021 y biomasa vulnerable en otoño, desde 2003 al 2021) y los desembarques totales (período 1996/97 -- 2020/21). Las fuentes de información utilizados en la evaluación de anchoveta se resumen en la \textbf{Tabla \ref{Tab4}}. Adicionalmente, en la **Sección 3.3.1.** de este informe se detallan los datos utilizados en las distintas etapas de estimación de la CBA 2021. \vspace{0.5cm}
 
 ```{=tex}
 \begin{table}[h!]
@@ -568,23 +580,23 @@ Desembarques totales anuales & Desde julio 1996- junio 1997       & Estadística
                              &                                    & \\
 1. Flota                     & Desde julio 1996- junio 1997       & Monitoreo de la pesquería, de sardina común  \\
                              & hasta el año biológico             & de la V-X Regiones realizado por el           \\
-                             & julio 2019- junio 2021             & Proyecto Investigación Situación Pesquerías    \\
+                             & julio 2019- mayo 2021             & Proyecto Investigación Situación Pesquerías    \\
                              &                                    & de Peces Pelágicos                              \\ 
 2. Cruceros de verano        & Desde enero 2001 hasta enero 2021  &                                             \\
 3. Cruceros de otoño         & Desde mayo 2007 hasta mayo 2021    & Evaluaciones hidroacústicas de los stocks    \\
+                             &                                    & de anchoveta y sardina común entre \\
+\textbf{Biomasa acústica}    &                                    & la V y X regiones.           \\
                              &                                    & \\
-\textbf{Biomasa acústica}    &                                    & de anchoveta y sardina común entre            \\
-                             &                                    & \\
-1. Cruceros de verano        & Desde enero del 2000               & la V y X regiones.                             \\
+1. Cruceros de verano        & Desde enero del 2000               &                              \\
                              & hasta enero del 2021               &                                                 \\
 2. Cruceros de otoño         & 2003,2005-2007,2009-2021           &                                                  \\ \hline
                              &                                    & \\
 Pesos medios a la edad       & Desde julio 1996- junio 1997       & Monitoreo de la pesquería, de sardina común de la \\   
                              & hasta el año biológico             & V-X Regiones realizado por el Proyecto Investigación \\
-                             & julio 2019- junio 2021             & Situación Pesquerías de Peces Pelágicos               \\ 
+                             & julio 2019- mayo 2021             & Situación Pesquerías de Peces Pelágicos               \\ 
                              &                                    &                                                  \\ \hline
-Madurez sexual a la edad     & Constante                          & Aranís \textit{et al}. (2006)                          \\ \hline
-Mortalidad natural           & Constante                          & Cubillos \textit{et al}. (1998b)                         \\ \hline 
+Madurez sexual a la edad     & Constante                          & Aranís \textit{et al} (2006)                          \\ \hline
+Mortalidad natural           & Constante                          & Cubillos \textit{et al} (1998b)                         \\ \hline 
   \end{tabular}}
         \end{table}
 ```
@@ -626,7 +638,7 @@ otoño (PELACES)                & $B_t^{co}$       & ($dt^{co}=0,83$ del año). 
                                &                  & \\
 Proporción de la abundancia    & $p_{(a,t)}^f$    & Representa la distribución de los ejemplares que están presentes \\ 
 a la edad de la flota          &                  & en la captura total por grupo de edad. Tamaño de muestra efectivo \\
-                               &                  & supuesto como parte del error de observación  $n^f=10$.\\
+                               &                  & supuesto como parte del error de observación  $n^f=10,6$.\\
                                &                  & \\ \hline
                                &                  & \\
 Proporción de la abundancia    & $p_{(a,t)}^{cv}$   & Representa la distribución de los ejemplares que están presentes \\
@@ -1064,7 +1076,21 @@ A continuación, se describe el método recomendado por CCT-PP y que acoge lo pr
 
 #### Diagrama de fases de explotación
 \quad
-El estado del recurso se estableció en base a la posición relativa de la mortalidad por pesca y biomasa desovante versus los puntos biológicos de referencia basado en el rendimiento máximo sostenible (RMS), tales como, F~RMS~ y BD~RMS~. De este modo se obtienen los indicadores del estatus (F/F~RMS~ y BD/BD~RMS~) que permiten construir un diagrama de fase, donde los puntos de referencia biológicos se muestran en las líneas verticales y horizontales en 1. Las líneas verticales indican la biomasa desovante en el rendimiento máximo sostenible (BD~RMS~), bajo el cual el recurso califica en sobre-explotación y biomasa desovante límite (BD~LIM~) bajo el cual una pesquería califica de agotada y/o colapsada y la línea horizontal el punto de referencia correspondiente a la mortalidad por pesca en el rendimiento máximo sostenible (F~RMS~), sobre la cual el recurso califica en sobre-explotación. La \textbf{Figura \ref{Fig10}} muestra el diagrama de fase definido por el CCT-PP para las pesquerías de pelágicos pequeños. El estado de la pesquería en Plena Explotación se define en la Ley de Pesca como "un nivel en el que el punto biológico ha alcanzado o está a su máximo rendimiento sostenido". Debido a la variabilidad natural en las condiciones ecológicas y ambientales, F~RMS~ no es estática, pero fluctuará alrededor de BD~RMS~. Para reconocer esta variabilidad, una definición operativa para la región de Plena Explotación se define que se extiende a ambos lados de los puntos de referencia de RMS. Adicionalmente, el CCT\_PP incorporó el concepto de sobrepesca, precisó algunas definiciones y se pronunció respecto a la zona de plena explotación, según consta en acta número 5 (11 al 14 de noviembre de 2014). Los aspectos más relevantes son los que a continuación se describen:
+El estado del recurso se estableció en base a la posición relativa de la mortalidad por pesca y biomasa desovante versus los puntos biológicos de referencia basado en el rendimiento máximo sostenible (RMS), tales como, F~RMS~ y BD~RMS~. De este modo se obtienen los indicadores del estatus (F/F~RMS~ y BD/BD~RMS~) que permiten construir un diagrama de fase, donde los puntos de referencia biológicos se muestran en las líneas verticales y horizontales en 1. Las líneas verticales indican la biomasa desovante en el rendimiento máximo sostenible (BD~RMS~), bajo el cual el recurso califica en sobre-explotación y biomasa desovante límite (BD~LIM~) bajo el cual una pesquería califica de agotada y/o colapsada y la línea horizontal el punto de referencia correspondiente a la mortalidad por pesca en el rendimiento máximo sostenible (F~RMS~), sobre la cual el recurso califica en sobre-explotación. La \textbf{Figura \ref{Fig10}} muestra el diagrama de fase definido por el CCT-PP para las pesquerías de pelágicos pequeños. 
+
+
+```{=tex}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.8\textwidth]{Figuras/Fig10.png}
+\caption{Diagrama de fase definido por el CCT-PP para las pesquerías de pelágicos pequeños.}
+\label{Fig10}
+\end{figure}
+```
+
+
+El estado de la pesquería en Plena Explotación se define en la Ley de Pesca como "un nivel en el que el punto biológico ha alcanzado o está a su máximo rendimiento sostenido". Debido a la variabilidad natural en las condiciones ecológicas y ambientales, F~RMS~ no es estática, pero fluctuará alrededor de BD~RMS~. Para reconocer esta variabilidad, una definición operativa para la región de Plena Explotación se define que se extiende a ambos lados de los puntos de referencia de RMS. Adicionalmente, el CCT\_PP incorporó el concepto de sobrepesca, precisó algunas definiciones y se pronunció respecto a la zona de plena explotación, según consta en acta número 5 (11 al 14 de noviembre de 2014). Los aspectos más relevantes son los que a continuación se describen:
+
 
 *Sobrepesca*: Este Comité consideró necesario diferenciar al interior de la zona de sobreexplotación definida por la LGPA, el área de sobrepesca, con el objeto de aplicar las medidas de Administración más acordes con dicha condición. En tal sentido, la sobrepesca ocurriría cuando la mortalidad por pesca F (variable de flujo y de control) exceda un valor considerado umbral o límite que en este caso, corresponde al valor superior, en mortalidad por pesca (valor relativo al objetivo), de la zona de plena explotación.
 
@@ -1078,16 +1104,9 @@ El estado del recurso se estableció en base a la posición relativa de la morta
 \vspace{0.3cm}
 
 
-```{=tex}
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.8\textwidth]{Figuras/Fig10.png}
-\caption{Diagrama de fase definido por el CCT-PP para las pesquerías de pelágicos pequeños.}
-\label{Fig10}
-\end{figure}
-```
 
  \normalsize
+
 
 \pagebreak
 
@@ -1112,7 +1131,7 @@ De acuerdo al ciclo de manejo histórico de esta pesquería, la recomendación d
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.8\textwidth]{Figuras/Fig11.png}
-\caption{Procedimiento de manejo actual para anchoveta de las Regiones de Valparaíso a Los Lagos.}
+\caption{Procedimiento de manejo actual para anchoveta de las regiones de Valparaíso a Los Lagos.}
 \label{Fig11}
 \end{figure}
 ```
@@ -1177,7 +1196,7 @@ El proceso de cálculo de la CBA 2021 para las tres etapas del ciclo de manejo d
 
 **Paso 3**: Estimación de la Captura Biológicamente Aceptable (CBA) en año calendario aplicando los siguentes supuestos.
 
--   Proporción de captura semestral (ps1, primer semestre y ps2, segundo semestre).
+-   Proporción de captura semestral ($p_{s1}$, primer semestre y $ps2$, segundo semestre).
 -   Probabilidad que la captura exceda el objetivo de manejo F~RMS~=F60%BDPR.
 -   Porcentaje de resguardo de la Captura al RMS.
 
@@ -1212,16 +1231,24 @@ Se realiza un análisis de quiebres que consiste en un análisis estadístico qu
 
 \vspace{0.5cm}
 
-La  \textbf{Figura \ref{Fig12}} muestra tres niveles de reclutamiento detectados por el análisis de quiebres de la serie histórica: a) un escenario favorable que consiste en el reclutamiento promedio del período 1997-2009 (59,2 mil millones de ind.), b) un escenario desfavorable que corresponde al promedio de los reclutamientos del período 2010 - 2021 (25,9 mil millones de ind.) y un escenario que representa el reclutamiento promedio histórico (1997-2021) (43,2 mil millones de ind.). \vspace{0.5cm}
+```{r eval=F,echo=T}
+library(strucchange)
+bp.nile <- breakpoints(Reclutamientos ~ 1)
+fm1 <- lm(Reclutamientos ~ breakfactor(bp.nile, breaks = 2))
+puntos_quiebres<-fitted(fm1)
+```
 
-\vspace{-0.5cm}
+\vspace{0.5cm}
 
+La  \textbf{Figura \ref{Fig12}} muestra tres niveles de reclutamiento detectados por el análisis de quiebres de la serie histórica: a) un escenario favorable que consiste en el reclutamiento promedio del período 1997-2009 (59 mil millones de ind.), b) un escenario desfavorable que corresponde al promedio de los reclutamientos del período 2010 - 2021 (25,7 mil millones de ind.) y un escenario que representa el reclutamiento promedio histórico (1997-2021) (43 mil millones de ind.). \vspace{0.5cm}
+
+\pagebreak
 
 ```{=tex}
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.8\textwidth]{Figuras/Fig12-1.pdf}
-\caption{Análisis de quiebres de la serie histórica de los reclutamientos de anchoveta de las Regiones de Valparaíso a Los Lagos.}
+\caption{Análisis de quiebres de la serie histórica de los reclutamientos de anchoveta de las regiones de Valparaíso a Los Lagos.}
 \label{Fig12}
 \end{figure}
 ```
@@ -1235,14 +1262,14 @@ En relación a los pesos medios a la edad utilizados en la proyección del stock
 
 [^6]: <http://www.subpesca.cl/portal/616/articles-107809_documento.pdf>
 
-\vspace{-0.5cm}
+
 
 
 ```{=tex}
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.8\textwidth]{Figuras/Fig13-1.pdf}
-\caption{a) Variabilidad de los pesos medios de cada grupo de edad (edad 0 a 4) y b) comparación del supuesto de pesos medios igual al promedio histórico vs peso promedio de los últimos 5 años de la serie.}
+\includegraphics[width=0.98\textwidth]{Figuras/Fig13-1.pdf}
+\caption{Variabilidad de los pesos medios de cada grupo de edad (edad 0 a 4) en panel izquierdo y  comparación del supuesto de pesos medios igual al promedio histórico vs peso promedio de los últimos 5 años de la serie, en panel derecho.}
 \label{Fig13}
 \end{figure}
 ```
@@ -1274,9 +1301,27 @@ Donde, $N_{naños}$ es la abundancia a la edad del último año de evaluación, 
 
 Esta captura es estimada en la 1era y 2da revisión de CBA (asesorías de marzo y julio), cuando se cuenta con información del año biológico actualizado con las biomasas acústicas de los cruceros de verano y otoño respectivamente y otras fuentes de información.
 
-Captura en número del año biológico actual $C_{RMS}=\frac{F_{RMS}}{Z_{RMS}} N_{naños}(1-exp(-Z_{RMS}))$
+\vspace{0.5cm}
 
-Captura en peso del año biológico actual $Y_{RMS}=\sum{C_{RMS} w_{5años}^{med}}$
+*Captura en número del año biológico actual*: 
+
+```{=tex}
+\begin{equation}
+C_{RMS}=\frac{F_{RMS}}{Z_{RMS}} N_{naños}(1-exp(-Z_{RMS}))
+\end{equation}
+```
+
+\vspace{0.5cm}
+
+*Captura en peso del año biológico actual*: 
+
+```{=tex}
+\begin{equation}
+Y_{RMS}=\sum{C_{RMS} w_{5años}^{med}}
+\end{equation}
+```
+
+\vspace{0.5cm}
 
 #### Paso 3: Estimación de la Captura Biológicamente Aceptable (CBA)
 \quad
@@ -1292,7 +1337,7 @@ Considerando que el modelo de evaluación de stock actual de anchoveta centro-su
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.8\textwidth]{Figuras/Fig14-1.pdf}
-\caption{a) Serie histórica de la proporción de los desembarques durante el primer semestre de anchoveta de las Regiones de Valparaíso a Los Lagos.}
+\caption{Serie histórica de la proporción de los desembarques durante el primer semestre de anchoveta de las regiones de Valparaíso a Los Lagos.}
 \label{Fig14}
 \end{figure}
 ```
@@ -1303,26 +1348,26 @@ Considerando que el modelo de evaluación de stock actual de anchoveta centro-su
 \pagebreak
 
 \underline{Percentiles de probabilidad de sobrepasar el objetivo de manejo $F_{RMS}$}
+
 \quad
+
 Se considera el establecimiento de un percentil entre un 10% - 50% de probabilidad de sobrepasar el objetivo de manejo igual a F~RMS~. El percentil corresponde a una distribución de probabilidad acumulada y representa la probabilidad de estar en sobrepesca ( \textbf{Figura \ref{Fig15}}). El CCT-PP determina el rango de CBA seleccionado el percentil de probabilidad y escenario de reclutamiento proyectado. Dado la alta incertidumbre existente en el momento de definir la CBA inicial, el CCT-PP selecciona el escenario de reclutamiento más precautorio y un percentil de probabilidad inferior al 50%. Este percentil de probabilidad es equivalente a un nivel de resguardo que se calcula a partir de la captura estimada para cada percentil de probabilidad y la captura al RMS, de este modo, se tiene un nivel de referencia de cuanto se está resguardando considerando el hito de revisión de CBA o condición del recurso. \vspace{0.5cm}
 
 ```{=tex}
-\large
-\begin{center} 
-$Resguardo = 1-\frac{Captura(i)}{Captura_{RMS}}, i = percentil.de.captura (10\% ...50\%)$
-\end{center}
-\vspace{0.5cm}
+\begin{equation}
+Resguardo = 1-\frac{Captura(i)}{Captura_{RMS}}, i = percentil.de.captura (10\% ...50\%)
+\end{equation}
 ```
 \normalsize
 
 Donde la Captura(i) es la capturara estimada para cada percentil de probabilidad (10% - 50%) y Captura~RMS~ corresponde a la media (50% probabilidad).
-
+\vspace{0.5cm}
 
 ```{=tex}
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.8\textwidth]{Figuras/Fig15.png}
-\caption{CBA inicial ante distintos percentiles de probabilidad de exceder la estrategia de explotación y bajo un escenario de reclutamiento histórico.}
+\includegraphics[width=1\textwidth]{Figuras/Fig15.png}
+\caption{CBA inicial ante distintos percentiles de probabilidad de exceder la estrategia de explotación y bajo un escenario de reclutamiento histórico y reciente.}
 \label{Fig15}
 \end{figure}
 ```
@@ -1337,11 +1382,9 @@ La actual Ley General de Pesca y Acuicultura (LGPA, N° 18.892) persigue la cons
 Para dar cumplimiento a esta normativa se estima una $CBA_{total}$ que da cuenta de toda la mortalidad por pesca incluido el descarte. El CCT-PP debe establecer el rango de CBA que se construye a partir de una CBA máxima ($CBA_{max}$), es decir, el rango por ley es ($0,8*CBA_{max}; CBA_{max}$). Esta $CBA_{max}$, deberá estimarse a partir de la $CBA_{total}$ descontando el porcentaje de descarte supuesto para el año 2021. La proporción del descarte (pd) supuesto para el año 2021 y que deberá ser descontado de la $CBA_{total}$ para establecer la $CBA_{max}$.
 
 ```{=tex}
-\vspace{0.5cm}
-\large
-\begin{center} 
-$CBA_{max}=CBA_{total}-pd*CBA_{total}$
-\end{center}
+\begin{equation}
+CBA_{max}=CBA_{total}-pd*CBA_{total}
+\end{equation}
 \vspace{0.5cm}
 ```
 \normalsize
