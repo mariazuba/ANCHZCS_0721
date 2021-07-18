@@ -1,6 +1,6 @@
 ---
 title: \Huge \textbf{ANEXO II}
-subtitle: \Large Resultados preliminares de Análisis de sensibilidad de anchoveta de la Región de Valparaíso a la Región de Los Lagos
+subtitle: \Large Avance del Programa de Mejoramiento Continuo de la Calidad en la Asesoría Científica (PMCCAC).  Resultados preliminares de Análisis de sensibilidad de anchoveta de la Región de Valparaíso a la Región de Los Lagos.
 lang: es
 toc: TRUE
 output: 
@@ -102,10 +102,76 @@ header-includes:
 
 ## Coeficientes de variación
 
+Son empleados en los índices de abundancia y en las capturas. Son utilizados para asignar el nivel de desviación que el analista supone tienen los datos respecto del valor central verdadero como parte del error de observación. El coeficiente de variación tiene relevancia en las estimaciones pues es inversamente proporcional con el peso que tiene una determinada fuente de datos en la verosimilitud total.
 
-## Corrección de las capturas
+Por ejemplo y como medida de referencia, para dos series de índices con igual número de observaciones, un cv=0,1 (por ejemplo, un IC al 95% de $\pm$ 20% la media) tiene un peso en la verosimilitud total de 4 veces más respecto del índice que asume un cv=0,2. En este razonamiento a menudo se supone que el modelo representa la naturaleza de manera perfecta, lo cual ya es cuestionable y por ende el establecimiento de ponderadores es un punto de debate. Este tema ha sido recientemente discutido por Francis (2011) sin que por ahora se disponga de reglas claras para su determinación, sino más bien criterios a tomar en cuenta.
 
-Capturas corregidas por periodo y método en sardina común y anchoveta centro-sur. Desembarque oficial indica aquella serie de captura construida con información de SERNAPESCA descrita en este proyecto. "Prop. Encuesta" indica la proporción de corrección considerando descarte y sub-reportes solo con información desde encuestas. "Prop. Encuesta más Censura" indica la proporción resultante de combinar la información desde encuestas con el método estadístico de datos censurador. "Captura Cor." Indica la captura corregida usando las proporciones descritas. "CV" indica el coeficiente de variación de la estimación de captura corregida.
+Estos factores son a menudo consensuados entre especialistas y es común asumir desviaciones que reflejen el nivel de credibilidad relativa que se tienen a ciertas piezas de información. Comúnmente se asignan bajos niveles de incertidumbre a los desembarques y mayores a los cruceros, esto por el hecho que los desembarques son mediciones directamente asociadas con la mortalidad por pesca, mientras las estimaciones de biomasa de cruceros están sujetos a variados criterios y consideraciones en sus estimaciones de una población "no observable", lo que en definitiva insta a suponer que estos tienen mayor incertidumbre y/o son tratados como medidas relativas de abundancia.
+
+Francis (2011) propone la idea de aproximarse de manera gradual a una medida del error, comenzando con un suavizador de los datos, es decir, un análisis exploratorio que considere aquel coeficiente de variación teórico que resulta de aplicar el "mejor" modelo de tendencia central a los datos aislados. Este primer procedimiento no depende del modelo de evaluación de stock sino de la variabilidad de los datos. Canales *et al*. (2012) aplicó este procedimiento a las biomasas estimadas en los cruceros acústicos, empleando polinomios de orden 2 y 3 como estimadores de tendencia central lo que generó valores de cv=0,99 para el crucero de verano y un cv=0,67 para el crucero de otoño. Para fines de evaluación se consideró como referente un valor aproximado a cv=0,3 ya que de otro modo imposibilitaría el uso de estas series como índice de abundancia.
+
+Adicionalmente, los CVs estimados para la biomasa desovante en los cruceros de huevos exceden el 55% en general y en dos de los nueve cruceros las estimaciones exceden el 100%. En el modelo de evaluación se asume como mucho más informativos que lo indicado a partir de los resultados reales del crucero asignando el mismo peso que a los resultados de los cruceros acústicos CV=30%. En el taller de la revisión por pares de sardina común se sugiere que las estimaciones del crucero de huevos no tendrían un contenido de información real o muy poco con relación al tamaño del stock desovante y por lo tanto, incluir un CV=30% es poco realista, y puede dar lugar a ruido y a estimaciones inapropiadas. Se sugiere eliminar el índice de crucero de huevos o aumentar considerablemente la varianza asumida. En consecuencia, en Zúñiga & Canales (2014) se presentaron los resultados de los cambios en los supuestos mencionados anteriormente y la comparación entre caso base actual y el anterior, concluyendo de esta forma que el valor de CV para el crucero de huevos es igual a 100, lo cual significa que esta pieza de información no tiene peso en la evaluación de stock actual.
+
+Con respecto a los CV de las capturas, debido a que existe poca o ninguna información en los datos y estructura del modelo para estimar la captura total, el modelo se ajusta asumiendo que las capturas se conocen exactamente o con altos niveles de precisión. Bajo este supuesto, las estimaciones de N del modelo y los parámetros de separabilidad permitirían determinar F anual. Sin embargo, para la ecuación de Baranov, no existe una solución analítica para los valores de F, por lo tanto, se deben tratar como parámetros estimables, pero altamente limitados (CV bajos) de tal manera que las capturas totales se puedan estimar de manera muy precisa.
+
+El peso relativo designado a la estimación de captura total al ajustar el modelo de evaluación fue debatido durante el taller de revisión por pares de sardina común, donde se consideró que la limitación sobre los F efectivamente utilizada fue débil (CV=10%). Se sugiere un CV =1% asumiendo que las capturas son conocidas exactamente, lo cual fue considerado también para la anchoveta centro-sur.
+
+
+\pagebreak
+
+## Corrección de los desembarques oficiales registrados por Sernapesca
+
+Los desembarques oficiales registrados por Sernapesca corresponden a la extracción registrada en puerto, independiente de la zona de procedencia. Tiene valor en definir la importancia relativa de los distintos puertos de descarga, por lo tanto, es de mayor interés administrativo y/o comercial de la actividad. Su propósito es cuantificar los volúmenes, totales y por especie, que efectivamente se reciben en la descarga o desembarque. Las estadísticas oficiales de los desembarques son sistematizadas por el Servicio Nacional de Pesca, sobre una base mensual, por tipo de flota, puerto de desembarque y especie objetivo. Cabe señalar que en la pesquería pelágica, el concepto de captura es igual al del desembarque más descarte. Para efecto de la evaluación se utiliza la totalidad del desembarque por especie que ocurre en la unidad de pesquería, comenzando la serie desde el año 1990 hasta 2021. La evaluación de stock es realizada en base al año biológico (de julio a junio de cada año), y la serie de desembarques anuales es convertida a temporada de pesca considerando la estacionalidad de la pesquería y la serie oficial corregida entre el 1998-2001 de desembarques anuales.
+
+Existen algunos antecedentes que señalan que los desembarques del primer semestre de los años 1999 y 2000 resultan ser muy altos para lo que en ese entonces se supone era la población de anchoveta y sardina común. Arcos *et al* (2004) postularon que las condiciones ambientales pre y durante "El Niño", produjeron una alteración en la distribución espacial de jurel, "atrapando" a los juveniles de la especie en la zona centro-sur, generando la distorsión de los desembarques en los pequeños pelágicos, impulsado por evadir multas y declarar menos jurel (Aranís 2011). Basados en estos antecedentes, las series de desembarques anuales oficiales fueron corregidos por investigadores de IFOP. Se realizó un análisis preliminar utilizando la base de información de "Muestreo de Proporción de especies" de IFOP, para comparar los datos de composición de especies desembarcadas, la cual consiste en la selección de una muestra de la captura de un contenedor (caja o balde), llenado en distintos momentos del proceso de vaciado de la captura y luego se pesa y cuenta la fauna diferenciada por especie. Posteriormente, se determina la intencionalidad del viaje de pesca, basada en las proporciones de captura, tomando el criterio de especie objetivo a la que representaba más del 50% en peso de la muestra de proporción. En el caso de existir más de dos especies, se considera como objetivo la de mayor contribución, siendo clasificadas las restantes como fauna acompañante. Finalmente, se obtiene la composición original para jurel, sardina y anchoveta registrada de los desembarques, contrastado con las proporciones re-estimadas obtenidas de los muestreos pelágicos que se practicaron en ese período (1998-2001). 
+
+El año 2016 la Pontificia Universidad Católica de Chile desarrolló un proyecto orientado a la corrección de las capturas totales históricas de la pesquería de sardina común y anchoveta V-X Regiones (Proyecto CUI 2015-72-DAP-27) y recientemente IFOP realizó un estudio de remociones totales en la flota artesanal que opera con red de cerco entre la Región de Valparaíso y la Región de los Ríos orientando sus capturas a pequeños pelágicos (Vega *et al*. 2019).  
+
+De este modo, es relevante contar con información histórica complementaria que permita contrastar el desembarque oficial reportado al Sernapesca durante los últimos años, en base a las estimaciones de capturas totales de pequeños pelágicos calculada en base al monitoreo a bordo y en tierra realizado por IFOP, con el objetivo último de mejorar las evaluaciones de stock de estas pesquerías y la aplicación de medidas de administración acordes a ellas.
+
+Los eventos de sub-reporte y sobre-reporte son eventos muy probables en esta pesquería, por la presencia en las capturas de sardina común y anchoveta en las regiones de Valparaíso a Los Lagos de mote o bacaladillo, machuelo o trite, o el pampanito, las cuales no están reguladas (Aranís *et al*. 2017). Particularmente, en el caso de la extracción del mote, los registros de desembarques artesanales de Sernapesca señalan que se producen principalmente en la Región del Bio-bio junto a los recursos anchoveta y sardina común. En este sentido, el muestreo de la composición de especies de las capturas a bordo tiene relevancia para poder identificar las especies reales presentes. De lo contrario, podría ocurrir casos de sobre y sub-reporte de especies, lo que sería una clara manipulación de información, afectando los análisis de monitoreo y determinación de cuotas. Aranís *et al* (2017) mencionan puntualmente eventos de sub-reporte cuantificados en año 2006. 
+
+
+Respecto a las características importantes de las embarcaciones y que tienen relación  directa con los niveles de capturas de una embarcación en su faena de pesca, independiente de las cuotas que sean asignadas, son la capacidad de bodega y el tamaño de la red. En el caso de las embarcaciones artesanales, con eslora entre 6,0 y 18,0 m, las bodegas pueden fluctuar entre los 4 y 100 m3 (60 m3 en promedio). El 52% de las embarcaciones artesanales se encuentran próximas al tamaño legal de eslora (17 y 18 m) con alta capacidad de pesca lo que conlleva a problemas para la administración y control (Aranís *et al*. 2017). Cabe destacar especialmente, que en la Región del Bio-bio, pese a la regulación pesquera se produjo entre 2003 y 2009 un crecimiento del esfuerzo pesquero, agotamiento de cuotas y presión para que sean aumentadas, sub-reporte de las especies reguladas y sobre-reportes de las no reguladas, hechos que distorsionan las estadísticas y en consecuencia provocan riesgos de afectar la sustentabilidad de la pesquería (Aranís *et al*. 2017).
+
+
+
+Se detectó en las bases de datos de IFOP la ausencia de información de desembarques de una fracción de la flota cerquera artesanal (botes a remo, botes a motor y lanchas (< 15 m) que descarga recursos pelágicos en algunos períodos de operación. Los registros externos y declaraciones de Sernapesca no reflejan lo observado comunmente, respecto de las contribuciones de fauna acompañante, asumiendo subreportes de recursos regulados por cuotas de captura como son la sardina común y anchoveta, aspecto que distorciona los resultados del seguimiento y evaluación de estas pesquerías. Este contexto, en acuerdo con la Subsecretaría de Pesca y solicitado por el CCT-PP se recomendó un trabajo conjunto entre IFOP e INPESCA para complementar y corregir la información indicada.
+
+
+Para propósitos de la evaluación de stock, esta información será analizada en el transcurso de este proyecto, con el objeto definir la metodología a utilizar para la corrección de las capturas y de este modo disminuir la incertidumbre respecto al nivel real de captura de estos recursos. Al respecto, actualmente se están desarrollando reuniones de trabajo colaborativas entre los equipos técnicos de seguimiento y evaluación de stock de IFOP, INPESCA y SUBPESCA, para trabajar en una propuesta de desembarques corregidos para anchoveta y sardina común de la zona centro-sur. Adicionalmente, en **ANEXO II** de este informe se presenta una análisis de sensibilidad utilizando la serie de captura corregida del Proyecto CUI 2015-72-DAP-27, como análisis preliminar para evaluar el efecto en las tendencias poblacionales de anchoveta. Se utiliza las capturas corregidas por periodo y método en sardina común y anchoveta centro-sur. Desembarque oficial indica aquella serie de captura construida con información de SERNAPESCA descrita en este proyecto. "Prop. Encuesta" indica la proporción de corrección considerando descarte y sub-reportes solo con información desde encuestas. "Prop. Encuesta más Censura" indica la proporción resultante de combinar la información desde encuestas con el método estadístico de datos censurador. "Captura Cor." Indica la captura corregida usando las proporciones descritas. "CV" indica el coeficiente de variación de la estimación de captura corregida.
+
+
+
+
+## Tareas a desarrollar en el mediano plazo
+
+Lograr una corrección de capturas consensuada antes de la próxima evaluación de stock de sardina y anchoveta en fecha por definir.
+Compartir las series comunes finales con INPESCA, para aplicar en los análisis estandarizados de datos para las evaluaciones correspondientes.
+
+A la Fecha Se ha avanzado en presentar y discutir en Talleres de trabajo conjunto (IFOP-INPESCA) las metodologías aplicadas para correcciones de captura.
+
+- Corregir los desembarques de la flota artesanal que captura pequeños pelágicos (sardina común y anchoveta) en períodos acotados de operación y su fauna acompañante durante los años 2016 y 2020.
+
+Metodología 
+
+•	Identificar una metodología común para corregir las capturas y desembarques, la cual ha sido aplicada independientemente por ambas instituciones basadas en los muestreos de proporción de especies.
+•	Precisar los niveles frecuentes o normales de fauna acompañante de la pesquería pelágica centro-sur.
+•	Identificar los periodos de ausencia de información consistente de IFOP y comparar con las series de INPESCA para evaluar la factibilidad de integración de datos.
+•	Definir los espacios muestrales de período temporal, segmento de flota, regiones  y recursos a corregir (especie(s) objetivo, fauna acompañante).
+•	Completar series de información y realizar las eventuales correcciones de captura por recurso, período y región basado en los muestreos de proporción de especies. Aplicar una metodología común para la corrección de capturas.
+•	Evaluar la pertinencia de incorporar las correcciones a los estudios de Seguimiento y Evaluación ya sea directamente o como escenarios corregidos.
+
+
+Este trabajo se desarrollará sobre las bases de datos de bitácoras de pesca, estructuras de talla y proporción de especies de las instituciones involucradas.
+Esta actividad se realizará en conjunto entre las siguientes organizaciones:
+
+**SUBSECRETARÍA DE PESCA**
+**INPESCA**
+**IFOP (Estamentos DEP y DER)**
+
+
+
 
 
 ```{=tex}
@@ -178,6 +244,7 @@ Se utilizará como indicadores de desempeño los perfiles de verosimilitud, aná
 \end{figure}
 ```
 
+\pagebreak
 
 ```{=tex}
 \begin{figure}[h!]
@@ -187,5 +254,10 @@ Se utilizará como indicadores de desempeño los perfiles de verosimilitud, aná
 \label{Fig3}
 \end{figure}
 ```
+
+
+\normalsize
+
+\pagebreak
 
 
