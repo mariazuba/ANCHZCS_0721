@@ -46,6 +46,9 @@ header-includes:
 
 # 1. Contexto
 
+
+
+
 - Avances en escenarios de sensibilidad (resultados preliminares)
      * Cambios en CV de los cruceros acústicos de verano y otoño
      * Cambios en CV del crucero de huevos
@@ -55,6 +58,16 @@ header-includes:
      
 
 ## índices de densidad de huevos alternativos a la BD estimada por MPDH
+
+
+Actualmente, los CVs estimados para la biomasa desovante en los cruceros de huevos exceden el 55% en general y en dos de los nueve cruceros las estimaciones exceden el 100%. En el modelo de evaluación se asume como mucho más informativos que lo indicado a partir de los resultados reales del crucero asignando el mismo peso que a los resultados de los cruceros acústicos CV=30%. En el taller de la revisión por pares de sardina común se sugiere que las estimaciones del crucero de huevos no tendrían un contenido de información real o muy poco con relación al tamaño del stock desovante y por lo tanto, incluir un CV=30% es poco realista, y puede dar lugar a ruido y a estimaciones inapropiadas. Se sugiere eliminar el índice de crucero de huevos o aumentar considerablemente la varianza asumida. En consecuencia, en Zúñiga & Canales (2014) se presentaron los resultados de los cambios en los supuestos mencionados anteriormente y la comparación entre caso base actual y el anterior, concluyendo de esta forma que el valor de CV para el crucero de huevos es igual a 100, lo cual significa que esta pieza de información no tiene peso en la evaluación de stock actual.
+
+
+Con el objeto de obtener un índice de abundancia relativa de huevos que sea un proxy de la producción diaria de huevos y de la biomasa desovante, el número de huevos de ambas especies fue analizado con un Modelo Lineal Generalizado (MLG). Este índice de abundancia de huevos es un proxy del potencial reproductivo y se puede evaluar su desempeño en términos retrospectivos en los
+modelos de evaluación de stock disponibles para ambos recursos. La densidad de huevos depende del grado de agregación/dispersión del desove y por lo tanto en algunos años no es factible cumplir con criterios de precisión deseable para medir la producción diaria de huevos con coeficientes de variación bajos (con precisión). Aumentar el tamaño de muestra en
+número de estaciones, no es una estrategia que pueda resolver esta situación, tal y como se ha demostrado para el caso de la anchoveta de la zona norte de Chile. Sin embargo, en el caso de la zona centro sur de Chile, se puede tomar ventaja del muestreo estratificado del desove. En el sector sur ocurre una zona de desove recurrente entre 38°30’S y 39°30’S, que se extiende hasta el veril de los 100 m y en el sector central ocurre entre 34°20’S y 37°00’S, comprendido entre Constitución y el
+Golfo de Arauco, donde el desove se expresa con una variabilidad interanual alta.
+
 
 
 +------------+------------------------------------------------------------------------------+
@@ -110,7 +123,6 @@ Estos factores son a menudo consensuados entre especialistas y es común asumir 
 
 Francis (2011) propone la idea de aproximarse de manera gradual a una medida del error, comenzando con un suavizador de los datos, es decir, un análisis exploratorio que considere aquel coeficiente de variación teórico que resulta de aplicar el "mejor" modelo de tendencia central a los datos aislados. Este primer procedimiento no depende del modelo de evaluación de stock sino de la variabilidad de los datos. Canales *et al*. (2012) aplicó este procedimiento a las biomasas estimadas en los cruceros acústicos, empleando polinomios de orden 2 y 3 como estimadores de tendencia central lo que generó valores de cv=0,99 para el crucero de verano y un cv=0,67 para el crucero de otoño. Para fines de evaluación se consideró como referente un valor aproximado a cv=0,3 ya que de otro modo imposibilitaría el uso de estas series como índice de abundancia.
 
-Adicionalmente, los CVs estimados para la biomasa desovante en los cruceros de huevos exceden el 55% en general y en dos de los nueve cruceros las estimaciones exceden el 100%. En el modelo de evaluación se asume como mucho más informativos que lo indicado a partir de los resultados reales del crucero asignando el mismo peso que a los resultados de los cruceros acústicos CV=30%. En el taller de la revisión por pares de sardina común se sugiere que las estimaciones del crucero de huevos no tendrían un contenido de información real o muy poco con relación al tamaño del stock desovante y por lo tanto, incluir un CV=30% es poco realista, y puede dar lugar a ruido y a estimaciones inapropiadas. Se sugiere eliminar el índice de crucero de huevos o aumentar considerablemente la varianza asumida. En consecuencia, en Zúñiga & Canales (2014) se presentaron los resultados de los cambios en los supuestos mencionados anteriormente y la comparación entre caso base actual y el anterior, concluyendo de esta forma que el valor de CV para el crucero de huevos es igual a 100, lo cual significa que esta pieza de información no tiene peso en la evaluación de stock actual.
 
 Con respecto a los CV de las capturas, debido a que existe poca o ninguna información en los datos y estructura del modelo para estimar la captura total, el modelo se ajusta asumiendo que las capturas se conocen exactamente o con altos niveles de precisión. Bajo este supuesto, las estimaciones de N del modelo y los parámetros de separabilidad permitirían determinar F anual. Sin embargo, para la ecuación de Baranov, no existe una solución analítica para los valores de F, por lo tanto, se deben tratar como parámetros estimables, pero altamente limitados (CV bajos) de tal manera que las capturas totales se puedan estimar de manera muy precisa.
 
