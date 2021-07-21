@@ -43,11 +43,11 @@ header-includes:
 
 **7. ANEXOS**
 
-**ANEXO I.** Proceso de actualización de datos de entrada al modelo de evaluación de stock de anchoveta de la Región de Valparaíso a la Región de Los Lagos.
+\hyphenpenalty=10000\uppercase\expandafter{}  \hspace{1.2cm} **ANEXO I.** Proceso de actualización de datos de entrada al modelo de evaluación de stock de anchoveta de la Región de Valparaíso a la Región de Los Lagos.
 
-**ANEXO II.** Resultados preliminares de Análisis de sensibilidad de anchoveta de la Región de Valparaíso a la Región de Los Lagos.
+\hyphenpenalty=10000\uppercase\expandafter{} \hspace{1.2cm} **ANEXO II.** Programa de Mejoramiento Continuo de la Calidad en la Asesoría Científica (PMCCAC) de la evaluación de stock de Anchoveta y Sardina común de la Región de Valparaíso a la Región de Los Lagos.
 
-**ANEXO III.** Procedimiento transitorio de incorporación del descarte en la evaluación de stock y descuento en la proyección de la Captura Biológicamente Aceptable de peces pelágicos pequeños de Chile.
+\hyphenpenalty=10000\uppercase\expandafter{} \hspace{1.2cm} **ANEXO III.** Procedimiento transitorio de incorporación del descarte en la evaluación de stock y descuento en la proyección de la Captura Biológicamente Aceptable de peces pelágicos pequeños de Chile.
 
 \pagebreak
 
@@ -96,7 +96,7 @@ La anchoveta (*Engraulis ringens*) es reconocida junto con sardina común (*Stra
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.7\textwidth]{Figuras/Fig1_Aranis.pdf}
-\caption{Área de estudio de la pesquería de cerco centro-sur realizado por IFOP para el monitoreo de la pesquería de anchoveta. (Fuente: Aranis \textit{et al.} 2019) .}
+\caption{Área de estudio de la pesquería de cerco centro-sur realizado por IFOP para el monitoreo de la pesquería de anchoveta. (Fuente: Aranis \textit{et al.} 2020) .}
 \label{Fig1}
 \end{figure}
 ```
@@ -311,7 +311,7 @@ El modelo de evaluación de stock de anchoveta se basa en un análisis estadíst
 \end{figure}
 ```
 
-\vspace{-0.3cm}
+
  \normalsize
 
 En la implementación del procedimiento de evaluación de stock se utilizan protocolos científicos basados en la determinación de un sistema de niveles o "tiers" que permiten clasificar la información disponible de las especies y su pesquería, los cuales se han convertido en una herramienta de uso común en la asesoría orientada al manejo pesquero en la actualidad. Para estimar el Rendimiento Máximo Sostenible (RMS) se utiliza la estrategia de niveles y de acuerdo con la clasificación del estándar de información se definen los PBR o "proxy" que serán usados para determinar el estatus del recurso. La definición de los procedimientos de cálculo de los PBR y del marco de referencia especie específicos se basan en el estudio "Revisión de los Puntos Biológicos de Referencia (RMS) en las pesquerías nacionales" (Paya *et al*. 2014), en cuyo primer taller, se desarrolló en conjunto con expertos internacionales, un sistema de tres niveles para derivar al RMS específico para las pesquerías en Chile (\textbf{Figura \ref{Fig8}}). Además, para determinar el estatus de los recursos evaluados, se considera lo establecido por el Comité Científico Técnico de Pelágicos Pequeños (CCT-PP) sobre los requerimientos técnicos que define los estándares de análisis y evaluación para las pesquerías analizadas, conforme a los niveles de conocimiento, información y calidad de los datos disponibles para esos fines.
@@ -346,7 +346,7 @@ Existen algunos antecedentes que señalan que los desembarques del primer semest
 #### *Sub-reporte*
 \quad
 
-El año 2016 la Pontificia Universidad Católica de Chile desarrolló un proyecto orientado a la corrección de las capturas totales históricas de la pesquería de sardina común y anchoveta V-X Regiones (Proyecto CUI 2015-72-DAP-27) y recientemente IFOP realizó un estudio de remociones totales en la flota artesanal que opera con red de cerco entre la Región de Valparaíso y la Región de los Ríos orientando sus capturas a pequeños pelágicos (Vega *et al*. 2019). Para propósitos de la evaluación de stock, esta información será analizada en el transcurso de este proyecto, con el objeto definir la metodología a utilizar para la corrección de las capturas y de este modo disminuir la incertidumbre respecto al nivel real de captura de estos recursos. Al respecto, actualmente se están desarrollando reuniones de trabajo colaborativas entre los equipos técnicos de seguimiento y evaluación de stock de IFOP, INPESCA y SUBPESCA, para trabajar en una propuesta de desembarques corregidos para anchoveta y sardina común de la zona centro-sur. Adicionalmente, en **ANEXO II** de este informe se presenta una análisis de sensibilidad utilizando la serie de captura corregida del Proyecto CUI 2015-72-DAP-27, como análisis preliminar para evaluar el efecto en las tendencias poblacionales de anchoveta.
+El año 2016 la Pontificia Universidad Católica de Chile desarrolló un proyecto orientado a la corrección de las capturas totales históricas de la pesquería de sardina común y anchoveta V-X Regiones (Wiff *et al*. 2017, Proyecto CUI 2015-72-DAP-27) y recientemente IFOP realizó un estudio de remociones totales en la flota artesanal que opera con red de cerco entre la Región de Valparaíso y la Región de los Ríos orientando sus capturas a pequeños pelágicos (Vega *et al*. 2019). Para propósitos de la evaluación de stock, esta información será analizada en el transcurso de este proyecto, con el objeto definir la metodología a utilizar para la corrección de las capturas y de este modo disminuir la incertidumbre respecto al nivel real de captura de estos recursos. Al respecto, actualmente se están desarrollando reuniones de trabajo colaborativas entre los equipos técnicos de seguimiento y evaluación de stock de IFOP, INPESCA y SUBPESCA, para trabajar en una propuesta de desembarques corregidos para anchoveta y sardina común de la zona centro-sur. Adicionalmente, en **ANEXO II** de este informe se presenta el Programa de mejoramiento continuo que incluirá en las próximas asesorías un análisis de sensibilidad utilizando la serie de captura corregida del Wiff *et al* (2017), como análisis preliminar para evaluar el efecto en las tendencias y magnitudes poblacionales de anchoveta.
 
 #### *Descarte*
 \quad
@@ -362,7 +362,7 @@ El Artículo 7°B de la actual Ley General de Pesca y Acuicultura (LGPA, N° 18.
 En este sentido, Zúñiga *et al* (2018b) exponen algunos escenarios posibles para incorporar el descarte en el modelo de evaluación de stock, que potencialmente representan fuentes de mortalidad por pesca a la fecha no documentada. Estos escenarios fueron revisados por el CCT-PP en la sesión de octubre 2017 (Acta 06/2017 [^3]) donde fue seleccionado el escenario 5 que considera un 4% de descarte para el período 2001-2015, un 2% descarte para el año 2016, 6% descarte para el año 2017 y 1% descarte para el 2018. 
 
 
-En este informe se actualiza el descarte  correspondiente a los años biógicos 2017/18, 2018/19 y 2019/20, considerando que el modelo de evaluación de stock de anchoveta de la zona centro-sur utiliza información en año biológico (Zúñiga *et al*. 2021 a y b), por lo tanto, se requieren datos de descarte semestrales para la flota total para ser utilizados en la corrección del desembarque en año biológico (\textbf{Tabla \ref{Tab4a}}). Para los años en que no se cuente con información se utilizará un supuesto que fue acordado en la primera sesión
+En este informe se actualiza el descarte  correspondiente a los años biógicos 2017/18, 2018/19 y 2019/20, considerando que el modelo de evaluación de stock de anchoveta de la zona centro-sur utiliza información en año biológico (Zúñiga *et al*. 2020 y 2021), por lo tanto, se requieren datos de descarte semestrales para la flota total para ser utilizados en la corrección del desembarque en año biológico (\textbf{Tabla \ref{Tab4a}}). Para los años en que no se cuente con información se utilizará un supuesto que fue acordado en la primera sesión
 del CCT-PP (Acta No1 2021, https://www.subpesca.cl/portal/616/articles-110238_documento.pdf) en 2% para anchoveta. Estos porcentajes serán utilizados para corregir el desembarque cuando no se tenga información del descarte y para asumir un porcentaje de descarte proyectado para incorporar en la proyección de la CBA (\textbf{Tabla \ref{Tab4b}}). Los supuestos utilizados para anchoveta se describen a continuación:
 
 \underline{Supuestos para asesoría de marzo y julio 2021 (2do y 3er Hito CBA 2021):}
@@ -543,8 +543,8 @@ A partir de mayo de 2003, se han realizado evaluaciones acústicas de ambos recu
 ```{=tex}
 \begin{figure}[h!]
 \centering
-\includegraphics[width=1\textwidth]{Figuras/Figura9.png}
-\caption{Distribución de las transectas acústicas diurnas y prospección costera efectuada por el B/C Abate Molina (negro) y la prospección de la L/M Don Luis Alberto y Punta Brava (rojo) (Saavedra \textit{et. al}. 2017).}
+\includegraphics[width=1\textwidth]{Figuras/Fig9.pdf}
+\caption{Distribución de las transectas acústicas y prospección costera efectuada por el B/C Abate Molina (azul) y la prospección de la L/M Don Luis Alberto y L/M Alberto M. (rojo) (Saavedra \textit{et. al}. 2021b).}
 \label{Fig9}
 \end{figure}
 ```
@@ -613,7 +613,7 @@ La población de anchoveta centro-sur constituye una unidad de stock en el cual 
  \label{Tab5}
  \small
     \centering
-    \resizebox{16cm}{!} {
+    \resizebox{14cm}{!} {
     \begin{tabular}{|l|c|l|}
     \hline \rowcolor{Gray3}
                                &                  & \\ \rowcolor{Gray3}
@@ -962,6 +962,13 @@ El patrón de explotación de la flota es asintótico y se considera constante e
 
 Con respecto a la capturabilidad del crucero de otoño, esta era estimada en torno a 1 sujeto a una distribución a priori, mientras en el crucero de verano es un parámetro que puede ser estimado libremente por el modelo. Al respecto, en el taller de Revisión Por Pares (RPP) de sardina común se discutió sobre los problemas asociados con la corrección de orilla, la composición de especies, frecuencia de talla, cardúmenes no detectados y corrección de superficie y costa, etc. de los cruceros acústicos. Existe la posibilidad de dar lugar a estimaciones considerablemente menores o mayores que la abundancia real. En base a esto, no existiría una razón a priori para asumir que q en un crucero debería ser más cercano a 1 que, en el otro, ni que q para cualquiera de los cruceros es cercano a 1. Por lo tanto, se asume un prior no informativo como elección más apropiada para el caso base actual.
 
+##### *Documentación del modelo de evaluación de stock*
+
+\quad
+
+El modelo de la dinámica poblacional fue programado en la plataforma AD Model Builder (Fournier *et al*. 2012). Todos los códigos fuente y datos empleados en la evaluación son debidamente documentados e informados detalladamente, incluyendo su versión digital, estableciéndose una numeración específica para cada versión. Cualquier modificación del modelo y/o de su correspondiente código es informada en el informe respectivo, dejando constancia de las versiones que se emplearon hasta la fecha en que se emite el informe y definiendo específicamente la versión que se empleará en éste, para fines de revisiones posteriores. Los códigos MAE0920b, MAE0321b y MAE0721b, fueron compilados en "macOS Big Sur Versión 11.4" y en la versión 12.2 de ADMB. Los parámetros del modelo MAE0721b fueron = 66, valor de la función objetivo = 670.423767812819  y el Maximum gradient component = 2.70187414007781e-05.
+  
+  
 #### Diagnóstico del modelo de evaluación de stock
 
 \quad
@@ -1005,6 +1012,7 @@ Algunos autores señalan que uno de los mejores diagnósticos para evaluar la in
 El uso de perfiles de verosimilitud respecto del parámetro que define la escala de la población es una técnica de reciente uso, y permite realizar un diagnóstico sobre la contribución marginal de cada fuente de datos en la evaluación de la población, así como identificar probables problemas de mala especificación del modelo (Lee *et al*. 2014, Wang *et al*. 2014). En este trabajo se realiza un análisis de los perfiles de verosimilitud del parámetro que define la escala de la población del modelo MAE para la evaluación de anchoveta, con el objeto de evaluar la influencia de las distintas piezas de información y desempeño del modelo MAE.
 
 Se implementó una rutina computacional con el objeto de evaluar tanto el desempeño estadístico del modelo MAE como del nivel de información contenida en los datos respecto del parámetro que define la escala poblacional correspondiente al reclutamiento promedio de largo plazo (R~0~), el que en el modelo es desconocido y estimado en el proceso de evaluación de stock. Si las fuentes de datos son consistentes entre ellas, los respectivos perfiles debieran estar próximo entre sí, como también esperar que la diferencia de la log verosimilitud respecto del mínimo se eleve por sobre el criterio estadístico $\chi^2$=1,92. Valores por sobre este criterio indican que dicha fuente de datos contiene información significativa respecto del parámetro Ro. Asimismo, es esperable que la verosimilitud total y su curvatura esté más influenciada por los datos que por las penalizaciones o distribuciones a priori (supuestos).
+
 
 \pagebreak
 
@@ -3162,7 +3170,7 @@ El análisis histórico de la condición de anchoveta centro-sur muestra que ent
 
 La pesquería de anchoveta centro-sur está muy asociada a la de sardina común, con la cual presenta una importante interacción tecnológica y biológica. Estas características originan operaciones de pesca mixta, con alternancia de dominio intra e inter anual. El análisis de los indicadores de ambos stock muestran niveles de productividad muy disímiles (**Figura 6**) revelando alternancia y predominancias importantes una sobre la otra. Estos cambios de productividad podrían ser producto de diversos factores biológicos (fenómenos depensatorios de la dinámica poblacional, reducción del potencial reproductivo) y factores oceanográficos desfavorables para anchoveta y que han favorecido la producción de la sardina común dejando en evidencia la alternancia de ambas especies, las cuales son explotadas en la misma área y por la misma flota. Al respecto, considerando la recuperación de anchoveta los últimos años, Saavedra *et al*. (2020) señalan que nos podríamos encontrar frente a un escenario en que anchoveta pasa a cohabitar junto a sardina común con una mayor presencia geográfica (1.420 mn^2^  vs 1.033 mn^2^ de distribución efectiva), mayor cantidad de ejemplares (84.958 vs 69.294 millones de individuos) y mayor biomasa (1.005.293 t vs 867.257 t) transformándose por este momento en la especie principal en el ecosistema de la zona centro-sur. Adicionalmente, el estudio de variables ambientales realizado por Aranis *et al*. (2020) indica que entre el 2015-2017 se registró una condición más cálida que podría haber impulsado condiciones reproductivas levemente más intensas para ambos recursos, no obstante, sólo se registrarían reclutamientos exitosos para anchoveta, coincidiendo con una condición ambiental neutra 2018-19.
 
-En el Sistema de Corriente de Humbolt (HCS) se han descrito regímenes que caracterizan un sistema dominado por anchoveta o por sardina, sobre la base de series anuales de capturas, series termporales de volumen de zooplancton y parámetros ambientales físicos como la temperatura superficial del mar, índices de surgencia, índices de oscilación del sur, profundidades de termoclina y otros (Chavez *et al*. 2003, Alheit & Niquen 2004, Montecinos *et al*. 2003, Alheit & Bakun, 2009). Según Swartzman *et al*. (2009), los cambios de régimen son causados por períodos duraderos de anomalías en la temperatura cálida o fría relacionadas con la intrusión o retroceso de aguas oceánicas subtropicales cálidas a la costa de perú y Chile. Algunos estudios señalan que si la productividad promedio en el tiempo ha sido influenciada por las condiciones ambientales cambiantes, entonces los objetivos de manejo pueden no ser sostenibles si se basan en el reclutamiento futuro basado en condiciones que ya no existen (Haltuch *et al*. 2009). De este modo, considerando el efecto de la variabilidad ambiental en el reclutamiento, es probable que se mejore el asesoramiento científico a través de un enfoque más preventivo asumiendo que se ha producido un cambio en el reclutamiento (Wayte, 2013). Según Polovina (2005), cuando se ha producido un cambio de régimen, las políticas para reconstruir el stock a niveles anteriores no son posibles. En este caso, el stock debería ser manejado en su nuevo nivel de productividad. Sin embargo, aceptar o no que ha ocurrido un cambio en la productividad de los stocks es una decisión difícil de tomar para los científicos y administradores. Klaer *et al*. (2015), señalan que un cambio de productividad se define como un cambio en el tiempo en las características biológicas de una población de peces que conduciría a un cambio en los puntos de referencia biológicos (como el rendimiento máximo sostenible). En la estimación de los puntos de referencia biológicos, se supone a menudo que la mortalidad natural, la relación longitud a la edad, longitud peso, madurez a la edad/longitud y la relación del reclutamiento con la biomasa desovante son constantes a lo largo del tiempo. Un cambio temporal substancial en cualquiera de estos factores causaría lo que llamamos un cambio de régimen en la población. Al respecto, si bien hacia el último año se registró una falla del reclutamiento de sardina común, Aranis *et al*. (2020) informan que el factor de condición indica una condición saludable para ambos recursos, con mejores índices para sardina común, lo que permite inferir que esta es una especie mejor adaptada al ambiente centro-sur y que la alometría positiva indica que es altamente probable que no exista una limintante de la oferta ambiental. En base a estos antecedentes, no es posible indicar un cambio de régimen en la zona centro-sur de Chile. Adicionalmente, para el año 2021 se ha registrado una recuperación del reclutamiento de sardina común, lo cual podría estar relacionada a las condiciones ambientales favorables registradas hacia fines del 2020 e inicios del año 2021, donde se registró una condición fría, con gran cobertura espacial de ATSM negativas al norte de los 40ºS y procesos de intensa surgencia costera, con elevadas concentraciones de clorofila-a en la costa, lo que se tradujo en una mayor disponibilidad de alimento (fitoplancton) para los reclutas de anchoveta y sardina común (Saavedra *et al*., 2021). En el caso de anchoveta es necesario esperar los resultados del crucero de otoño 2021 para evaluar el efecto de la condición fría sobre los niveles de reclutamiento 2021.
+En el Sistema de Corriente de Humbolt (HCS) se han descrito regímenes que caracterizan un sistema dominado por anchoveta o por sardina, sobre la base de series anuales de capturas, series termporales de volumen de zooplancton y parámetros ambientales físicos como la temperatura superficial del mar, índices de surgencia, índices de oscilación del sur, profundidades de termoclina y otros (Chavez *et al*. 2003, Alheit & Niquen 2004, Montecinos *et al*. 2003, Alheit & Bakun, 2009). Según Swartzman *et al*. (2009), los cambios de régimen son causados por períodos duraderos de anomalías en la temperatura cálida o fría relacionadas con la intrusión o retroceso de aguas oceánicas subtropicales cálidas a la costa de perú y Chile. Algunos estudios señalan que si la productividad promedio en el tiempo ha sido influenciada por las condiciones ambientales cambiantes, entonces los objetivos de manejo pueden no ser sostenibles si se basan en el reclutamiento futuro basado en condiciones que ya no existen (Haltuch *et al*. 2009). De este modo, considerando el efecto de la variabilidad ambiental en el reclutamiento, es probable que se mejore el asesoramiento científico a través de un enfoque más preventivo asumiendo que se ha producido un cambio en el reclutamiento (Wayte, 2013). Según Polovina (2005), cuando se ha producido un cambio de régimen, las políticas para reconstruir el stock a niveles anteriores no son posibles. En este caso, el stock debería ser manejado en su nuevo nivel de productividad. Sin embargo, aceptar o no que ha ocurrido un cambio en la productividad de los stocks es una decisión difícil de tomar para los científicos y administradores. Klaer *et al*. (2015), señalan que un cambio de productividad se define como un cambio en el tiempo en las características biológicas de una población de peces que conduciría a un cambio en los puntos de referencia biológicos (como el rendimiento máximo sostenible). En la estimación de los puntos de referencia biológicos, se supone a menudo que la mortalidad natural, la relación longitud a la edad, longitud peso, madurez a la edad/longitud y la relación del reclutamiento con la biomasa desovante son constantes a lo largo del tiempo. Un cambio temporal substancial en cualquiera de estos factores causaría lo que llamamos un cambio de régimen en la población. Al respecto, si bien hacia el último año se registró una falla del reclutamiento de sardina común, Aranis *et al*. (2020) informan que el factor de condición indica una condición saludable para ambos recursos, con mejores índices para sardina común, lo que permite inferir que esta es una especie mejor adaptada al ambiente centro-sur y que la alometría positiva indica que es altamente probable que no exista una limintante de la oferta ambiental. En base a estos antecedentes, no es posible indicar un cambio de régimen en la zona centro-sur de Chile. Adicionalmente, para el año 2021 se ha registrado una recuperación del reclutamiento de sardina común, lo cual podría estar relacionada a las condiciones ambientales favorables registradas hacia fines del 2020 e inicios del año 2021, donde se registró una condición fría, con gran cobertura espacial de ATSM negativas al norte de los 40ºS y procesos de intensa surgencia costera, con elevadas concentraciones de clorofila-a en la costa, lo que se tradujo en una mayor disponibilidad de alimento (fitoplancton) para los reclutas de anchoveta y sardina común (Saavedra *et al*., 2021a). En el caso de anchoveta es necesario esperar los resultados del crucero de otoño 2021 para evaluar el efecto de la condición fría sobre los niveles de reclutamiento 2021.
 
 La pesquería de anchoveta ha sido manejada históricamente de manera monoespecífica, considerando la incertidumbre asociada a la evaluación de stock. No obstante, desde el punto de vista de la administración pesquera, la característica de pesquería mixta de anchoveta y sardina común y que ambas se encuentran en niveles de productividad muy disímiles, resulta complejo alcanzar el máximo rendimiento sostenido simultáneamente para cada una de las especies, por lo tanto, una mirada en conjunto podría faciliar su manejo en el mediano plazo, considerando principalmente el cambio en las tendencias de los últimos años en ambos recursos.
 
@@ -3182,136 +3190,265 @@ Continuando con el ciclo de manejo, en el segundo hito se realiza la primera rev
 
 Aguayo M & SB Soto. 1978. Edad y crecimiento de la sardina común, Clupea (*Strangomera bentincki*), en Coquimbo y Talcahuano. Invest. Pesq. Inst. Fom. Pesq. (Chile) N° 28: 1-55.
 
+\vspace{0.3cm}
+
 Alheit J & M Niquen. 2004. Regime shifts in the Humboldt current ecosystem. Progress In Oceanography 60: 201--222.
+
+\vspace{0.3cm}
 
 Alheit, J. & A. Bakun. 2009. History of international co-operation in research. In: Climate change and small pelagic fish. Ed. by D. M. Checkley, J. Alheit, Y. Oozeki and C. Roy. Cambridge: Cambridge Univ. Press: 1-5.
 
-Alverson DL & MJ Carney. 1975. A graphic review of the growth and decay of population cohorts. ICES Journal of Marine Science 36(2):133--43.
-
-Aranis A, L Caballero, G Böhm, F Cerna, C Vera, V Bocic, A Gómez & G Rosson. 2006. Informe Final "Investigación Situación Pesquería Pelágica Zona Centro-Sur 2005". Seguimiento del Estado de Situación de las Principales Pesquerías Nacionales. Subsecretaría de Pesca, Instituto Fomento Pesquero (IFOP), Valparaíso, Chile.163 p+Anexos.
-
-Aranis A, L Caballero, A Gómez, M González, F Cerna, V Bocic, A López, C Machuca & C Vera. 2011. Informe de Avance. Asesoría integral para la toma de decisiones en pesca y acuicultura, 2011. Actividad 1: Recursos Pelágicos: Pesquería Pelágica Zona Centro-Sur, 2011. IFOP/SUBPESCA. 69 p + Anexos.
-
-Aranis A, A Gómez, K Walker, G Muñoz, L, Caballero, G Eisele, F Cerna, C Valero, A Lopez, C Machuca, L Muñoz, M Ramirez, M Troncoso, M Albornoz, J Bonicelli, U Cifuentes. 2018. Informe pre-final. Programa de Seguimiento de las Principales Pesquerías Pelágicas de la zona centro-sur de Chile, V-XI Regiones, año 2017. Subsecretaría de Economía y EMT, Instituto Fomento Pesquero (IFOP), Valparaíso, Chile. 315 p+Anexos.
-
-Aranis A, A Gómez, K Walker, M Ramírez, L Caballero, G Eisele, F Cerna, C Valero, A Lopez, C Machuca, L Muñoz, M Troncoso, M Albornoz, M Pizarro, H Reyes, U Cifuentes & A Bustamante. 2020. Programa de seguimiento de las principales pesquerías pelágicas de la zona centro-sur de Chile, regiones de Valparaíso y Aysén del General Carlos Ibánez del Campo, año 2019. Subsecretaría de Economía y EMT, Instituto Fomento Pesquero (IFOP), Valparaíso, Chile. 306 p + Anexos.
+\vspace{0.3cm}
 
 Arancibia H, L Cubillos, J Remmaggi & R Alarcón. 1994. Determinación de la talla de primera madurez sexual y fecundidad parcial en la sardina común, *Strangomera bentincki* (Norman, 1936), del área de Talcahuano, Chile. Biología Pesquera, 23: 11-17.
 
+\vspace{0.3cm}
+
+Aranis A, L Caballero, A Gómez, M González, F Cerna, V Bocic, A López, C Machuca & C Vera. 2011. Informe de Avance. Asesoría integral para la toma de decisiones en pesca y acuicultura, 2011. Actividad 1: Recursos Pelágicos: Pesquería Pelágica Zona Centro-Sur, 2011. IFOP/SUBPESCA. 69 p + Anexos.
+
+\vspace{0.3cm}
+
+Aranis A, A Gómez, K Walker, M Ramírez, L Caballero, G Eisele, F Cerna, C Valero, A Lopez, C Machuca, L Muñoz, M Troncoso, M Albornoz, M Pizarro, H Reyes, U Cifuentes & A Bustamante. 2020. Informe Final. Programa de seguimiento de las principales pesquerías pelágicas de la zona centro-sur de Chile, regiones de Valparaíso y Aysén del General Carlos Ibánez del Campo, año 2019. Subsecretaría de Economía y EMT, Instituto Fomento Pesquero (IFOP), Valparaíso, Chile. 306 p + Anexos.
+
+\vspace{0.3cm}
+
 Arcos D, L Cubillos & S Núñez. 2004. Efectos de El Niño 1997-98 sobre las principales pesquerías pelágicas de la zona centro-sur de Chile. En: El Niño-La Niña 1997-2000 Sus efectos en Chile. CONA (eds), Chile. (2004) 153-166.
+
+\vspace{0.3cm}
 
 Barría P, A Zuleta & R Gili. 1998. Bases biológicas para prevenir la sobreexplotación de sardina común y anchoveta. Informe Final, FIP-IT/96/12: 84 pp.
 
+\vspace{0.3cm}
+
 Barría P, MG Böhm, A Aranis, R Gili, M Donoso & S Rosales. 1999. Evaluación indirecta y análisis de la variabilidad del crecimiento de sardina común y anchoveta en la zona Centro-Sur. Informe Final. FIP Nº 97-10. 115 pp + Anexos.
+
+\vspace{0.3cm}
 
 Beverton RJH & SJ Holt. 1957. On the Dynamics of Exploited Fish Populations. Gt. Britain, Fishery Invest, Ser. II, Vol. XIX. 533 pp.
 
+\vspace{0.3cm}
+
 Cadigan NG & PJ Farrell. 2005. Local influence diagnostics for the retrospective problem in sequential population analysis. ICES Journal of Marine Science, 62: 256-265.
+
+\vspace{0.3cm}
 
 Cadrin SX & DS Vaughn. 1997. Retrospective analysis of virtual population estimates for Atlantic menhaden stock assessment. U.S. National Marine Fisheries Service Fishery Bulletin, 95: 445--455.
 
+\vspace{0.3cm}
+
 Canales C, MJ Zúñiga & F Cerna. 2012. Estatus y Posibilidades de Explotación Biológicamente Sustentables de los Principales Recursos Pesqueros Nacionales, año 2013., Sardina Común V-X Regiones, 2013. Segundo Informe, Instituto Fomento Pesquero (IFOP), Valparaíso, Chile. 92 pp.+ anexos.
+
+\vspace{0.3cm}
 
 Canales CR & MJ Zúñiga. 2016. SEGUNDO INFORME DE ESTATUS Y CUOTA. Estatus y posibilidades de explotación biológicamente sustentables de los principales recursos pesqueros nacionales al año 2016 en anchoveta V-X Regiones. Anchoveta V-X Regiones, 2016. Subsecretaria de Economía y EM. Instituto Fomento Pesquero (IFOP), Valparaíso, Chile. 110 p + Anexos.
 
-Castillo J, A Saavedra, V Catasti, F Leiva, C Lang, R Vargas, H Reyes, M Pizarro, E Molina, F Cerna, A López, S Núñez, L Valenzuela & J Silva. 2013. Evaluación hidroacústica reclutamiento anchoveta sardina común entre la V y X Regiones, año 2013. Informe Final FIP 2012-12. Instituto Fomento Pesquero (IFOP), Valparaíso, Chile. 307 pp + Figuras y Tablas.
+\vspace{0.3cm}
 
 Castillo-Jordán C, LA Cubillos & J Paramo. 2007. The spawning spatial structure of two co-occurring small pelagic fish off central southern Chile in 2005. Aquatic Living Resources 20, 77-84.
 
+\vspace{0.3cm}
+
+Castillo J, A Saavedra, V Catasti, F Leiva, C Lang, R Vargas, H Reyes, M Pizarro, E Molina, F Cerna, A López, S Núñez, L Valenzuela & J Silva. 2013. Evaluación hidroacústica reclutamiento anchoveta sardina común entre la V y X Regiones, año 2013. Informe Final FIP 2012-12. Instituto Fomento Pesquero (IFOP), Valparaíso, Chile. 307 pp + Figuras y Tablas.
+
+\vspace{0.3cm}
+
 Chavez FP, J Ryan, SE Lluch-Cota & M Ñiquen. 2003. From anchovies to sardines and back: multidecadal change in the Pacific Ocean. Science 299: 217--221.
+
+\vspace{0.3cm}
 
 Cubillos L & H Arancibia. 1993a. Análisis de la pesquería de sardina común y anchoveta del área de Talcahuano, situación actual y perspectivas. Documentos Técnicos del Instituto de Investigación Pesquera (IIP), Talcahuano, Chile 2(2): 1-19.
 
+\vspace{0.3cm}
+
 Cubillos L & H Arancibia. 1993b. Análisis de la pesquería de sardina común (*Strangomera bentincki*) y anchoveta (*Engraulis ringens*) del área de Talcahuano, Chile. Investigaciones Marinas, Valparaíso, 21: 3-21.
 
-Cubillos L, D Arcos, D Bucarey & M Canales. 2001. Seasonal growth of small pelagic fish off Talcahuano, Chile (37°S, 73°W): a consequence of their reproductive strategy to seasonal upwelling?. Aquatic Living Resources. 14: 115--124.
+\vspace{0.3cm}
 
 Cubillos L, M Canales, D Bucarey, A Rojas & R Alarcón. 1999. Época reproductiva y talla media de primera madurez sexual de *Strangomera bentincki* y *Engraulis ringens* en el periodo 1993--1997, zona centro-sur de Chile (1993--1997). Investigaciones Marinas. 28: 73--85.
 
-Cubillos L, R Alarcón, D Bucarey, M Canales, P Sobarzo & L Vilugrón. 1998b. Evaluación indirecta del stock de anchoveta y sardina común en la zona centro-sur. Informes Técnicos FIP, FIP-IT/ 96-10, 223 pp.
+\vspace{0.3cm}
+
+Cubillos L, D Arcos, D Bucarey & M Canales. 2001. Seasonal growth of small pelagic fish off Talcahuano, Chile (37°S, 73°W): a consequence of their reproductive strategy to seasonal upwelling?. Aquatic Living Resources. 14: 115--124.
+
+\vspace{0.3cm}
 
 Cubillos LA, P Ruiz, G Claramunt, S Gacitúa, S Núñez, LR Castro, K Riquelme, C Alarcón, C Oyarzún, & A Sepúlveda. 2007. Spawning, daily egg production, and spawning stock biomass estimation for common sardine (*Strangomera bentincki*) and anchovy (*Engraulis ringens*) off central southern Chile in 2002. Fisheries Research. 86: 228-240.
 
-Francis RICC. 2011. Data weighting in statistical fisheries stock assessment models. Canadian Journal of Fisheries and Aquatic Sciences. 68: 1124--1138.
-
-Francis RICC. 2014. Replacing the multinomial in stock assessment models: A first step. Fisheries Research. 151: 70-84.
+\vspace{0.3cm}
 
 Fournier DA, HJ Skaug, J Ancheta, J Ianelli, A Magnusson, MN Maunder, A Nielsen & J Sibert. 2012. AD Model Builder: using automatic differentiation for statistical inference of highly parameterized complex nonlinear models. Optimization Methods & Software 27 (2), 233--249.
 
+\vspace{0.3cm}
+
+Francis RICC. 2011. Data weighting in statistical fisheries stock assessment models. Canadian Journal of Fisheries and Aquatic Sciences. 68: 1124--1138.
+
+\vspace{0.3cm}
+
+Francis RICC. 2014. Replacing the multinomial in stock assessment models: A first step. Fisheries Research. 151: 70-84.
+
+\vspace{0.3cm}
+
 Galleguillos R, J Chong, C Oyarzún, M Oliva & R Roa. 1994. Unidades de stock en los recursos sardina común y anchoveta de la zona Centro-Sur. Informes Técnicos FIP, FIP-IT/94-20, 64 pp.
+
+\vspace{0.3cm}
 
 Haltuch MA, AE Punt & MW Dorn. 2009. Evaluating the estimation of fishery management reference points in a variable environment. Fisheries Research. 100: 42--56.
 
-Hoenig JM. 1983. Empirical Use of Longevity Data to Estimate Mortality Rates. Fishery Bulletin 82:898-903.
+\vspace{0.3cm}
 
 Hutchings L, M Barange, SF Bloomer, Aj Boyd, RJM Crawford, JA Huggett, M Kertsan, JL Korrubel, JAA De Oliveira, SJ Painting, AJ Richardson, IJ Shannon, FH Shulein, CD van der Lingen & HM Verheye. 1998. Multiple factors affecting South African anchovy recruitment in the spawning, transport and nursey areas. South African Journal of Marine Science. 19:211-225.
 
+\vspace{0.3cm}
+
 Ichinokawaa M, H Okamura & Y Takeuchi. 2014. Data conflict caused by model mis-specification of selectivity in an integrated stock assessment model and its potential effects on stock status estimation. Fisheries Research, 158: 147-157.
+
+\vspace{0.3cm}
 
 Klaer NL, RN O'Boyle, JJ Deroba, SE Wayte, LR Little, LA Alade, & PJ Rago. 2015. How much evidence is required for acceptance of productivity regime shifts in fish stock assessments: are we letting managers off the hook? Fisheries Research, 168: 49 --55.
 
+\vspace{0.3cm}
+
 Lee HH, KR Piner, RD Methot & MN Maunder. 2014. Use of likelihood pro-filing over a global scaling parameter to structure the population dynamics model: An example using blue marlin in the Pacific Ocean. Fisheries Research. 158, 138--146.
+
+\vspace{0.3cm}
 
 Maunder MN. 1998. Integration of Tagging and Population Dynamics Models in Fisheries Stock Assessment. PhD thesis, University of Washington.
 
+\vspace{0.3cm}
+
 Maunder MN & RB Deriso. 2003. Estimation of recruitment in catch-at-age models. Canadian Journal of Fisheries and Aquatic Sciences. 60, 1204--1216.
+
+\vspace{0.3cm}
 
 McAllister MK & JN Ianelli. 1997. Bayesian stock assessment using catch-age data and the sampling-importance resampling algorithm. Canad. J. Fish. Aquat. Sci. 54, 284--300.
 
-Methot RD. 2009. Stock assessment: operational models in support of fisheries management. In: Beamish, R.J., Rothschild, B.J. (Eds.), Future of Fishery Science -- Proceedings of the 50th Anniversary Symposium of the American Institute of Fishery Research Biologists. Fish & Fisheries Series, vol. 31. Springer, Seattle, WA, pp. 137--165.
+\vspace{0.3cm}
 
 Mohn R. 1999. The retrospective problem in sequential population analysis: An investigation using cod fishery and simulated data. ICES Journal of Marine Science. 56: 473-488.
 
+\vspace{0.3cm}
+
 Montecinos A, S Purca & O Pizarro. 2003. Interannual to interdecadal sea surface temperature variability along the western coast of South America. Geophysical Research Letters 30,1570.19.1929/2003GL017345.
+
+\vspace{0.3cm}
 
 Parada C, F Colas, S Soto-Mendoza & L Castro. 2012. Effects of seasonal variability in across- and alongshore transport of anchoveta (*Engraulis ringens*) larvae on model-based pre-recruitment indices off central Chile. Progress Oceanography. 92: 192-205.
 
+\vspace{0.3cm}
+
 Parrish RH, A Bakun, DM Husby & CS Nelson. 1983. Comparative climatology of selected environmental process in relation to Eastern boundary current pelagic fish reproduction. In: Sharp, G.D. and J. Csirke (Eds.). Proceeding of the expert consultation to examine changes in abundance and species composition of neritic fish resources. FAO Fish Rep., 291, 3: 731-777.
+
+\vspace{0.3cm}
+
+Patterson K. 1992. Fisheries for small pelagic species: an empirical approach to management targets. Rev. Fish. Biol. Fisheries, 2: 321-338.
+
+\vspace{0.3cm}
 
 Payá I, C Canales, D Bucarey, M Canales, F Contreras, F Espíndola, E Leal, C Montenegro, J Quiroz, R Tascheri & MJ Zúñiga. 2014. Revisión de los puntos biológicos de referencia (Rendimiento Máximo Sostenible) en las pesquerías nacionales." Primer Taller internacional. Informe de Avance 1. Subsecretaría de Economía - IFOP. 32 pp.+ 4 Anexos.
 
-Pauly D. 1980. On the interrelationships between natural mortality, growth parameters, and mean environmental temperature in 175 fish stocks. J. Cons. int. Explor. Mer, 39(2): 175-192.
+\vspace{0.3cm}
 
 Pikitch E, PD Boersma, IL Boyd, DO Conover, P Cury, T Essington, SS Heppell, ED Houde, M Mangel, D Pauly, É Plagányi, K Sainsbury, & RS Steneck. 2012. Little Fish, Big Impact: Managing a Crucial Link in Ocean Food Webs. Lenfest Ocean Program. Washington, DC. 108 pp.
 
-Rikhter VA & VN Efanov. 1976. On one of the approaches to estimation of natural mortality of fish populations. International Commission for the Northwest Atlantic Fisheries VI(8):1--12.
+\vspace{0.3cm}
 
-Saavedra A, R Vargas, E Molina, C Lang, U Cifuentes, M Pizarro, C Grendi & A Bustamante. 2017. Evaluación hidroacústica de los stocks de anchoveta y sardina común entre la V y X Regiones, año 2017. Subsecretaria de Economía y EMT. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 32 p + Anexos.
+Polovina JJ. 2005. Climate variation, regime shifts, and implications for sustainable fisheries. Bull. Mar. Sci. 76 (2), 233–244.
+
+\vspace{0.3cm}
+
+Saavedra A, R Vargas, E Molina, C Lang, U Cifuentes, M Pizarro, C Grendi & A Bustamante. 2017. Evaluación hidroacústica de los stocks de anchoveta y sardina común entre la V y X Regiones, año 2017. Subsecretaria de Economía y EMT. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 33 p + Figuras y Tablas.
+
+\vspace{0.3cm}
+
 
 Saavedra A, R Vargas, E Molina. Informe de Avance Nº2. Evaluación hidroacústica de los stocks de anchoveta y sardina común entre las Regiones de Valparaíso y Los Lagos, Año 2020. Subsecretaría de Economía y EMT. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 31 p + Figuras y Tablas.
 
+\vspace{0.3cm}
+
+
+Saavedra A, R Vargas, E Molina, C Grendi, A Bustamante, T Berger & K Gómez. 2021a. Informe de Avance Nº1. Evaluación hidroacústica de los stocks de anchoveta y sardina común entre las Regiones de Valparaíso y Los Lagos, Año 2021. Subsecretaria de Economía y EMT. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 32 p + Anexos.
+
+\vspace{0.3cm}
+
+Saavedra A, R Vargas, E Molina, C Grendi, A Bustamante, U Cifuentes. 2021b. Informe de Avance Nº2. Evaluación hidroacústica de los stocks de anchoveta y sardina común entre las Regiones de Valparaíso y Los Lagos, Año 2021. Subsecretaria de Economía y EMT. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 36 p + Anexos.
+
+\vspace{0.3cm}
+
+
 Sepúlveda A, L Cubillos & D Arcos. 2003. Pesquerías pelágicas chilenas: una síntesis sobre la incertidumbre biológica. In: Actividad Pesquera y de Acuicultura en Chile, E. Yánez (Ed.). Escuela de Ciencias del Mar, UCV, Valparaíso, p. 91 -- 107.
+
+\vspace{0.3cm}
 
 Serra R. 1983. Changes in the abundance of pelagic resources along the Chilean coast. FAO Fish. Rep., (291) Vol. 2: 255-284.
 
+\vspace{0.3cm}
+
 Soto-Mendoza S, C Parada, L Castro, F Colas & W Schneider. 2012. Modeling transport and survival of anchoveta eggs and yolk--sac larvae in the coastal zone off central-southern Chile: Assessing spatial and temporal spawning parameters. Progress Oceanography, 92(1): 178-191.
+
+\vspace{0.3cm}
 
 Swartzman G, A Bertrand, M Gutiérrez, S Bertrand & L Vasquez. 2009. The relationship of anchovy and sardine to water masses in the Peruvian Humboldt Current System from 1983 to 2005. Progress in Oceanography. 79: 228-237.
 
-Taylor CC. 1960. Temperature, growth and mortality, of the Pacific cockle. Journal du Conseil 26: 117-124.
-
-Wang SP, MN Maunder, KR Piner, AM Aires-da-Silva & HH Lee. 2014. Evaluation of virgin recruitment profiling as a diagnostic for selectivity curve structure in integrated stock assessment models. Fisheries Research, 158: 158--164.
+\vspace{0.3cm}
 
 Vega R, L Ossa, B Suárez, A González, S Henríquez, R Ojeda, A Ramírez, A Simeone, M Sepúlveda, MJ Pérez & R Escobar. 2017. INFORME FINAL. Programa de Observadores Científicos, 2016. Subsecretaria de Economía y EM. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 232 p + Anexos.
 
+\vspace{0.3cm}
+
 Vega R, L Ossa, B Suárez, A González, S Henríquez, R Ojeda, MF Jiménez, A Ramírez, J Le-Bert, A Simeone, C Anguita, M Sepúlveda, MJ Pérez, M Santos & H Araya. 2018. INFORME FINAL. Programa de observadores científicos 2017-2018. Programa de investigación del descarte y captura de pesca incidental en pesquerías pelágicas. Programa de monitoreo y evaluación de los planes de reducción del descarte y de la pesca incidental 2017-2018. Subsecretaria de Economía y EM. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 241 p + Anexos.
+
+\vspace{0.3cm}
 
 Vega R, L Ossa, B Suárez, MF Jiménez,S Henríquez, A González, R Ojeda, A Simeone,C Anguita,M Sepúlveda,MJ Pérez, M Santos & H Araya. 2019. INFORME FINAL. Programa de observadores científicos 2018-2019. Programa de investigación del descarte y captura de pesca incidental en pesquerías pelágicas. Programa de monitoreo y evaluación de los planes de reducción del descarte y de la pesca incidental 2018-2019. Subsecretaria de Economía y EM. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 305 p + Anexos.
 
+\vspace{0.3cm}
+
 Vega R, L Ossa, B Suárez, MF Jiménez,S Henríquez, A González, R Ojeda, A Simeone,C Anguita,M Sepúlveda,MJ Pérez, M Santos, J Cavieres, P Paredes, I Cari, P Zárate & D Devia. 2020. INFORME FINAL. Programa de observadores científicos: Programa de investigación y monitoreo del descarte y de la captura de pesca incidental en pesquerías pelágicas, 2019-2020. Subsecretaria de Economía y EM. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 341 p + Anexos.
+
+\vspace{0.3cm}
+
+Wang SP, MN Maunder, KR Piner, AM Aires-da-Silva & HH Lee. 2014. Evaluation of virgin recruitment profiling as a diagnostic for selectivity curve structure in integrated stock assessment models. Fisheries Research, 158: 158--164.
+
+\vspace{0.3cm}
+
+Wayte S. 2013. Management implications of including a climate-induced recruitment shift in the stock assessment for jackass morwong (Nemadactylus macropterus) in south-eastern Australia,
+Fisheries Research. 142, 47-55.
+
+\vspace{0.3cm}
+
+Wiff R,  M Lima, S Gelcich, M Canales, D Queirolo, M Ahumada, F López, S Gacitúa, A Flores & L Serramalera. 2017. Metodología para la estimación de las capturas totales anuales históricas. Caso de estudio: Pesquería de sardina común y anchoveta V-X Región. Informe Final. CAPES-UC- Subsecretaría de Pesca y Acuicultura (SSPA). Proyecto CUI 2015-72-DAP-27. 225 pp.
+
+\vspace{0.3cm}
 
 Yáñez E, C Silva, A Órdenes, F Gómez, A Valdenegro, S Hormazábal, A Montecinos, F Espíndola & O Pizarro. 2005. Análisis integrado histórico ambiente--recursos, I y II Regiones. Informe Final Proyecto FIP N° 2003-33. Valparaíso. 408 pp.
 
+\vspace{0.3cm}
+
 Yáñez E, S Hormazábal, C Silva, A Montecinos, MA Barbieri, A Valdenegro, A Órdenes & F Gómez. 2008. Coupling between the environment and the pelagic resources exploited off northern Chile: ecosystem indicators and a conceptual model. Lat. Am. J. Aquat. Res., 36 (2): 159-181.
+
+\vspace{0.3cm}
+
 
 Zeileis A, C Kleiber, W Krämer & K Hornik. 2003. Testing and dating of structural changes in practice. Computational Statistics y Data Analysis. 44: 109-123.
 
+\vspace{0.3cm}
+
 Zúñiga MJ & CR Canales. 2014. INFORME DE ESTATUS Y CUOTA. Estatus y posibilidades de explotación biológicamente sustentables de los principales recursos pesqueros nacionales al año 2015 en anchoveta V-X Regiones. Anchoveta V-X Regiones, 2015. Subsecretaria de Economía y EM. Instituto Fomento Pesquero (IFOP), Valparaíso, Chile. 87 p + Anexos.
+
+\vspace{0.3cm}
 
 Zúñiga MJ. 2017a. INFORME 2 DE ESTATUS. Estatus y posibilidades de explotación biológicamente sustentables de los principales recursos pesqueros nacionales al año 2017 en anchoveta V-X Regiones. anchoveta V-X Regiones, marzo 2017. Subsecretaria de Economía y EM. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 135 p + Anexos.
 
-Zúñiga MJ. 2017b. INFORME 3 DE ESTATUS. Estatus y posibilidades de explotación biológicamente sustentables de los principales recursos pesqueros nacionales al año 2017 en anchoveta V-X Regiones. anchoveta V-X Regiones, julio 2017. Subsecretaria de Economía y EMT. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 97 p + Anexos.
-
-Zúñiga MJ, D Bucarey, E Leal, F Espíndola, JC Quiroz. 2018a. INFORME 2 DE ESTATUS. Estatus y posibilidades de explotación biológicamente sustentables de los principales recursos pesqueros nacionales, año 2018 en anchoveta V-X regiones, marzo 2018. Subsecretaría de Economía y EMT. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 123 p + Anexos.
+\vspace{0.3cm}
 
 Zúñiga MJ, D Bucarey, E Leal, F Espíndola, JC Quiroz. 2018b. INFORME CONSOLIDADO. Estatus y posibilidades de explotación biológicamente sustentables de los principales recursos pesqueros nacionales, año 2018 en anchoveta V-X regiones, julio 2018. Subsecretaría de Economía y EMT. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 141 p + Anexos.
+
+\vspace{0.3cm}
+
+Zúñiga MJ, E Leal & JC Quiroz. 2020. Primer Informe. Estatus y posibilidad de explotación biológicamente sustentables de anchoveta, Región de Valparaíso a Los Lagos, año 2021. Subsecretaria de Economía y EMT. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 87 p + Anexos.
+
+\vspace{0.3cm}
+
+Zúñiga MJ, D Bucarey & JC Quiroz. 2021. Segundo Informe. Estatus y posibilidades de explotación biológicamente sustentables de anchoveta, Región de Valparaíso a Los Lagos, año 2021. Subsecretaria de Economía y EMT. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 95 p + Anexos.
+
+
