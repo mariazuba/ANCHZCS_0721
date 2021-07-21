@@ -1,6 +1,6 @@
 ---
 title: \Huge \textbf{ANEXO II}
-subtitle: \Large Programa de Mejoramiento Continuo de la Calidad en la Asesoría Científica (PMCCAC).  Anchoveta de la Región de Valparaíso a la Región de Los Lagos.
+subtitle: \Large Programa de Mejoramiento Continuo de la Calidad en la Asesoría Científica (PMCCAC) de la evaluación de stock de Anchoveta y Sardina común de la Región de Valparaíso a la Región de Los Lagos.
 lang: es
 toc: TRUE
 output: 
@@ -46,7 +46,7 @@ header-includes:
 
 # 1. Contexto
 
-Uno de los objetivos del Proyecto “Estatus y Posibilidades de Explotación Biológicamente Sustentables de Anchoveta de la Región de Valparaíso a la Región de Los Lagos” se refiere al Programa de Mejoramiento Continuo de la Calidad de Asesoría Científica (PMCCAC,) el cual se enfoca en sintetizar las brechas de datos, información y conocimiento en relación con la situación general de la pesquería y de esta forma una sistematización para el desarrollo continuo de la asesoría científica. De este modo, los procesos de evaluación de stock son de carácter dinámico e involucran un mejoramiento continuo tendiente a facilitar la administración de los recursos pesqueros explotables. En este sentido, el Instituto de Fomento Pesquero, específicamente el Departamento de Evaluación de Recursos (DER), mantiene un ánimo de colaboración con la administración pesquera que da espacio para la discusión de mejoras analíticas y técnicas, como también, la detección de brechas de investigación.
+Uno de los objetivos del Proyecto “Estatus y Posibilidades de Explotación Biológicamente Sustentables de Anchoveta y Sardina común de la Región de Valparaíso a la Región de Los Lagos” se refiere al Programa de Mejoramiento Continuo de la Calidad de Asesoría Científica (PMCCAC,) el cual se enfoca en sintetizar las brechas de datos, información y conocimiento en relación con la situación general de la pesquería y de esta forma una sistematización para el desarrollo continuo de la asesoría científica. De este modo, los procesos de evaluación de stock son de carácter dinámico e involucran un mejoramiento continuo tendiente a facilitar la administración de los recursos pesqueros explotables. En este sentido, el Instituto de Fomento Pesquero, específicamente el Departamento de Evaluación de Recursos (DER), mantiene un ánimo de colaboración con la administración pesquera que da espacio para la discusión de mejoras analíticas y técnicas, como también, la detección de brechas de investigación.
 
 Es en este marco que en la cuarta sesión del CCT-PP (2 de julio 2021) se presentó un programa de trabajo a desarrollar durante el año 2021/2022, cuyos resultados serán presentados en el próximo taller de datos y modelos del CCT-PP (mayo 2022). Algunos de los escenarios a evaluar serán los siguientes:
 
@@ -55,10 +55,10 @@ Es en este marco que en la cuarta sesión del CCT-PP (2 de julio 2021) se presen
 * Evaluar la sensibilidad de cambios en CVs de los cruceros acústicos de verano, otoño y crucero de huevos
 * Analizar bloques de capturabilidad
 * Analizar la sensibilidad a cambios en los CVs de  prior de capturabilidad de los cruceros 
-* Analizar series de corrección de capturas propuestas por Wiff *et al*. (2015)
+* Analizar series de corrección de capturas propuestas por Wiff *et al*. (2017)
 * Analizar serie de corrección de capturas en base a datos de proporción de especies de IFOP
 
-Se utilizará como indicadores de desempeño los perfiles de verosimilitud, análisis retrospectivo y análisis de residuos para recomendar posibles cambios a caso base en próximo taller de datos y modelos.
+Se utilizará como indicadores de desempeño los perfiles de verosimilitud, análisis retrospectivo y análisis de residuos para sardina común y anchoveta centro-sur, que será utilizado como base para el contraste/comparación con los análisis propuestos anteriormente.
 
 \pagebreak
 
@@ -66,37 +66,38 @@ Se utilizará como indicadores de desempeño los perfiles de verosimilitud, aná
 
 ## 2.1. Sobre la incorporación de la biomasa desovante estimada por el Método de Producción Diaria de Huevos (MPDH)
 
-La serie de biomasa desovante del MPDH fue utilizada en la evaluación de stock hasta la asesoría del año 2012. Una de las problemáticas en la incorporación de la biomasa desovante estimada por MPDH, tuvo relación con los CVs estimados por el método que exceden el 55% en general y en dos de los nueve cruceros las estimaciones exceden el 100% (\textbf{Tabla \ref{Tab1}}). Cubillos *et al* (2017)  señalan que la densidad de huevos depende del grado de agregación/dispersión del desove y por lo tanto en algunos años no es factible cumplir con criterios de precisión deseable para medir la producción diaria de huevos con coeficientes de variación bajos (con precisión). En el modelo de evaluación se asumía como mucho más informativos que lo indicado a partir de los resultados reales del crucero asignando el mismo peso que a los resultados de los cruceros acústicos CV=30%. En el taller de la revisión por pares de sardina común se sugiere que las estimaciones del crucero de huevos no tendrían un contenido de información real o muy poco con relación al tamaño del stock desovante y por lo tanto, incluir un CV=30% es poco realista, y puede dar lugar a ruido y a estimaciones inapropiadas. Se sugiere eliminar el índice de crucero de huevos o aumentar considerablemente la varianza asumida. En consecuencia, en Zúñiga & Canales (2014) se presentaron los resultados de los cambios en los supuestos mencionados anteriormente y la comparación entre caso base actual y el anterior, concluyendo de esta forma que el valor de CV para el crucero de huevos es igual a 100, lo cual significa que esta pieza de información no tiene peso en la evaluación de stock actual. Se evaluará la sensibilidad del modelo al incorporar nuevamente esta fuente de información, considerando cambios en los coeficientes de variación de los tres cruceros (verano, otoño y huevos).
+La serie de biomasa desovante del MPDH fue utilizada en la evaluación de stock hasta la asesoría del año 2012. Una de las problemáticas en la incorporación de la biomasa desovante estimada por MPDH, tuvo relación con los CVs estimados por el método que exceden el 55% en general y en dos de los nueve cruceros las estimaciones exceden el 100% (\textbf{Tabla \ref{Tab1}}). Cubillos *et al* (2017)  señalan que la densidad de huevos depende del grado de agregación/dispersión del desove y por lo tanto en algunos años no es factible cumplir con criterios de precisión deseable para medir la producción diaria de huevos con coeficientes de variación bajos (con precisión). En el modelo de evaluación se asumía como mucho más informativos que lo indicado a partir de los resultados reales del crucero asignando el mismo peso que a los resultados de los cruceros acústicos CV=30%. En el taller de la revisión por pares de sardina común se sugiere que las estimaciones del crucero de huevos no tendrían un contenido de información real o muy poco con relación al tamaño del stock desovante y por lo tanto, incluir un CV=30% es poco realista, y puede dar lugar a ruido y a estimaciones inapropiadas. Se sugiere eliminar el índice de crucero de huevos o aumentar considerablemente la varianza asumida. En consecuencia, en Zúñiga & Canales (2014) se presentaron los resultados de los cambios en los supuestos mencionados anteriormente y la comparación entre caso base actual y el anterior, concluyendo de esta forma que el valor de CV para el crucero de huevos es igual a 100, lo cual significa que esta pieza de información no tiene peso en la evaluación de stock actual. Se evaluará la sensibilidad del modelo al incorporar nuevamente esta fuente de información, considerando cambios en los coeficientes de variación de los tres cruceros (verano, otoño y huevos), que hasta hoy no ha sido evaluado.
 
 ```{=tex}
 \begin{table}[h!]
-\caption{Biomasa desovante estimada por el Método de Producción Diaria de Huevos (MPDH) y sus respectivos coeficientes de variación de anchoveta centro-sur.}
+\caption{Biomasa desovante estimada por el Método de Producción Diaria de Huevos (MPDH) y sus respectivos coeficientes de variación de anchoveta y sardina común centro-sur.}
  \label{Tab1}
  \small
     \centering
-    \resizebox{6cm}{!} {
-    \begin{tabular}{|c|c|c|}
+    \resizebox{11cm}{!} {
+    \begin{tabular}{|c|c|c|c|c|}
     \hline \rowcolor{Gray3}
- Año  & Biomasa desovante & CV  \\  \rowcolor{Gray3}
-      & toneladas & \\ \hline
- 2002 & 112.323 & 0,289 \\
- 2003 & - & - \\
- 2004 & 153.150 & 0,368 \\
- 2005 & 637.223 & 0,441 \\
- 2006 & - & - \\
- 2007 & 255.016 & 0,380 \\
- 2008 & 313.432 & 1,050 \\
- 2009 & 73.983 & 0,578 \\
- 2010 & 77.613 & 0,494 \\
- 2011 & 109.348 & 0,390 \\
- 2012 & 50.772 & 1,650 \\ 
- 2013 & 17.779 & 0,605 \\
- 2014 & 17.303 & - \\ 
- 2015 & 59.886 & 0,145 \\
- 2016 & 28.197 & 0,139 \\
- 2017 & - & - \\
- 2018 & 207.744 & 0,251 \\
- 2019 & 136.588 & - \\ \hline
+ Año  & Anchoveta             & CV      & Sardina común         & CV \\  \rowcolor{Gray3}
+      & Biomasa desovante (t) &         & Biomasa desovante (t) & \\ \hline
+ 2002 & 112.323               & 0,289   & 498.337 & 0,58 \\ \rowcolor{Gray4}
+ 2003 & -                     & -       & -       & -    \\
+ 2004 & 153.150               & 0,368   & 5.186   & 0,57 \\ \rowcolor{Gray4}
+ 2005 & 637.223               & 0,441   & 125.008 & 0,56 \\
+ 2006 & -                     & -       & -       & -    \\ \rowcolor{Gray4}
+ 2007 & 255.016               & 0,380   & 168.611 & 0,06 \\
+ 2008 & 313.432               & 1,050   & 109.162 & 1,11 \\ \rowcolor{Gray4}
+ 2009 & 73.983                & 0,578   & 213.762 & 1,02 \\
+ 2010 & 77.613                & 0,494   & 579.715 & 0,74 \\ \rowcolor{Gray4}
+ 2011 & 109.348               & 0,390   & 649.985 & 0,60 \\
+ 2012 & 50.772                & 1,650   & 157.893 & 2,62 \\ \rowcolor{Gray4} 
+ 2013 & 17.779                & 0,605   & 87.575  & 1,95 \\
+ 2014 & 17.303                & -       & 83.554  & 0,20 \\  \rowcolor{Gray4}
+ 2015 & 59.886                & 0,145   & 210.694 & 0,146 \\
+ 2016 & 28.197                & 0,139   & 70.296  & 0,187 \\ \rowcolor{Gray4}
+ 2017 & -                     & -       & -       & - \\
+ 2018 & 207.744               & 0,251   & 107.559 & 0,252 \\ \rowcolor{Gray4}
+ 2019 & 136.588               & -       & 103.333 & -  \\ 
+ 2020 & 643.089               & 0,261   & 445.601 & 0,280  \\ \hline
            \end{tabular}}
         \end{table}
 ```
@@ -107,38 +108,39 @@ La serie de biomasa desovante del MPDH fue utilizada en la evaluación de stock 
 ## 2.2. Sobre la incorporación de un índice de densidad de huevos alternativos a la Biomasa Desovante estimada por MPDH
 
 
-Con el objeto de obtener un índice de abundancia relativa de huevos que sea un proxy de la producción diaria de huevos y de la biomasa desovante, Cubillos *et al* (2017) analizaron el número de huevos con un Modelo Lineal Generalizado (MLG) para sardina común y anchoveta de las regiones de Valparaíso a Los Lagos. Considerando que una de las dificultades del método corresponde al grado de agregación/dispersión del desove, el índice de densidad de huevos propuesto considera los siguientes factores fijos: a) periodo: 2002 al 2019, excepto los años 2006 y 2017 sin crucero MPDH; b) en los tres sectores: norte (34°S-35°S); centro (34°30’S- 37°10’S) y sur (37°30’S-41°20’S) y c) se consideraron tres estratos de profundidad: 0-100 m, 100-200 m y >200 m. Cubillos *et al* (2020) reportan el índice de densidad de huevos estandarizado de anchoveta y sardina común obtenido con MLG, familia binomial negativo (\textbf{Tabla \ref{Tab2}}), el cual será incorporado como un proxy del potencial reproductivo en la evaluación de stock como escenario alternativo.
+Con el objeto de obtener un índice de abundancia relativa de huevos que sea un proxy de la producción diaria de huevos y de la biomasa desovante, Cubillos *et al* (2017) analizaron el número de huevos con un Modelo Lineal Generalizado (MLG) para sardina común y anchoveta de las regiones de Valparaíso a Los Lagos. Considerando que una de las dificultades del método corresponde al grado de agregación/dispersión del desove, el índice de densidad de huevos propuesto considera los siguientes factores fijos: a) periodo: 2002 al 2019, excepto los años 2006 y 2017 sin crucero MPDH; b) en los tres sectores: norte (34°S-35°S); centro (34°30’S- 37°10’S) y sur (37°30’S-41°20’S) y c) se consideraron tres estratos de profundidad: 0-100 m, 100-200 m y >200 m. Grendi *et al* (2020) reportan el índice de densidad de huevos estandarizado de anchoveta y sardina común obtenido con MLG, familia binomial negativo (\textbf{Tabla \ref{Tab2}}), el cual será incorporado como un proxy del potencial reproductivo en la evaluación de stock como escenario alternativo.
 \vspace{0.5cm}
 
 ```{=tex}
 \begin{table}[h!]
-\caption{Índice de densidad de huevos estandarizado obtenido con MLG, familia binomial negativo, con sus coeficientes de variación de anchoveta centro-sur.}
+\caption{Índice de densidad de huevos estandarizado obtenido con MLG, familia binomial negativo, con sus coeficientes de variación de anchoveta y sardina común centro-sur.}
  \label{Tab2}
  \small
     \centering
-    \resizebox{5cm}{!} {
-    \begin{tabular}{|c|c|c|}
+    \resizebox{9cm}{!} {
+    \begin{tabular}{|c|c|c|c|c|}
     \hline \rowcolor{Gray3}
- Años  & Densidad   & CV   \\ \rowcolor{Gray3}
-       & ($huevo/m^2$) &      \\ \hline
- 2002  & 137 & 0,141 \\
- 2003  & 611 & 0,171 \\
- 2004  & 272 & 0,210 \\
- 2005  & 625 & 0,208 \\
- 2006  & -   & - \\
- 2007  & 4.706 & 0,178 \\
- 2008  & 747 & 0,183 \\
- 2009  & 133 & 0,189 \\
- 2010  & 340 & 0,356 \\
- 2011  & 232 & 0,192 \\
- 2012  & 42  & 0,208 \\
- 2013  & 84  & 0,198 \\
- 2014  & 375 & 0,187 \\
- 2015  & 802 & 0,184 \\
- 2016  & 306 & 0,177 \\
- 2017  & -   & - \\
- 2018  & 353 & 0,184 \\
- 2019  & 430 & 0,183 \\ \hline 
+       & Anchoveta     &       & Sardina común &    \\  \rowcolor{Gray3}
+ Años  & Densidad      & CV    & Densidad      & CV  \\ \rowcolor{Gray3}
+       & ($huevo/m^2$) &       & ($huevo/m^2$) &     \\ \hline
+ 2002  & 137           & 0,141 & 249   & 0,184 \\ \rowcolor{Gray4}
+ 2003  & 611           & 0,171 & 20    & 0,245 \\
+ 2004  & 272           & 0,210 & 13    & 0,330 \\ \rowcolor{Gray4}
+ 2005  & 625           & 0,208 & 72    & 0,293 \\
+ 2006  & -             & -     & -     & -     \\ \rowcolor{Gray4}
+ 2007  & 4.706         & 0,178 & 3.535 & 0,236 \\
+ 2008  & 747           & 0,183 & 223   & 0,246 \\ \rowcolor{Gray4}
+ 2009  & 133           & 0,189 & 129   & 0,248 \\
+ 2010  & 340           & 0,356 & 43    & 0,540 \\ \rowcolor{Gray4}
+ 2011  & 232           & 0,192 & 532   & 0,250 \\
+ 2012  & 42            & 0,208 & 45    & 0,267 \\ \rowcolor{Gray4}
+ 2013  & 84            & 0,198 & 303   & 0,249 \\
+ 2014  & 375           & 0,187 & 438   & 0,247 \\ \rowcolor{Gray4}
+ 2015  & 802           & 0,184 & 356   & 0,247 \\
+ 2016  & 306           & 0,177 & 666   & 0,231 \\ \rowcolor{Gray4}
+ 2017  & -             & -     & -     & -     \\
+ 2018  & 353           & 0,184 & 170   & 0,248 \\ \rowcolor{Gray4}
+ 2019  & 430           & 0,183 & 1.398 & 0,240 \\ \hline 
            \end{tabular}}
         \end{table}
 ```
@@ -164,30 +166,60 @@ Adicionalmente, Cubillos *et al* (2017) analizaron otros índices de abundancia 
 
 ```{=tex}
 \begin{table}[h!]
-\caption{Índices de abundancia de huevos alternativos que se basan en la corrección por la duración del período de desove (índice 2), el área de desove (índice 3) y por ambos (índice 4), con sus coeficientes de variación de anchoveta centro-sur.}
+\caption{Índices de abundancia de huevos alternativos que se basan en la corrección por la duración del período de desove (índice 2), el área de desove (índice 3) y por ambos (índice 4), con sus coeficientes de variación de \textbf{anchoveta centro-sur}.}
  \label{Tab3}
  \small
     \centering
     \resizebox{10cm}{!} {
     \begin{tabular}{|c|c|c|c|c|c|c|}
     \hline \rowcolor{Gray3}
- Años  & Índice 2   & CV & Índice 3 & CV & Índice 4 & CV   \\ \hline
- 2002  & 694 & 0,238 & 1,31 & 0,238 & 6,50 & 0,238 \\
- 2003  & 2.568 & 0,232 & - & - & - & - \\
- 2004  & 1.285 & 0,332 & 1,73 & 0,332 & 7,77 & 0,332 \\
- 2005  & 2.283 & 0,300 & 4,02 & 0,300 & 15,35 & 0,300 \\
- 2006  & -     & -     & - & - & - & - \\
- 2007  & 6.214 & 0,217 & 25,49 & 0,217 & 79,43 & 0,217 \\
- 2008  & 1.410 & 0,271 & 2,39 & 0,271 & 7,84 & 0,271 \\
- 2009  & 496   & 0,314 & 1,14 & 0,314 & 3,79 & 0,314 \\
- 2010  & 1.934 & 0,557 & 3,72 & 0,557 & 14,63 & 0,557 \\
- 2011  & 841   & 0,315 & 1,35 & 0,315 & 6,00 & 0,315 \\
- 2012  & 199   & 0,398 & 0,12 & 0,360 & 0,54 & 0,398 \\
- 2013  & 363   & 0,360 & 0,34 & 0,360 & 1,52 & 0,360 \\
- 2014  & 983   & 0,298 & 1,69 & 0,298 & 6,72 & 0,298 \\ \hline
+ Años  & Índice 2 & CV    & Índice 3 & CV    & Índice 4 & CV    \\ \hline
+ 2002  & 694      & 0,238 & 1,31     & 0,238 & 6,50     & 0,238 \\  \rowcolor{Gray4}
+ 2003  & 2.568    & 0,232 & -        & -     & -        & -     \\
+ 2004  & 1.285    & 0,332 & 1,73     & 0,332 & 7,77     & 0,332 \\  \rowcolor{Gray4}
+ 2005  & 2.283    & 0,300 & 4,02     & 0,300 & 15,35    & 0,300 \\
+ 2006  & -        & -     & -        & -     & -        & -     \\  \rowcolor{Gray4}
+ 2007  & 6.214    & 0,217 & 25,49    & 0,217 & 79,43    & 0,217 \\
+ 2008  & 1.410    & 0,271 & 2,39     & 0,271 & 7,84     & 0,271 \\  \rowcolor{Gray4}
+ 2009  & 496      & 0,314 & 1,14     & 0,314 & 3,79     & 0,314 \\
+ 2010  & 1.934    & 0,557 & 3,72     & 0,557 & 14,63    & 0,557 \\  \rowcolor{Gray4}
+ 2011  & 841      & 0,315 & 1,35     & 0,315 & 6,00     & 0,315 \\
+ 2012  & 199      & 0,398 & 0,12     & 0,360 & 0,54     & 0,398 \\  \rowcolor{Gray4}
+ 2013  & 363      & 0,360 & 0,34     & 0,360 & 1,52     & 0,360 \\
+ 2014  & 983      & 0,298 & 1,69     & 0,298 & 6,72     & 0,298 \\ \hline
             \end{tabular}}
         \end{table}
 ```
+
+
+\pagebreak 
+```{=tex}
+\begin{table}[h!]
+\caption{Índices de abundancia de huevos alternativos que se basan en la corrección por la duración del período de desove (índice 2), el área de desove (índice 3) y por ambos (índice 4), con sus coeficientes de variación de \textbf{sardina común centro-sur}.}
+ \label{Tab3b}
+ \small
+    \centering
+    \resizebox{10cm}{!} {
+    \begin{tabular}{|c|c|c|c|c|c|c|}
+    \hline \rowcolor{Gray3}
+ Años  & Índice 2 & CV    & Índice 3 & CV    & Índice 4 & CV    \\ \hline
+ 2002  &  1.168   & 0,261 & 1,62  & 0,261 & 7,67 & 0,261  \\  \rowcolor{Gray4}
+ 2003  &  78      & 0,461 & -     & -     & -    & -  \\
+ 2004  &  65      & 0,649 & 0,03  & 0,649 & 0,13 & 0,649  \\  \rowcolor{Gray4}
+ 2005  &  283     & 0,484 & 0,23  & 0,484 & 0,76 &  0,484\\
+ 2006  &  -       & -     & -     & -     & -    & -  \\  \rowcolor{Gray4}
+ 2007  &  4.175   & 0,271 & 12,70 & 0,271 & 40,65 & 0,271  \\
+ 2008  &  652     & 0,363 & 0,33  & 0,363 & 1,12 &  0,363\\  \rowcolor{Gray4}
+ 2009  &  601     & 0,368 & 0,79  & 0,368 & 3,01 &  0,368\\
+ 2010  &  182     & 0,952 & 0,41  & 0,952 & 1,25 &  0,952\\  \rowcolor{Gray4}
+ 2011  &  1.200   & 0,332 & 2,23  & 0,332 & 6,66 &  0,332\\
+ 2012  &  132     & 0,470 & 0,16  & 0,470 & 0,48 &  0,470\\  \rowcolor{Gray4}
+ 2013  &  988     & 0,338 & 1,94  & 0,338 & 5,37 &  0,338\\
+ 2014  &  1028    & 0,337 & 1,86  & 0,337 & 5,68 &  0,337\\ \hline
+            \end{tabular}}
+        \end{table}
+```
+
 
 Adicionalmente, se considerará la variabilidad del período de realización del crucero (\textbf{Figura \ref{Fig2a}}), en los escenarios a analizar. De este modo, se incorporará un dt variable para cada escenario de sensibilidad de los índices de abundancia de huevos.
 
@@ -203,64 +235,63 @@ Adicionalmente, se considerará la variabilidad del período de realización del
 
 \pagebreak
 
-## 2.3. Sobre los coeficientes de variación asignados a los Cruceros de huevos, de verano (RECLAS) y de otoño (PELACES).
+## 2.3. Sobre los coeficientes de variación asignados a los Cruceros de huevos, verano (RECLAS) y otoño (PELACES).
 
 Los coeficientes de variación son empleados en los índices de abundancia y en las capturas. Son utilizados para asignar el nivel de desviación que el analista supone tienen los datos respecto del valor central verdadero como parte del error de observación. El coeficiente de variación tiene relevancia en las estimaciones pues es inversamente proporcional con el peso que tiene una determinada fuente de datos en la verosimilitud total. Por ejemplo y como medida de referencia, para dos series de índices con igual número de observaciones, un cv=0,1 (por ejemplo, un IC al 95% de $\pm$ 20% la media) tiene un peso en la verosimilitud total de 4 veces más respecto del índice que asume un cv=0,2. En este razonamiento a menudo se supone que el modelo representa la naturaleza de manera perfecta, lo cual ya es cuestionable y por ende el establecimiento de ponderadores es un punto de debate. Este tema ha sido discutido por Francis (2011) sin que por ahora se disponga de reglas claras para su determinación, sino más bien criterios a tomar en cuenta.
 
-Estos factores son a menudo consensuados entre especialistas y es común asumir desviaciones que reflejen el nivel de credibilidad relativa que se tienen a ciertas piezas de información. Comúnmente se asignan bajos niveles de incertidumbre a los desembarques y mayores a los cruceros, esto por el hecho que los desembarques son mediciones directamente asociadas con la mortalidad por pesca, mientras las estimaciones de biomasa de cruceros están sujetos a variados criterios y consideraciones en sus estimaciones de una población "no observable", lo que en definitiva insta a suponer que estos tienen mayor incertidumbre y/o son tratados como medidas relativas de abundancia.  Francis (2011) propone la idea de aproximarse de manera gradual a una medida del error, comenzando con un suavizador de los datos, es decir, un análisis exploratorio que considere aquel coeficiente de variación teórico que resulta de aplicar el "mejor" modelo de tendencia central a los datos aislados. Este primer procedimiento no depende del modelo de evaluación de stock sino de la variabilidad de los datos. Canales *et al*. (2012) aplicó este procedimiento a las biomasas estimadas en los cruceros acústicos, empleando polinomios de orden 2 y 3 como estimadores de tendencia central lo que generó valores de cv=0,99 para el crucero de verano y un cv=0,67 para el crucero de otoño. Para fines de evaluación se consideró como referente un valor aproximado a cv=0,3 ya que de otro modo imposibilitaría el uso de estas series como índice de abundancia.  Con respecto a los CV de las capturas, debido a que existe poca o ninguna información en los datos y estructura del modelo para estimar la captura total, el modelo se ajusta asumiendo que las capturas se conocen exactamente o con altos niveles de precisión. Bajo este supuesto, las estimaciones de N del modelo y los parámetros de separabilidad permitirían determinar F anual. Sin embargo, para la ecuación de Baranov, no existe una solución analítica para los valores de F, por lo tanto, se deben tratar como parámetros estimables, pero altamente limitados (CV bajos) de tal manera que las capturas totales se puedan estimar de manera muy precisa.  El peso relativo designado a la estimación de captura total al ajustar el modelo de evaluación fue debatido durante el taller de revisión por pares de sardina común, donde se consideró que la limitación sobre los F efectivamente utilizada fue débil (CV=10%). Se sugiere un CV =1% asumiendo que las capturas son conocidas exactamente, lo cual fue considerado también para la anchoveta centro-sur.
+Estos factores son a menudo consensuados entre especialistas y es común asumir desviaciones que reflejen el nivel de credibilidad relativa que se tienen a ciertas piezas de información. Comúnmente se asignan bajos niveles de incertidumbre a los desembarques y mayores a los cruceros, esto por el hecho que los desembarques son mediciones directamente asociadas con la mortalidad por pesca, mientras las estimaciones de biomasa de cruceros están sujetos a variados criterios y consideraciones en sus estimaciones de una población "no observable", lo que en definitiva insta a suponer que estos tienen mayor incertidumbre y/o son tratados como medidas relativas de abundancia.  Francis (2011) propone la idea de aproximarse de manera gradual a una medida del error, comenzando con un suavizador de los datos, es decir, un análisis exploratorio que considere aquel coeficiente de variación teórico que resulta de aplicar el "mejor" modelo de tendencia central a los datos aislados. Este primer procedimiento no depende del modelo de evaluación de stock sino de la variabilidad de los datos. Canales *et al*. (2012) aplicó este procedimiento a las biomasas estimadas en los cruceros acústicos, empleando polinomios de orden 2 y 3 como estimadores de tendencia central lo que generó valores de cv=0,99 para el crucero de verano y un cv=0,67 para el crucero de otoño. Para fines de evaluación se consideró como referente un valor aproximado a cv=0,3 ya que de otro modo imposibilitaría el uso de estas series como índice de abundancia.  Con respecto a los CV de las capturas, debido a que existe poca o ninguna información en los datos y estructura del modelo para estimar la captura total, el modelo se ajusta asumiendo que las capturas se conocen exactamente o con altos niveles de precisión. Bajo este supuesto, las estimaciones de N del modelo y los parámetros de separabilidad permitirían determinar F anual. Sin embargo, para la ecuación de Baranov, no existe una solución analítica para los valores de F, por lo tanto, se deben tratar como parámetros estimables, pero altamente limitados (CV bajos) de tal manera que las capturas totales se puedan estimar de manera muy precisa.  El peso relativo designado a la estimación de captura total al ajustar el modelo de evaluación fue debatido durante el taller de revisión por pares de sardina común, donde se consideró que la limitación sobre los F efectivamente utilizada fue débil (CV=10%). Se sugiere un CV = 1% asumiendo que las capturas son conocidas exactamente, lo cual fue considerado también para la anchoveta centro-sur.
 
-De este modo, los coeficientes de variación utilizados hasta ahora son los siguientes:
-
+De este modo, los coeficientes de variación utilizados en los casos bases actuales de anchoveta y sardina común centro-sur corresponden a valores fijos para todos los años de 0,3 para los cruceros de verano y otoño y 100 para el crucero de huevos (\textbf{Tablas \ref{Tab4}} y \textbf{\ref{Tab5}}). Al actualizar la información de biomasa desovante estimada por el método de producción de huevos o con el indice de densidad de huevos propuesto anteriormente, se disminuirá el CV a 0,3 para comenzar, no obstante, se probarán escenarios con cambios en los CVs de los tres cruceros, considerando criterio experto y los CVs estimados por cada método, los cuales son resumidos en las \textbf{Tablas \ref{Tab6}} y \textbf{\ref{Tab7}}. De este modo, evaluaremos la sensibilidad del modelo a la incorporación de este nuevo índice, y los cambios en los CVs. Los escenarios que presenten el mejor desempeño serán presentado al taller de datos y modelos como escenarios alternativos.
 
 ```{=tex}
 \begin{table}[h!]
-\caption{Índices de abudancia con sus coeficientes de variación utilizados en la evaluación de stock de anchoveta centro-sur.}
+\caption{Índices de abudancia con sus coeficientes de variación utilizados en la evaluación de stock de \textbf{anchoveta centro-sur}.}
  \label{Tab4}
  \small
     \centering
-    \resizebox{13cm}{!} {
+    \resizebox{11cm}{!} {
     \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
     \hline \rowcolor{Gray3}
  Años  & Biomasa total (t) & CV & Biomasa total (t) & CV & Biomasa desovante (t) & CV & Desembarques (t) & CV \\ \rowcolor{Gray3}
        & Crucero verano    &    & Crucero otoño     &    & Crucero de huevos     &    & + descarte       & \\ \hline
-1997 & 	       & 0,3   &            & 0,3  &        & 100 & 350.755 & 0,01 \\ \rowcolor{Gray4}
-1998 & 	       & 0,3   &            & 0,3  &        & 100 & 77.701  & 0,01 \\
-1999 & 	       & 0,3   &            & 0,3  &        & 100 & 442.110 & 0,01 \\ \rowcolor{Gray4}
-2000 & 370.054     & 0,3   &            & 0,3  &        & 100 & 56.441  & 0,01 \\ 
-2001 & 412.103     & 0,3   &            & 0,3  &        & 100 & 14.545  & 0,01 \\ \rowcolor{Gray4}
-2002 & 1.494.267   & 0,3   &            & 0,3  & 112.323 & 100 & 235.359 & 0,01 \\
-2003 & 250.295     & 0,3   &            & 0,3  & 	      & 100 & 269.955 & 0,01 \\ \rowcolor{Gray4}
-2004 & 1.289.818   & 0,3   &            & 0,3  & 153.150 & 100 & 359.681 & 0,01 \\
-2005 & 931.140     & 0,3   &            & 0,3  & 637.223 & 100 & 431.902 & 0,01 \\ \rowcolor{Gray4}
-2006 & 785.840     & 0,3   & 2.062.538   & 0,3  &        & 100 & 328.805 & 0,01 \\
+1997 & 	           & 0,3   &             & 0,3  &         & 100 & 350.755 & 0,01 \\ \rowcolor{Gray4}
+1998 & 	           & 0,3   &             & 0,3  &         & 100 & 77.701  & 0,01 \\
+1999 & 	           & 0,3   &             & 0,3  &         & 100 & 442.110 & 0,01 \\ \rowcolor{Gray4}
+2000 & 370.054     & 0,3   &             & 0,3  &         & 100 & 56.441  & 0,01 \\ 
+2001 & 412.103     & 0,3   &             & 0,3  &         & 100 & 14.545  & 0,01 \\ \rowcolor{Gray4}
+2002 & 1.494.267   & 0,3   &             & 0,3  & 112.323 & 100 & 235.359 & 0,01 \\
+2003 & 250.295     & 0,3   &             & 0,3  & 	      & 100 & 269.955 & 0,01 \\ \rowcolor{Gray4}
+2004 & 1.289.818   & 0,3   &             & 0,3  & 153.150 & 100 & 359.681 & 0,01 \\
+2005 & 931.140     & 0,3   &             & 0,3  & 637.223 & 100 & 431.902 & 0,01 \\ \rowcolor{Gray4}
+2006 & 785.840     & 0,3   & 2.062.538   & 0,3  &         & 100 & 328.805 & 0,01 \\
 2007 & 897.777     & 0,3   & 1.500.000   & 0,3  & 255.016 & 100 & 639.364 & 0,01 \\ \rowcolor{Gray4}
-2008 & 1.040.062   & 0,3   & 	         & 0,3  & 313.432 & 100 & 411.747 & 0,01 \\
+2008 & 1.040.062   & 0,3   & 	           & 0,3  & 313.432 & 100 & 411.747 & 0,01 \\
 2009 & 184.774     & 0,3   & 1.874.556   & 0,3  & 73.983  & 100 & 362.871 & 0,01 \\ \rowcolor{Gray4}
-2010 & 17.550      & 0,3   & 323.000	 & 0,3  & 77.613  & 100 & 311.530 & 0,01 \\
-2011 & 25.797      & 0,3   & 250.000	 & 0,3  & 109.348 & 100 & 167.758 & 0,01 \\ \rowcolor{Gray4}
-2012 & 100.020     & 0,3   & 174.000	 & 0,3  & 50.772  & 100 & 66.681  & 0,01 \\
-2013 & 73.551      & 0,3   & 83.755	     & 0,3  &        & 100 & 60.226  & 0,01 \\ \rowcolor{Gray4}
-2014 & 82.996      & 0,3   & 137.374	 & 0,3  &        & 100 & 58.785  & 0,01 \\
-2015 & 120.727     & 0,3   &            & 0,3  &        & 100 & 57.116  & 0,01 \\ \rowcolor{Gray4}
-2016 & 218.422     & 0,3   & 501.740	 & 0,3  &        & 100 & 73.181  & 0,01 \\
-2017 & 84.188      & 0,3   & 490.994	 & 0,3  &        & 100 & 50.977  & 0,01 \\ \rowcolor{Gray4}
-2018 & 347.160     & 0,3   & 745.055	 & 0,3  &        & 100 & 67.692  & 0,01 \\
-2019 & 605.670     & 0,3   & 786.931	 & 0,3  &        & 100 & 138.656 & 0,01 \\ \rowcolor{Gray4}
-2020 & 569.463     & 0,3   & 1.005.239   & 0,3  &        & 100 & 160.484 & 0,01 \\
-2021 & 516.374     & 0,3   & 1.338.007   & 0,3  &        & 100 & 209.506 & 0,01 \\ \hline
+2010 & 17.550      & 0,3   & 323.000	   & 0,3  & 77.613  & 100 & 311.530 & 0,01 \\
+2011 & 25.797      & 0,3   & 250.000	   & 0,3  & 109.348 & 100 & 167.758 & 0,01 \\ \rowcolor{Gray4}
+2012 & 100.020     & 0,3   & 174.000	   & 0,3  & 50.772  & 100 & 66.681  & 0,01 \\
+2013 & 73.551      & 0,3   & 83.755	     & 0,3  & 17.779  & 100 & 60.226  & 0,01 \\ \rowcolor{Gray4}
+2014 & 82.996      & 0,3   & 137.374	   & 0,3  & 17.303  & 100 & 58.785  & 0,01 \\
+2015 & 120.727     & 0,3   &             & 0,3  & 59.886  & 100 & 57.116  & 0,01 \\ \rowcolor{Gray4}
+2016 & 218.422     & 0,3   & 501.740	   & 0,3  & 28.197  & 100 & 73.181  & 0,01 \\
+2017 & 84.188      & 0,3   & 490.994	   & 0,3  &  -      & 100 & 50.977  & 0,01 \\ \rowcolor{Gray4}
+2018 & 347.160     & 0,3   & 745.055	   & 0,3  & 207.744 & 100 & 67.692  & 0,01 \\
+2019 & 605.670     & 0,3   & 786.931	   & 0,3  & 136.588 & 100 & 138.656 & 0,01 \\ \rowcolor{Gray4}
+2020 & 569.463     & 0,3   & 1.005.239   & 0,3  & 643.089 & 100 & 160.484 & 0,01 \\
+2021 & 516.374     & 0,3   & 1.338.007   & 0,3  &         & 100 & 209.506 & 0,01 \\ \hline
             \end{tabular}}
         \end{table}
 ```
 
-\pagebreak
+
 
 ```{=tex}
 \begin{table}[h!]
-\caption{Índices de abudancia con sus coeficientes de variación utilizados en la evaluación de stock de sardina común centro-sur.}
+\caption{Índices de abudancia con sus coeficientes de variación utilizados en la evaluación de stock de \textbf{sardina común centro-sur}.}
  \label{Tab5}
  \small
     \centering
-    \resizebox{13cm}{!} {
+    \resizebox{11cm}{!} {
     \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
     \hline \rowcolor{Gray3}
  Años  & Biomasa total (t) & CV & Biomasa total (t) & CV & Biomasa desovante (t) & CV & Desembarques (t) & CV \\ \rowcolor{Gray3}
@@ -289,12 +320,12 @@ De este modo, los coeficientes de variación utilizados hasta ahora son los sigu
 2012 & 3.843.000 & 0,3 & 1.217.169 & 0,3 & 157.893 & 100 & 859.565 & 0,01 \\
 2013 & 1.133.477 & 0,3 & 2.296.489 & 0,3 & 87.575  & 100 & 418.607 & 0,01 \\ \rowcolor{Gray4}
 2014 & 3.079.434 & 0,3 & 1.805.815 & 0,3 & 83.554  & 100 & 520.667 & 0,01 \\
-2015 & 1.972.148 & 0,3 &           & 0,3 &         & 100 & 417.249 & 0,01 \\ \rowcolor{Gray4}
-2016 & 2.032.684 & 0,3 & 1.482.799 & 0,3 &         & 100 & 300.574 & 0,01 \\
-2017 & 2.025.002 & 0,3 & 1.565.315 & 0,3 &         & 100 & 415.391 & 0,01 \\ \rowcolor{Gray4}
-2018 & 2.424.330 & 0,3 & 1.577.507 & 0,3 &         & 100 & 372.974 & 0,01 \\
-2019 & 2.275.425 & 0,3 & 1.421.176 & 0,3 &         & 100 & 316.634 & 0,01 \\ \rowcolor{Gray4}
-2020 & 1.050.175 & 0,3 & 867.257   & 0,3 &         & 100 & 284.311 & 0,01 \\
+2015 & 1.972.148 & 0,3 &           & 0,3 & 210.694 & 100 & 417.249 & 0,01 \\ \rowcolor{Gray4}
+2016 & 2.032.684 & 0,3 & 1.482.799 & 0,3 & 70.296  & 100 & 300.574 & 0,01 \\
+2017 & 2.025.002 & 0,3 & 1.565.315 & 0,3 &  -      & 100 & 415.391 & 0,01 \\ \rowcolor{Gray4}
+2018 & 2.424.330 & 0,3 & 1.577.507 & 0,3 & 107.559 & 100 & 372.974 & 0,01 \\
+2019 & 2.275.425 & 0,3 & 1.421.176 & 0,3 & 103.333 & 100 & 316.634 & 0,01 \\ \rowcolor{Gray4}
+2020 & 1.050.175 & 0,3 & 867.257   & 0,3 & 445.601 & 100 & 284.311 & 0,01 \\
 2021 & 2.363.380 & 0,3 & 1.100.020 & 0,3 &         & 100 & 391.294 & 0,01 \\ \hline      
                    \end{tabular}}
         \end{table}
@@ -304,76 +335,76 @@ De este modo, los coeficientes de variación utilizados hasta ahora son los sigu
 
 ```{=tex}
 \begin{table}[h!]
-\caption{Índices de abundancia con sus coeficientes de variación variables de anchoveta centro-sur.}
+\caption{Índices de abundancia con sus coeficientes de variación estimados por cada crucero de \textbf{anchoveta centro-sur}.}
  \label{Tab6}
  \small
     \centering
-    \resizebox{13cm}{!} {
+    \resizebox{11cm}{!} {
     \begin{tabular}{|c|c|c|c|c|c|c|}
     \hline \rowcolor{Gray3}
 Años  & Biomasa total (t)   & CV & Biomasa total (t) & CV & Biomasa desovante (t) & CV \\ \rowcolor{Gray3}
        & Crucero verano     &    & Crucero otoño     &    & Crucero de huevos     &     \\ \hline
 2000 & 370.054     &        &              &       &          &   \\ 
 2001 & 412.103     & 0,14   &              &       &          &   \\ \rowcolor{Gray4}
-2002 & 1.494.267   & 0,15   &              &       & 112.323  &   \\
-2003 & 250.295     & 0,07   &              &       & 	      &   \\ \rowcolor{Gray4}
-2004 & 1.289.818   & 0,20   &              &       & 153.150  &  \\
-2005 & 931.140     & 0,10   &              &       & 637.223  &   \\ \rowcolor{Gray4}
+2002 & 1.494.267   & 0,15   &              &       & 112.323  & 0,289  \\
+2003 & 250.295     & 0,07   &              &       & 	        &   \\ \rowcolor{Gray4}
+2004 & 1.289.818   & 0,20   &              &       & 153.150  & 0,368  \\
+2005 & 931.140     & 0,10   &              &       & 637.223  & 0,441  \\ \rowcolor{Gray4}
 2006 & 785.840     & 0,08   & 2.062.538    &       &          &   \\
-2007 & 897.777     & 0,11   & 1.500.000    &       & 255.016  &   \\ \rowcolor{Gray4}
-2008 & 1.040.062   & 0,25   & 	           &       & 313.432  &   \\
-2009 & 184.774     & 0,12   & 1.874.556    & 0,22  & 73.983   &   \\ \rowcolor{Gray4}
-2010 & 17.550      & 0,07   & 323.000	   & 0,05  & 77.613   &   \\
-2011 & 25.797      & 0,28   & 250.000	   & 0,13  & 109.348  &   \\ \rowcolor{Gray4}
-2012 & 100.020     & 0,14   & 174.000	   & 0,10  & 50.772   &   \\
-2013 & 73.551      & 0,19   & 83.755	   & 0,15  &          &   \\ \rowcolor{Gray4}
-2014 & 82.996      & 0,05   & 137.374	   & 0,10  &          &   \\
-2015 & 120.727     &        &              &       &          &   \\ \rowcolor{Gray4}
-2016 & 218.422     &        & 501.740	   &       &          &   \\
-2017 & 84.188      &        & 490.994	   &       &          &   \\ \rowcolor{Gray4}
-2018 & 347.160     &        & 745.055	   &       &          &  \\
-2019 & 605.670     &        & 786.931	   &       &          &   \\ \rowcolor{Gray4}
-2020 & 569.463     &        & 1.005.239    &       &          &   \\
-2021 & 516.374     &        & 1.338.007    &       &          &   \\ \hline
+2007 & 897.777     & 0,11   & 1.500.000    &       & 255.016  & 0,380  \\ \rowcolor{Gray4}
+2008 & 1.040.062   & 0,25   & 	           &       & 313.432  & 1,050   \\
+2009 & 184.774     & 0,12   & 1.874.556    & 0,22  & 73.983   & 0,578  \\ \rowcolor{Gray4}
+2010 & 17.550      & 0,07   & 323.000	     & 0,05  & 77.613   & 0,494  \\
+2011 & 25.797      & 0,28   & 250.000	     & 0,13  & 109.348  & 0,390  \\ \rowcolor{Gray4}
+2012 & 100.020     & 0,14   & 174.000	     & 0,10  & 50.772   & 1,650  \\
+2013 & 73.551      & 0,19   & 83.755	     & 0,15  & 17.779   & 0,605    \\ \rowcolor{Gray4}
+2014 & 82.996      & 0,05   & 137.374	     & 0,10  & 17.303   & -  \\
+2015 & 120.727     & 0,14   &              &       & 59.886   & 0,145   \\ \rowcolor{Gray4}
+2016 & 218.422     & 0,16   & 501.740	     & 0,075 & 28.197   & 0,139  \\
+2017 & 84.188      & 0,075  & 490.994	     & 0,11  & -        & -  \\ \rowcolor{Gray4}
+2018 & 347.160     & 0,166  & 745.055	     & 0,13  & 207.744  & 0,251 \\
+2019 & 605.670     & 0,063  & 786.931	     & 0,052 & 136.588  & -  \\ \rowcolor{Gray4}
+2020 & 569.463     & 0,030  & 1.005.239    & 0,033 & 643.089  & 0,261  \\
+2021 & 516.374     & 0,070  & 1.338.007    & 0,05  &          &   \\ \hline
                    \end{tabular}}
         \end{table}
 ```
 
-\pagebreak
+\vspace{0.5cm}
 
 ```{=tex}
 \begin{table}[h!]
-\caption{Índices de abudancia con sus coeficientes de variación utilizados en la evaluación de stock de sardina común centro-sur.}
+\caption{Índices de abudancia con sus coeficientes de variación estimados por cada crucero de \textbf{sardina común centro-sur}.}
  \label{Tab7}
  \small
     \centering
-    \resizebox{13cm}{!} {
+    \resizebox{11cm}{!} {
     \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
     \hline \rowcolor{Gray3}
  Años  & Biomasa total (t) & CV & Biomasa total (t) & CV & Biomasa desovante (t) & CV \\ \rowcolor{Gray3}
        & Crucero verano    &    & Crucero otoño     &    & Crucero de huevos     &   \\ \hline
-2000 & 252.601   &     &           &     &         &  \\
-2001 & 567.819   &     &           &     &         &  \\ \rowcolor{Gray4}
-2002 & 844.713   &     &           &     & 498.337 &   \\
-2003 & 477.998   &     &           &     &         &  \\ \rowcolor{Gray4}
-2004 & 351.125   &     &           &     & 5.186   & \\
-2005 & 339.783   &     &           &     & 125.008 &   \\ \rowcolor{Gray4}
-2006 & 2.178.397 &     & 552.880   &     &         &   \\
-2007 & 2.134.043 &     & 188.675   &     & 168.611 &  \\ \rowcolor{Gray4}
-2008 & 4.813.144 &     &           &     & 109.162 &   \\
-2009 & 1.555.625 &     & 991.730   &     & 213.762 &  \\ \rowcolor{Gray4}
-2010 & 2.623.565 &     & 2.467.720 &     & 579.715 &   \\
-2011 & 3.216.857 &     & 1.416.034 &     & 649.985 &   \\ \rowcolor{Gray4}
-2012 & 3.843.000 &     & 1.217.169 &     & 157.893 &   \\
-2013 & 1.133.477 &     & 2.296.489 &     & 87.575  &  \\ \rowcolor{Gray4}
-2014 & 3.079.434 &     & 1.805.815 &     & 83.554  &   \\
-2015 & 1.972.148 &     &           &     &         &  \\ \rowcolor{Gray4}
-2016 & 2.032.684 &     & 1.482.799 &     &         &  \\
-2017 & 2.025.002 &     & 1.565.315 &     &         &  \\ \rowcolor{Gray4}
-2018 & 2.424.330 &     & 1.577.507 &     &         &   \\
-2019 & 2.275.425 &     & 1.421.176 &     &         &  \\ \rowcolor{Gray4}
-2020 & 1.050.175 &     & 867.257   &     &         & \\
-2021 & 2.363.380 &     & 1.100.020 &     &         &  \\ \hline      
+2000 & 252.601   &   -     &           &      &         &     \\
+2001 & 567.819   &  0,16   &           &      &         &      \\ \rowcolor{Gray4}
+2002 & 844.713   &  0,16   &           &      & 498.337 & 0,58  \\
+2003 & 477.998   &  0,16   &           &      &         &      \\ \rowcolor{Gray4}
+2004 & 351.125   &  0,12   &           &      & 5.186   & 0,57 \\
+2005 & 339.783   &  0,15   &           &      & 125.008 & 0,56   \\ \rowcolor{Gray4}
+2006 & 2.178.397 &  0,08   & 552.880   &      &         &      \\
+2007 & 2.134.043 &  0,14   & 188.675   & 0,13 & 168.611 & 0,06 \\ \rowcolor{Gray4}
+2008 & 4.813.144 &  0,14   &           & -    & 109.162 & 1,11   \\
+2009 & 1.555.625 &  0,20   & 991.730   & 0,11 & 213.762 & 1,02 \\ \rowcolor{Gray4}
+2010 & 2.623.565 &  0,07   & 2.467.720 & 0,17 & 579.715 & 0,74  \\
+2011 & 3.216.857 &  0,11   & 1.416.034 & 0,29 & 649.985 & 0,60  \\ \rowcolor{Gray4}
+2012 & 3.843.000 &  0,15   & 1.217.169 & 0,12 & 157.893 & 2,62  \\
+2013 & 1.133.477 &  0,10   & 2.296.489 & 0,20 & 87.575  & 1,95 \\ \rowcolor{Gray4}
+2014 & 3.079.434 &  0,06   & 1.805.815 & 0,12 & 83.554  & 0,20  \\
+2015 & 1.972.148 &  0,21   &           & -    & 210.694 & 0,146  \\ \rowcolor{Gray4}
+2016 & 2.032.684 &  0,05   & 1.482.799 & 0,10 & 70.296  & 0,187 \\
+2017 & 2.025.002 &  0,15   & 1.565.315 & 0,17 &  -      & -  \\ \rowcolor{Gray4}
+2018 & 2.424.330 &  0,13   & 1.577.507 & 0,07 & 107.559 & 0,252  \\
+2019 & 2.275.425 &  0,05   & 1.421.176 & 0,08 & 103.333 &  - \\ \rowcolor{Gray4}
+2020 & 1.050.175 &  0,07   & 867.257   & 0,04 & 445.601 & 0,280 \\
+2021 & 2.363.380 &  0,04   & 1.100.020 & 0,07 &         &  \\ \hline      
                    \end{tabular}}
         \end{table}
 ```
@@ -381,74 +412,10 @@ Años  & Biomasa total (t)   & CV & Biomasa total (t) & CV & Biomasa desovante (
 
 \pagebreak
 
-## 2.4. Sobre la Corrección de los desembarques oficiales registrados por Sernapesca
+## 2.4. Algunos resultados preliminares
 
-Los desembarques oficiales registrados por Sernapesca corresponden a la extracción registrada en puerto, independiente de la zona de procedencia. Tiene valor en definir la importancia relativa de los distintos puertos de descarga, por lo tanto, es de mayor interés administrativo y/o comercial de la actividad. Su propósito es cuantificar los volúmenes, totales y por especie, que efectivamente se reciben en la descarga o desembarque. Las estadísticas oficiales de los desembarques son sistematizadas por el Servicio Nacional de Pesca, sobre una base mensual, por tipo de flota, puerto de desembarque y especie objetivo. Cabe señalar que en la pesquería pelágica, el concepto de captura es igual al del desembarque más descarte. Para efecto de la evaluación se utiliza la totalidad del desembarque por especie que ocurre en la unidad de pesquería, comenzando la serie desde el año 1990 hasta 2021. La evaluación de stock es realizada en base al año biológico (de julio a junio de cada año), y la serie de desembarques anuales es convertida a temporada de pesca considerando la estacionalidad de la pesquería y la serie oficial corregida entre el 1998-2001 de desembarques anuales.
-
-Existen algunos antecedentes que señalan que los desembarques del primer semestre de los años 1999 y 2000 resultan ser muy altos para lo que en ese entonces se supone era la población de anchoveta y sardina común. Arcos *et al* (2004) postularon que las condiciones ambientales pre y durante "El Niño", produjeron una alteración en la distribución espacial de jurel, "atrapando" a los juveniles de la especie en la zona centro-sur, generando la distorsión de los desembarques en los pequeños pelágicos, impulsado por evadir multas y declarar menos jurel (Aranís 2011). Basados en estos antecedentes, las series de desembarques anuales oficiales fueron corregidos por investigadores de IFOP. Se realizó un análisis preliminar utilizando la base de información de "Muestreo de Proporción de especies" de IFOP, para comparar los datos de composición de especies desembarcadas, la cual consiste en la selección de una muestra de la captura de un contenedor (caja o balde), llenado en distintos momentos del proceso de vaciado de la captura y luego se pesa y cuenta la fauna diferenciada por especie. Posteriormente, se determina la intencionalidad del viaje de pesca, basada en las proporciones de captura, tomando el criterio de especie objetivo a la que representaba más del 50% en peso de la muestra de proporción. En el caso de existir más de dos especies, se considera como objetivo la de mayor contribución, siendo clasificadas las restantes como fauna acompañante. Finalmente, se obtiene la composición original para jurel, sardina y anchoveta registrada de los desembarques, contrastado con las proporciones re-estimadas obtenidas de los muestreos pelágicos que se practicaron en ese período (1998-2001). 
-
-El año 2016 la Pontificia Universidad Católica de Chile desarrolló un proyecto orientado a la corrección de las capturas totales históricas de la pesquería de sardina común y anchoveta V-X Regiones (Proyecto CUI 2015-72-DAP-27) y recientemente IFOP realizó un estudio de remociones totales en la flota artesanal que opera con red de cerco entre la Región de Valparaíso y la Región de los Ríos orientando sus capturas a pequeños pelágicos (Vega *et al*. 2019).  
-
-De este modo, es relevante contar con información histórica complementaria que permita contrastar el desembarque oficial reportado al Sernapesca durante los últimos años, en base a las estimaciones de capturas totales de pequeños pelágicos calculada en base al monitoreo a bordo y en tierra realizado por IFOP, con el objetivo último de mejorar las evaluaciones de stock de estas pesquerías y la aplicación de medidas de administración acordes a ellas.
-
-Los eventos de sub-reporte y sobre-reporte son eventos muy probables en esta pesquería, por la presencia en las capturas de sardina común y anchoveta en las regiones de Valparaíso a Los Lagos de mote o bacaladillo, machuelo o trite, o el pampanito, las cuales no están reguladas (Aranís *et al*. 2017). Particularmente, en el caso de la extracción del mote, los registros de desembarques artesanales de Sernapesca señalan que se producen principalmente en la Región del Bio-bio junto a los recursos anchoveta y sardina común. En este sentido, el muestreo de la composición de especies de las capturas a bordo tiene relevancia para poder identificar las especies reales presentes. De lo contrario, podría ocurrir casos de sobre y sub-reporte de especies, lo que sería una clara manipulación de información, afectando los análisis de monitoreo y determinación de cuotas. Aranís *et al* (2017) mencionan puntualmente eventos de sub-reporte cuantificados en año 2006. 
-
-
-Respecto a las características importantes de las embarcaciones y que tienen relación  directa con los niveles de capturas de una embarcación en su faena de pesca, independiente de las cuotas que sean asignadas, son la capacidad de bodega y el tamaño de la red. En el caso de las embarcaciones artesanales, con eslora entre 6,0 y 18,0 m, las bodegas pueden fluctuar entre los 4 y 100 m3 (60 m3 en promedio). El 52% de las embarcaciones artesanales se encuentran próximas al tamaño legal de eslora (17 y 18 m) con alta capacidad de pesca lo que conlleva a problemas para la administración y control (Aranís *et al*. 2017). Cabe destacar especialmente, que en la Región del Bio-bio, pese a la regulación pesquera se produjo entre 2003 y 2009 un crecimiento del esfuerzo pesquero, agotamiento de cuotas y presión para que sean aumentadas, sub-reporte de las especies reguladas y sobre-reportes de las no reguladas, hechos que distorsionan las estadísticas y en consecuencia provocan riesgos de afectar la sustentabilidad de la pesquería (Aranís *et al*. 2017).
-
-
-
-Se detectó en las bases de datos de IFOP la ausencia de información de desembarques de una fracción de la flota cerquera artesanal (botes a remo, botes a motor y lanchas (< 15 m) que descarga recursos pelágicos en algunos períodos de operación. Los registros externos y declaraciones de Sernapesca no reflejan lo observado comunmente, respecto de las contribuciones de fauna acompañante, asumiendo subreportes de recursos regulados por cuotas de captura como son la sardina común y anchoveta, aspecto que distorciona los resultados del seguimiento y evaluación de estas pesquerías. Este contexto, en acuerdo con la Subsecretaría de Pesca y solicitado por el CCT-PP se recomendó un trabajo conjunto entre IFOP e INPESCA para complementar y corregir la información indicada.
-
-
-Para propósitos de la evaluación de stock, esta información será analizada en el transcurso de este proyecto, con el objeto definir la metodología a utilizar para la corrección de las capturas y de este modo disminuir la incertidumbre respecto al nivel real de captura de estos recursos. Al respecto, actualmente se están desarrollando reuniones de trabajo colaborativas entre los equipos técnicos de seguimiento y evaluación de stock de IFOP, INPESCA y SUBPESCA, para trabajar en una propuesta de desembarques corregidos para anchoveta y sardina común de la zona centro-sur. Adicionalmente, en **ANEXO II** de este informe se presenta una análisis de sensibilidad utilizando la serie de captura corregida del Proyecto CUI 2015-72-DAP-27, como análisis preliminar para evaluar el efecto en las tendencias poblacionales de anchoveta. Se utiliza las capturas corregidas por periodo y método en sardina común y anchoveta centro-sur. Desembarque oficial indica aquella serie de captura construida con información de SERNAPESCA descrita en este proyecto. "Prop. Encuesta" indica la proporción de corrección considerando descarte y sub-reportes solo con información desde encuestas. "Prop. Encuesta más Censura" indica la proporción resultante de combinar la información desde encuestas con el método estadístico de datos censurador. "Captura Cor." Indica la captura corregida usando las proporciones descritas. "CV" indica el coeficiente de variación de la estimación de captura corregida.
-
-
-
-
-## Tareas a desarrollar en el mediano plazo
-
-Lograr una corrección de capturas consensuada antes de la próxima evaluación de stock de sardina y anchoveta en fecha por definir.
-Compartir las series comunes finales con INPESCA, para aplicar en los análisis estandarizados de datos para las evaluaciones correspondientes.
-
-A la Fecha Se ha avanzado en presentar y discutir en Talleres de trabajo conjunto (IFOP-INPESCA) las metodologías aplicadas para correcciones de captura.
-
-- Corregir los desembarques de la flota artesanal que captura pequeños pelágicos (sardina común y anchoveta) en períodos acotados de operación y su fauna acompañante durante los años 2016 y 2020.
-
-Metodología 
-
-•	Identificar una metodología común para corregir las capturas y desembarques, la cual ha sido aplicada independientemente por ambas instituciones basadas en los muestreos de proporción de especies.
-•	Precisar los niveles frecuentes o normales de fauna acompañante de la pesquería pelágica centro-sur.
-•	Identificar los periodos de ausencia de información consistente de IFOP y comparar con las series de INPESCA para evaluar la factibilidad de integración de datos.
-•	Definir los espacios muestrales de período temporal, segmento de flota, regiones  y recursos a corregir (especie(s) objetivo, fauna acompañante).
-•	Completar series de información y realizar las eventuales correcciones de captura por recurso, período y región basado en los muestreos de proporción de especies. Aplicar una metodología común para la corrección de capturas.
-•	Evaluar la pertinencia de incorporar las correcciones a los estudios de Seguimiento y Evaluación ya sea directamente o como escenarios corregidos.
-
-
-Este trabajo se desarrollará sobre las bases de datos de bitácoras de pesca, estructuras de talla y proporción de especies de las instituciones involucradas.
-Esta actividad se realizará en conjunto entre las siguientes organizaciones:
-
-**SUBSECRETARÍA DE PESCA**
-**INPESCA**
-**IFOP (Estamentos DEP y DER)**
-
-
-
-
-
-```{=tex}
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.7\textwidth]{Figuras/Fig7_ANEXO_II-1.pdf}
-\caption{ }
-\label{Fig1c}
-\end{figure}
-```
-
-\pagebreak
-
-## Configuración de los escenarios de sensibilidad
-
+La \textbf{Tabla \ref{Tab8}} muestra los análisis de sensibilidad sobre ponderadores (CVs) y nuevos índices del crucero de huevos presentados en el Taller de datos y Modelos de la cuarta sesión del CCT-PP (2 de julio 2021) con el propósito de discutir sobre las aproximaciones metodológicas que serán exploradas en el transcurso de la asesoría científica. Estos escenarios, junto a los nuevos casos propuestos en este anexo, serán evaluados en términos de desempeño por medio de perfiles de verosimilitud, análisis retrospectivos y análisis de residuos. La \textbf{Figura \ref{Fig3a}} muestra un ejemplo de perfiles de verosimilitud para anchoveta y sardina común, que serán utilizados como base para el contraste/comparación con los análisis realizados.
+\vspace{0.5cm}
 \small
 
 +------------+------------------------------------------------------------------------------------------+
@@ -468,7 +435,7 @@ Esta actividad se realizará en conjunto entre las siguientes organizaciones:
 +------------+------------------------------------------------------------------------------------------+
 | S7         | índice MPDH actualizado, CV mpdh 0,3, CV crucero otoño a 0,30 y CV crucero verano 0.30   |
 +------------+------------------------------------------------------------------------------------------+
-| S8         | índice MPDH actualizado, CV mpdh 0,3, CV crucero otoño a 0,25 y CV crucero verano 0.15   |
+| S8         | índice MPDH actualizado, CV mpdh 0,3, CV crucero otoño a 0,25 y CV crucero verano 0,15   |
 +------------+------------------------------------------------------------------------------------------+
 | S9         | CV de crucero mpdh = 0,3, CV pelaces = 0,25, CV reclas = 0,15, cambia índice de mpdh Nº1 |
 +------------+------------------------------------------------------------------------------------------+
@@ -478,33 +445,165 @@ Esta actividad se realizará en conjunto entre las siguientes organizaciones:
 +------------+------------------------------------------------------------------------------------------+
 | S12        | CV de crucero mpdh = 0,3, CV pelaces = 0,25, CV reclas = 0,15, cambia índice de mpdh Nº4 |
 +------------+------------------------------------------------------------------------------------------+
-|            |                                                                                          |
+| ...        |                                                                                          |
 +------------+------------------------------------------------------------------------------------------+
 
-: Escenarios de sensibilidad respecto a coeficientes de variación (CV) de cruceros acústicos y MPDH
+: \label{Tab8} Escenarios de sensibilidad utilizados para resumir los análisis sobre el impacto de cambios en la ponderación (CVs) de índices de crucero, actualización de biomasa desovante estimada por el MPDH e inclusión de nuevos índices de densidad de huevos. 
+
+\normalsize
 
 
 
-
-+------------+------------------------------------------------------------------------------+
-| índice     | Descripción                                                                  |
-+============+==============================================================================+
-| índice Nº1 | índice de densidad de huevos estandarizado obtenido con MLG                  |
-+------------+------------------------------------------------------------------------------+
-| índice Nº2 | índice obtenido mediante la multiplicación de la densidad de huevos (h/m2) y |
-|            |                                                                              |
-|            | la duración del período de desove                                            |
-+------------+------------------------------------------------------------------------------+
-| índice Nº3 | índice obtenido mediante la multiplicación de la densidad de huevos (h/m2) y |
-|            |                                                                              |
-|            | el área de desove                                                            |
-+------------+------------------------------------------------------------------------------+
-| índice Nº4 | índice obtenido mediante la multiplicación de la densidad de huevos (h/m2),  |
-|            |                                                                              |
-|            | el área de desove y la duración del período de desove                        |
-+------------+------------------------------------------------------------------------------+
+```{=tex}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.45\textwidth]{Figuras/F34_verosimilitud_marzAnch-ANEXOII.pdf}
+\includegraphics[width=0.45\textwidth]{Figuras/F34_verosimilitud_marz-1Sard_ANEXOII.pdf}
+\caption{Perfiles de verosimilitud para anchoveta (panel izquierdo) y sardina común (panel derecho) que serán utilizados como base para el contraste/comparación de hipótesis respecto de la ponderación de índices de crucero e incorporación de nuevos índices, entre otros.}
+\label{Fig3a}
+\end{figure}
+```
 
 
 \pagebreak
+
+Las \textbf{Figuras \ref{Fig5a}} y \textbf{\ref{Fig6a}} muestran que los análisis preliminares del impacto de los diferentes escenarios de sensibilidad no conducen a concluir que el nuevo proceso de ponderación y/o la incorporación de nuevos índices de abundancia generarán desviaciones importantes en la actuales magnitudes y tendencias de las variables de estado.
+
+\vspace{0.3cm}
+
+```{=tex}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\textwidth]{Figuras/Fig2_ANEXO_II-1.pdf}
+\caption{Tendencias y magnitud de las principales variables de estado para \textbf{anchoveta centro-sur} frente a la evaluación de los diferentes escenarios de sensibilidad indicados en la \textbf{Tabla \ref{Tab8}} }
+\label{Fig5a}
+\end{figure}
+```
+
+
+\pagebreak 
+
+```{=tex}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\textwidth]{Figuras/Fig3_ANEXO_II-1.pdf}
+\caption{Tendencias y magnitud de las principales variables de estado para \textbf{sardina común centro-sur} frente a la evaluación de los diferentes escenarios de sensibilidad indicados en la \textbf{Tabla \ref{Tab8}}}
+\label{Fig6a}
+\end{figure}
+```
+
+\pagebreak 
+
+## 2.5. Sobre la Corrección de los desembarques oficiales registrados por Sernapesca
+
+Los desembarques oficiales registrados por Sernapesca corresponden a la extracción registrada en puerto, independiente de la zona de procedencia. Tiene valor en definir la importancia relativa de los distintos puertos de descarga, por lo tanto, es de mayor interés administrativo y/o comercial de la actividad. Su propósito es cuantificar los volúmenes, totales y por especie, que efectivamente se reciben en la descarga o desembarque. Las estadísticas oficiales de los desembarques son sistematizadas por el Servicio Nacional de Pesca, sobre una base mensual, por tipo de flota, puerto de desembarque y especie objetivo. Cabe señalar que en la pesquería pelágica, el concepto de captura es igual al del desembarque más descarte. Para efecto de la evaluación se utiliza la totalidad del desembarque por especie que ocurre en la unidad de pesquería, comenzando la serie desde el año 1990 hasta 2021. La evaluación de stock es realizada en base al año biológico (de julio a junio de cada año), y la serie de desembarques anuales es convertida a temporada de pesca considerando la estacionalidad de la pesquería y la serie oficial corregida entre el 1998-2001 de desembarques anuales.
+
+Existen algunos antecedentes que señalan que los desembarques del primer semestre de los años 1999 y 2000 resultan ser muy altos para lo que en ese entonces se supone era la población de anchoveta y sardina común. Arcos *et al* (2004) postularon que las condiciones ambientales pre y durante "El Niño", produjeron una alteración en la distribución espacial de jurel, "atrapando" a los juveniles de la especie en la zona centro-sur, generando la distorsión de los desembarques en los pequeños pelágicos, impulsado por evadir multas y declarar menos jurel (Aranís 2011). Basados en estos antecedentes, las series de desembarques anuales oficiales fueron corregidos por investigadores de IFOP. Se realizó un análisis preliminar utilizando la base de información de "Muestreo de Proporción de especies" de IFOP, para comparar los datos de composición de especies desembarcadas, la cual consiste en la selección de una muestra de la captura de un contenedor (caja o balde), llenado en distintos momentos del proceso de vaciado de la captura y luego se pesa y cuenta la fauna diferenciada por especie. Posteriormente, se determina la intencionalidad del viaje de pesca, basada en las proporciones de captura, tomando el criterio de especie objetivo a la que representaba más del 50% en peso de la muestra de proporción. En el caso de existir más de dos especies, se considera como objetivo la de mayor contribución, siendo clasificadas las restantes como fauna acompañante. Finalmente, se obtiene la composición original para jurel, sardina y anchoveta registrada de los desembarques, contrastado con las proporciones re-estimadas obtenidas de los muestreos pelágicos que se practicaron en ese período (1998-2001) (\textbf{Figuras \ref{Fig3}} y \textbf{\ref{Fig4}}). 
+
+
+```{=tex}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.6\textwidth]{Figuras/Fig3-1_anchoveta_ANEXO_II.pdf}
+\caption{Desembarques oficiales de Sernapesca  y corregidos por IFOP en el período 1998 - 2001 de anchoveta centro-sur.}
+\label{Fig3}
+\end{figure}
+```
+
+\pagebreak
+
+```{=tex}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.6\textwidth]{Figuras/Fig2-1_sardina_ANEXO_II.pdf}
+\caption{Desembarques oficiales de Sernapesca  y corregidos por IFOP en el período 1998 - 2001 de sardina común centro-sur.}
+\label{Fig4}
+\end{figure}
+```
+
+
+Los eventos de sub-reporte y sobre-reporte son eventos muy probables en esta pesquería, por la presencia en las capturas de sardina común y anchoveta en las regiones de Valparaíso a Los Lagos de mote o bacaladillo, machuelo o trite, o el pampanito, las cuales no están reguladas (Aranís *et al*. 2018). Particularmente, en el caso de la extracción del mote, los registros de desembarques artesanales de Sernapesca señalan que se producen principalmente en la Región del Bio-bio junto a los recursos anchoveta y sardina común. En este sentido, el muestreo de la composición de especies de las capturas a bordo tiene relevancia para poder identificar las especies reales presentes. De lo contrario, podría ocurrir casos de sobre y sub-reporte de especies, lo que sería una clara manipulación de información, afectando los análisis de monitoreo y determinación de cuotas. Aranís *et al* (2018) mencionan puntualmente eventos de sub-reporte cuantificados en año 2006. 
+
+Otra de las problemáticas identificadas en esta pesquería que tienen relación  directa con los niveles de capturas de una embarcación en su faena de pesca, independiente de las cuotas que sean asignadas, son la capacidad de bodega y el tamaño de la red. En el caso de las embarcaciones artesanales, con eslora entre 6,0 y 18,0 m, las bodegas pueden fluctuar entre los 4 y 100 m3 (60 m3 en promedio). El 52% de las embarcaciones artesanales se encuentran próximas al tamaño legal de eslora (17 y 18 m) con alta capacidad de pesca lo que conlleva a problemas para la administración y control (Aranís *et al*. 2018). Cabe destacar especialmente, que en la Región del Bio-bio, pese a la regulación pesquera se produjo entre 2003 y 2009 un crecimiento del esfuerzo pesquero, agotamiento de cuotas y presión para que sean aumentadas, sub-reporte de las especies reguladas y sobre-reportes de las no reguladas, hechos que distorsionan las estadísticas y en consecuencia provocan riesgos de afectar la sustentabilidad de la pesquería (Aranís *et al*. 2018).
+
+El año 2016 la Pontificia Universidad Católica de Chile desarrolló un proyecto orientado a la corrección de las capturas totales históricas de la pesquería de sardina común y anchoveta V-X Regiones (Wiff *et al*. 2017, Proyecto CUI 2015-72-DAP-27). En este trabajo se identificó una etapa de explotación intensa  entre los años 1989-2013, donde se observan importantes cambios de fases respecto de las capturas entre especies (55% sardina y 45% de anchoveta para el período) y altos niveles de desembarque. Durante este período, el manejo de la pesquería tuvo relevancia en términos de los forzantes que modularon los descartes y sobre/sub-reportes. Se determinaron 6 periodos entre 1990 y 2015 de distinta longitud, donde las proporciones de corrección de mantienen constantes.  Esta información es usada para la construcción de encuestas que fueron aplicadas a 88 usuarios de la pesquería, considerando al sector de extracción como también a los administrativos y científicos y posteriormente, se aplicó un El modelo estadístico para datos censurados. De este modo, el proyecto propone dos series de capturas corregidas para ambas pesquerías, una serie proveniente completamente de las encuestas y otra que pondera a las encuestas con información de censuras. Estas series serán utilizadas para evaluar la sensibilidad del modelo ante 4 escenarios alternativos de capturas de anchoveta y sardina común (\textbf{Figuras \ref{Fig5}} y \textbf{\ref{Fig6}}). Los escenarios serán los siguientes:  caso 1 = desembarques oficiales, caso 2 = desembarques corregidos período 1998-2001 por IFOP, caso 3 = desembarques corregidos con datos de encuentas y caso 4 = desembarques corregidos con datos de encuentas + censura.
+
+
+```{=tex}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.6\textwidth]{Figuras/Fig7_ANEXO_II-1.pdf}
+\caption{Desembarques oficiales de Sernapesca, capturas corregidas por IFOP (1998-2001), capturas corregidas usando encuestas o el procedimiento conjunto de encuestas y estadísticas de censuras. \textbf{anchoveta centro-sur}.}
+\label{Fig5}
+\end{figure}
+```
+
+
+
+```{=tex}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.6\textwidth]{Figuras/Fig5_ANEXO_II-1.pdf}
+\caption{Desembarques oficiales de Sernapesca, capturas corregidas por IFOP (1998-2001), capturas corregidas usando encuestas o el procedimiento conjunto de encuestas y estadísticas de censuras. \textbf{sardina común centro-sur}. }
+\label{Fig6}
+\end{figure}
+```
+
+\pagebreak
+
+No obstante, las series de capturas corregidas usando datos de encuentas y estadísticas de censuras sólo consideran información hasta el año 2015. Actualmente, existen antecedentes que podrían indicar posible subreportes durante el 2016 y 2020. Específicamente, durante los años 2019 y 2020, se detectó en las bases de datos de IFOP la ausencia de información de desembarques de una fracción de la flota cerquera artesanal (botes a remo, botes a motor y lanchas (< 15 m) que descarga recursos pelágicos en algunos períodos de operación. Los registros externos y declaraciones de Sernapesca no reflejan lo observado comunmente, respecto de las contribuciones de fauna acompañante, asumiendo subreportes de recursos regulados por cuotas de captura como son la sardina común y anchoveta, aspecto que distorciona los resultados del seguimiento y evaluación de estas pesquerías. Este contexto, en acuerdo con la Subsecretaría de Pesca y solicitado por el CCT-PP se recomendó un trabajo conjunto entre IFOP e INPESCA para complementar y corregir la información indicada.
+
+Al respecto, actualmente se están desarrollando reuniones de trabajo colaborativas entre los equipos técnicos de seguimiento y evaluación de stock de IFOP, INPESCA y SUBPESCA, para trabajar en una propuesta de desembarques corregidos para anchoveta y sardina común de la zona centro-sur, que permita contrastar el desembarque oficial reportado al Sernapesca durante los últimos años. Este trabajo se desarrollará sobre las bases de datos de bitácoras de pesca, estructuras de talla y proporción de especies de las instituciones involucradas.
+
+Las tareas a desarrollar en el mediano plazo son las siguientes:
+
+- Identificar una metodología común para corregir las capturas y desembarques, la cual ha sido aplicada independientemente por ambas instituciones basadas en los muestreos de proporción de especies.
+- Precisar los niveles frecuentes o normales de fauna acompañante de la pesquería pelágica centro-sur.
+- Identificar los periodos de ausencia de información consistente de IFOP y comparar con las series de INPESCA para evaluar la factibilidad de integración de datos.
+- Definir los espacios muestrales de período temporal, segmento de flota, regiones  y recursos a corregir (especie(s) objetivo, fauna acompañante).
+- Completar series de información y realizar las eventuales correcciones de captura por recurso, período y región basado en los muestreos de proporción de especies. Aplicar una metodología común para la corrección de capturas.
+- Evaluar la pertinencia de incorporar las correcciones a los estudios de Seguimiento y Evaluación ya sea directamente o como escenarios corregidos.
+
+
+
+\pagebreak
+
+\normalsize
+
+# 3. Referencias bibliográficas
+
+Aranis A, L Caballero, A Gómez, M González, F Cerna, V Bocic, A López, C Machuca & C Vera. 2011. Informe de Avance. Asesoría integral para la toma de decisiones en pesca y acuicultura, 2011. Actividad 1: Recursos Pelágicos: Pesquería Pelágica Zona Centro-Sur, 2011. IFOP/SUBPESCA. 69 p + Anexos.
+
+\vspace{0.3cm}
+
+Aranis A, A Gómez, K Walker, G Muñoz, L, Caballero, G Eisele, F Cerna, C Valero, A Lopez, C Machuca, L Muñoz, M Ramirez, M Troncoso, M Albornoz, J Bonicelli, U Cifuentes. 2018. Informe pre-final. Programa de Seguimiento de las Principales Pesquerías Pelágicas de la zona centro-sur de Chile, V-XI Regiones, año 2017. Subsecretaría de Economía y EMT, Instituto Fomento Pesquero (IFOP), Valparaíso, Chile. 315 p+Anexos.
+
+\vspace{0.3cm}
+
+Arcos D, L Cubillos & S Núñez. 2004. Efectos de El Niño 1997-98 sobre las principales pesquerías pelágicas de la zona centro-sur de Chile. En: El Niño-La Niña 1997-2000 Sus efectos en Chile. CONA (eds), Chile. (2004) 153-166.
+
+\vspace{0.3cm}
+
+Canales C, MJ Zúñiga & F Cerna. 2012. Estatus y Posibilidades de Explotación Biológicamente Sustentables de los Principales Recursos Pesqueros Nacionales, año 2013., Sardina Común V-X Regiones, 2013. Segundo Informe, Instituto Fomento Pesquero (IFOP), Valparaíso, Chile. 92 pp.+ anexos.
+
+\vspace{0.3cm}
+
+Claramunt G, L Cubillos, L Castro, C Hernández & M Arteaga. 2014. Variation in the spawning periods of Engraulis ringens and Strangomera bentincki off the coasts of Chile: A quantitative analysis. Fish. Res.160, 96-102
+
+\vspace{0.3cm}
+
+Cubillos L, L Castro, G Claramunt &  S Soto. 2017. Informe Final. Evaluación de stock desovante de anchoveta y sardina común entre la V y X Regiones, año 2016. Subsecretaria de Economía y EM. Instituto Fomento Pesquero (IFOP), Valparaíso, Chile. 168 p + Anexos.
+
+\vspace{0.3cm}
+
+Grendi C, L Cubillos, L Castro, S Soto, G Claramunt et al., 2020. Evaluación del stock desovante de anchoveta y sardina común entre la Región de Valparaíso y la Región de Los Lagos, año 2019. Convenio de Desempeño 2019, Instituto de Fomento Pesquero, Valparaíso. 197 p + Anexos.
+
+\vspace{0.3cm}
+
+Wiff R,  M Lima, S Gelcich, M Canales, D Queirolo, M Ahumada, F López, S Gacitúa, A Flores & L Serramalera. 2017. Metodología para la estimación de las capturas totales anuales históricas. Caso de estudio: Pesquería de sardina común y anchoveta V-X Región. Informe Final. CAPES-UC- Subsecretaría de Pesca y Acuicultura (SSPA). Proyecto CUI 2015-72-DAP-27. 225 pp.
+
+\vspace{0.3cm}
+
+Zúñiga MJ & CR Canales. 2014. INFORME DE ESTATUS Y CUOTA. Estatus y posibilidades de explotación biológicamente sustentables de los principales recursos pesqueros nacionales al año 2015 en anchoveta V-X Regiones. Anchoveta V-X Regiones, 2015. Subsecretaria de Economía y EM. Instituto Fomento Pesquero (IFOP), Valparaíso, Chile. 87 p + Anexos.
 
 
