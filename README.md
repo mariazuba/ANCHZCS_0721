@@ -6,12 +6,18 @@
 ### 1. Archivos
 
 + INFORMEFINAL_ANCH_julio2021.Rmd y pdf = corresponde al informe final que debe ser enviado a SUBDECON
+
 + FigyTab_InformeFinal_Anch.Rmd y pdf = genera las figuras y tablas que serán incorporadas en "INFORMEFINAL_ANCH_julio2021"
+
 + DatosEntrada.dat = contiene los datos utilizados en las figuras de sección de antecedentes y metodología del "INFORMEFINAL_ANCH_julio2021"
+
 + ANEXO_I_AnalisisUpdate.Rmd y pdf = Anexo I que contiene el análisis de sensibilidad de la actualización de datos de la asesoría de julio 2021.
+
 + FigyTab_ANEXO_I_AnalisisUpdate.Rmd y pdf = genera las figuras y tablas que serán incorporadas en "ANEXO_I_AnalisisUpdate".
+
 + AnalisisSensibilidad.Rmd y pdf = contiene los análisis presentados en la 4ta sesión del CCT-PP de julio 2021 y los cuales serán incorporados en ANEXO II de este informe.
-+ PORTADA.tex y pdf = genera la portada inicial del informe "INFORMEFINAL_ANCH_julio2021"
+
++ FigyTab_paraF55_Anch.Rmd y pdf = genera las figuras y tablas para *escenario alternativo de PBRs BD50 y F55%
 
 ### 2. Carpetas
 
@@ -46,7 +52,7 @@
 + MAE0721b (asesoría julio 2021)
 + MAE0321b (asesoría marzo 2021)
 + MAE0920b (asesoría septiembre 2020)
-
++ MAE0721b55 *escenario alternativo de PBRs BD50 y F55%
 #### Retrospectivos, Verosimilitud, CBA y proyección
 
 + Retrospectivo_jul (MAE0721b)
@@ -66,6 +72,8 @@
 + CBA_marzo (MAE0321b)
 
 + CBA_sept (MAE0920b)
+
++ CBA_julio55 (MAE0721b55) *escenario alternativo de PBRs BD50 y F55%
 
 #### Datos_2020_2021
 
@@ -106,8 +114,8 @@ Tamaño de muestra
 
 Esta carpeta contiene los archivos .dat y .rep necesarios para generar las figuras y tablas que van contenidas en:
 
-+ "ANEXO_II_AnalisisSensibilidad.Rmd" y
-+ "FigyTab_ANEXO_II_AnalisisSensibilidad.Rmd"
++ "ANEXO_II_AnalisisSensibilidad_CVsyMPDHyCapt.Rmd" 
+
 
 #### 3.3. Procedimiento Transitorio de incorporación del descarte (ANEXO III)
 
@@ -115,6 +123,19 @@ Análisis realizado para Documento técnico de abril 2021.
 
 + "ANEXO_III_ProcedimientoDescarte.Rmd"
 
-### 4. SUBDECON_483-258
+### 4. PORTADAS
 
-Contiene PORTADA_INICIAL, "INFORMEFINAL_ANCH_julio2021" , ANEXOS, PORTADA_FINAL, base de datos en zip, Formulario FAI_TERCERINFORME_ANCHOVETA
+- PORTADA_INICIAL.tex y pdf
+- PORTADA_ANEXO_I.tex y pdf
+- PORTADA_ANEXO_II.tex y pdf
+- PORTADA_ANEXO_III.tex y pdf
+- PORTADA_FINAL.tex y pdf
+
+### 5. SUBDECON_julio2021
+
+- BASEDATOS_ANCH_JULIO2021.zip
+- FORMULARIO FAI_TERCERINFORME_ANCHOVETA.docx
+- TERCERINFORMECONSOLIDADO_ANCHOVETACENTROSUR_JULIO2021.pdf
+
+
+
