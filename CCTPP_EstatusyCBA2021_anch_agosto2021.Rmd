@@ -14,7 +14,7 @@ institute: INSTITUTO DE FOMENTO PESQUERO
 
 ```{=tex}
 \begin{center}
-\includegraphics[width=0.9\textwidth]{Figuras/Fig14.png}
+\includegraphics[width=0.9\textwidth]{Figuras/Fig11.png}
 \end{center}
 ```
 # Datos de entrada de anchoveta centro-sur
@@ -23,23 +23,13 @@ Datos actualizados
 
 -   Biomasa del crucero de verano 2021
 -   Composición de edad del crucero de verano 2021
--   Captura 2020/21 = desembarque julio-diciembre 2020 + 70%CBAinicial2021
+-   Captura 2020/21
 -   Porcentaje de descarte 2020/21 = 4%
--   Composición de edad de la Flota 2020/2021 = NA
--   Pesos medios a la edad Flota 2020/2021 = promedio últimos 5  años
--   Biomasa del crucero de otoño 2021 = NA
--   Composición de edad del crucero de otoño 2021 = NA
+-   Composición de edad de la Flota 2020/2021
+-   Pesos medios a la edad Flota 2020/2021 
+-   Biomasa del crucero de otoño 2021
+-   Composición de edad del crucero de otoño 2021
 
-# Cálculo de Captura 2020/2021 de anchoveta centro-sur
--   Desembarque 2do semestre 2020 = 69.841 toneladas
-
--   Captura 2021 = 0,7xCBAinicial = 140.986 toneladas
-
--   Captura 2020/21 sin incorporar el descarte = 210.827 toneladas
-
--   \% de descarte 2020/21 = 4% =  8.433  toneladas
-
--   Captura 2020/21 + 4%descarte 2020/21 = 219.260 toneladas
 
 
 # Ajustes del modelo a los datos - anchoveta centro-sur
@@ -81,7 +71,7 @@ Datos actualizados
 
 ```{=tex}
 \begin{center}
-\includegraphics[width=0.9\textwidth]{Figuras/Fig35-1.pdf}
+\includegraphics[width=0.9\textwidth]{Figuras/Fig30-1.pdf}
 \end{center}
 ```
 
@@ -89,7 +79,7 @@ Datos actualizados
 
 ```{=tex}
 \begin{center}
-\includegraphics[width=0.9\textwidth]{Figuras/Fig39-1.pdf}
+\includegraphics[width=0.9\textwidth]{Figuras/Fig34-1.pdf}
 \end{center}
 ```
 
@@ -99,9 +89,9 @@ Datos actualizados
 ```{=tex}
 \begin{figure}
 \centering
-\includegraphics[width=0.4\textwidth]{Figuras/Fig40-1.pdf}
-\includegraphics[width=0.4\textwidth]{Figuras/Fig41-1.pdf}
-\includegraphics[width=0.8\textwidth]{Figuras/Fig41b-1.pdf}
+\includegraphics[width=0.4\textwidth]{Figuras/Fig35a-1.pdf}
+\includegraphics[width=0.4\textwidth]{Figuras/Fig35b-1.pdf}
+\includegraphics[width=0.8\textwidth]{Figuras/Fig35c-1.pdf}
 \end{figure}
 ```
 
@@ -112,9 +102,9 @@ Datos actualizados
 
 \begin{columns}
 \column{0.5\textwidth}
-\begin{center} \includegraphics[width=0.9\textwidth]{Figuras/Fig45a_sept-1.pdf}\end{center}
+\begin{center} \includegraphics[width=0.9\textwidth]{Figuras/Fig46-1.pdf}\end{center}
 \column{0.5\textwidth}
-\begin{center} \includegraphics[width=0.9\textwidth]{Figuras/Fig46a_marzo-1.pdf}\end{center}
+\begin{center} \includegraphics[width=0.9\textwidth]{Figuras/Fig49-1.pdf}\end{center}
 \end{columns}
 
 \footnotesize
@@ -142,44 +132,12 @@ Datos actualizados
     \end{tabular}}
     \end{table}
 ```
-# Supuestos de proyección de anchoveta centro-sur
 
-```{=tex}
-\small
-Se proyecta dos años biológicos hacia el futuro bajo los siguientes supuestos:
-
--   Escenarios de Reclutamiento promedio:
-
-    * Promedio período favorable: años 2008-2012
-    
-    * Promedio período reciente: años 2013-2021
-    
-    * Promedio período desfavorable: años 1991-2007
-
--   Pesos medios igual al promedio de los últimos 5 años
-
--   Mortalidad por pesca igual a $F_{RMS}$
-
--   Proporción semestral de captura 70\% primer semestre y 30\% segundo semestre
-
--   supuesto de descarte 4%
-```
-# Proporción semestral de las capturas de anchoveta centro-sur
-
-```{=tex}
-$CBA_{2021} = 70\%CBA_{2020/21} + 30\%CBA_{2021/22}$
-
-\begin{center}
-
-\includegraphics[width=0.7\textwidth]{Figuras/Fig17.png}
-
-\end{center}
-```
 # Reclutamientos promedios proyectados - anchoveta centro-sur
 
 ```{=tex}
 \begin{center}
-\includegraphics[width=0.9\textwidth]{Figuras/Fig15-1.pdf}
+\includegraphics[width=0.9\textwidth]{Figuras/Fig38-1.pdf}
 \end{center}
 ```
 
@@ -257,26 +215,6 @@ diferencia = 1-(1erarevisiónCBA/CBAinicial)*100
 +---------------------+-------------------------+-------------------------+-------------------------+
 | 50%                 | 11                      |-29                      | -5                      |
 +---------------------+-------------------------+-------------------------+-------------------------+
-
-
-
-```{r CCTPP_relacionRt_BDt, echo=F,include=T, message=F,warning=F,eval=F, echo=FALSE,fig.height=4,fig.width=6,fig.align="center",fig.path="FigurasInforme_Marzo/", dev=c('pdf', 'bmp')}
-
-years<-seq(1991,2020,1)
-Rt1<-c(169.6,93.8,94.4,142.4,115.5,212.6,83.3,35.4,34.8,47.2,88.2,126.9,105.99,73.7,67.5,364.3,72.3,586.5,332.6,275.0,364.2,495.6,97.4,289.2,243.2,107.5,244.4,270.1,75.6,58.1)
-BDt1<-c(1344,645,358,390,470,649,348,315,199,124,255,272,221,133,168,621,547,1264,894,975,1189,1117,884,1284,1048,852,935,1331,849,NA)
-
-par(mar=c(2,4,1,4)+.1)
-plot(years,BDt1,type="l",ylab="",xlab="")
-points(2020,440,pch=19,col=1)
-mtext("Biomasa desovante",side=2,line=3)
-par(new=TRUE)
-plot(years,Rt1,type="l",col=2,ylab="",axes=F,xlab="")
-axis(4)
-mtext("Reclutamientos",side=4,line=3)
-legend(1991,600,c("Reclutamientos","Biomasa desovante"),lty=1,col=c(2,1),bty="n")
-```
-
 
 
 # CBAs  por hito de revisión de anchoveta centro-sur
@@ -446,16 +384,9 @@ f1
 
 ```{=tex}
 \begin{center}
-\includegraphics[width=0.7\textwidth]{Figuras/Fig33-1.pdf}
+\includegraphics[width=0.7\textwidth]{Figuras/Fig28-1.pdf}
 \end{center}
 ```
 
 
-# Comparación con asesorías previas de anchoveta centro-sur
-
-```{=tex}
-\begin{center}
-\includegraphics[width=0.7\textwidth]{Figuras/Fig32-1.pdf}
-\end{center}
-```
 
