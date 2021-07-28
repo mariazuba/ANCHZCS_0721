@@ -301,7 +301,7 @@ PARAMETER_SECTION
   vector Frms_p0(1,nedades);
   vector Zrms_p0(1,nedades);
   vector CTP_p0(1,nedades);
-  vector YTP_p0W(1,nedades);
+  matrix YTP_p0W(1,nproy,1,nedades);
   vector YTP_p0(1,nproy);
   sdreport_vector BD_p0(1,nproy);
   sdreport_vector RPR_p0(1,nproy);
@@ -854,7 +854,7 @@ FUNCTION  Eval_CTP
    Zrms_p0 = Frms_p0+M;
   
    CTP_p0    = elem_prod(elem_div(Frms_p0,Zrms_p0),elem_prod(1.-exp(-1.*Zrms_p0),Npp)); 
-   YTP_p0W   = elem_prod(CTP_p0,Wmedp); 
+   YTP_p0W(j) = elem_prod(CTP_p0,Wmedp); 
    YTP_p0(j) = sum(elem_prod(CTP_p0,Wmedp)); 
    BD_p0(j)  = sum(elem_prod(elem_prod(elem_prod(Npp,mfexp(-dt(3)*Zrms_p0)),msex),Winp)); 
    RPR_p0(j) = BD_p0(j)/Brms(1);

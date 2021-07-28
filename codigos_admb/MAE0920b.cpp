@@ -558,7 +558,7 @@ model_parameters::model_parameters(int sz,int argc,char * argv[]) :
   #ifndef NO_AD_INITIALIZE
     CTP_p0.initialize();
   #endif
-  YTP_p0W.allocate(1,nedades,"YTP_p0W");
+  YTP_p0W.allocate(1,nproy,1,nedades,"YTP_p0W");
   #ifndef NO_AD_INITIALIZE
     YTP_p0W.initialize();
   #endif
@@ -1048,7 +1048,7 @@ void model_parameters::Eval_CTP(void)
    Frms_p0 = Sel_f(nanos)*Fref_p0;
    Zrms_p0 = Frms_p0+M;
    CTP_p0    = elem_prod(elem_div(Frms_p0,Zrms_p0),elem_prod(1.-exp(-1.*Zrms_p0),Npp)); 
-   YTP_p0W   = elem_prod(CTP_p0,Wmedp); 
+   YTP_p0W(j) = elem_prod(CTP_p0,Wmedp); 
    YTP_p0(j) = sum(elem_prod(CTP_p0,Wmedp)); 
    BD_p0(j)  = sum(elem_prod(elem_prod(elem_prod(Npp,mfexp(-dt(3)*Zrms_p0)),msex),Winp)); 
    RPR_p0(j) = BD_p0(j)/Brms(1);
