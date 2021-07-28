@@ -554,11 +554,11 @@ model_parameters::model_parameters(int sz,int argc,char * argv[]) :
   #ifndef NO_AD_INITIALIZE
     Zrms_p0.initialize();
   #endif
-  CTP_p0.allocate(1,nedades,"CTP_p0");
+  CTP_p0.allocate(1,nproy,1,nedades,"CTP_p0");
   #ifndef NO_AD_INITIALIZE
     CTP_p0.initialize();
   #endif
-  YTP_p0W.allocate(1,nedades,"YTP_p0W");
+  YTP_p0W.allocate(1,nproy,1,nedades,"YTP_p0W");
   #ifndef NO_AD_INITIALIZE
     YTP_p0W.initialize();
   #endif
@@ -1021,12 +1021,12 @@ void model_parameters::Eval_CTP(void)
   //************************************************************************************************
   // Estimaci?n de CBA A?O BIOL?GICO sin proyectar//revisar ?ltimo a?o!!!
     Fref_r0 = exp(log_Ft(nanos)); //log_Fref(1);//aqu? deber?a ir F del ?ltimo a?o
-	Frms_r0 = Sel_f(nanos)*Fref_r0;
+  	Frms_r0 = Sel_f(nanos)*Fref_r0;
     Zrms_r0 = Frms_r0+M;
     CTP_r0  = elem_prod(elem_div(Frms_r0,Zrms_r0),elem_prod(1.-exp(-1.*Zrms_r0),N(nanos)));
     YTP_r0W  = elem_prod(CTP_r0,Wmed(nanos));  
     YTP_r0  = sum(elem_prod(CTP_r0,Wmed(nanos)));      
-	NMD_r0  = elem_prod(elem_prod(N(nanos),mfexp(-dt(3)*Zrms_r0)),msex);
+  	NMD_r0  = elem_prod(elem_prod(N(nanos),mfexp(-dt(3)*Zrms_r0)),msex);
     BD_r0   = sum(elem_prod(NMD_r0,Win(nanos)));	
     RPR_r0  = BD_r0/Brms(1);
   if(opt_Ro<0){ log_Ro=log_priorRo; }//Esto corre cuando se hace perfil de verosimilitud
@@ -1047,9 +1047,9 @@ void model_parameters::Eval_CTP(void)
    Fref_p0 = mF*log_Fref(1);
    Frms_p0 = Sel_f(nanos)*Fref_p0;
    Zrms_p0 = Frms_p0+M;
-   CTP_p0    = elem_prod(elem_div(Frms_p0,Zrms_p0),elem_prod(1.-exp(-1.*Zrms_p0),Npp));
-   YTP_p0W   = elem_prod(CTP_p0,Wmedp);
-   YTP_p0(j) = sum(elem_prod(CTP_p0,Wmedp)); 
+   CTP_p0(j)    = elem_prod(elem_div(Frms_p0,Zrms_p0),elem_prod(1.-exp(-1.*Zrms_p0),Npp));
+   YTP_p0W(j)   = elem_prod(CTP_p0(j),Wmedp);
+   YTP_p0(j) = sum(elem_prod(CTP_p0(j),Wmedp)); 
    BD_p0(j)  = sum(elem_prod(elem_prod(elem_prod(Npp,mfexp(-dt(3)*Zrms_p0)),msex),Winp)); 
    RPR_p0(j) = BD_p0(j)/Brms(1);
    //Nap(j)   = Npp;    
@@ -1163,6 +1163,12 @@ void model_parameters::report(const dvector& gradients)
   report << YTP_r0W << endl;
   report << "YTP_p0W_proyectada" << endl;
   report << YTP_p0W << endl;
+  report << "CTP_r0_actual" << endl;
+  report << CTP_r0 << endl;
+  report << "CTP_p0_proyectada" << endl;
+  report << CTP_p0 << endl;
+  report << "Wmedp" << endl;
+  report << Wmedp << endl;
  suma1=0; suma2=0;nm1=1;cuenta1=0;cuenta2=0;
   for (int i=1;i<=nanos;i++){ //
    if (sum(pobs_f(i))>0){

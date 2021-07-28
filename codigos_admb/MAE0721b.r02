@@ -420,6 +420,12 @@ YTP_r0W_actual
  26029.8 98779.2 54941.9 18877.6 10867.5
 YTP_p0W_proyectada
  92552.8 171262 251310 119952 52335.1
+CTP_r0_actual
+ 2303.52 4890.06 1778.06 480.345 268.997
+CTP_p0_proyectada
+ 10888.6 8116.66 8185.99 2976.48 1137.72
+Wmedp
+ 8.5 21.1 30.7 40.3 46
 nmprior
  10.6 11 7 0
 nm_flota  nm_reclas  nm_pelaces    nm_pelaL

@@ -300,7 +300,7 @@ PARAMETER_SECTION
   number Fref_p0
   vector Frms_p0(1,nedades);
   vector Zrms_p0(1,nedades);
-  vector CTP_p0(1,nedades);
+  matrix CTP_p0(1,nproy,1,nedades);
   matrix YTP_p0W(1,nproy,1,nedades);
   vector YTP_p0(1,nproy);
   sdreport_vector BD_p0(1,nproy);
@@ -853,9 +853,9 @@ FUNCTION  Eval_CTP
    Frms_p0 = Sel_f(nanos)*Fref_p0;
    Zrms_p0 = Frms_p0+M;
   
-   CTP_p0    = elem_prod(elem_div(Frms_p0,Zrms_p0),elem_prod(1.-exp(-1.*Zrms_p0),Npp)); 
-   YTP_p0W(j) = elem_prod(CTP_p0,Wmedp); 
-   YTP_p0(j) = sum(elem_prod(CTP_p0,Wmedp)); 
+   CTP_p0(j)  = elem_prod(elem_div(Frms_p0,Zrms_p0),elem_prod(1.-exp(-1.*Zrms_p0),Npp)); 
+   YTP_p0W(j) = elem_prod(CTP_p0(j),Wmedp); 
+   YTP_p0(j) = sum(elem_prod(CTP_p0(j),Wmedp)); 
    BD_p0(j)  = sum(elem_prod(elem_prod(elem_prod(Npp,mfexp(-dt(3)*Zrms_p0)),msex),Winp)); 
    RPR_p0(j) = BD_p0(j)/Brms(1);
 		   
@@ -1000,6 +1000,12 @@ REPORT_SECTION
   report << YTP_r0W << endl;
   report << "YTP_p0W_proyectada" << endl;
   report << YTP_p0W << endl;
+  report << "CTP_r0_actual" << endl;
+  report << CTP_r0 << endl;
+  report << "CTP_p0_proyectada" << endl;
+  report << CTP_p0 << endl;
+  report << "Wmedp" << endl;
+  report << Wmedp << endl;
   
 //##############################################################################  
 //------------------------------------------------------------------------------

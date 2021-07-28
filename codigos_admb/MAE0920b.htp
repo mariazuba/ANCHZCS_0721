@@ -229,7 +229,7 @@ private:
   param_number Fref_p0;
   param_vector Frms_p0;
   param_vector Zrms_p0;
-  param_vector CTP_p0;
+  param_matrix CTP_p0;
   param_matrix YTP_p0W;
   param_vector YTP_p0;
   param_stddev_vector BD_p0;
