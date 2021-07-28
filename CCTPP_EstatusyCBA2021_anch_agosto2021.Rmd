@@ -10,33 +10,102 @@ subtitle: Comité Científico de Pesquerías de Pequeños Pelágicos
 institute: INSTITUTO DE FOMENTO PESQUERO
 ---
 
-# Procedimiento de manejo de anchoveta centro-sur
+# \small Procedimiento de manejo de anchoveta centro-sur
 
 ```{=tex}
 \begin{center}
 \includegraphics[width=0.9\textwidth]{Figuras/Fig11.png}
 \end{center}
 ```
-# Datos de entrada de anchoveta centro-sur
+# \small Datos de entrada de anchoveta centro-sur
 
 Datos actualizados 
 
 -   Biomasa del crucero de verano 2021
 -   Composición de edad del crucero de verano 2021
 -   Captura 2020/21
--   Porcentaje de descarte 2020/21 = 4%
+-   Porcentaje de descarte 2020/21 = 2%
 -   Composición de edad de la Flota 2020/2021
 -   Pesos medios a la edad Flota 2020/2021 
 -   Biomasa del crucero de otoño 2021
 -   Composición de edad del crucero de otoño 2021
 
+# \small Índices actualizados 2020/21
 
+
+```{=tex}
+\begin{figure}
+\centering
+\includegraphics[width=0.45\textwidth]{Figuras/Fig1_anexoI-1.pdf}
+\end{figure}
+```
+
+# \small Composición de edad actualizados 2020/21
+
+```{=tex}
+\begin{figure}
+\centering
+\includegraphics[width=0.4\textwidth]{Figuras/Fig2c_anexoI-1.pdf}
+\end{figure}
+```
+
+# \small Pesos medios actualizados 2020/21
+
+
+```{=tex}
+\begin{figure}
+\centering
+\includegraphics[width=0.6\textwidth]{Figuras/Fig3_anexoI-1.pdf}
+\end{figure}
+```
+
+# \small Escenarios que evaluan el efecto de la incorporación de nuevos datos
+
+```{=tex}
+\begin{table}[h!]
+\small
+    \centering
+    \resizebox{10cm}{!} {
+    \begin{tabular}{|c|l|}
+    \hline 
+ Casos         & Descripción                                                            \\ \hline
+ \textbf{$1_{MAE0321}$} & Caso base asesoría marzo 2021                                      \\
+ 2             & Actualiza serie de descarte 2017/18, 2018/19 Y 2019/20                 \\ 
+ 3             & Actualiza desembarque 2020/21 + supuesto de descarte 2020/21           \\
+ 4             & Actualiza composición de edad de la flota del año biológico 2020/21    \\ 
+ 5             & Actualiza pesos medios e iniciales a la edad del año biológico 2020/21 \\
+ 6             & Actualiza biomasa crucero acústico de otoño, año 2021                  \\ 
+ \textbf{$7_{MAE0721}$} & Actualiza composición de edad crucero acústico de otoño, año 2021  \\ \hline
+    \end{tabular}}
+        \end{table}
+```
+
+# Efecto de la incorporación de nuevos datos
+
+```{=tex}
+\begin{table}[h!]
+ \small
+    \centering
+    \resizebox{10cm}{!} {
+    \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+    \hline
+ Casos & R     & BD     & $BD/BD_{RMS}$ & F     & R.diff & BD.diff  & $BD/BD_{RMS}$.diff & F.diff \\ \hline
+ 1     & 25,4  & 686,8  & 1,41          & 0,34  &        &          &                    &        \\  
+ 2     & 25,4  & 686,8  & 1,41          & 0,34  & 0      & 0        & 0                  & 0  \\
+ 3     & 25,4  & 687,1  & 1,41          & 0,36  & 0      & 0        & 0                  & 0,05   \\ 
+ 4     & 23,4  & 691,1  & 1,42          & 0,36  & -0,08  & 0,01     & 0                  & 0,05   \\
+ 5     & 23,4  & 644,7  & 1,33          & 0,38  & -0,08  & -0,06    & -0,06              & 0,11   \\ 
+ 6     & 23,0  & 637,5  & 1,32          & 0,39  & -0,09  & -0,07    & -0,07              & 0,12   \\
+ 7     & 25,9  & 626,5  & 1,30          & 0,39  & 0,02   & -0,09    & -0,08              & 0,14   \\ \hline
+    \end{tabular}}
+        \end{table}
+```
 
 # Ajustes del modelo a los datos - anchoveta centro-sur
 
 ```{=tex}
 \begin{center}
-\includegraphics[width=0.7\textwidth]{Figuras/Fig22-1.pdf}
+\includegraphics[width=0.5\textwidth]{Figuras/Fig22-1.pdf}
 \end{center}
 ```
 
@@ -71,7 +140,7 @@ Datos actualizados
 
 ```{=tex}
 \begin{center}
-\includegraphics[width=0.9\textwidth]{Figuras/Fig30-1.pdf}
+\includegraphics[width=0.85\textwidth]{Figuras/Fig30-1.pdf}
 \end{center}
 ```
 
@@ -79,7 +148,7 @@ Datos actualizados
 
 ```{=tex}
 \begin{center}
-\includegraphics[width=0.9\textwidth]{Figuras/Fig34-1.pdf}
+\includegraphics[width=0.85\textwidth]{Figuras/Fig34-1.pdf}
 \end{center}
 ```
 
@@ -89,28 +158,11 @@ Datos actualizados
 ```{=tex}
 \begin{figure}
 \centering
-\includegraphics[width=0.4\textwidth]{Figuras/Fig35a-1.pdf}
-\includegraphics[width=0.4\textwidth]{Figuras/Fig35b-1.pdf}
-\includegraphics[width=0.8\textwidth]{Figuras/Fig35c-1.pdf}
+\includegraphics[width=0.345\textwidth]{Figuras/Fig35a-1.pdf}
+\includegraphics[width=0.345\textwidth]{Figuras/Fig35b-1.pdf}
+\includegraphics[width=0.345\textwidth]{Figuras/Fig35c-1.pdf}
 \end{figure}
 ```
-
-
-# Estatus proyectado año biológico 2020/21 y 2021/22 de anchoveta centro-sur
-
-
-
-\begin{columns}
-\column{0.5\textwidth}
-\begin{center} \includegraphics[width=0.9\textwidth]{Figuras/Fig46-1.pdf}\end{center}
-\column{0.5\textwidth}
-\begin{center} \includegraphics[width=0.9\textwidth]{Figuras/Fig49-1.pdf}\end{center}
-\end{columns}
-
-\footnotesize
-- 100% de probabilidad de sobre-explotación y 42% de probabilidad de colapso para el año **2020/2021**
-
-- 27% de probabilidad de sobre-explotación y 4% de probabilidad de colapso para el año **2021/2022**
 
 # Incertidumbre del Estatus 2019/20 y 2020/21 de anchoveta centro-sur
 
@@ -122,18 +174,37 @@ Datos actualizados
     \resizebox{10cm}{!} {
     \begin{tabular}{|l|c|c|c|c|c|}
     \hline
-                            & Sept 2020 & Marzo 2021 \\
-                            & $Estatus_{2019/20}$ & $Estatus_{2020/21}$ \\ \hline
-   $BD_{last}<BD_{RMS}$     &   0,45    & 1,00 \\
-   $F_{last}>F_{RMS}$       &   0,60    & 0,02 \\ \hline
-   Sobre-explotación        &   0,26    & 1,00 \\
-   Agotamiento/colapso      &   0,00    & 0,38 \\
-   Sobrepesca               &   0,45    & 0,00 \\ \hline
+                            & Sept 2020 & Marzo 2021 & Julio 2021\\
+                            & $Estatus_{2019/20}$ & $Estatus_{2020/21}$ & $Estatus_{2020/21}$\\ \hline
+   $BD_{last}<BD_{RMS}$     &   0,44    & 0,05 & 0,08 \\
+   $F_{last}>F_{RMS}$       &   0,26    & 0,11 & 0,27 \\ \hline
+   Sobre-explotación        &   0,24    & 0,02 & 0,03 \\
+   Agotamiento/colapso      &   0,00    & 0,00 & 0,00 \\
+   Sobrepesca               &   0,12    & 0,04 & 0,13 \\ \hline
     \end{tabular}}
     \end{table}
 ```
 
-# Reclutamientos promedios proyectados - anchoveta centro-sur
+
+# \small Estatus proyectado año biológico 2020/21 y 2021/22 de anchoveta centro-sur
+
+\begin{columns}
+\column{0.35\textwidth}
+\begin{center} \includegraphics[width=0.9\textwidth]{Figuras/Fig46-1.pdf}\end{center}
+\column{0.35\textwidth}
+\begin{center} \includegraphics[width=0.9\textwidth]{Figuras/Fig49-1.pdf}\end{center}
+\column{0.35\textwidth}
+\begin{center} \includegraphics[width=0.9\textwidth]{Figuras/Fig52-1.pdf}\end{center}
+\end{columns}
+
+\footnotesize
+## Probabilidad de Estatus proyectado
+- Asesoría septiembre 2020 = 4% de probabilidad de sobre-explotación y 0% de probabilidad de colapso para el año **2020/2021**
+
+- Asesoría de marzo y julio 2021 = 12% de probabilidad de sobre-explotación y 0% de probabilidad de colapso para el año **2021/2022**
+
+
+# \small Reclutamientos promedios proyectados - anchoveta centro-sur
 
 ```{=tex}
 \begin{center}
@@ -141,105 +212,131 @@ Datos actualizados
 \end{center}
 ```
 
-# Rango de la Primera revisión de la CBA  2021 de anchoveta centro-sur
+# \small Rango de la Segunda revisión de la CBA  2021 de anchoveta centro-sur
 
 ## CBA 
 
 ```{=tex}
-\begin{table}
+
+\begin{table}[h!]
+ \small
     \centering
     \resizebox{7cm}{!} {
-    \begin{tabular}{|c|c|c|c|}
-    \hline
-    &\multicolumn{3}{|c|}{Escenarios de Reclutamiento} \\ 
-      Percentil de Crms & 1991-2007 & 2008-2012 & 2013-2020\\ \hline
-      10\%              & 234.063   & 269.084    & 236.111\\ 
-      20\%              & 246.990   & 284.170    & 251.030\\ 
-      30\%              & 256.311   & 295.048    & 261.787\\ 
-      40\%              & 264.276   & 304.342    & 270.979\\ 
-      50\%              & 271.720   & 313.030    & 279.570\\ \hline
-    \end{tabular}}
-    \end{table}
-```
-## Resguardo de la Captura al RMS 
-
-```{=tex}
-\begin{table}
-    \centering
-    \resizebox{7cm}{!} {
-    \begin{tabular}{|c|c|c|c|}
-    \hline
-    &\multicolumn{3}{|c|}{Escenarios de Reclutamiento} \\ 
-      Percentil de Crms & 1991-2007 & 2008-2012 &  2013-2020\\ \hline
-     10\%               & 0.14     & 0.14      & 0.16 \\ 
-     20\%               & 0.09      & 0.09      & 0.10  \\ 
-     30\%               & 0.06      & 0.06      & 0.06 \\ 
-     40\%               & 0.03      & 0.03      & 0.03 \\ 
-     50\%               & 0         & 0         &  0 \\ \hline
-    \end{tabular}}
-        \end{table}
-```
-
-# Descuento del 4% descarte - anchoveta centro-sur
-
-+---------------------+-------------------------+-------------------------+-------------------------+
-| Percentil de C~RMS~ | Reclutamiento 1991-2007 | Reclutamiento 2008-2012 | Reclutamiento 2013-2020 |
-+:===================:+:=======================:+:=======================:+:=======================:+
-| 10%                 | 224.700                 | 258.321                 | 226.667                 |
-+---------------------+-------------------------+-------------------------+-------------------------+
-| 20%                 | 237.110                 | 272.803                 | 240.989                 |
-+---------------------+-------------------------+-------------------------+-------------------------+
-| 30%                 | 246.059                 | 283.246                 | 251.316                 |
-+---------------------+-------------------------+-------------------------+-------------------------+
-| 40%                 | 253.705                 | 292.169                 | 260.140                 |
-+---------------------+-------------------------+-------------------------+-------------------------+
-| 50%                 | 260.851                 | 300.509                 | 268.387                 |
-+---------------------+-------------------------+-------------------------+-------------------------+
-
-CBA inicial 2021 = 201.409 toneladas (percentil del 20%, escenario de reclutamiento bajo período 1991-2007 y 6% de descarte)
-
-# Diferencia porcentual entre CBA inicial - 6%descarte y Primera revisión de CBA - 4% descarte
-
-diferencia = 1-(1erarevisiónCBA/CBAinicial)*100
-
-+---------------------+-------------------------+-------------------------+-------------------------+
-| Percentil de C~RMS~ | Reclutamiento 1991-2007 | Reclutamiento 2008-2012 | Reclutamiento 2013-2020 |
-+:===================:+:=======================:+:=======================:+:=======================:+
-| 10%                 | 22                      |-22                      | 8                       |
-+---------------------+-------------------------+-------------------------+-------------------------+
-| 20%                 | 18                      |-25                      | 3                       |
-+---------------------+-------------------------+-------------------------+-------------------------+
-| 30%                 | 15                      |-26                      | -1                      |
-+---------------------+-------------------------+-------------------------+-------------------------+
-| 40%                 | 13                      |-28                      | -3                      |
-+---------------------+-------------------------+-------------------------+-------------------------+
-| 50%                 | 11                      |-29                      | -5                      |
-+---------------------+-------------------------+-------------------------+-------------------------+
-
-
-# CBAs  por hito de revisión de anchoveta centro-sur
-
-```{=tex}
-\begin{table}[h]
-    \centering
-    \resizebox{8cm}{!} {
-    \begin{tabular}{|c|c|c|c|c|}
-    \hline
-AÑO  & CBA inicial  & 1era revisión CBA  & 2da revisión CBA     & Desembarques  \\ 
-     & (miles de t) & (miles de t)       & (miles de t)         & (miles de t)   \\ \hline
-2014 & 373          & 572                & \textit{statu quo}   & 543 \\
-2015 & 323          & 356                & 478                  & 430 \\
-2016 & 286          & 326                & \textit{statu quo}   & 275 \\
-2017 & 273          & 310                & 336                  & 335 \\
-2018 & 296          & 321                & \textit{statu quo}   & 341 \\
-2019 & 274          & 335                & 337                  & 318 \\
-2020 & 321          & \textit{statu quo} & \textit{statu quo}   & 258   \\ 
-2021 & 201          & -                  & -                    &- \\\hline
+    \begin{tabular}{|l|c|c|c|}
+    \hline 
+              & $R_{1997-2009}$ & $R_{histórico}$ & $R_{2010-2021}$    \\ \hline
+    mean      & 207.760  & 206.640  & 205.210  \\ 
+    std       & 13.322   &  13.328  & 13.342   \\ \hline
+    10\%      & 190.687  & 189.559  & 188.112 \\ 
+    20\%      & 196.548  & 195.423  & 193.981 \\
+    30\%      & 200.774  & 199.651  & 198.213 \\ 
+    40\%      & 204.385  & 203.263  & 201.830 \\
+    50\%      & 207.760  & 206.640  & 205.210 \\ \hline
   \end{tabular}}
         \end{table}
 ```
 
-```{r CCTPP_CBAporHito,include=T, message=F,warning=F,eval=F, echo=FALSE,fig.height=3,fig.width=5.5,fig.align="center",fig.path="FigurasCCTPP_Octubre/", dev=c('pdf', 'bmp')}
+
+# Resguardo de la Captura al RMS 
+##
+```{=tex}
+
+\begin{table}[h!]
+ \small
+    \centering
+    \resizebox{7cm}{!} {
+    \begin{tabular}{|l|c|c|c|}
+    \hline 
+              & $R_{1997-2009}$ & $R_{histórico}$ & $R_{2010-2021}$    \\ \hline
+    10\%      & 0,08         &  0,08       & 0,08 \\ 
+    20\%      & 0,05         &  0,05       & 0,05  \\
+    30\%      & 0,03         &  0,03       & 0,03  \\ 
+    40\%      & 0,02         &  0,02       & 0,02  \\
+    50\%      & 0            & 0           &  0 \\ \hline
+  \end{tabular}}
+        \end{table}
+```
+
+
+# \small Descuento del 2% descarte - anchoveta centro-sur
+##
+```{=tex}
+\begin{table}[h!]
+ \small
+    \centering
+    \resizebox{7cm}{!} {
+    \begin{tabular}{|l|c|c|c|}
+    \hline 
+              & $R_{1997-2009}$ & $R_{histórico}$ & $R_{2010-2021}$    \\ \hline
+    10\%      & 186.873  &  185.768  &  184.349 \\ 
+    20\%      & 192.617  &  191.514  &  190.101 \\
+    30\%      & 196.758  &  195.658  &  194.249 \\ 
+    40\%      & 200.297  &  199.198  &  197.793 \\
+    50\%      & 203.605  &  202.507  &  201.106 \\ \hline
+  \end{tabular}}
+        \end{table}
+```
+
+\footnotesize
++ **CBA inicial 2021** = 210.167 toneladas (percentil del 30%, escenario de reclutamiento histórico período 1997-2020 y 2% de descarte)
+
++ **Primera revisión de CBA 2021** = *"statu quo"*
+
+# Diferencia porcentual entre CBA inicial - 2%descarte y Segunda revisión de CBA - 2% descarte
+
+## diferencia = 1-(2darevisiónCBA/CBAinicial)*100
+
+```{=tex}
+
+\begin{table}[h!]
+ \small
+    \centering
+    \resizebox{8cm}{!} {
+    \begin{tabular}{|l|c|c|c|}
+    \hline 
+              & $R_{1997-2009}$ & $R_{histórico}$ & $R_{2010-2021}$    \\ \hline
+    10\%      &  1\%     & 8\%    & 18\%   \\ 
+    20\%      & -7\%     & -1\%   &  7\%   \\
+    30\%      & -12\%    & -7\%   & 0\%    \\ 
+    40\%      & -16\%    & -11\%  &  -5\%  \\
+    50\%      & -19\%    & -14\%  &  -9\%  \\ \hline
+  \end{tabular}}
+        \end{table}
+```
+
+
+# CBAs  por hito de revisión de anchoveta centro-sur
+
+##
+```{=tex}
+\begin{table}[h!]
+ \small
+    \centering
+    \resizebox{10.5cm}{!} {
+    \begin{tabular}{|c|c|c|c|c|l|}
+    \hline 
+AÑO  & CBA inicial  & 1era revisión CBA  & 2da revisión CBA  & Desembarques  & Diferencia entre   \\ 
+     & (t)          & (t)                & (t)               & (t)           &  desembarque y CBA \\ \hline
+2014 & 42.200     & 42.200           & -               & 56.842   & 1,3 veces la CBA \\ 
+2015 & 34.400     & 34.400           & 34.400          & 63.168   & 1,84 veces la CBA \\
+2016 & 34.400     & 39.900           & 39.900          & 71.985   & 1,80 veces la CBA \\ 
+2017 & 58.400     & 58.400           & 58.400          & 55.709   & 0,95 veces la CBA \\
+2018 & 49.440     & 49.440           & 59.500          & 61.176   & 1,03 veces la CBA \\ 
+2019 & 81.347     & 120.500          & 127.150         & 160.968  & 1,27 veces la CBA \\
+2020 & 162.876    & 162.876          & 162.876         & 166.031  & 1,02 veces la CBA \\  
+2021 & 210.167    & 210.167          & -               & 155.982*  & 0,74* veces la CBA \\ \hline
+  \end{tabular}}
+        \end{table}
+```
+
+\footnotesize
+
++ \*155.982 corresponde al desembarque acumulado a junio 2021
++ \*0,74 corresponde a 155.982/210.167
+
+#
+
+```{r CCTPP_CBAporHito,include=T, message=F,warning=F,eval=T, echo=FALSE,fig.height=1.8,fig.width=4.5,fig.align="center",fig.path="FigurasCCTPP_Octubre/", dev=c('pdf', 'bmp')}
 library(stringr)
 library(lattice)
 library(ggplot2)
@@ -249,11 +346,11 @@ library(ggthemes)
 library(stringr)
 library(knitr)
 
-year<-    c(2014,2015,2016,2017,2018,2019,2020)
-CBAhito1<-c(373,323,286,273,296,274,321)
-CBAhito2<-c(572,356,326,310,321,335,321)
-CBAhito3<-c(572,478,326,336,321,337,321)
-Desembarques <- c(543,430,275,335,341,318,NA)
+year<-    c(2014,2015,2016,2017,2018,2019,2020,2021)
+CBAhito1<-c(42200,34400,34400,58400,49440,81347,162876,210167)
+CBAhito2<-c(42200,34400,39900,58400,49440,120500,162876,210167)
+CBAhito3<-c(NA,34400,39900,58400,59500,127150,162876,NA)
+Desembarques <- c(56842,63168,71985,55709,61176,160968,166031,155982)
 
 
 ind           <- cbind(CBAhito1,CBAhito2,CBAhito3,Desembarques) 
@@ -271,7 +368,7 @@ f1
 
 
 
-# Alternancia en la CBAs de anchoveta y sardina común
+# CBAs inicial de anchoveta y sardina común
 
 ```{r CCTPP_alternaciaCBA,  include=T, message=F, echo=FALSE,fig.height=3,fig.width=4,fig.align="center"}
 year<-seq(2014,2021,1)
@@ -280,35 +377,52 @@ CBAsard<-c(373,323,286,273,296,274,321,201.4)
 CBAmixta<-rowSums(cbind(CBAanch,CBAsard))
 
 par(mfrow=c(1,1),mar=c(4,4,1,1))
-plot(year,CBAanch,type="o",ylim=c(40,530),xlim=c(2014,2022),pch=19,ylab="CBA inicial",xlab="Años",cex.lab=0.7,cex.axis=0.7)
+plot(year,CBAanch,type="o",ylim=c(40,530),xlim=c(2014,2022),pch=19,ylab="CBA inicial (miles de t)",xlab="Años",cex.lab=0.7,cex.axis=0.7)
 lines(year,CBAsard,col=2,type="o",pch=19)
 lines(year,CBAmixta,col=3,type="o",pch=19)
-text(c(rep(2020,3),rep(2021,3)),c(170,321,483.9,215,190,411.6)+5,c("162.9 ","321.3","484.1","210.4","201.4","411.6"),cex=0.7)
+text(c(rep(2020,3),rep(2021,3)),c(170,321,483.9,215,190,411.6)+5,c("162.9 ","321.3","484.1","210.4","201.4","411.6"),cex=0.6)
 legend(2016,530,c("CBAanch","CBAsard","CBAanch+sard"),col=c(1,2,3),lwd=1,pch=19,cex=0.7,bty="n")
+```
+
+
+# Primera Revisión de CBAs de anchoveta y sardina común
+
+```{r CCTPP_alternaciaCBA1eraRevision,  include=T, message=F, echo=FALSE,fig.height=3,fig.width=4,fig.align="center"}
+year<-seq(2014,2021,1)
+CBAanch<-c(42.2,34.4,39.9,58.4,49.4,120.5,162.9,210.2)
+CBAsard<-c(572,356,326,310,321,335,321,251)
+CBAmixta2<-rowSums(cbind(CBAanch,CBAsard))
+
+par(mfrow=c(1,1),mar=c(4,4,1,1))
+plot(year,CBAanch,type="o",ylim=c(40,630),xlim=c(2014,2022),pch=19,ylab="Primera Revisión de CBA (miles de t)",xlab="Años",cex.lab=0.7,cex.axis=0.7)
+lines(year,CBAsard,col=2,type="o",pch=19)
+lines(year,CBAmixta2,col=3,type="o",pch=19)
+text(c(rep(2020,3),rep(2021,3)),c(CBAsard[7],CBAanch[7],CBAmixta2[7],CBAsard[8],CBAanch[8],CBAmixta2[8])+8,c(CBAsard[7],CBAanch[7],CBAmixta2[7],CBAsard[8],CBAanch[8],CBAmixta2[8]),cex=0.6)
+legend(2016,630,c("CBAanch","CBAsard","CBAanch+sard"),col=c(1,2,3),lwd=1,pch=19,cex=0.7,bty="n")
 ```
 
 #
 
-FIN
+Gracias por su atención
 
 
 # Alternancia en el estatus de anchoveta y sardina común
 
 ```{r CCTPP_alternanciaEstatus, echo=FALSE,fig.height=3,fig.width=4,fig.align="center"}
 
-years1<-seq(1997,2021,1)
+years1<-seq(1997,2022,1)
 
 
-rpr_sard<-c(0.78,0.42,0.38,0.24,0.15,0.31,0.33,0.27,0.16,0.20,0.75,0.66,1.52,1.08,1.17,1.43,1.34,1.06,1.55,1.26,1.03,1.13,1.60,1.02,0.53)
+rpr_sard<-c(0.80,0.43,0.38,0.24,0.15,0.31,0.33,0.27,0.16,0.21,0.77,0.68,1.57,1.10,1.15,1.42,1.36,1.07,1.57,1.28,1.04,1.13,1.62,1.06,0.62,0.91)
 
-rpr_anch<-c(0.94,0.52,0.58,0.57,0.67,1.12,1.59,1.94,1.68,1.79,1.87,1.33,0.84,0.44,0.18,0.15,0.16,0.22,0.27,0.31,0.47,0.58,0.73,1.02,1.4)
+rpr_anch<-c(0.92,0.50,0.56,0.54,0.63,1.08,1.54,1.90,1.64,1.76,1.85,1.30,0.82,0.43,0.18,0.15,0.16,0.21,0.27,0.30,0.46,0.57,0.7,0.99,1.30,1.13)
 
 par(mfrow=c(1,1),mar=c(4,4,1,1))
-plot(years1,rpr_sard,type="l",ylab="BD/BDrms",xlab="",ylim=c(0,2.5),xaxp=c(1990,2021,31),las=1,lwd=2,cex.lab=0.7,cex.axis=0.7,col=2)
+plot(years1,rpr_sard,type="l",ylab="BD/BDrms",xlab="",ylim=c(0,2.5),xaxp=c(1990,2022,32),las=1,lwd=2,cex.lab=0.7,cex.axis=0.7,col=2)
 
 lines(years1,rpr_anch,col=1,lwd=2)
-points(2020,1.02,pch=19,cex=1,col=1)
-text(2020,0.9,"2020",cex=0.8)
+#points(2020,1.02,pch=19,cex=1,col=1)
+#text(2020,0.9,"2020",cex=0.8)
 abline(h=c(1,0.5),col=c(3,2))
 legend(1998,2.5,c("anchoveta centro-sur","sardina común"),col=c(1,2),lwd=c(2,2),bty="n",cex=0.7)
 
@@ -384,7 +498,7 @@ f1
 
 ```{=tex}
 \begin{center}
-\includegraphics[width=0.7\textwidth]{Figuras/Fig28-1.pdf}
+\includegraphics[width=0.6\textwidth]{Figuras/Fig28-1.pdf}
 \end{center}
 ```
 
