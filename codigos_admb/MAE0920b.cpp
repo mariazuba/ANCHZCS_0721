@@ -6,7 +6,6 @@
 #endif
   #include  <admodel.h>
   ofstream mcmc_report("mcmc.csv");
- 
 #ifdef DEBUG
   #include <chrono>
 #endif
@@ -495,6 +494,10 @@ model_parameters::model_parameters(int sz,int argc,char * argv[]) :
   #ifndef NO_AD_INITIALIZE
     CTP_r0.initialize();
   #endif
+  YTP_r0W.allocate(1,nedades,"YTP_r0W");
+  #ifndef NO_AD_INITIALIZE
+    YTP_r0W.initialize();
+  #endif
   YTP_r0.allocate("YTP_r0");
   #ifndef NO_AD_INITIALIZE
   YTP_r0.initialize();
@@ -554,6 +557,10 @@ model_parameters::model_parameters(int sz,int argc,char * argv[]) :
   CTP_p0.allocate(1,nedades,"CTP_p0");
   #ifndef NO_AD_INITIALIZE
     CTP_p0.initialize();
+  #endif
+  YTP_p0W.allocate(1,nedades,"YTP_p0W");
+  #ifndef NO_AD_INITIALIZE
+    YTP_p0W.initialize();
   #endif
   YTP_p0.allocate(1,nproy,"YTP_p0");
   #ifndef NO_AD_INITIALIZE
@@ -654,8 +661,8 @@ void model_parameters::preliminary_calculations(void)
   Desemb=column(matdat,8);
   cvar(4)=column(matdat,9);
   Unos_edad=1;;// lo uso en  operaciones matriciales con la edad
-  Unos_anos=1;// lo uso en operaciones matriciales con el año
-  Unos_tallas=1;// lo uso en operaciones matriciales con el año
+  Unos_anos=1;// lo uso en operaciones matriciales con el a?o
+  Unos_tallas=1;// lo uso en operaciones matriciales con el a?o
   reporte_mcmc=0;
 }
 
@@ -692,14 +699,12 @@ void model_parameters::userfunction(void)
   Eval_funcion_objetivo();
   Eval_CTP();
   Eval_mcmc();
-  
 }
 
 void model_parameters::Eval_selectividad_logis(void)
 {
    Sel_f     = outer_prod(Unos_anos,(elem_div(Unos_edad,(1+exp(-1.0*log(19)*(edades-A50f)/exp(log_rangof))))));
    Scru_pela = outer_prod(Unos_anos,(elem_div(Unos_edad,(1+exp(-1.0*log(19)*(edades-A50pela)/exp(log_rangopela))))));
-    
    if (opt_Scru1>0)// evaluo si el indice es >0
     {
        Scru  = outer_prod(Unos_anos,(elem_div(Unos_edad,(1+exp(-1.0*log(19)*(edades-A50c)/exp(log_rangoc))))));
@@ -765,7 +770,6 @@ void model_parameters::Eval_prob_talla_edad(void)
        P2(i,j)=cumd_norm(P1(i,j));
      }
    } 
-   
   for (i=1;i<=nedades;i++)// estimation of probabilities
   {
      for (j=2;j<=ntallas;j++)
@@ -803,7 +807,6 @@ void model_parameters::Eval_abundancia(void)
   {
    log_Ro=log_priorRo;
   }
- 
   for (i=1;i<=nanos;i++)
   {
     N(i,1) = mfexp(log_Ro+log_desv_Rt(i)+0.5*square(sigmaR)); 
@@ -815,7 +818,6 @@ void model_parameters::Eval_abundancia(void)
   }
     Neq(nedades)=Neq(nedades)/(1-exp(-1*M));
     SSBo=sum(elem_prod(Neq*exp(-dt(4)*M),elem_prod(msex,colsum(Win)/nanos)));
-    
   for (i=2;i<=nedades;i++)
   {
   N(1)(i)=Neq(i)*exp(log_desv_No(i-1)+0.5*square(sigmaR));
@@ -840,10 +842,10 @@ void model_parameters::Eval_biomasas(void)
   NVflo    = elem_prod(elem_prod(N,mfexp(-dt(4)*Z)),Sel_f);// explotable
   Reclutas = column(N,1);
   BD       = rowsum(elem_prod(NMD,Win));      // Desovante
-  BT       = rowsum(elem_prod(N,Win));        // Total inicios de año biol
+  BT       = rowsum(elem_prod(N,Win));        // Total inicios de a?o biol
   BMflo    = rowsum(elem_prod(NVflo,Win));    // Biomasa explotable
   BMpel    = rowsum(elem_prod(NVpel,Win));    // pelaces
-  Bcru     = rowsum(elem_prod(NVcru,Wmed));   // Reclas, mitad año biol
+  Bcru     = rowsum(elem_prod(NVcru,Wmed));   // Reclas, mitad a?o biol
 }
 
 void model_parameters::Eval_capturas_predichas(void)
@@ -862,7 +864,6 @@ void model_parameters::Eval_capturas_predichas(void)
   ppred_pel    = elem_div(NVpel,outer_prod(rowsum(NVpel),Unos_edad));
   pobs_crul    = elem_div(Ccru_l,outer_prod(rowsum(Ccru_l+1e-10),Unos_tallas));
   ppred_crul   = elem_div(NVpel*Prob_talla,outer_prod(rowsum(NVpel),Unos_tallas));
-  
 }
 
 void model_parameters::Eval_indices(void)
@@ -872,8 +873,6 @@ void model_parameters::Eval_indices(void)
  MPH_pred      = exp(log_qmph)*BD;
  qrecl         = exp(log_qrecl);
  qpela         = exp(log_qpela);
- 
- 
  //===============================================================================
 }
 
@@ -884,22 +883,17 @@ void model_parameters::Eval_PBR(void)
   {
     log_Ro=log_priorRo;
   }
-  
-  // Frms proxy (60%SPR y otros) y xx%SPR de Fmediana histórica
+  // Frms proxy (60%SPR y otros) y xx%SPR de Fmediana hist?rica
   for(int i=1;i<=npbr;i++){
-    
     Fspr  = Sel_f(nanos)*log_Fref(i);
     Zspr  = Fspr+M;
-    
     //Fmedian = Fmedian_ext;
     Fmedian = exp(mean(log_Ft));
     Fmed    = Sel_f(nanos)*Fmedian;
     Zmed    = Fmed+M;
-    
     Nspro(1)=mfexp(log_Ro+0.5*square(sigmaR)); 
     Nspr(1)=mfexp(log_Ro+0.5*square(sigmaR)); 
     Nmed(1)=mfexp(log_Ro+0.5*square(sigmaR)); 
-    
     for (int j=2;j<=nedades;j++)
     { 
       Nspro(j) = Nspro(j-1)*exp(-1*M);
@@ -909,30 +903,23 @@ void model_parameters::Eval_PBR(void)
     Nspro(nedades) = Nspro(nedades)/(1-exp(-1*M));
     Nspr(nedades)  = Nspr(nedades)/(1-exp(-Zspr(nedades)));
     Nmed(nedades)  = Nmed(nedades)/(1-exp(-Zmed(nedades)));
-    
     Bspro   = sum(elem_prod(Nspro*exp(-dt(3)*M),elem_prod(msex,colsum(Win)/nanos)));
     Bspr    = sum(elem_prod(elem_prod(elem_prod(Nspr,mfexp(-dt(3)*Zspr)),msex),colsum(Win)/nanos));
     Bsprmed = sum(elem_prod(elem_prod(elem_prod(Nmed,mfexp(-dt(3)*Zmed)),msex),colsum(Win)/nanos));
-    
     ratio_spr(i) = Bspr/Bspro;	
     ratio_Fmed   = Bsprmed/Bspro;// xx%SPR de Fmediana
-    
-    // Bo y Brms proxy  según metodología Taller PBRs 2014
+    // Bo y Brms proxy  seg?n metodolog?a Taller PBRs 2014
     //Bmed    = mean(BD(1,12));
     Bmed=mean(BD(1,nanos));
     Bo      = Bmed/(ratio_Fmed-0.05);
     Brms(i) = Bo*(ratio_spr(i)-0.05);
   }    	
-  
- 	
- 	 
 }
 
 void model_parameters::Eval_Estatus(void)
 {
-  SSB=BD(1,nanos);   // variables de interés para mcmc 
+  SSB=BD(1,nanos);   // variables de inter?s para mcmc 
   Nv    = N;// solo para empezar los calculos
-  
  for (int i=2;i<=nanos;i++)
   {
       Nv(i)(2,nedades)=++Nv(i-1)(1,nedades-1)*exp(-1.0*M);
@@ -940,12 +927,11 @@ void model_parameters::Eval_Estatus(void)
   }
   NDv  = elem_prod(Nv*exp(-dt(3)*M),outer_prod(Unos_anos,msex));
   BDo  = rowsum(elem_prod(NDv,Win));
-  
-  // INDICADORES DE REDUCCIÓN DEL STOCK
-  RPRdin =  elem_div(BD,BDo);                       // RPR BDspr_t, dinámico
+  // INDICADORES DE REDUCCI?N DEL STOCK
+  RPRdin =  elem_div(BD,BDo);                       // RPR BDspr_t, din?mico
   RPRequ =  BD/Bspro;                               // RPR con BDspro
   RPRequ2 = BD/Bo;                                 // RPR con Bo proxy
-  RPRequ3 = BD/Brms(1);                            // Razón para diagrama de fase
+  RPRequ3 = BD/Brms(1);                            // Raz?n para diagrama de fase
   Frpr    = exp(log_Ft)/log_Fref(1);
 }
 
@@ -992,7 +978,6 @@ void model_parameters::Eval_funcion_objetivo(void)
   //likeval(12) = 1000*(square(log_Ft(2)-mean(log_Ft))+square(log_Ft(3)-mean(log_Ft)));  // S12
   if(active(log_Fref)){
   likeval(12) = 1000*norm2(ratio_spr-ratio);}
- 
   if (opt2_fase>0)
   {
     for (int i=1;i<=nedades-2;i++)
@@ -1025,7 +1010,7 @@ void model_parameters::Eval_funcion_objetivo(void)
 
 void model_parameters::Eval_CTP(void)
 {
-  // Estimación de CBA AÑO BIOLÓGICO
+  // Estimaci?n de CBA A?O BIOL?GICO
   //for (int i=1;i<=npbr;i++) // ciclo de PBR
   //{
    // Fpbr   = Sel_f(nanos)*log_Fref(1)*1;
@@ -1033,54 +1018,51 @@ void model_parameters::Eval_CTP(void)
     //CTP    = elem_prod(elem_div(Fpbr,Zpbr),elem_prod(1.-exp(-1.*Zpbr),N(nanos)));
     //YTP(i) = sum(elem_prod(CTP,Wmed(nanos)));                              
   //}
-  
   //************************************************************************************************
-  // Estimación de CBA AÑO BIOLÓGICO sin proyectar//revisar último año!!!
-    Fref_r0 = exp(log_Ft(nanos)); //log_Fref(1);//aquí debería ir F del último año
+  // Estimaci?n de CBA A?O BIOL?GICO sin proyectar//revisar ?ltimo a?o!!!
+    Fref_r0 = exp(log_Ft(nanos)); //log_Fref(1);//aqu? deber?a ir F del ?ltimo a?o
 	Frms_r0 = Sel_f(nanos)*Fref_r0;
     Zrms_r0 = Frms_r0+M;
     CTP_r0  = elem_prod(elem_div(Frms_r0,Zrms_r0),elem_prod(1.-exp(-1.*Zrms_r0),N(nanos)));
+    YTP_r0W  = elem_prod(CTP_r0,Wmed(nanos));  
     YTP_r0  = sum(elem_prod(CTP_r0,Wmed(nanos)));      
 	NMD_r0  = elem_prod(elem_prod(N(nanos),mfexp(-dt(3)*Zrms_r0)),msex);
     BD_r0   = sum(elem_prod(NMD_r0,Win(nanos)));	
     RPR_r0  = BD_r0/Brms(1);
-    
   if(opt_Ro<0){ log_Ro=log_priorRo; }//Esto corre cuando se hace perfil de verosimilitud
     Np     = N(nanos);
     Sp     = S(nanos);
     Nvp    = Nv(nanos);
     RPRp(1)= RPRequ3(nanos);
-   for (int j=1;j<=nproy;j++){ // ciclo de 5 años
+   for (int j=1;j<=nproy;j++){ // ciclo de 5 a?os
     Np(2,nedades)=++elem_prod(Np(1,nedades-1),Sp(1,nedades-1));
     Np(nedades)+=Np(nedades)*Sp(nedades);
  // Escenarios de reclutamiento promedio
-    if(oprec==1){Np(1)=mean(Reclutas(1,nanos-11));} // reclutamiento promedio 1997-2009 (primeros 13 años)
-    if(oprec==2){Np(1)=mean(Reclutas);} // reclutamiento promedio histórico (1997-año más reciente)
-    if(oprec==3){Np(1)=mean(Reclutas(nanos-10,nanos));}  // reclutamiento promedio últimos años a partir del 2010 (2010-año más reciente)
+    if(oprec==1){Np(1)=mean(Reclutas(1,nanos-11));} // reclutamiento promedio 1997-2009 (primeros 13 a?os)
+    if(oprec==2){Np(1)=mean(Reclutas);} // reclutamiento promedio hist?rico (1997-a?o m?s reciente)
+    if(oprec==3){Np(1)=mean(Reclutas(nanos-10,nanos));}  // reclutamiento promedio ?ltimos a?os a partir del 2010 (2010-a?o m?s reciente)
     Npp = elem_prod(prop_est,Np);
     Wmedp=Wmedp_3;
 	Winp=Winip_3;
    Fref_p0 = mF*log_Fref(1);
    Frms_p0 = Sel_f(nanos)*Fref_p0;
    Zrms_p0 = Frms_p0+M;
-  
    CTP_p0    = elem_prod(elem_div(Frms_p0,Zrms_p0),elem_prod(1.-exp(-1.*Zrms_p0),Npp)); 
+   YTP_p0W   = elem_prod(CTP_p0,Wmedp); 
    YTP_p0(j) = sum(elem_prod(CTP_p0,Wmedp)); 
    BD_p0(j)  = sum(elem_prod(elem_prod(elem_prod(Npp,mfexp(-dt(3)*Zrms_p0)),msex),Winp)); 
    RPR_p0(j) = BD_p0(j)/Brms(1);
-		   
    //Nap(j)   = Npp;    
    Sp       = exp(-1.*Zrms_p0); 
-   NVrecl_p0   = elem_prod(elem_prod(Npp,mfexp(-dt(1)*Zrms_p0)),Scru(nanos));//considerar sólo mortalidad natural- Crucero Reclas!!!
+   NVrecl_p0   = elem_prod(elem_prod(Npp,mfexp(-dt(1)*Zrms_p0)),Scru(nanos));//considerar s?lo mortalidad natural- Crucero Reclas!!!
    NVpel_p0    = elem_prod(elem_prod(Npp,mfexp(-dt(2)*Zrms_p0)),Scru_pela(nanos));
    Brecl_p0(j) = qrecl*sum(elem_prod(NVrecl_p0,Wmedp));
    Bpel_p0(j)  = qpela*sum(elem_prod(NVpel_p0,Winp)); 
 	}		   
   //----------------------------------------------------------------
- // regla Fconstante=Frms (0 = Fconst, 1 = regla mixta, r = mismo año, p=proyectado)
-    if(opProy==1){CBA_c0=prop(1)*YTP_r0+prop(2)*YTP_p0(1);}     // Opción 1: 1era y 2da revisión (para el mismo año)
-    if(opProy==2){CBA_c0=prop(1)*YTP_p0(1)+prop(2)*YTP_p0(2); } // Opción 2: CBA inicial (proyección de un año calendario)
-       
+ // regla Fconstante=Frms (0 = Fconst, 1 = regla mixta, r = mismo a?o, p=proyectado)
+    if(opProy==1){CBA_c0=prop(1)*YTP_r0+prop(2)*YTP_p0(1);}     // Opci?n 1: 1era y 2da revisi?n (para el mismo a?o)
+    if(opProy==2){CBA_c0=prop(1)*YTP_p0(1)+prop(2)*YTP_p0(2); } // Opci?n 2: CBA inicial (proyecci?n de un a?o calendario)
 }
 
 void model_parameters::report(const dvector& gradients)
@@ -1092,7 +1074,6 @@ void model_parameters::report(const dvector& gradients)
     cerr << "error trying to open report file"  << adprogram_name << ".rep";
     return;
   }
-  
   report << "years"<<endl;
   report << anos << endl;
   report << "reclasobs" << endl;
@@ -1151,25 +1132,19 @@ void model_parameters::report(const dvector& gradients)
   report << pobs_crul << endl;
   report << "ppred_pel_tallas" << endl;
   report << ppred_crul << endl;
-  
   //----------------------------------------
-  // PUNTOS BIOLÓGICOS DE REFERENCIA TALLER
+  // PUNTOS BIOL?GICOS DE REFERENCIA TALLER
   //----------------------------------------
   report << "pSPR Fmed_Fpbrs"<<endl;
   report << ratio_Fmed<<"  "<<ratio_spr<<endl;
-  
   report << "Fs Fmed_Fpbrs"<<endl;
   report << Fmedian <<"  "<<log_Fref<<endl;
-  
   report << "SSBpbr Bo_Bmed_Bpbrs"<<endl;
   report <<  Bo <<"  "<< Bmed << " " << Brms<<endl;
-  
   report << "Ro"<<endl;
   report <<  Nspro(1) << endl;
-  
   report << "SPR SPRFo_SPRFmed_SPRFpbrs"<<endl;
   report << Bspro <<" " << Bsprmed <<" " << Bspr<< endl;
-  
   report << "log_Ro" << endl;
   report << log_Ro << endl;
   report << "likeval ReclasPelacesDesembMPH_pf_preclas_ppelaces_ptallas_desvR_qrecl_qpela" << endl;
@@ -1184,7 +1159,10 @@ void model_parameters::report(const dvector& gradients)
   report << pred_Ctot << endl;
   report << "F" << endl;
   report << Ftot << endl;
-  
+  report << "YTP_r0W_actual" << endl;
+  report << YTP_r0W << endl;
+  report << "YTP_p0W_proyectada" << endl;
+  report << YTP_p0W << endl;
  suma1=0; suma2=0;nm1=1;cuenta1=0;cuenta2=0;
   for (int i=1;i<=nanos;i++){ //
    if (sum(pobs_f(i))>0){
@@ -1217,12 +1195,10 @@ void model_parameters::report(const dvector& gradients)
       nm4=nm4*suma1/suma2;
       cuenta4+=1;
    }}
-  
   report << "nmprior"<<endl;
   report <<nmus<<endl;
   report << "nm_flota  nm_reclas  nm_pelaces    nm_pelaL" << endl;
   report<<pow(nm1,1/cuenta1)<<" "<<pow(nm2,1/cuenta2)<<" "<<pow(nm3,1/cuenta3)<<" "<<pow(nm3,1/cuenta4)<<endl;
-  
   suma1=0;  suma2=0;  suma3=0;   suma4=0;  cuenta1=0;     cuenta2=0;   cuenta3=0;
   for (int i=1;i<=nanos;i++)
   {
@@ -1238,13 +1214,12 @@ void model_parameters::report(const dvector& gradients)
   }
  report << "cv_recla  cv_pelaces  cv_mph" << endl;
  report<<sqrt(suma1/cuenta1)<<" "<<sqrt(suma2/cuenta2)<<" "<<sqrt(suma4/cuenta4)<<endl;
- 
   if(erredad==1){
   report << " ------------------------------------------------" << endl;
   report << "Matriz de error "<< endl;
   report << error_edad << endl;}
   report << " ------------------------------------------------" << endl;
-  report << "Talla a la edad & desviación "<< endl;
+  report << "Talla a la edad & desviaci?n "<< endl;
   report << mu_edad << endl;
   report << sigma_edad << endl;
 }
@@ -1255,7 +1230,6 @@ void model_parameters::Eval_mcmc(void)
   mcmc_report<<"f, RPR, RBV, F_last, CTP_60, CTP_obj, Recl_last"<<endl;
   //mcmc_report<<f<<","<<RPRdin(nanos)<<","<<RPRequ(nanos)<<","<<max(Ftot(nanos))<<"," <<YTP(1)<<","<<YTP(2)<<","<<Reclutas(nanos)<<endl;
   reporte_mcmc++;
-  
 }
 
 model_data::~model_data()

@@ -35,9 +35,9 @@ DATA_SECTION
   init_matrix Ccru_pel(1,nanos,1,nedades)
   init_matrix Ccru_l(1,nanos,1,ntallas)
   init_matrix Wmed(1,nanos,1,nedades)
-  init_vector Wmedp_3(1,5)   //vector de pesos medios promedio de los últimos 5 años de la serie
+  init_vector Wmedp_3(1,5)   //vector de pesos medios promedio de los ?ltimos 5 a?os de la serie
   init_matrix Win(1,nanos,1,nedades)
-  init_vector Winip_3(1,5)   // vector de pesos iniciales promedio de los últimos 5 años de la serie
+  init_vector Winip_3(1,5)   // vector de pesos iniciales promedio de los ?ltimos 5 a?os de la serie
   init_matrix error_edad(1,nedades,1,nedades)
   int reporte_mcmc
 
@@ -45,7 +45,7 @@ DATA_SECTION
 // LEER controles y opciones
 //!! ad_comm::change_datafile_name("MAE.ctl");
 //==============================================================================
-// 1. Coeficientes de variación y tamaños de muestra
+// 1. Coeficientes de variaci?n y tama?os de muestra
   init_number sigmaR
   init_number cvpriorq_reclas
   init_number cvpriorq_pelaces
@@ -63,33 +63,33 @@ DATA_SECTION
   init_int    opt_qrecl
   init_int    opt_qpela
   init_int    opt_qmph
-// 4. Parámetros de crecimiento
+// 4. Par?metros de crecimiento
   init_vector pars_Bio(1,5)
 
-// 7. Fases de estimación Lo y cv edad
+// 7. Fases de estimaci?n Lo y cv edad
   init_int    opt_Lo
   init_int    opt_cv
-// 8. Considera la matriz de asignación de error edad
+// 8. Considera la matriz de asignaci?n de error edad
   init_number erredad 
-// 9. Fase de estimación de M
+// 9. Fase de estimaci?n de M
   init_int    opt_M
-// 10. Fase de estimación condiciones iniciales
+// 10. Fase de estimaci?n condiciones iniciales
   init_int    opt_Ro
   init_int    opt_devR
   init_int    opt_devNo
-// 11. Fase de estimación de F
+// 11. Fase de estimaci?n de F
   init_int    opt_F
-// 12. Puntos biológicos de referencia
+// 12. Puntos biol?gicos de referencia
   init_number  Fmedian_ext
-  init_int    opt_Fspr       // fase de estimación
+  init_int    opt_Fspr       // fase de estimaci?n
   init_int    npbr
   init_vector ratio(1,npbr)
- // 13. PROYECCION, CRITERIOS DE EXPLOTACIÓN Y ESCENARIOS DE RECLUTAMIENTO
+ // 13. PROYECCION, CRITERIOS DE EXPLOTACI?N Y ESCENARIOS DE RECLUTAMIENTO
   init_int nproy
   init_number opProy         // define desde donde proyecto
   init_number oprec          // define escenario de reclutamiento
-  init_vector prop(1,2)      // proporción semestral de la captura 
-  init_number mF             // multiplicadores de Frms para determinar período de recuperación
+  init_vector prop(1,2)      // proporci?n semestral de la captura 
+  init_number mF             // multiplicadores de Frms para determinar per?odo de recuperaci?n
   init_number Desembactual
   init_vector prop_est(1,5)
  
@@ -112,7 +112,7 @@ INITIALIZATION_SECTION
 PARAMETER_SECTION
 
 //##############################################################################
-// selectividad paramétrica
+// selectividad param?trica
  init_bounded_number A50f(-1,2,opt1_fase)  
  init_bounded_number log_rangof(-4,0,opt1_fase)
 
@@ -122,7 +122,7 @@ PARAMETER_SECTION
  init_bounded_number A50pela(-1,2,opt1_fase)  
  init_bounded_number log_rangopela(-4,0.6,opt1_fase)
 
-// selectividad no_paramétrica
+// selectividad no_param?trica
  init_bounded_vector log_Sflo(1,nedades,-11,0,opt2_fase)  
  init_bounded_vector log_Scru(1,nedades,-11,0,opt_Scru2)
  init_bounded_vector log_Scru_pela(1,nedades,-11,0,opt_Scru2)
@@ -209,9 +209,9 @@ PARAMETER_SECTION
   //=====================================
   // 5. CAPTURAS observadas y predichas
   //=====================================
-  // 5.1. Matrices de capturas predichas por edad y años
+  // 5.1. Matrices de capturas predichas por edad y a?os
   matrix pred_Ctot(1,nanos,1,nedades)
-  // 5.2. Matrices de proporción de capturas por edad y años
+  // 5.2. Matrices de proporci?n de capturas por edad y a?os
   matrix pobs_f(1,nanos,1,nedades)
   matrix ppred_f(1,nanos,1,nedades)
   matrix pobs_crua(1,nanos,1,nedades)
@@ -274,12 +274,13 @@ PARAMETER_SECTION
   objective_function_value f
   
   //==================================================
-  // 9. CBA año biológico sin proyectar
+  // 9. CBA a?o biol?gico sin proyectar
   //==================================================
   number Fref_r0
   vector Frms_r0(1,nedades);
   vector Zrms_r0(1,nedades);
   vector CTP_r0(1,nedades);
+  vector YTP_r0W(1,nedades);
   number YTP_r0
   vector NMD_r0(1,nedades);
   number BD_r0
@@ -300,6 +301,7 @@ PARAMETER_SECTION
   vector Frms_p0(1,nedades);
   vector Zrms_p0(1,nedades);
   vector CTP_p0(1,nedades);
+  vector YTP_p0W(1,nedades);
   vector YTP_p0(1,nproy);
   sdreport_vector BD_p0(1,nproy);
   sdreport_vector RPR_p0(1,nproy);
@@ -344,8 +346,8 @@ PRELIMINARY_CALCS_SECTION
   cvar(4)=column(matdat,9);
 
   Unos_edad=1;;// lo uso en  operaciones matriciales con la edad
-  Unos_anos=1;// lo uso en operaciones matriciales con el año
-  Unos_tallas=1;// lo uso en operaciones matriciales con el año
+  Unos_anos=1;// lo uso en operaciones matriciales con el a?o
+  Unos_tallas=1;// lo uso en operaciones matriciales con el a?o
   reporte_mcmc=0;
 
 //##############################################################################
@@ -542,7 +544,7 @@ FUNCTION Eval_abundancia
   {
   N(1)(i)=Neq(i)*exp(log_desv_No(i-1)+0.5*square(sigmaR));
   }
-// se estima la sobrevivencia por edad(a+1) y año(t+1)
+// se estima la sobrevivencia por edad(a+1) y a?o(t+1)
   for (i=2;i<=nanos;i++)
   {
       N(i)(2,nedades)=++elem_prod(N(i-1)(1,nedades-1),S(i-1)(1,nedades-1));
@@ -556,7 +558,7 @@ FUNCTION Eval_biomasas
 // matrices y vectores de abundancias derivadas
   NVcru    = elem_prod(elem_prod(N,mfexp(-dt(1)*Z)),Scru);// Crucero Reclas
   NVpel    = elem_prod(elem_prod(N,mfexp(-dt(2)*Z)),Scru_pela);// Pelaces
-// corrección por error de asignación de la edad
+// correcci?n por error de asignaci?n de la edad
   if(erredad==1)
   {
   NVcru    = NVcru*error_edad;
@@ -567,28 +569,28 @@ FUNCTION Eval_biomasas
   Reclutas = column(N,1);
 // vectores de biomasas derivadas
   BD       = rowsum(elem_prod(NMD,Win));      // Desovante
-  BT       = rowsum(elem_prod(N,Win));        // Total inicios de año biol
+  BT       = rowsum(elem_prod(N,Win));        // Total inicios de a?o biol
   BMflo    = rowsum(elem_prod(NVflo,Win));    // Biomasa explotable
   BMpel    = rowsum(elem_prod(NVpel,Win));    // pelaces
-  Bcru     = rowsum(elem_prod(NVcru,Wmed));   // Reclas, mitad año biol
+  Bcru     = rowsum(elem_prod(NVcru,Wmed));   // Reclas, mitad a?o biol
 //===============================================================================
 
 FUNCTION Eval_capturas_predichas
 
 //===============================================================================
-// matrices de capturas predichas por edad y año
+// matrices de capturas predichas por edad y a?o
   pred_Ctot    = (elem_prod(elem_div(Ftot,Z),elem_prod(1.-S,N)));
-// corrección por error de asignación de la edad
+// correcci?n por error de asignaci?n de la edad
   if(erredad==1)
   {
   pred_Ctot    = pred_Ctot*error_edad;
   }
-// vectores de desembarques predichos por año
+// vectores de desembarques predichos por a?o
   Desemb_pred  = rowsum(elem_prod(pred_Ctot,Wmed));
-// matrices de proporcion de capturas por edad y año
+// matrices de proporcion de capturas por edad y a?o
   pobs_f       = elem_div(Ctot,outer_prod(rowsum(Ctot+1e-10),Unos_edad));
   ppred_f      = elem_div(pred_Ctot,outer_prod(rowsum(pred_Ctot),Unos_edad));
-// matrices de capturas predichas por talla y año
+// matrices de capturas predichas por talla y a?o
 // RECLAS EN EDADES
   pobs_crua    = elem_div(Ccru_a,outer_prod(rowsum(Ccru_a+1e-10),Unos_edad));
   ppred_crua   = elem_div(NVcru,outer_prod(rowsum(NVcru),Unos_edad));
@@ -622,7 +624,7 @@ FUNCTION Eval_PBR
     log_Ro=log_priorRo;
   }
   
-  // Frms proxy (60%SPR y otros) y xx%SPR de Fmediana histórica
+  // Frms proxy (60%SPR y otros) y xx%SPR de Fmediana hist?rica
   for(int i=1;i<=npbr;i++){
     
     Fspr  = Sel_f(nanos)*log_Fref(i);
@@ -654,7 +656,7 @@ FUNCTION Eval_PBR
     ratio_spr(i) = Bspr/Bspro;	
     ratio_Fmed   = Bsprmed/Bspro;// xx%SPR de Fmediana
     
-    // Bo y Brms proxy  según metodología Taller PBRs 2014
+    // Bo y Brms proxy  seg?n metodolog?a Taller PBRs 2014
     //Bmed    = mean(BD(1,12));
     Bmed=mean(BD(1,nanos));
     Bo      = Bmed/(ratio_Fmed-0.05);
@@ -668,9 +670,9 @@ FUNCTION Eval_PBR
 FUNCTION Eval_Estatus
 
 //===============================================================================
-  SSB=BD(1,nanos);   // variables de interés para mcmc 
+  SSB=BD(1,nanos);   // variables de inter?s para mcmc 
 
-// Rutina para calcular RPR dinámico
+// Rutina para calcular RPR din?mico
   Nv    = N;// solo para empezar los calculos
   
  for (int i=2;i<=nanos;i++)
@@ -682,11 +684,11 @@ FUNCTION Eval_Estatus
   NDv  = elem_prod(Nv*exp(-dt(3)*M),outer_prod(Unos_anos,msex));
   BDo  = rowsum(elem_prod(NDv,Win));
   
-  // INDICADORES DE REDUCCIÓN DEL STOCK
-  RPRdin =  elem_div(BD,BDo);                       // RPR BDspr_t, dinámico
+  // INDICADORES DE REDUCCI?N DEL STOCK
+  RPRdin =  elem_div(BD,BDo);                       // RPR BDspr_t, din?mico
   RPRequ =  BD/Bspro;                               // RPR con BDspro
   RPRequ2 = BD/Bo;                                 // RPR con Bo proxy
-  RPRequ3 = BD/Brms(1);                            // Razón para diagrama de fase
+  RPRequ3 = BD/Brms(1);                            // Raz?n para diagrama de fase
   Frpr    = exp(log_Ft)/log_Fref(1);
 //===============================================================================
 
@@ -791,10 +793,10 @@ FUNCTION  Eval_CTP
 //================================================================================================
 
 //************************************************************************************************
-// calcula la CTP para el ultimo año dado los PBR entregados CBA actual
+// calcula la CTP para el ultimo a?o dado los PBR entregados CBA actual
 //************************************************************************************************
 
-  // Estimación de CBA AÑO BIOLÓGICO
+  // Estimaci?n de CBA A?O BIOL?GICO
   //for (int i=1;i<=npbr;i++) // ciclo de PBR
   //{
    // Fpbr   = Sel_f(nanos)*log_Fref(1)*1;
@@ -804,16 +806,17 @@ FUNCTION  Eval_CTP
   //}
   
   //************************************************************************************************
-// calcula la CTP para el ultimo año dado los PBR entregados
-// 1era y 2da revisión de CBA
-// La estrategia de explotación o regla de control es igual a Frms constante
+// calcula la CTP para el ultimo a?o dado los PBR entregados
+// 1era y 2da revisi?n de CBA
+// La estrategia de explotaci?n o regla de control es igual a Frms constante
 //************************************************************************************************
 
-  // Estimación de CBA AÑO BIOLÓGICO sin proyectar//revisar último año!!!
-    Fref_r0 = exp(log_Ft(nanos)); //log_Fref(1);//aquí debería ir F del último año
+  // Estimaci?n de CBA A?O BIOL?GICO sin proyectar//revisar ?ltimo a?o!!!
+    Fref_r0 = exp(log_Ft(nanos)); //log_Fref(1);//aqu? deber?a ir F del ?ltimo a?o
 	Frms_r0 = Sel_f(nanos)*Fref_r0;
     Zrms_r0 = Frms_r0+M;
     CTP_r0  = elem_prod(elem_div(Frms_r0,Zrms_r0),elem_prod(1.-exp(-1.*Zrms_r0),N(nanos)));
+    YTP_r0W  = elem_prod(CTP_r0,Wmed(nanos));  
     YTP_r0  = sum(elem_prod(CTP_r0,Wmed(nanos)));      
 	NMD_r0  = elem_prod(elem_prod(N(nanos),mfexp(-dt(3)*Zrms_r0)),msex);
     BD_r0   = sum(elem_prod(NMD_r0,Win(nanos)));	
@@ -822,54 +825,55 @@ FUNCTION  Eval_CTP
 
 //================================================================
 //----------------------------------------------------------------
-//                   PROYECCIÓN DEL STOCK
+//                   PROYECCI?N DEL STOCK
 //----------------------------------------------------------------
 //================================================================
   if(opt_Ro<0){ log_Ro=log_priorRo; }//Esto corre cuando se hace perfil de verosimilitud
-// Variables correspondientes al último año de evaluación
+// Variables correspondientes al ?ltimo a?o de evaluaci?n
     Np     = N(nanos);
     Sp     = S(nanos);
     Nvp    = Nv(nanos);
     RPRp(1)= RPRequ3(nanos);
-// Proyección del stock a partir del último año de evaluación
-   for (int j=1;j<=nproy;j++){ // ciclo de 5 años
+// Proyecci?n del stock a partir del ?ltimo a?o de evaluaci?n
+   for (int j=1;j<=nproy;j++){ // ciclo de 5 a?os
     Np(2,nedades)=++elem_prod(Np(1,nedades-1),Sp(1,nedades-1));
     Np(nedades)+=Np(nedades)*Sp(nedades);
 //--------------------------------------------------------
  // Escenarios de reclutamiento promedio
-    if(oprec==1){Np(1)=mean(Reclutas(1,nanos-11));} // reclutamiento promedio 1997-2009 (primeros 13 años)
-    if(oprec==2){Np(1)=mean(Reclutas);} // reclutamiento promedio histórico (1997-año más reciente)
-    if(oprec==3){Np(1)=mean(Reclutas(nanos-10,nanos));}  // reclutamiento promedio últimos años a partir del 2010 (2010-año más reciente)
+    if(oprec==1){Np(1)=mean(Reclutas(1,nanos-11));} // reclutamiento promedio 1997-2009 (primeros 13 a?os)
+    if(oprec==2){Np(1)=mean(Reclutas);} // reclutamiento promedio hist?rico (1997-a?o m?s reciente)
+    if(oprec==3){Np(1)=mean(Reclutas(nanos-10,nanos));}  // reclutamiento promedio ?ltimos a?os a partir del 2010 (2010-a?o m?s reciente)
     Npp = elem_prod(prop_est,Np);
     Wmedp=Wmedp_3;
 	Winp=Winip_3;
 //**************************************************************
-// Proyección (p) con Regla de decisión N°0-Fconstante=Frms (0)
+// Proyecci?n (p) con Regla de decisi?n N?0-Fconstante=Frms (0)
 //**************************************************************
    Fref_p0 = mF*log_Fref(1);
    Frms_p0 = Sel_f(nanos)*Fref_p0;
    Zrms_p0 = Frms_p0+M;
   
-   CTP_p0    = elem_prod(elem_div(Frms_p0,Zrms_p0),elem_prod(1.-exp(-1.*Zrms_p0),Npp)); 
+   CTP_p0    = elem_prod(elem_div(Frms_p0,Zrms_p0),elem_prod(1.-exp(-1.*Zrms_p0),Npp));
+   YTP_p0W   = elem_prod(CTP_p0,Wmedp);
    YTP_p0(j) = sum(elem_prod(CTP_p0,Wmedp)); 
    BD_p0(j)  = sum(elem_prod(elem_prod(elem_prod(Npp,mfexp(-dt(3)*Zrms_p0)),msex),Winp)); 
    RPR_p0(j) = BD_p0(j)/Brms(1);
 		   
    //Nap(j)   = Npp;    
    Sp       = exp(-1.*Zrms_p0); 
-//Proyección de cruceros
-   NVrecl_p0   = elem_prod(elem_prod(Npp,mfexp(-dt(1)*Zrms_p0)),Scru(nanos));//considerar sólo mortalidad natural- Crucero Reclas!!!
+//Proyecci?n de cruceros
+   NVrecl_p0   = elem_prod(elem_prod(Npp,mfexp(-dt(1)*Zrms_p0)),Scru(nanos));//considerar s?lo mortalidad natural- Crucero Reclas!!!
    NVpel_p0    = elem_prod(elem_prod(Npp,mfexp(-dt(2)*Zrms_p0)),Scru_pela(nanos));
    Brecl_p0(j) = qrecl*sum(elem_prod(NVrecl_p0,Wmedp));
    Bpel_p0(j)  = qpela*sum(elem_prod(NVpel_p0,Winp)); 
 	}		   
   //----------------------------------------------------------------
-// CÁLCULO DE CBA EN AÑO CALENDARIO
-// opciones según hito de estimación
+// C?LCULO DE CBA EN A?O CALENDARIO
+// opciones seg?n hito de estimaci?n
 //----------------------------------------------------------------
- // regla Fconstante=Frms (0 = Fconst, 1 = regla mixta, r = mismo año, p=proyectado)
-    if(opProy==1){CBA_c0=prop(1)*YTP_r0+prop(2)*YTP_p0(1);}     // Opción 1: 1era y 2da revisión (para el mismo año)
-    if(opProy==2){CBA_c0=prop(1)*YTP_p0(1)+prop(2)*YTP_p0(2); } // Opción 2: CBA inicial (proyección de un año calendario)
+ // regla Fconstante=Frms (0 = Fconst, 1 = regla mixta, r = mismo a?o, p=proyectado)
+    if(opProy==1){CBA_c0=prop(1)*YTP_r0+prop(2)*YTP_p0(1);}     // Opci?n 1: 1era y 2da revisi?n (para el mismo a?o)
+    if(opProy==2){CBA_c0=prop(1)*YTP_p0(1)+prop(2)*YTP_p0(2); } // Opci?n 2: CBA inicial (proyecci?n de un a?o calendario)
        
 
 //##############################################################################
@@ -936,7 +940,7 @@ REPORT_SECTION
   report << "Scru_pelaces" << endl;
   report << Scru_pela << endl;
 //-------------------------------------
-// PROPORCIÓN DE LAS CAPTURAS
+// PROPORCI?N DE LAS CAPTURAS
 //-------------------------------------
   report << "pf_obs " << endl;
   report << pobs_f << endl;
@@ -956,7 +960,7 @@ REPORT_SECTION
   report << ppred_crul << endl;
   
   //----------------------------------------
-  // PUNTOS BIOLÓGICOS DE REFERENCIA TALLER
+  // PUNTOS BIOL?GICOS DE REFERENCIA TALLER
   //----------------------------------------
   report << "pSPR Fmed_Fpbrs"<<endl;
   report << ratio_Fmed<<"  "<<ratio_spr<<endl;
@@ -992,7 +996,10 @@ REPORT_SECTION
   report << pred_Ctot << endl;
   report << "F" << endl;
   report << Ftot << endl;
-
+  report << "YTP_r0W_actual" << endl;
+  report << YTP_r0W << endl;
+  report << "YTP_p0W_proyectada" << endl;
+  report << YTP_p0W << endl;
   
 //##############################################################################  
 //------------------------------------------------------------------------------
@@ -1080,7 +1087,7 @@ REPORT_SECTION
   report << error_edad << endl;}
 
   report << " ------------------------------------------------" << endl;
-  report << "Talla a la edad & desviación "<< endl;
+  report << "Talla a la edad & desviaci?n "<< endl;
   report << mu_edad << endl;
   report << sigma_edad << endl;
 
