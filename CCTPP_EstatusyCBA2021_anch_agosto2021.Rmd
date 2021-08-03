@@ -1,7 +1,7 @@
 ---
 title: Segunda Revisión del Estatus y  Captura Biológicamente Aceptable 2021 para la anchoveta de las Regiones de Valparaíso a Los Lagos.
 author: "Grupo Pelágicos DER - María José Zúñiga"
-date: 'Sesión N°2: 5-6 de agosto 2021'
+date: 'Sesión N°5: 3-4 de agosto 2021'
 output:
    beamer_presentation:
     colortheme: rose
@@ -152,7 +152,7 @@ Datos actualizados
 \end{center}
 ```
 
-# Estatus 2019/20 de anchoveta centro-sur
+# Estatus 2019/20 y 2020/21 de anchoveta centro-sur
 
 
 ```{=tex}
